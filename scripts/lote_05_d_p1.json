@@ -1,0 +1,152 @@
+[
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Nepotismo e Súmula Vinculante 13 do STF: Cargos Políticos vs Administrativos",
+    "enunciado": "Segundo a jurisprudência dominante do Supremo Tribunal Federal (Súmula Vinculante nº 13), a vedação ao nepotismo estende-se indistintamente a cargos de natureza estritamente política, como o de Ministro de Estado e o de Secretário Estadual, sendo vedada a nomeação de cônjuge ainda que dotado de comprovada qualificação técnica e inexistente fraude à lei.",
+    "gabarito": "E",
+    "comentario": "O STF consolidou entendimento no sentido de que a Súmula Vinculante nº 13 NÃO se aplica, em regra, a cargos públicos de natureza estritamente POLÍTICA (como Ministros de Estado e Secretários Estaduais/Municipais), ressalvadas hipóteses de evidente falta de qualificação técnica ou fraude manifesta à lei (nepotismo cruzado).",
+    "regra_ouro": "Súmula Vinculante 13 (STF): a vedação ao nepotismo não incide, em regra, sobre cargos de natureza política (Ministros/Secretários).",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Cláusula de Barreira / Desempenho Eleitoral (EC 97/2017)",
+    "enunciado": "A Emenda Constitucional nº 97/2017 instituiu cláusula de desempenho progressiva para acesso aos recursos do Fundo Partidário e ao tempo gratuito de rádio e televisão, visando conter a hiperfragmentação partidária no Congresso Nacional.",
+    "gabarito": "C",
+    "comentario": "Correto. A EC 97/2017 estabeleceu critérios progressivos de votação nacional mínima em deputados federais distribuídos em pelo menos um terço dos Estados para que as agremiações partidárias tenham direito aos recursos públicos do Fundo Partidário e à propaganda eleitoral gratuita.",
+    "regra_ouro": "Cláusula de Desempenho (EC 97/2017): condiciona acesso ao fundo partidário e TV à votação mínima para frear a proliferação de partidos nanicos.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Ação Popular no Controle da Administração Pública (Art. 5º, LXXIII)",
+    "enunciado": "Qualquer pessoa física residente no território nacional detém legitimidade ativa para propor Ação Popular visando anular ato lesivo ao patrimônio público, independentemente da comprovação de sua condição de cidadão eleitor.",
+    "gabarito": "E",
+    "comentario": "Art. 5º, LXXIII da CF/88 e Lei 4.717/1965: 'Qualquer CIDADÃO é parte legítima para propor ação popular...'. No ordenamento jurídico brasileiro, a condição de cidadão comprova-se mediante o título de eleitor (ou certidão de quitação eleitoral). Estrangeiros não alistados e pessoas privadas de direitos políticos não têm legitimidade ativa.",
+    "regra_ouro": "Ação Popular: legitimidade ativa exclusiva de CIDADÃO (exige título de eleitor regular). Pessoa jurídica ou estrangeiro não podem propor.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Pobreza Multidimensional: Abordagem das Capacitações de Amartya Sen",
+    "enunciado": "Na abordagem das capacitações (capabilities approach) desenvolvida por Amartya Sen, a pobreza é compreendida não apenas como insuficiência de renda monetária, mas fundamentalmente como a privação de capacidades básicas necessárias para que o indivíduo tenha liberdade substantiva de escolher modos de vida que tem razão para valorizar.",
+    "gabarito": "C",
+    "comentario": "Correto. Amartya Sen revolucionou a economia do bem-estar social demonstrando que renda é apenas um meio. A pobreza multidimensional analisa a privação de funcionamentos vitais (saúde, educação, moradia digna, voz política e liberdade substantiva), servindo de base teórica para o Índice de Pobreza Multidimensional (IPM) da ONU.",
+    "regra_ouro": "Amartya Sen: Pobreza é privação de capacidades básicas e liberdade substantiva, superando a mera medida de renda monetária.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Estrutura Tributária e Regressividade Fiscal no Brasil",
+    "enunciado": "A matriz tributária brasileira caracteriza-se por elevada regressividade, uma vez que a maior parcela da arrecadação total recai sobre tributos indiretos incidentes sobre o consumo de bens e serviços, onerando proporcionalmente mais as famílias de menor renda em relação ao seu orçamento total.",
+    "gabarito": "C",
+    "comentario": "Correto. Estudos da OCDE e do IPEA apontam que no Brasil cerca de 50% da carga tributária incide sobre o consumo (ICMS, PIS/Cofins, IPI, ISS), enquanto países desenvolvidos tributam prioritariamente a renda e o patrimônio de forma progressiva. Como os mais pobres consomem quase 100% de sua renda, pagam uma taxa efetiva maior.",
+    "regra_ouro": "Tributação sobre o consumo gera REGRESSIVIDADE tributária: famílias de baixa renda pagam percentual maior de seus rendimentos em impostos.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Novo Marco Legal do Saneamento Básico (Lei 14.026/2020)",
+    "enunciado": "O Novo Marco Legal do Saneamento Básico (Lei nº 14.026/2020) fixou como meta obrigatória a ser alcançada até 31 de dezembro de 2033 a universalização do atendimento, assegurando 99% da população com acesso à água potável e 90% com coleta e tratamento de esgotos sanitários.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 11-B da Lei 11.445/2007, alterada pela Lei 14.026/2020: O marco estabelece as metas de 99% para água tratada e 90% para coleta/tratamento de esgoto até 2033, incentivando concessões regionais e concorrência privada.",
+    "regra_ouro": "Metas do Marco do Saneamento até 2033: 99% de cobertura de água potável e 90% de coleta/tratamento de esgoto.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética Pública e Responsabilidade Profissional",
+    "topico_edital": "Proibição de Gerência ou Administração de Empresa Privada (Lei 8.112/1990)",
+    "enunciado": "Nos termos da Lei nº 8.112/1990, é expressamente vedado ao servidor público federal participar de gerência ou administração de sociedade privada, personificada ou não, subsistindo tal proibição mesmo na condição de acionista, cotista ou comanditário.",
+    "gabarito": "E",
+    "comentario": "Art. 117, X da Lei 8.112/1990: É proibido 'participar de gerência ou administração de sociedade privada... SALVO NA CONDIÇÃO DE ACIONISTA, COTISTA OU COMANDITÁRIO'. O servidor pode ser sócio cotista ou investir em ações; o que é vedado é exercer atos de gerência executiva ou administração.",
+    "regra_ouro": "Lei 8.112: Servidor NÃO pode administrar empresa privada, mas PODE ser sócio cotista, acionista ou comanditário (investidor passivo).",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética Pública e Responsabilidade Profissional",
+    "topico_edital": "Dever Constitucional de Prestar Contas (Art. 70 da CF)",
+    "enunciado": "Prestará contas qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre dinheiros, bens e valores públicos ou pelos quais a União responda, ou que, em nome desta, assuma obrigações de natureza pecuniária.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 70, parágrafo único da CF/88. Dispositivo literal que fundamenta a jurisdição do TCU e o controle da CGU sobre qualquer entidade receptora de recursos públicos federais, inclusive ONGs e entidades do Terceiro Setor.",
+    "regra_ouro": "Art. 70, parágrafo único da CF: O dever de prestar contas abrange pessoa física ou jurídica, pública ou privada, que maneje verba pública.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética Pública e Responsabilidade Profissional",
+    "topico_edital": "Assédio Moral Organizacional na Administração Pública",
+    "enunciado": "O assédio moral organizacional (ou institucional) caracteriza-se por estratégias deliberadas de gestão que impõem metas inatingíveis, desqualificação sistemática e pressão psicológica generalizada sobre o conjunto de servidores, ultrapassando a esfera da animosidade interpessoal individual.",
+    "gabarito": "C",
+    "comentario": "Correto. O assédio organizacional decorre da cultura e de políticas institucionais abusivas adotadas pela cúpula da gestão para forçar demissões voluntárias, isolar equipes críticas ou aumentar produtividade às custas do adoecimento psíquico coletivo dos trabalhadores.",
+    "regra_ouro": "Assédio Moral Organizacional: decorre de métodos de gestão abusivos e metas opressivas aplicadas sobre o coletivo de servidores.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Cláusulas Exorbitantes nos Contratos Administrativos",
+    "enunciado": "As cláusulas exorbitantes conferem à Administração Pública prerrogativas especiais que derrogam o direito privado comum, incluindo a possibilidade de rescisão unilateral por razões de interesse público e a exigência de garantia contratual, prerrogativas inexistentes na esfera privada.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 104 da Lei 14.133/2021: Prerrogativas da Administração: 1) modificar unilateralmente o contrato para melhor adequação; 2) extinguir unilateralmente o contrato; 3) fiscalizar a execução; 4) aplicar sanções motivadas pela inexecução; 5) ocupar provisoriamente bens.",
+    "regra_ouro": "Cláusulas Exorbitantes: prerrogativas de supremacia pública nos contratos administrativos (rescisão unilateral, alteração unilateral, fiscalização).",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Restos a Pagar: Processados vs Não Processados",
+    "enunciado": "Restos a Pagar Processados são aquelas despesas empenhadas cuja fase de liquidação já foi devidamente atestada pela Administração Pública no encerramento do exercício financeiro, restando pendente unicamente a fase do pagamento financeiro.",
+    "gabarito": "C",
+    "comentario": "Correto. Manual de Contabilidade Aplicada ao Setor Público (MCASP): 1) Restos a Pagar PROCESSADOS = despesa empenhada e LIQUIDADA (o fornecedor já entregou o serviço/bem e o direito foi reconhecido), faltando apenas pagar. 2) NÃO PROCESSADOS = despesa empenhada, mas ainda NÃO liquidada.",
+    "regra_ouro": "Restos a Pagar Processados = Empenhado + LIQUIDADO (falta só pagar). Não Processados = Apenas empenhado (não liquidado).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Análise Custo-Benefício (ACB) vs Custo-Efetividade (ACE)",
+    "enunciado": "A Análise de Custo-Efetividade (ACE) expressa tanto os custos quanto os resultados e impactos sociais da política pública em termos puramente monetários, permitindo o cálculo da taxa interna de retorno e do valor presente líquido social.",
+    "gabarito": "E",
+    "comentario": "Inversão metodológica! A Análise de CUSTO-BENEFÍCIO (ACB) quantifica tanto custos quanto benefícios em moeda corrente (R$), calculando VPL e TIR social. A Análise de CUSTO-EFETIVIDADE (ACE) mede os custos em moeda, mas os resultados em UNIDADES FÍSICAS ou NATURAIS (ex: custo por vida salva, custo por aluno alfabetizado, custo por quilômetro asfaltado).",
+    "regra_ouro": "Custo-Benefício (ACB) = custos e benefícios em MOEDA (R$). Custo-Efetividade (ACE) = custos em moeda e benefícios em UNIDADES FÍSICAS (ex: vidas salvas).",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Emendas Parlamentares: Impositividade e Limites Fiscais",
+    "enunciado": "As emendas individuais de parlamentares ao projeto de lei orçamentária anual possuem execução orçamentária e financeira obrigatória (impositividade), devendo a metade do montante total ser destinada compulsoriamente a ações e serviços públicos de saúde.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 166, § 9º da CF/88: As emendas individuais são de execução obrigatória (orçamento impositivo), sendo que a metade (50%) do limite percentual é destinada compulsoriamente a ações e serviços públicos de saúde (ASPS).",
+    "regra_ouro": "Emendas Individuais Impositivas (Art. 166 da CF): 50% do valor deve ser aplicado obrigatoriamente na Saúde pública.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Língua Portuguesa",
+    "topico_edital": "Pronomes Relativos e Regência: Emprego de 'Cujo'",
+    "enunciado": "No segmento 'O órgão cuja a prestação de contas foi reprovada deverá instaurar tomada de contas especial', o emprego do pronome 'cuja' acompanhado do artigo definido feminino 'a' é exigido pela norma-padrão da língua portuguesa para garantir a concordância nominal.",
+    "gabarito": "E",
+    "comentario": "Erro clássico e proibição absoluta na gramática normativa: O pronome relativo 'cujo' (e suas flexões cuja, cujos, cujas) NUNCA admite artigo posposto (é terminantemente proibido 'cujo o', 'cuja a'). O correto é 'O órgão cuja prestação de contas foi reprovada'.",
+    "regra_ouro": "Proibição categórica: NUNCA se usa artigo após o pronome relativo 'cujo' (nada de 'cuja a' ou 'cujo o').",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Língua Portuguesa",
+    "topico_edital": "Emprego dos Porquês no Padrão Cebraspe",
+    "enunciado": "Na oração 'A CGU auditou o contrato porque foram detectados indícios de sobrepreço', a grafia do termo destacado em uma só palavra e sem acento está correta, por tratar-se de conjunção subordinativa causal explicativa.",
+    "gabarito": "C",
+    "comentario": "Correto. 'Porque' (junto e sem acento) é conjunção causal/explicativa (equivale a 'pois', 'já que', 'visto que'). 'Por que' (separado sem acento) é pergunta direta/indireta ou pronome relativo ('pelo qual'). 'Por quê' (separado com acento) é no fim de frases. 'Porquê' (junto com acento) é substantivo ('o motivo').",
+    "regra_ouro": "Porque (junto sem acento) = resposta/causa (pois, já que). Por que (separado) = pergunta ou 'pelo qual'.",
+    "nivel": "Fácil"
+  }
+]
