@@ -1,0 +1,352 @@
+[
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Lei Anticorrupção: Responsabilidade Objetiva da Pessoa Jurídica (Art. 2º)",
+    "enunciado": "A Lei 12.846/2013 consagrou a responsabilidade administrativa e civil estritamente subjetiva das pessoas jurídicas pela prática de atos contra a administração pública, de modo que a aplicação de multas exige a comprovação inequívoca de dolo ou culpa dos sócios administradores.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A Lei 12.846/2013 estabelece expressamente a responsabilidade OBJETIVA da pessoa jurídica (art. 2º: 'As pessoas jurídicas serão responsabilizadas objetivamente, nos âmbitos administrativo e civil, pelos atos lesivos previstos nesta Lei praticados em seu interesse ou benefício, exclusivo ou não'). Dispensa-se a prova de culpa ou dolo da empresa.",
+    "regra_ouro": "Responsabilidade da pessoa jurídica na Lei Anticorrupção (Lei 12.846/2013) é OBJETIVA, independentemente de dolo ou culpa.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Sanções da Lei Anticorrupção: Multa sobre o Faturamento Bruto (Art. 6º)",
+    "enunciado": "No âmbito do processo administrativo de responsabilização da Lei 12.846/2013, a multa aplicada à pessoa jurídica infratora varia de 0,1% a 20% do faturamento bruto do último exercício anterior ao da instauração do processo, nunca inferior à vantagem auferida quando for possível sua estimação.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 6º, I, da Lei 12.846/2013: a multa será de 0,1% a 20% do faturamento bruto do último exercício anterior ao da instauração do processo administrativo, excluídos os tributos, nunca inferior à vantagem auferida, quando for possível sua estimação. Caso não seja possível utilizar o critério do faturamento, a multa varia de R$ 6 mil a R$ 60 milhões.",
+    "regra_ouro": "Multa na Lei Anticorrupção: 0,1% a 20% do faturamento bruto (ou R$ 6 mil a R$ 60 milhões se impossível apurar o faturamento).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Desconsideração da Personalidade Jurídica na Lei 12.846 (Art. 14)",
+    "enunciado": "A personalidade jurídica poderá ser desconsiderada sempre que utilizada com abuso do direito para facilitar, encobrir ou dissimular a prática dos atos ilícitos previstos na Lei Anticorrupção ou para provocar confusão patrimonial, estendendo-se todos os efeitos das sanções aplicadas à pessoa jurídica aos seus administradores e sócios com poderes de administração.",
+    "gabarito": "C",
+    "comentario": "CERTO. Literalidade do art. 14 da Lei 12.846/2013: a desconsideração da personalidade jurídica alcança sócios com poderes de administração e administradores quando houver abuso de direito ou confusão patrimonial, ressalvado que a responsabilidade deles sujeita-se ao limite da respectiva cota e do dano causado.",
+    "regra_ouro": "Desconsideração da personalidade jurídica atinge sócios administradores em caso de abuso de direito ou confusão patrimonial.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Sistema de Integridade Pública do Poder Executivo Federal (SIPEF)",
+    "enunciado": "O Decreto 11.529/2023 instituiu o Sistema de Integridade Pública do Poder Executivo Federal (SIPEF), tendo a Controladoria-Geral da União (CGU) como seu órgão central, responsável por estabelecer padrões e monitorar os programas de integridade em todos os órgãos e entidades federais.",
+    "gabarito": "C",
+    "comentario": "CERTO. O Decreto 11.529/2023 estruturou o SIPEF, tendo a CGU como órgão central, incumbida de coordenar as Unidades Setoriais de Integridade (UGIs), definir diretrizes de gestão de riscos de integridade e fiscalizar os planos de integridade governamentais.",
+    "regra_ouro": "CGU é o Órgão Central do SIPEF (Decreto 11.529/2023), orientando as Unidades Setoriais de Integridade em todo o Executivo Federal.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Prevenção ao Assédio: Diretrizes do Guia Lilás da CGU",
+    "enunciado": "Conforme o Guia Lilás da CGU para prevenção ao assédio e discriminação, a caracterização de assédio sexual prescinde de relação formal de hierarquia funcional ou ascendência profissional entre o assediador e a vítima na esfera administrativa disciplinar.",
+    "gabarito": "C",
+    "comentario": "CERTO. Embora no tipo penal do Código Penal (art. 216-A) o assédio sexual exija prevalecer-se de cargo ou ascendência funcional, na esfera ético-disciplinar administrativa e trabalhista o Guia Lilás e a jurisprudência reconhecem o assédio sexual ambiental ou entre pares (horizontal), consubstanciado em constrangimento com conotação sexual não tolerado que degrade o ambiente laboral.",
+    "regra_ouro": "Na esfera ético-disciplinar administrativa, o assédio sexual pode ocorrer entre pares (horizontal), sem exigir hierarquia formal.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Programa Empresa Pró-Ética (CGU e Instituto Ethos)",
+    "enunciado": "O Empresa Pró-Ética é uma iniciativa pioneira da CGU que confere certificação e reconhecimento público voluntário a empresas comprometidas com a integridade, a prevenção da corrupção e a ética concorrencial, sendo vedada a participação de estatais e sociedades de economia mista.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Empresas estatais e sociedades de economia mista (como Petrobras, Banco do Brasil, Caixa) PODEM e participam ativamente do processo de avaliação do Empresa Pró-Ética. O programa avalia o perfil, governança, políticas, treinamentos e canais de integridade de qualquer empresa sediada no Brasil.",
+    "regra_ouro": "Empresas estatais e de economia mista PODEM submeter-se e participar da avaliação do Empresa Pró-Ética da CGU.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Sucessão Empresarial e Responsabilidade na Lei Anticorrupção",
+    "enunciado": "Em caso de fusão ou incorporação empresarial, a responsabilidade da pessoa jurídica sucessora fica restrita à obrigação de pagamento de multa e reparação integral do dano causado, até o limite do patrimônio transferido, não lhe sendo aplicáveis outras sanções decorrentes de atos ilícitos praticados pela sucedida antes da fusão.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 4º, § 1º, da Lei 12.846/2013: em caso de fusão e incorporação, a responsabilidade da sucessora restringe-se ao pagamento de multa e reparação do dano até o limite do patrimônio transferido, não se aplicando outras sanções (como suspensão de atividades), ressalvada fraude ou simulação.",
+    "regra_ouro": "Sucessora em fusão/incorporação responde por multa e reparação até o limite do patrimônio transferido (art. 4º Lei 12.846).",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Plataforma Fala.BR: Tipologias de Manifestação de Ouvidoria",
+    "enunciado": "Na Plataforma Integrada de Ouvidoria e Acesso à Informação (Fala.BR), a manifestação em que o cidadão comunica a prática de ato ilícito ou conduta irregular de servidor público classifica-se como denúncia, a qual requer tratamento específico de salvaguarda de identidade do manifestante.",
+    "gabarito": "C",
+    "comentario": "CERTO. O Decreto 9.492/2018 e a Portaria CGU 581/2021 tipificam as manifestações de ouvidoria em: denúncia (comunicação de ilícito/irregularidade), reclamação (insatisfação sobre serviço), solicitação de providências, sugestão, elogio e simplifique. Apenas a denúncia tem rito sigiloso obrigatório com pseudonimização da identidade.",
+    "regra_ouro": "Comunicação de irregularidade ou ato ilícito no Fala.BR é DENÚNCIA e exige pseudonimização protetiva imediata da identidade.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Sistema Recursal na Lei de Acesso à Informação (Arts. 15 e 16)",
+    "enunciado": "No âmbito do Poder Executivo federal, negado o acesso à informação pela autoridade competente em primeira instância e indeferido o recurso pela autoridade hierarquicamente superior, o interessado pode recorrer à Controladoria-Geral da União (CGU), e, caso a CGU mantenha o indeferimento, à Comissão Mista de Reavaliação de Informações (CMRI).",
+    "gabarito": "C",
+    "comentario": "CERTO. Arts. 15 e 16 da Lei 12.527/2011 e Decreto 7.724/2012: rito recursal federal da LAI: 1) Pedido inicial ao SIC; 2) Recurso à autoridade hierarquicamente superior do órgão (10 dias); 3) Recurso à CGU (10 dias); 4) Recurso final à CMRI (Comissão Mista de Reavaliação de Informações).",
+    "regra_ouro": "Cadeia recursal na LAI Federal: Pedido inicial -> Autoridade Superior -> CGU -> CMRI.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Classificação de Sigilo: Competência para Ultrassecreto (Art. 27 LAI)",
+    "enunciado": "A competência para classificar informações no grau ultrassecreto no Poder Executivo federal pode ser delegada a qualquer servidor público ocupante de cargo comissionado com atribuições de chefia ou assessoramento intermediário.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A classificação no grau ULTRASSECRETO (25 anos) é privativa do Presidente da República, Vice-Presidente, Ministros de Estado, Comandantes da Marinha/Exército/Aeronáutica e Chefes de Missões Diplomáticas permanentes no exterior (art. 27, I, da LAI). A competência é indelegável a cargos intermediários.",
+    "regra_ouro": "Classificação no grau ULTRASSECRETO é competência restrita à alta cúpula republicana e indelegável a níveis intermediários.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Gratuidade no Acesso à Informação Pública (Art. 12 LAI)",
+    "enunciado": "O serviço de busca e fornecimento da informação pública é gratuito, salvo nas hipóteses de reprodução de documentos pelo órgão ou entidade pública consultada, situação em que poderá ser cobrado exclusivamente o valor necessário ao ressarcimento do custo dos serviços e dos materiais utilizados.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 12 da Lei 12.527/2011: a busca e o fornecimento de informação são gratuitos. Cobrança só é admitida para cobrir o custo físico da reprodução em papel/mídia, ficando isento quem declarar não ter condições econômicas sem prejuízo do próprio sustento.",
+    "regra_ouro": "Acesso e busca à informação é GRATUITO; cobra-se apenas o custo material estrito de reprodução física (se houver).",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Portal da Transparência do Governo Federal: Função e Manutenção",
+    "enunciado": "O Portal da Transparência do Governo Federal, mantido e operacionalizado pela Controladoria-Geral da União (CGU), consolida diariamente dados de execução orçamentária e financeira do Sistema Integrado de Administração Financeira (SIAFI), gastos diretos com cartões corporativos, benefícios sociais e contratações públicas.",
+    "gabarito": "C",
+    "comentario": "CERTO. O Portal da Transparência, gerenciado pela CGU, integra bases de dados do SIAFI, SIASG, Cadastro Único e Comprasnet, atuando como o principal canal de transparência ativa e controle social sobre os recursos públicos federais.",
+    "regra_ouro": "Portal da Transparência é mantido pela CGU e consolida dados de pagamentos, benefícios e contratações de toda a União.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "LINDB: Regime de Transição e Modulação Temporal (Art. 23)",
+    "enunciado": "A decisão administrativa, controladora ou judicial que estabelecer nova interpretação ou orientação sobre norma de conteúdo indeterminado, impondo novo dever ou novo condicionamento de direito, deverá prever regime de transição quando indispensável para que o novo dever seja cumprido de modo proporcional e equânime e sem prejuízo aos interesses gerais.",
+    "gabarito": "C",
+    "comentario": "CERTO. Literalidade do art. 23 da LINDB (Lei 13.655/2018). O dispositivo visa assegurar segurança jurídica e proteção da confiança legítima, proibindo mudanças abruptas de jurisprudência administrativa ou de controle que surpreendam o administrado sem prazo de adaptação razoável.",
+    "regra_ouro": "Art. 23 da LINDB: nova orientação jurídica que imponha novos deveres exige regime de transição para evitar quebra de confiança.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "LINDB: Vedação à Retroatividade de Novo Entendimento (Art. 24)",
+    "enunciado": "A revisão, nas esferas administrativa, controladora ou judicial, quanto à validade de ato, contrato, ajuste, processo ou norma administrativa cuja produção já se houver completado levará em conta as orientações gerais da época, sendo vedado que, com base em mudança posterior de orientação geral, se declarem inválidas situações plenamente constituídas.",
+    "gabarito": "C",
+    "comentario": "CERTO. Literalidade do art. 24 da LINDB. Trata-se da vedação à retroatividade de novo entendimento administrativo ou de controle: um ato praticado em conformidade com as orientações vigentes à sua época não pode ser anulado por mudança superveniente de hermenêutica.",
+    "regra_ouro": "Art. 24 da LINDB proíbe anular atos passados consolidados com base em mudança posterior de entendimento da Administração ou controle.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "LINDB: Compensação de Sanções e Não Bis in Idem (Art. 22, § 3º)",
+    "enunciado": "Na aplicação de sanções pelos órgãos de controle e pela Administração, serão consideradas a natureza e a gravidade da infração, os danos ao serviço público, as circunstâncias agravantes ou atenuantes e os antecedentes do agente, admitindo-se a compensação de sanções da mesma natureza e relativas ao mesmo fato já aplicadas por outras esferas ao mesmo agente.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 22, § 3º da LINDB: 'As sanções aplicadas ao agente serão levadas em conta na dosimetria das demais sanções de mesma natureza e relativas ao mesmo fato'. Esse preceito impede o excesso punitivo e o bis in idem material entre esferas punitivas diversas.",
+    "regra_ouro": "Art. 22, § 3º da LINDB consagra a compensação e dosimetria proporcional de sanções para evitar punição desmedida pelo mesmo fato.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "Acordo de Leniência: Requisitos de Validade (Art. 16 Lei 12.846)",
+    "enunciado": "Para a celebração de acordo de leniência válido na Lei Anticorrupção, a pessoa jurídica é dispensada de cessar completamente seu envolvimento na infração investigada, bastando que informe à CGU o nome dos servidores envolvidos na propina.",
+    "gabarito": "E",
+    "comentario": "ERRADO. São requisitos cumulativos do art. 16, § 1º, da Lei 12.846/2013: I - a pessoa jurídica seja a PRIMEIRA a manifestar interesse (salvo cooperação relevante adicional); II - cesse completamente seu envolvimento na infração investigada a partir da data de propositura; III - admita sua participação no ilícito e coopere plena e permanentemente com as apurações.",
+    "regra_ouro": "Acordo de Leniência exige CESSAÇÃO COMPLETA da conduta ilícita, admissão da participação e cooperação plena permanente.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "Sanções Judiciais na Lei Anticorrupção (Art. 19)",
+    "enunciado": "A dissolução compulsória da pessoa jurídica é uma sanção administrativa que pode ser aplicada diretamente pelo Ministro de Estado da CGU ao final do Processo Administrativo de Responsabilização (PAR), sem necessidade de provocação do Poder Judiciário.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A dissolução compulsória da PJ, o perdimento de bens e a interdição parcial de atividades são sanções estritamente JUDICIAIS, previstas no art. 19 da Lei 12.846/2013, que dependem de ação judicial promovida pelo MP ou pela AGU. A autoridade administrativa (CGU) aplica no PAR apenas a multa pecuniária e a publicação extraordinária da decisão.",
+    "regra_ouro": "Dissolução compulsória da empresa é sanção estritamente JUDICIAL (art. 19 Lei 12.846), vedada na via administrativa do PAR.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "Diferença entre Controle Interno e Externo",
+    "enunciado": "O controle interno exercido pela CGU substitui integralmente a competência fiscalizatória do Tribunal de Contas da União, de forma que os órgãos da administração federal auditados anualmente pela CGU ficam isentos da prestação de contas perante o TCU.",
+    "gabarito": "E",
+    "comentario": "ERRADO. O controle interno (CGU) e o controle externo (Congresso Nacional com auxílio do TCU) são harmônicos, complementares e autônomos (arts. 70 e 71 da CF). A CGU emite relatório e certificado de auditoria que integram a prestação de contas anual enviada obrigatoriamente para julgamento pelo TCU.",
+    "regra_ouro": "CGU e TCU não se substituem: controle interno apoia e instrui o controle externo do TCU, que julga as contas.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Evidências, Dados e Inteligência Artificial",
+    "topico_edital": "Viés de Confirmação na Atuação de Auditoria",
+    "enunciado": "O viés de confirmação consiste na tendência psicológica inconsciente do auditor de buscar, interpretar e valorizar apenas evidências que confirmem sua hipótese ou crença prévia sobre a existência de fraude, desconsiderando ou minimizando evidências em contrário que atestem a conformidade da gestão.",
+    "gabarito": "C",
+    "comentario": "CERTO. O viés de confirmação (confirmation bias) é um dos erros cognitivos mais perigosos em auditoria investigativa. O auditor deve manter postura cética, buscando ativamente falsear suas próprias hipóteses e considerando explicações alternativas plausíveis.",
+    "regra_ouro": "Viés de confirmação: apegar-se seletivamente a indícios que corroboram a tese inicial, ignorando dados de conformidade.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Evidências, Dados e Inteligência Artificial",
+    "topico_edital": "Análise de Redes Sociais (SNA) na Detecção de Cartéis",
+    "enunciado": "Em análises avançadas de dados para combate à corrupção, a Análise de Redes Sociais (Social Network Analysis - SNA) permite mapear relações societárias, vínculos de parentesco, compartilhamento de endereços e IPs comuns entre empresas licitantes para identificar cartéis e fraudes à competitividade.",
+    "gabarito": "C",
+    "comentario": "CERTO. A análise de grafos e redes complexas é técnica central de inteligência da CGU (ex: sistemas Alice e Sophia), utilizada para identificar conluios, sócios ocultos, procuradores comuns e laranjas em contratações públicas federais.",
+    "regra_ouro": "Análise de Redes mapeia grafos societários e conexões ocultas entre licitantes para desbaratar cartéis em compras públicas.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Evidências, Dados e Inteligência Artificial",
+    "topico_edital": "Índice de Percepção da Corrupção (IPC): Limites Metodológicos",
+    "enunciado": "O Índice de Percepção da Corrupção (IPC) da Transparência Internacional afere diretamente o volume monetário exato e o número absoluto de propinas pagas em um país, proporcionando uma métrica objetiva e direta da corrupção real ocorrida.",
+    "gabarito": "E",
+    "comentario": "ERRADO. O IPC é um índice composto baseado em pesquisas de opinião de especialistas, analistas e empresários sobre a PERCEPÇÃO do nível de corrupção no setor público de cada país. Ele não mede diretamente casos reais, transações ilícitas ocultas ou valores desviados, justamente pela natureza clandestina do crime de corrupção.",
+    "regra_ouro": "IPC da Transparência Internacional mede PERCEPÇÃO subjetiva de especialistas sobre a corrupção, não os crimes reais ocorridos.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Evidências, Dados e Inteligência Artificial",
+    "topico_edital": "Falsos Positivos e Falsos Negativos em Malhas de Auditoria",
+    "enunciado": "Em um sistema algorítmico de triagem de notas fiscais que gera alertas de risco de superfaturamento, a ocorrência de um 'falso positivo' representa a não detecção de uma nota fiscal verdadeiramente fraudulenta, que passa despercebida pelos auditores.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Os conceitos estão trocados. Falso Positivo (Erro Tipo I) ocorre quando o algoritmo acusa fraude em uma nota fiscal que, na verdade, era perfeitamente legítima e regular. Falso Negativo (Erro Tipo II) é quando o sistema falha em detectar uma nota verdadeiramente fraudulenta, deixando de alertar os auditores.",
+    "regra_ouro": "Falso Positivo = alarme falso em transação legal; Falso Negativo = fraude real que não foi detectada pelo sistema.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Evidências, Dados e Inteligência Artificial",
+    "topico_edital": "Viés de Seleção em Amostragens de Auditoria",
+    "enunciado": "Ocorre viés de seleção quando a amostra de contratos públicos selecionada para fiscalização não é representativa da população auditada, comprometendo a validade de extrapolações ou inferências generalizadas sobre o todo da gestão contratual.",
+    "gabarito": "C",
+    "comentario": "CERTO. O viés de seleção (selection bias) distorce conclusões quando a amostragem privilegia de forma não aleatória certos perfis (ex: auditar apenas contratos com aditivos contratuais e concluir equivocadamente que 100% dos contratos daquele ministério sofreram aditamento abusivo).",
+    "regra_ouro": "Viés de seleção distorce inferências quando a amostra coletada não reflete adequadamente a população auditada.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Auditoria Operacional e as Dimensões dos 3 Es",
+    "enunciado": "Na auditoria governamental de desempenho operacional, a dimensão da 'eficiência' avalia a relação entre os produtos ou serviços entregues e os recursos ou insumos consumidos, enquanto a 'efetividade' avalia o impacto e as transformações socioeconômicas reais alcançadas pelo programa público no público-alvo.",
+    "gabarito": "C",
+    "comentario": "CERTO. Dimensões clássicas de auditoria de desempenho (Performance Audit): Economicidade (minimizar custos dos insumos), Eficiência (relação produto/insumo ou produtividade), Eficácia (grau de alcance das metas físicas pactuadas) e Efetividade (impactos reais gerados na sociedade).",
+    "regra_ouro": "Eficiência relaciona insumos consumidos com produtos gerados; Efetividade afere as transformações e impactos reais no público-alvo.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Auditoria de Conformidade vs Auditoria Financeira",
+    "enunciado": "A auditoria financeira governamental tem por objetivo principal verificar a estrita adesão dos atos de gestão às normas constitucionais e infraconstitucionais aplicáveis, sem qualquer preocupação com a fidedignidade dos demonstrativos contábeis e orçamentários do ente.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A verificação da conformidade com leis e regulamentos é o escopo central da Auditoria de Conformidade (Compliance Audit). A Auditoria Financeira tem como escopo expressar uma opinião sobre se as demonstrações financeiras/contábeis foram preparadas, em todos os aspectos relevantes, de acordo com as normas de contabilidade pública aplicáveis.",
+    "regra_ouro": "Auditoria de Conformidade checa cumprimento legal; Auditoria Financeira atesta a fidedignidade das demonstrações contábeis.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Papéis de Trabalho em Auditoria Governamental",
+    "enunciado": "Os papéis de trabalho de auditoria devem conter registro completo, claro e suficiente do planejamento, das técnicas aplicadas, dos testes executados, das evidências obtidas e das conclusões formuladas, permitindo que outro auditor experiente, sem envolvimento prévio com o trabalho, compreenda sua fundamentação.",
+    "gabarito": "C",
+    "comentario": "CERTO. Normas Internacionais da INTOSAI (ISSAI 2330) e Manual da CGU: os papéis de trabalho (working papers) asseguram a rastreabilidade, supervisão técnica e revisão da auditoria, permitindo que qualquer auditor competente refaça o percurso cognitivo da equipe.",
+    "regra_ouro": "Papéis de trabalho devem permitir que um auditor independente sem contato prévio refaça e compreenda as conclusões do relatório.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Impedimento e Conflito de Interesses do Auditor",
+    "enunciado": "O auditor federal de controle da CGU pode liderar auditoria operacional em departamento de ministério onde seu cônjuge exerça a função comissionada de ordenador primário de despesas, visto que a presunção de idoneidade moral do servidor público afasta impedimentos de ordem pessoal.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Há manifesto impedimento e conflito de interesse. O Código de Conduta dos Servidores da CGU, as normas da INTOSAI e a Lei 9.784/1999 (art. 18) determinam que o auditor declare expressamente seu impedimento para atuar em auditorias que envolvam cônjuge, companheiro ou parentes até o terceiro grau, resguardando a independência objetiva e aparente.",
+    "regra_ouro": "Auditor é impedido de atuar quando cônjuge ou parente até 3º grau desempenha função de gestão no setor auditado.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Comunicação dos Resultados e Contraditório com o Gestor",
+    "enunciado": "Em observância aos princípios da ampla defesa e da melhoria contínua da gestão, a equipe de auditoria da CGU deve, antes da finalização do relatório definitivo, submeter o relatório preliminar aos gestores responsáveis pelo órgão auditado para que apresentem esclarecimentos, justificativas ou planos de ação.",
+    "gabarito": "C",
+    "comentario": "CERTO. As normas de auditoria interna governamental (IN SFC 03/2017) exigem a busca de manifestação prévia do gestor sobre os achados provisórios (relatório preliminar). As justificativas dos gestores são analisadas e integradas ao relatório final, garantindo robustez e cooperação interinstitucional.",
+    "regra_ouro": "Relatório preliminar de auditoria é submetido ao gestor auditado para manifestação e contraditório antes da emissão da versão final.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Declaração de Lima da INTOSAI: Independência Institucional",
+    "enunciado": "A Declaração de Lima, documento basilar da INTOSAI sobre controle público, estabelece que as Entidades Fiscalizadoras Superiores (como os Tribunais de Contas e controladorias autônomas) só podem desempenhar suas tarefas de modo eficaz se forem jurídica, financeira e institucionalmente independentes do órgão fiscalizado.",
+    "gabarito": "C",
+    "comentario": "CERTO. A Declaração de Lima (1977, ISSAI 1) é a 'carta magna' da auditoria pública internacional: consagra a independência funcional, orçamentária e operacional das instituições de controle governamental em relação ao poder executivo e entes auditados.",
+    "regra_ouro": "Declaração de Lima (INTOSAI) consagra a independência funcional, orçamentária e operacional dos órgãos de controle governamental.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Controles Preventivos vs Detectivos e Corretivos",
+    "enunciado": "Controles preventivos atuam antes da ocorrência do evento de risco, impedindo a concretização do erro ou fraude, ao passo que controles detectivos identificam os desvios tempestivamente após sua ocorrência para possibilitar ações corretivas imediatas.",
+    "gabarito": "C",
+    "comentario": "CERTO. Taxonomia clássica de controles internos: Preventivos (ex: travas sistêmicas de validação de CPF, dupla autorização de pagamento); Detectivos (ex: conciliação bancária mensal, contagem física de estoque); Corretivos (ex: estorno financeiro, abertura de processo de ressarcimento).",
+    "regra_ouro": "Preventivos evitam o erro antes de ocorrer; Detectivos identificam o desvio ocorrido; Corretivos reparam a falha.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Gestão de Riscos: Tratamento de Riscos (Evitar, Reduzir, Compartilhar, Reter)",
+    "enunciado": "Ao identificar um risco intolerável associado a uma atividade não essencial e desprovida de previsão legal compulsória, a decisão da gestão de descontinuar completamente tal atividade configura a resposta ao risco denominada 'redução' ou 'mitigação'.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Descontinuar integralmente o processo ou atividade perigosa corresponde à resposta de 'EVITAR' o risco (Risk Avoidance). Reduzir ou mitigar (Risk Reduction) significa continuar executando a atividade, porém implementando controles adicionais para baixar a probabilidade ou o impacto do risco.",
+    "regra_ouro": "Descontinuar o processo causador de perigo é EVITAR o risco; colocar controles para diminuir sua gravidade é REDUZIR o risco.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Conselho de Transparência Pública e Combate à Corrupção (CTPCC)",
+    "enunciado": "O Conselho de Transparência Pública e Combate à Corrupção (CTPCC), vinculado à CGU, é órgão consultivo de composição paritária entre representantes governamentais e da sociedade civil, com a função de debater e sugerir diretrizes para o aperfeiçoamento da transparência e integridade pública.",
+    "gabarito": "C",
+    "comentario": "CERTO. Criado em 2003 e atualizado normativamente, o CTPCC atua junto à CGU fomentando o controle social, com participação paritária de entidades da sociedade civil organizada e órgãos públicos federais.",
+    "regra_ouro": "CTPCC é órgão consultivo paritário junto à CGU que reúne governo e sociedade civil para debater políticas de integridade.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Desinformação vs Crítica Legítima nas Redes Sociais",
+    "enunciado": "No âmbito das diretrizes de integridade da informação pública, as manifestações críticas de cidadãos sobre a baixa qualidade de uma rodovia federal ou a demora no atendimento de um hospital público constituem desinformação criminosa passível de censura administrativa sumária pela ouvidoria pública.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A manifestação crítica sobre serviços públicos e agentes políticos é expressão legítima da liberdade de expressão e do controle social democrático. Desinformação envolve a criação ou disseminação deliberada e maliciosa de fatos comprovadamente falsos com o intuito de causar dano coletivo ou desestabilizar políticas sanitárias/eleitorais.",
+    "regra_ouro": "Crítica ao desempenho da gestão pública é exercício legítimo da liberdade e do controle social, nunca desinformação.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "Competência Sancionatória em PAD na Lei 8.112/1990",
+    "enunciado": "A aplicação da penalidade disciplinar de demissão a servidor público federal de qualquer ministério é atribuição privativa e indelegável do Presidente da República, não podendo ser delegada aos Ministros de Estado.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Conforme o art. 84, parágrafo único, da CF/88 e o Decreto 3.035/1999, o Presidente da República pode delegar a competência para julgar processos administrativos disciplinares e aplicar a penalidade de demissão aos Ministros de Estado e ao Advogado-Geral da União.",
+    "regra_ouro": "Competência do Presidente para aplicar demissão a servidores pode ser DELEGADA aos Ministros de Estado (Decreto 3.035/1999).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Evidências, Dados e Inteligência Artificial",
+    "topico_edital": "Trade-Off Precisão vs Revocação em Modelos de Auditoria",
+    "enunciado": "Na calibração de um modelo de Machine Learning para detecção de fraudes em licitações, a priorização máxima da métrica de revocação ('recall') tende a minimizar os falsos negativos, ao custo de gerar um maior número de falsos positivos que exigirão triagem manual pelos auditores.",
+    "gabarito": "C",
+    "comentario": "CERTO. Em modelos de risco no controle governamental, alta revocação (Recall = VP / (VP + FN)) assegura que quase nenhuma fraude real escape da malha (pouquíssimos falsos negativos), aceitando como contrapartida uma precisão menor (mais falsos positivos enviados para revisão humana).",
+    "regra_ouro": "Maximizar Recall em malhas de controle evita que fraudes escapem (reduz falsos negativos), gerando mais alarmes para triagem.",
+    "nivel": "Difícil"
+  }
+]
