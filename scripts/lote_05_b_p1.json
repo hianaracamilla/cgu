@@ -1,0 +1,202 @@
+[
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Corrupção: Abuso de Poder vs Falha de Gestão",
+    "enunciado": "A ocorrência de ineficiência operacional crônica ou de erro formal na liquidação de despesa pública, desacompanhada de dolo, apropriação indevida ou favorecimento a terceiros, caracteriza falha de gestão, a qual não se confunde juridicamente com a prática de corrupção ou ato doloso de improbidade administrativa.",
+    "gabarito": "C",
+    "comentario": "Correto. O edital da CGU cobra com rigor a distinção entre corrupção e falha de gestão. A Lei 14.230/2021 (reforma da Lei de Improbidade) e a doutrina especializada fixam que a mera inabilidade, lentidão ou equívoco formal sem dolo não consubstanciam improbidade ou corrupção, mas sim falhas administrativas a serem corrigidas pelo controle interno.",
+    "regra_ouro": "Falha de gestão (erro ou ineficiência sem dolo) NÃO é corrupção. Corrupção exige abuso deliberado de poder para benefício particular.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Ação Coletiva e Problema do 'Carona' (Free-Rider Problem)",
+    "enunciado": "Na lógica da ação coletiva formulada por Mancur Olson, a fiscalização cidadã sobre os gastos governamentais e o controle da corrupção consubstanciam bens públicos puros, o que gera fortes incentivos ao comportamento do 'carona' (free-rider) e dificulta a mobilização social espontânea de grandes grupos sem incentivos seletivos.",
+    "gabarito": "C",
+    "comentario": "Correto. Mancur Olson (1965): Bens públicos (como uma administração honesta e sem corrupção) são não excludentes e não rivais. Cada cidadão individual tem incentivo a não arcar com o custo da fiscalização esperando que outros fiscalizem (carona), razão pela qual o controle social organizado depende de instituições, incentivos seletivos e canais facilitadores do Estado.",
+    "regra_ouro": "Mancur Olson (Ação Coletiva): bens públicos enfrentam o problema do carona (free-rider); grupos grandes exigem incentivos seletivos para se mobilizar.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Tensões entre Eficiência, Equidade e Garantias Fundamentais",
+    "enunciado": "A busca intransigente pela máxima celeridade e eficiência no combate a fraudes autoriza a supressão temporária do contraditório e da ampla defesa pelo órgão de controle interno na fase de instrução que culmina na imposição direta de penalidades sancionadoras a particulares.",
+    "gabarito": "E",
+    "comentario": "Erradíssimo. O edital aborda 'as tensões entre eficiência, equidade e garantias'. O postulado da eficiência e a busca por resultados JAMAIS autorizam o sacrifício do devido processo legal substantivo, do contraditório e da ampla defesa (art. 5º, LIV e LV da CF). A imposição de sanção exige processo regular assegurado.",
+    "regra_ouro": "Eficiência administrativa nunca pode atropelar o devido processo legal, o contraditório e a ampla defesa.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Desigualdades Regionais e Fundo de Participação dos Estados (FPE)",
+    "enunciado": "Os critérios constitucionais de partilha dos recursos do Fundo de Participação dos Estados (FPE) e do Fundo de Participação dos Municípios (FPM) foram concebidos com a finalidade primordial de promover o equilíbrio socioeconômico inter-regional, destinando a maior parcela percentual das transferências às regiões Norte e Nordeste.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 161, II da CF/88: A fixação dos coeficientes de partilha do FPE tem como objetivo precípuo a redução das desigualdades regionais, destinando 85% dos recursos do fundo para os Estados das Regiões Norte, Nordeste e Centro-Oeste, e apenas 15% para as Regiões Sul e Sudeste.",
+    "regra_ouro": "FPE/FPM têm finalidade redistributiva regional: 85% do FPE é direcionado para Norte, Nordeste e Centro-Oeste.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Informalidade no Mercado de Trabalho e Proteção Social",
+    "enunciado": "No Brasil, a persistência de elevada taxa de informalidade na força de trabalho compromete a sustentabilidade da seguridade social contributiva, gerando sobrecarga adicional sobre os programas de assistência social não contributiva financiados pelo orçamento fiscal.",
+    "gabarito": "C",
+    "comentario": "Correto. A informalidade impede o recolhimento regular de contribuições previdenciárias para o RGPS. À medida que esses trabalhadores envelhecem, dependem exclusivamente da rede assistencial não contributiva (como o Benefício de Prestação Continuada - BPC/LOAS), onerando a seguridade sem contrapartida contributiva prévia.",
+    "regra_ouro": "Informalidade reduz a arrecadação da previdência contributiva e infla a demanda sobre a assistência social pública não contributiva (BPC).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Vulnerabilidade Climática e Justiça Ambiental",
+    "enunciado": "O conceito de justiça climática e ambiental reconhece que os desastres socioambientais e os eventos climáticos extremos impactam a população de forma homogênea, independendo de marcadores sociais de renda, raça e território.",
+    "gabarito": "E",
+    "comentario": "Erradíssimo. A literatura de Justiça Ambiental e os relatórios do IPCC demonstram o 'racismo ambiental' e a vulnerabilidade assimétrica: populações periféricas, de menor renda e comunidades tradicionais residem em áreas de maior risco geológico/hidrológico e dispõem de menor capacidade adaptativa e financeira para enfrentar choques climáticos.",
+    "regra_ouro": "Justiça Ambiental: os impactos climáticos NÃO são homogêneos; atingem desproporcionalmente populações vulneráveis e periféricas.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética Pública e Responsabilidade Profissional",
+    "topico_edital": "Presentes vs Brindes na Administração Pública Federal (Resolução CEP nº 3)",
+    "enunciado": "É lícito ao servidor público aceitar brinde distribuído por entidade privada a título de cortesia ou propaganda habitual, desde que o item não tenha valor econômico superior a cem reais e seja distribuído de forma generalizada a todos os participantes de determinado evento.",
+    "gabarito": "C",
+    "comentario": "Correto. Resolução nº 3/2000 da CEP e Decreto nº 4.334/2002: Não se considera presente vedado, mas sim brinde admitido, o item que não tenha valor comercial superior a R$ 100,00, seja distribuído a título de propaganda e com caráter de generalidade. Itens personalizados ou de valor superior são vedados e devem ser devolvidos.",
+    "regra_ouro": "Brinde permitido: valor comercial de até R$ 100,00, com logomarca institucional e distribuído de forma geral. Presentes individuais são vedados.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética Pública e Responsabilidade Profissional",
+    "topico_edital": "Dever de Obediência Hierárquica e Ordens Manifestamente Ilegais (Lei 8.112/1990)",
+    "enunciado": "O princípio da hierarquia administrativa impõe ao servidor público o dever irrestrito de cumprir todas as ordens de seus superiores hierárquicos, mesmo quando estas forem manifestamente ilegais, cabendo a responsabilidade integral e exclusiva à autoridade que expediu o comando.",
+    "gabarito": "E",
+    "comentario": "Art. 116, IV da Lei 8.112/1990: É dever do servidor 'cumprir as ordens superiores, EXCETO QUANDO MANIFESTAMENTE ILEGAIS'. Diante de ordem manifestamente ilegal, o servidor tem o dever de NÃO CUMPRIR e o dever de representar contra a ordem (art. 116, XII). Se cumprir ordem notoriamente criminosa ou ilegal, responde conjuntamente.",
+    "regra_ouro": "Obediência Hierárquica tem limite estrito: ordem MANIFESTAMENTE ILEGAL não deve ser cumprida, impondo-se o dever de representação.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética Pública e Responsabilidade Profissional",
+    "topico_edital": "Assédio Moral no Trabalho e Responsabilidade Institucional",
+    "enunciado": "A configuração do assédio moral no ambiente de trabalho exige necessariamente a existência de relação de subordinação hierárquica direta, sendo impossível sua ocorrência entre servidores ocupantes de mesmo nível hierárquico na estrutura organizacional.",
+    "gabarito": "E",
+    "comentario": "A doutrina e a jurisprudência reconhecem múltiplas modalidades de assédio moral: 1) Vertical descendente (do chefe contra subordinado - mais comum); 2) Horizontal (entre colegas de mesmo nível hierárquico, por discriminação ou pressão); 3) Vertical ascendente (de subordinados contra o superior). Logo, a hierarquia superior não é requisito indispensável.",
+    "regra_ouro": "Assédio moral pode ser Vertical (descendente ou ascendente) ou HORIZONTAL (entre servidores do mesmo nível hierárquico).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "MROSC (Lei 13.019/2014): Termo de Colaboração vs Termo de Fomento",
+    "enunciado": "No Marco Regulatório das Organizações da Sociedade Civil (MROSC - Lei 13.019/2014), o instrumento adequado para a celebração de parcerias com transferência de recursos públicos proposta pela própria entidade da sociedade civil é o Termo de Fomento, ao passo que o Termo de Colaboração é adotado quando o plano de trabalho e a iniciativa partem da própria Administração Pública.",
+    "gabarito": "C",
+    "comentario": "Correto. Lei 13.019/2014: 1) TERMO DE COLABORAÇÃO (art. 2º, VII) = parceria proposta pela Administração Pública para consecução de planos de trabalho por ela propostos. 2) TERMO DE FOMENTO (art. 2º, VIII) = parceria com planos de trabalho propostos pelas Organizações da Sociedade Civil (OSCs).",
+    "regra_ouro": "MROSC: Proposta da Administração = Termo de Colaboração. Proposta da Organização da Sociedade Civil (OSC) = Termo de Fomento.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Lei de Responsabilidade Fiscal (LRF): Limites de Despesa com Pessoal",
+    "enunciado": "Nos termos da Lei Complementar nº 101/2000 (LRF), a despesa total com pessoal do Poder Executivo da União não poderá exceder a 40,9% da sua Receita Corrente Líquida (RCL), sendo imposto o limite prudencial de 95% desse teto.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 19 e 20 da LRF: Na União, o limite global para pessoal é de 50% da RCL, distribuído em: Executivo = 40,9%; Judiciário = 6,0%; Legislativo/TCU = 2,5%; MPU = 0,6%. O limite prudencial (art. 22, parágrafo único) é acionado a 95% do limite máximo.",
+    "regra_ouro": "LRF na União: Limite de pessoal do Poder Executivo = 40,9% da RCL (Limite Prudencial a 95% desse percentual).",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Lei de Defesa do Usuário do Serviço Público (Lei 13.460/2017)",
+    "enunciado": "A Carta de Serviços ao Usuário, instituída pela Lei nº 13.460/2017, tem por objetivo informar o cidadão sobre os serviços prestados pelo órgão público, as formas de acesso e os compromissos e padrões de qualidade do atendimento, devendo ser objeto de atualização periódica e ampla publicidade.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 7º da Lei 13.460/2017: Os órgãos e entidades públicos devem divulgar a Carta de Serviços ao Usuário detalhando os serviços, requisitos, prazos máximos, canais de comunicação e padrões de qualidade exigíveis pelo cidadão.",
+    "regra_ouro": "Carta de Serviços ao Usuário (Lei 13.460): instrumento obrigatório de transparência sobre serviços, prazos e padrões de qualidade.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Agências Reguladoras: Poder Normativo e Quarentena",
+    "enunciado": "A Lei Geral das Agências Reguladoras (Lei 13.848/2019) veda que a agência exija Análise de Impacto Regulatório (AIR) prévia à edição de seus atos normativos de interesse geral, sob pena de usurpação de competência legislativa reservada ao Congresso Nacional.",
+    "gabarito": "E",
+    "comentario": "Pelo contrário! O art. 6º da Lei 13.848/2019 torna a ANÁLISE DE IMPACTO REGULATÓRIO (AIR) OBRIGATÓRIA antes da edição e alteração de atos normativos de interesse geral dos agentes econômicos e usuários, instruindo a decisão regulatória com base em evidências.",
+    "regra_ouro": "Lei 13.848/2019: Análise de Impacto Regulatório (AIR) é OBRIGATÓRIA antes de atos normativos de interesse geral das agências.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Modelos de Implementação de Políticas: Top-Down vs Bottom-Up",
+    "enunciado": "O modelo top-down (de cima para baixo) de implementação de políticas públicas pressupõe uma separação analítica nítida entre a fase de formulação política e a de execução técnica, partindo da premissa de que os objetivos traçados pelas autoridades centrais podem ser cumpridos de forma unívoca pela burocracia subordinada.",
+    "gabarito": "C",
+    "comentario": "Correto. A abordagem top-down (Sabatier, Mazmanian, Pressman & Wildavsky) enfatiza o controle central, a precisão das diretrizes legais e a conformidade técnica dos agentes executores, contrastando com a visão bottom-up (Lipsky, Elmore) que privilegia a discricionariedade na ponta.",
+    "regra_ouro": "Implementação Top-Down: separação rígida entre formulação e execução, focando no comando central e conformidade hierárquica.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Princípios Constitucionais da Administração Pública (Art. 37 da CF)",
+    "enunciado": "O princípio da impessoalidade veda a promoção pessoal de autoridades ou servidores públicos em atos, programas, obras, serviços e campanhas dos órgãos públicos, devendo a publicidade governamental possuir caráter exclusivamente educativo, informativo ou de orientação social.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 37, § 1º da CF/88: 'A publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deverá ter caráter educativo, informativo ou de orientação social, dela não podendo constar nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos.'",
+    "regra_ouro": "Princípio da Impessoalidade (Art. 37, § 1º da CF): vedação absoluta de símbolos, nomes ou imagens de autopromoção na publicidade pública.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Controle Social e Conselhos de Políticas Públicas",
+    "enunciado": "Os conselhos gestores de políticas públicas (como o Conselho Nacional de Saúde) são instâncias colegiadas paritárias de caráter consultivo ou deliberativo, cuja institucionalização legal assegura a participação direta da sociedade civil na formulação e fiscalização de políticas setoriais.",
+    "gabarito": "C",
+    "comentario": "Correto. Os conselhos de políticas públicas constituem espaços de democracia participativa e controle social deliberativo, congregando representantes governamentais e de entidades civis/usuários com poder de fiscalizar fundos e aprovar diretrizes setoriais.",
+    "regra_ouro": "Conselhos de Políticas Públicas: instâncias colegiadas paritárias de participação social e fiscalização das ações governamentais.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Língua Portuguesa",
+    "topico_edital": "Semântica e Polissemia dos Conectivos",
+    "enunciado": "Em 'Dado que a prestação de contas foi apresentada intempestivamente, a comissão rejeitou o relatório preliminar', a locução conjuntiva 'Dado que' exprime circunstância temporal, equivalendo funcionalmente a 'Logo que'.",
+    "gabarito": "E",
+    "comentario": "A locução conjuntiva 'dado que' introduz oração subordinada adverbial CAUSAL (equivale a 'já que', 'visto que', 'porque', 'uma vez que'), e não temporal ('logo que', 'assim que').",
+    "regra_ouro": "Dado que = conjunção subordinativa CAUSAL (já que, visto que). Não possui valor temporal.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Língua Portuguesa",
+    "topico_edital": "Pontuação Cebraspe: Deslocamento de Adjuntos Adverbiais",
+    "enunciado": "No trecho 'A CGU implementou, nos últimos cinco anos, avançadas rotinas automatizadas de auditoria contínua', o isolamento do adjunto adverbial de tempo por vírgulas é facultativo em virtude de sua reduzida extensão.",
+    "gabarito": "E",
+    "comentario": "Segundo o padrão Cebraspe e a Academia Brasileira de Letras, adjuntos adverbiais de longa extensão (três ou mais palavras: 'nos últimos cinco anos') quando intercalados no meio da oração exigem obrigatoriamente dupla vírgula. A supressão de apenas uma ou de ambas acarreta vício gramatical.",
+    "regra_ouro": "Adjunto adverbial de grande extensão (3+ palavras) intercalado: pontuação por vírgulas é OBRIGATÓRIA.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Língua Portuguesa",
+    "topico_edital": "Reescritura de Frases e Correção Gramatical",
+    "enunciado": "A substituição do trecho 'Havia muitos indícios de irregularidades no contrato' por 'Existiam muitos indícios de irregularidades no contrato' preserva tanto a correção gramatical quanto o sentido original do texto.",
+    "gabarito": "C",
+    "comentario": "Correto. O verbo 'haver' no sentido de existir é impessoal e não tem sujeito (fica no singular: 'Havia indícios'). Já o verbo 'existir' é pessoal e tem sujeito ('muitos indícios'), flexionando-se normalmente no plural: 'Existiam muitos indícios'. Sentido e gramática preservados.",
+    "regra_ouro": "Haver (sentido de existir) = singular ('Havia indícios'). Existir = pluraliza com o sujeito ('Existiam indícios').",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Língua Portuguesa",
+    "topico_edital": "Pronomes Demonstrativos: Anáfora vs Catáfora",
+    "enunciado": "No segmento 'Dois valores orientam o controle público: a legalidade e a eficiência; este deve orientar a obtenção de resultados e aquele, a submissão à norma jurídica', o pronome 'este' resgata anaditicamente o termo mais distante (a legalidade) e 'aquele' o termo mais próximo (a eficiência).",
+    "gabarito": "E",
+    "comentario": "Inversão da referência pronominal clássica do Cebraspe! 'ESTE' recupera o termo imediatamente mais próximo / último citado ('a eficiência'); 'AQUELE' recupera o termo mais distante / citado primeiro ('a legalidade').",
+    "regra_ouro": "Pronomes anafóricos: 'Este' recupera o termo mais próximo/último. 'Aquele' recupera o termo mais distante/primeiro.",
+    "nivel": "Média"
+  }
+]
