@@ -1,0 +1,502 @@
+[
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Python: Bloco try/except/else/finally",
+    "enunciado": "Na estrutura de controle de exceções em Python 3, o bloco `else` é executado exclusivamente quando nenhuma exceção é capturada no bloco `try`, ao passo que o bloco `finally` é executado obrigatoriamente em qualquer circunstância, tenha ocorrido exceção ou não.",
+    "gabarito": "C",
+    "comentario": "CERTO. Sintaxe e semântica canônica do tratamento de exceções em Python: `try` executa o código monitorado; `except` trata as exceções capturadas; `else` só é executado se o `try` concluir sem erros; e `finally` executa sempre (usado para liberação compulsória de recursos, como fechar arquivos ou conexões com bancos).",
+    "regra_ouro": "Em Python: o bloco else roda se NÃO houver erro; o bloco finally roda SEMPRE, ocorrendo exceção ou não.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Python: Decoradores e functools.lru_cache",
+    "enunciado": "O decorador `@functools.lru_cache` implementa memorização (memoization) baseada na estratégia Least Recently Used, armazenando os retornos de chamadas de funções determinísticas com base em seus argumentos para acelerar execuções repetidas sem recalcular a função.",
+    "gabarito": "C",
+    "comentario": "CERTO. `lru_cache` (Least Recently Used Cache) da biblioteca padrão `functools` decora funções puras e armazena em dicionário os resultados prévios para argumentos idênticos, descartando os itens acessados há mais tempo quando o tamanho máximo (`maxsize`) é atingido.",
+    "regra_ouro": "@lru_cache memoriza resultados prévios de funções para os mesmos argumentos, evitando recomputação desnecessária.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Polars vs Pandas: Avaliação Preguiçosa e Rust",
+    "enunciado": "Diferentemente do Pandas, que adota avaliação estritamente gulosa (eager evaluation) e baseia-se em um índice explícito de linhas, a biblioteca Polars é construída sobre Apache Arrow em Rust, opera de forma 'index-free' e possui um motor de execução lazy (`df.lazy().collect()`) que otimiza automaticamente planos de consulta antes do processamento.",
+    "gabarito": "C",
+    "comentario": "CERTO. Polars representa o estado da arte em análise de dados tabular rápida em Python: não tem índice implícito/explícito (index-free), processa dados em multithreading real (sem GIL em Rust) e com a API Lazy avalia o grafo de execução, aplicando otimizações como *predicate pushdown* e *projection pushdown* antes de ler os dados do disco.",
+    "regra_ouro": "Polars é 'index-free', multithread em Rust e usa API Lazy para otimizar planos de consulta antes da execução.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Imputação Multivariada: MICE vs Imputação por Média",
+    "enunciado": "A imputação de valores ausentes pela média da coluna é mais indicada que o método MICE (Multivariate Imputation by Chained Equations) porque a imputação pela média preserva integralmente a variância original dos dados e a matriz de correlação entre as variáveis.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A imputação pela média é uma técnica ingênua e danosa: ela reduz artificialmente a variância da variável (concentra dados no centro) e distorce as correlações com outras colunas. O MICE (imputação multivariada por equações encadeadas) modela cada variável com dados faltantes em função de todas as outras variáveis por regressões iterativas, preservando as relações estocásticas e a incerteza.",
+    "regra_ouro": "Imputação pela média achata a variância e distorce correlações; MICE preserva a estrutura multivariada dos dados.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Codificação Categórica: Target Encoding e Overfitting",
+    "enunciado": "O Target Encoding substitui cada categoria de uma variável preditora pela média da variável-alvo (target) observada para aquela categoria, apresentando como principal vantagem a não expansão da dimensionalidade, embora apresente alto risco de vazamento de dados e sobreajuste (overfitting) se não for aplicado com suavização ou dentro de loops de validação cruzada.",
+    "gabarito": "C",
+    "comentario": "CERTO. Ao contrário do One-Hot Encoding (que cria centenas de colunas para alta cardinalidade), o Target Encoding mantém uma única coluna numérica contendo a probabilidade ou média da classe alvo. Contudo, categorias raras com poucos exemplos decoram o target facilmente, exigindo regularização (suavização empírica de Bayes / m-estimate) e out-of-fold encoding.",
+    "regra_ouro": "Target Encoding não expande colunas mas exige regularização (suavização) para não causar vazamento e overfitting em categorias raras.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Análise de Variância (ANOVA Unidirecional)",
+    "enunciado": "A Análise de Variância (ANOVA) unidirecional testa a igualdade das médias de três ou mais grupos independentes por meio da comparação entre a variabilidade entre os grupos (Between-group variance) e a variabilidade dentro dos grupos (Within-group variance), gerando a estatística F de Snedecor.",
+    "gabarito": "C",
+    "comentario": "CERTO. Princípio da ANOVA: $F = \\frac{MS_{between}}{MS_{within}}$. Se as médias dos grupos forem significativamente diferentes, a variação entre os grupos superará com folga o ruído amostral interno dos grupos, resultando em um valor F elevado e p-valor inferior a $\\alpha$, rejeitando-se a hipótese de igualdade de médias.",
+    "regra_ouro": "ANOVA compara a variância entre os grupos com a variância interna dos grupos via estatística F.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Testes Não-Paramétricos: Teste U de Mann-Whitney",
+    "enunciado": "O teste U de Mann-Whitney é a alternativa não-paramétrica ao teste t de Student para duas amostras independentes, sendo indicado quando a suposição de normalidade das distribuições ou de homogeneidade de variâncias (homocedasticidade) é violada.",
+    "gabarito": "C",
+    "comentario": "CERTO. Quando dados contínuos violam os pressupostos paramétricos de normalidade (ex: dados assimétricos de valores de compras públicas), o teste de Mann-Whitney (ou Wilcoxon rank-sum test) compara as distribuições ordenando todos os dados em postos (ranks) independentemente da forma da curva.",
+    "regra_ouro": "Mann-Whitney é o substituto não paramétrico do teste t para duas amostras independentes sem distribuição normal.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Distribuição de Poisson vs Binomial Negativa",
+    "enunciado": "A distribuição de Poisson pressupõe a equidispersão, isto é, que a média é estritamente igual à variância; quando os dados de contagem apresentam superdispersão (variância significativamente superior à média), a distribuição Binomial Negativa é mais adequada para modelar o fenômeno.",
+    "gabarito": "C",
+    "comentario": "CERTO. Propriedade rígida da Poisson: $E(X) = Var(X) = \\lambda$. Em contagens reais de ocorrências de fraudes, a variância frequentemente excede a média (overdispersion). A regressão Binomial Negativa introduz um parâmetro extra de dispersão para relaxar essa restrição e evitar subestimação de erros-padrão.",
+    "regra_ouro": "Poisson exige média igual à variância (equidispersão); na superdispersão (variância > média), usa-se Binomial Negativa.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Testes de Hipóteses: Homocedasticidade com Teste de Levene",
+    "enunciado": "O teste de Levene é amplamente utilizado para verificar a hipótese nula de igualdade de variâncias (homocedasticidade) entre múltiplos grupos, destacando-se por ser menos sensível a desvios da distribuição normal do que o teste de Bartlett.",
+    "gabarito": "C",
+    "comentario": "CERTO. Enquanto o teste de Bartlett depende fortemente da premissa de que os dados seguem distribuição normal, o teste de Levene calcula desvios em relação à mediana ou média aparada, sendo robusto contra não-normalidade na validação dos pressupostos da ANOVA e regressão.",
+    "regra_ouro": "Teste de Levene avalia homogeneidade de variâncias (homocedasticidade) sendo robusto contra desvios de normalidade.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Testes de Hipóteses: Poder Estatístico e Tamanho do Efeito",
+    "enunciado": "O poder estatístico de um teste ($1 - \\beta$) representa a probabilidade de rejeitar corretamente a hipótese nula ($H_0$) quando ela é de fato falsa na população, sendo ampliado com o aumento do tamanho amostral ($n$) e com o crescimento do tamanho do efeito real investigado.",
+    "gabarito": "C",
+    "comentario": "CERTO. Poder do teste = probabilidade de detectar um efeito real que existe ($1 - \\beta$, onde $\\beta$ é a probabilidade do Erro Tipo II). Quanto maior a amostra e quanto mais expressiva for a diferença real no mundo (tamanho do efeito / Cohen's d), maior será o poder estatístico do teste.",
+    "regra_ouro": "Poder do teste (1 - beta) é a capacidade de detectar um efeito real; cresce com amostras maiores e efeitos mais nítidos.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "SQL Avançado: Cláusulas ROLLUP e CUBE",
+    "enunciado": "Em consultas SQL analíticas, a cláusula `GROUP BY CUBE(ano, regiao)` gera agregações subtotais para todas as combinações multidimensionais possíveis dos atributos informados, além do total geral, enquanto `GROUP BY ROLLUP(ano, regiao)` produz apenas uma agregação hierárquica cumulativa da esquerda para a direita.",
+    "gabarito": "C",
+    "comentario": "CERTO. Diferença clássica de extensões de agrupamento SQL: `CUBE(A, B)` gera $2^2 = 4$ níveis de agregação: (A, B), (A), (B) e () total geral. O `ROLLUP(A, B)` gera hierarquia estrita: (A, B), (A) e () total geral, sem agrupar por (B) isoladamente.",
+    "regra_ouro": "CUBE calcula todas as combinações multidimensionais possíveis; ROLLUP gera subtotais em hierarquia cumulativa.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "SQL: Operações de Conjunto (UNION vs UNION ALL)",
+    "enunciado": "A operação `UNION ALL` combina os resultados de duas consultas SQL eliminando automaticamente as linhas duplicadas por meio de uma operação interna de ordenação ou hashing, ao passo que `UNION` preserva todas as duplicatas e apresenta melhor desempenho de execução.",
+    "gabarito": "E",
+    "comentario": "ERRADO. As definições estão trocadas. `UNION` elimina duplicatas (executa um `DISTINCT` com alto custo computacional de ordenação/hash). `UNION ALL` simplesmente concatena os resultados das consultas preservando todas as duplicatas, sendo muito mais rápido e eficiente em termos de processamento.",
+    "regra_ouro": "UNION ALL apenas concatena e preserva duplicatas (mais rápido); UNION ordena e elimina duplicatas (mais custoso).",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Níveis de Isolamento ANSI SQL e Anomalias",
+    "enunciado": "No nível de isolamento de transações `READ COMMITTED`, uma transação nunca lerá dados não confirmados de outra transação concorrente (evitando a Leitura Suja ou 'Dirty Read'), mas pode sofrer com a Leitura Não Repetível ('Non-Repeatable Read') se outra transação alterar e confirmar registros entre duas leituras idênticas da primeira.",
+    "gabarito": "C",
+    "comentario": "CERTO. Níveis de Isolamento e anomalias: `Read Uncommitted` permite Dirty Read; `Read Committed` impede Dirty Read, mas permite Non-Repeatable Read e Phantom Read; `Repeatable Read` impede Non-Repeatable Read; e `Serializable` impede todas as anomalias, inclusive Phantom Read.",
+    "regra_ouro": "READ COMMITTED previne Leitura Suja (Dirty Read), mas admite Leituras Não Repetíveis se outra transação commitar alterações.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Formas Normais: Terceira Forma Normal (3FN)",
+    "enunciado": "Uma relação relacional está na Terceira Forma Normal (3FN) se, e somente se, estiver na Segunda Forma Normal (2FN) e nenhum atributo não chave depender transitivamente da chave primária.",
+    "gabarito": "C",
+    "comentario": "CERTO. Definição clássica de Edgar F. Codd: 1FN exige valores atômicos (sem vetores/tabelas aninhadas); 2FN exige dependência funcional total da chave primária (elimina dependência parcial em chaves compostas); 3FN elimina dependências transitivas (nenhum atributo não-chave determina outro atributo não-chave).",
+    "regra_ouro": "3FN exige estar na 2FN e que nenhum atributo não-chave dependa transitivamente da chave primária.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Dimensões de Variação Lenta (SCD Tipo 2)",
+    "enunciado": "Na modelagem de Data Warehouse, o tratamento de Slowly Changing Dimensions do Tipo 2 (SCD Tipo 2) consiste em sobrescrever o valor antigo pelo novo na mesma linha da tabela, dispensando o armazenamento do histórico prévio das alterações de atributos de entidades.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Sobrescrever o registro sem manter histórico é a definição de SCD Tipo 1. O SCD Tipo 2 preserva o histórico integral inserindo uma nova linha na tabela dimensional com novas chaves substitutas (surrogate keys), acompanhada de colunas de controle temporal (data de início, data de fim e indicador de registro ativo/corrente).",
+    "regra_ouro": "SCD Tipo 1 sobrescreve sem histórico; SCD Tipo 2 insere nova linha preservando histórico com datas de vigência.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Apache Spark: Otimizador Catalyst e Projeto Tungsten",
+    "enunciado": "O Catalyst Optimizer do Apache Spark é o motor responsável pela otimização de consultas em DataFrames e Spark SQL, atuando em quatro fases sucessivas: análise sintática, otimização lógica (como pushdown de predicados), planejamento físico e geração de código Java compilado em bytecode via Projeto Tungsten.",
+    "gabarito": "C",
+    "comentario": "CERTO. O Catalyst converte expressões relacionais em árvores abstratas de sintaxe e aplica regras de reescrita lógica e física. Em conjunto com o Tungsten (geração de código inteira de consulta 'whole-stage code generation' e gestão de memória off-heap), elimina overhead de despacho virtual e chamadas JVM.",
+    "regra_ouro": "Catalyst Optimizer aplica otimizações lógicas e físicas, enquanto o Tungsten gera código bytecode compilado de alta performance.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Apache Airflow: Idempotência em DAGs",
+    "enunciado": "No ecossistema Apache Airflow, uma tarefa (task) em uma DAG é considerada idempotente quando a sua execução repetida múltiplas vezes com os mesmos parâmetros de entrada e para a mesma data lógica de execução produz rigorosamente o mesmo resultado e o mesmo estado final no sistema de destino.",
+    "gabarito": "C",
+    "comentario": "CERTO. A idempotência é o princípio de ouro de pipelines de dados em orquestradores como o Airflow: se uma tarefa falhar no meio e for reexecutada (retry), ela não pode duplicar linhas nem corromper tabelas, garantindo consistência mesmo diante de reprocessamentos.",
+    "regra_ouro": "Idempotência no Airflow: executar a mesma tarefa várias vezes gera exatamente o mesmo resultado sem duplicar dados.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Catálogo de Dados: Metadados Técnicos vs de Negócio",
+    "enunciado": "Em um catálogo corporativo de governança de dados, o tipo de dado SQL de uma coluna (como `VARCHAR(50)`), seu tamanho em bytes e o carimbo de data da última modificação física do arquivo são exemplos de metadados de negócio.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Tipos de dados, esquemas físicos, partições, índices e caminhos de arquivos são METADADOS TÉCNICOS. Metadados de negócio (business metadata) referem-se ao glossário corporativo, significado semântico do atributo (ex: 'data em que a ordem bancária foi autorizada'), classificação de sensibilidade da informação (LGPD) e dono/gestor responsável pelo dado.",
+    "regra_ouro": "Tipos SQL, tamanhos e tabelas físicas são metadados TÉCNICOS; glossário e regras de domínio são metadados de NEGÓCIO.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Apache Spark: Ações vs Transformações",
+    "enunciado": "No Apache Spark, métodos como `.filter()`, `.select()` e `.groupBy()` são considerados 'ações' que disparam imediatamente a computação no cluster e retornam dados para o nó driver, ao passo que `.count()` e `.collect()` são 'transformações' preguiçosas.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Os papéis estão invertidos. `.filter()`, `.select()` e `.groupBy()` são TRANSFORMAÇÕES (usam avaliação lazy, gerando uma nova linhagem no RDD/DataFrame sem executar o cálculo de pronto). `.count()`, `.collect()`, `.show()` e `.write()` são AÇÕES (actions) que forçam a execução física dos planos computacionais no cluster.",
+    "regra_ouro": "Transformações no Spark são preguiçosas (filter, select); Ações disparam a computação real no cluster (count, collect, write).",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Bancos de Dados NoSQL: Teorema CAP e Cassandra vs MongoDB",
+    "enunciado": "O Apache Cassandra é tipicamente classificado no Teorema CAP como um sistema de banco de dados AP (Availability e Partition Tolerance), priorizando alta disponibilidade e gravações rápidas sob o modelo de consistência eventual, ao passo que o MongoDB em sua arquitetura padrão opera como um sistema CP (Consistency e Partition Tolerance).",
+    "gabarito": "C",
+    "comentario": "CERTO. No Cassandra (arquitetura peer-to-peer sem nó mestre / masterless), qualquer nó aceita gravações, priorizando disponibilidade total e consistência eventual (AP). No MongoDB padrão com réplicas mestre-escravo, se o nó primário ficar indisponível, escritas são bloqueadas até a eleição de um novo mestre, priorizando consistência estrita (CP).",
+    "regra_ouro": "Cassandra é prioritariamente AP (consistência eventual, alta disponibilidade); MongoDB padrão opera como CP.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "Classificador Naive Bayes e a Hipótese de Independência",
+    "enunciado": "O algoritmo Naive Bayes fundamenta-se no Teorema de Bayes e assume a premissa de que todas as variáveis preditoras são mutuamente independentes entre si, dada a classe alvo, o que simplifica o cálculo da probabilidade conjunta para o produto das probabilidades condicionais individuais.",
+    "gabarito": "C",
+    "comentario": "CERTO. A premissa é chamada de 'ingênua' (naive) exatamente por assumir independência condicional: $P(X_1, X_2, ..., X_n | C) = \\prod_{i=1}^n P(X_i | C)$. Embora essa suposição raramente seja verdadeira no mundo real, o algoritmo apresenta desempenho surpreendentemente robusto em tarefas de classificação de texto e detecção de spam.",
+    "regra_ouro": "Naive Bayes assume independência condicional entre todas as variáveis preditoras dada a classe alvo.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "Support Vector Machines (SVM): Truque do Kernel (Kernel Trick)",
+    "enunciado": "Nas Máquinas de Vetores de Suporte (SVM), o 'truque do kernel' (Kernel Trick) projeta os dados de entrada em um espaço de características de dimensão superior onde as classes se tornam linearmente separáveis, sem que seja necessário calcular explicitamente as coordenadas dos dados no espaço transformado.",
+    "gabarito": "C",
+    "comentario": "CERTO. O kernel trick calcula produtos escalares diretamente no espaço original usando funções matemáticas especiais (como o kernel RBF gaussiano ou polinomial). Isso permite encontrar hiperplanos separadores não lineares complexos sem incorrer na explosão computacional de mapear cada coordenada no espaço de alta dimensão.",
+    "regra_ouro": "Kernel Trick no SVM calcula o produto escalar no espaço transformado sem precisar materializar as coordenadas de alta dimensão.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "Support Vector Machines: Hiperparâmetro C",
+    "enunciado": "No treinamento de um modelo SVM com margem suave, atribuir um valor extremamente elevado ao hiperparâmetro de regularização $C$ força o modelo a buscar uma margem o mais larga possível entre as classes, tolerando múltiplos erros de classificação nos dados de treino.",
+    "gabarito": "E",
+    "comentario": "ERRADO. O hiperparâmetro $C$ penaliza erros de classificação. Um $C$ muito grande impõe penalidade severa a qualquer ponto mal classificado, forçando o SVM a criar uma margem estreita e rígida para acertar todos os pontos de treino, aumentando o risco de sobreajuste (overfitting). Um $C$ pequeno gera margem larga e tolera mais violações, aumentando a generalização.",
+    "regra_ouro": "SVM: C alto penaliza erros e gera margem estreita (risco de overfitting); C baixo tolera erros e gera margem larga.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "Regularização ElasticNet",
+    "enunciado": "A regressão ElasticNet combina linearmente as penalidades das normas $L_1$ (Lasso) e $L_2$ (Ridge), sendo especialmente vantajosa quando há múltiplos atributos altamente correlacionados entre si, situação na qual o Lasso tradicional tende a selecionar arbitrariamente apenas um dos atributos e descartar os demais.",
+    "gabarito": "C",
+    "comentario": "CERTO. Proposto por Zou e Hastie: o ElasticNet minimiza a função de perda com a penalidade combinada $\\lambda_1 \\|\\beta\\|_1 + \\lambda_2 \\|\\beta\\|_2^2$. Ele herda a capacidade de seleção esparsa do Lasso, mas o termo Ridge estabiliza o efeito de grupo, mantendo preditores fortemente correlacionados juntos no modelo.",
+    "regra_ouro": "ElasticNet une L1 e L2; supera o Lasso em bases com preditores fortemente correlacionados entre si.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "LightGBM: Crescimento por Folha (Leaf-Wise)",
+    "enunciado": "Diferente de algoritmos tradicionais baseados em árvores de decisão que crescem por nível (level-wise), o LightGBM utiliza uma estratégia de divisão orientada por folha (leaf-wise), escolhendo a folha que apresentará a maior redução de perda (delta loss), o que acelera a convergência mas exige controle de profundidade para mitigar overfitting.",
+    "gabarito": "C",
+    "comentario": "CERTO. O crescimento leaf-wise (best-first) divide o nó folha com maior ganho marginal, gerando árvores assimétricas mais profundas que convergem mais rapidamente do que o crescimento level-wise (usado por padrão no XGBoost histórico). Parâmetros como `max_depth` e `num_leaves` são vitais para evitar sobreajuste.",
+    "regra_ouro": "LightGBM cresce árvores de forma 'leaf-wise' (maior redução de perda), alcançando maior velocidade e precisão que o 'level-wise'.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "Métricas de Regressão: MAE vs MSE",
+    "enunciado": "O Erro Quadrático Médio (MSE) é menos sensível à presença de outliers do que o Erro Médio Absoluto (MAE), sendo o MSE a métrica recomendada quando se deseja que erros isolados de grande magnitude não distorçam a avaliação do modelo de custos públicos.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Como o MSE eleva a diferença entre o valor real e o previsto ao quadrado ($e_i^2$), um único erro grande recebe uma penalização desproporcionalmente gigantesca, tornando o MSE altamente sensível a outliers. O MAE ($|e_i|$) trata todos os desvios de forma linear, sendo muito mais robusto contra valores atípicos.",
+    "regra_ouro": "MSE penaliza erros grandes quadraticamente (muito sensível a outliers); MAE é linear e robusto a outliers.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "Classificação Multiclasse: One-vs-Rest vs One-vs-One",
+    "enunciado": "Para um problema de classificação de auditoria com cinco classes distintas de irregularidades, a estratégia One-vs-Rest (OvR) treina exatamente cinco classificadores binários, ao passo que a estratégia One-vs-One (OvO) treina dez classificadores binários.",
+    "gabarito": "C",
+    "comentario": "CERTO. Fórmulas de estratégias multiclasse: OvR treina $K$ classificadores (cada classe contra todas as demais; para $K=5$, treina 5 modelos). OvO treina um classificador para cada par de classes: $\\frac{K(K-1)}{2} = \\frac{5 \\times 4}{2} = 10$ classificadores.",
+    "regra_ouro": "Estratégia OvR treina K modelos; estratégia OvO treina K*(K-1)/2 modelos pareados.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "Curva Precision-Recall em Classes Desbalanceadas",
+    "enunciado": "Em cenários de fiscalização com dados massivamente desbalanceados onde a classe positiva (fraude comprovada) representa menos de 0,5% das transações, a curva Precision-Recall fornece uma representação visual mais informativa do desempenho do classificador do que a curva ROC tradicional.",
+    "gabarito": "C",
+    "comentario": "CERTO. Como a curva ROC utiliza a Taxa de Falsos Positivos ($FPR = \\frac{FP}{FP + TN}$), um número gigantesco de verdadeiros negativos ($TN$) comprime o denominador, fazendo a curva ROC parecer excessivamente otimista mesmo quando o modelo gera centenas de falsos alarmes. A curva Precision-Recall foca exclusivamente na classe minoritária e na precisão real dos alertas.",
+    "regra_ouro": "Em bases de fraudes raras, a Curva Precision-Recall (PR-AUC) é muito mais informativa e fidedigna que a curva ROC.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "Técnicas de Balanceamento: SMOTE",
+    "enunciado": "O algoritmo SMOTE (Synthetic Minority Over-sampling Technique) combate o desbalanceamento de classes duplicando exatamente as instâncias pré-existentes da classe minoritária por meio de amostragem aleatória com reposição simples.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A duplicação simples com reposição é o 'Random Over-Sampling'. O SMOTE cria instâncias SINTÉTICAS inteiramente novas: ele localiza os $k$ vizinhos mais próximos de cada exemplo minoritário e interpola novos pontos ao longo dos segmentos de reta que unem os vizinhos no espaço de características.",
+    "regra_ouro": "SMOTE cria amostras SINTÉTICAS por interpolação de vizinhos mais próximos; não faz mera cópia/duplicação de registros.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "Algoritmo de Árvores: Critérios Gini vs Entropia",
+    "enunciado": "Ao construir nós de árvores de decisão para classificação, tanto a impureza de Gini quanto o ganho de informação baseado em entropia (Teoria da Informação de Shannon) visam maximizar a homogeneidade das classes nas folhas resultantes, sendo o cálculo de Gini computacionalmente mais rápido por dispensar operações de logaritmo.",
+    "gabarito": "C",
+    "comentario": "CERTO. Ambos os critérios medem a impureza de nós: Gini ($1 - \\sum p_i^2$) envolve apenas multiplicações e subtrações; Entropia ($-\\sum p_i \\log_2 p_i$) exige cálculo de logaritmos, sendo mais pesada computacionalmente. Na prática, produzem árvores muito semelhantes.",
+    "regra_ouro": "Impureza de Gini é computacionalmente mais rápida que Entropia por não exigir cálculo de logaritmos.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Redes Neurais, NLP e Modelos de Linguagem",
+    "topico_edital": "Redes Neurais Convolucionais: Camadas de Convolução e Pooling",
+    "enunciado": "Em uma Rede Neural Convolucional (CNN), a aplicação de camadas de Max Pooling visa aumentar a resolução espacial das imagens para capturar detalhes micrométricos de assinaturas e carimbos em documentos públicos digitalizados.",
+    "gabarito": "E",
+    "comentario": "ERRADO. O Max Pooling realiza a redução da dimensionalidade espacial (subamostragem / downsampling) dos mapas de características: ele seleciona o valor máximo em uma janela móvel (ex: 2x2), reduzindo o número de parâmetros, economizando computação e conferindo invariância a pequenas translações e distorções.",
+    "regra_ouro": "Max Pooling REDUZ a resolução espacial dos mapas de características para economizar computação e dar invariância posicional.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Redes Neurais, NLP e Modelos de Linguagem",
+    "topico_edital": "Redes Neurais Recorrentes: Estrutura da LSTM",
+    "enunciado": "As redes Long Short-Term Memory (LSTM) mitigam o problema do desaparecimento do gradiente em sequências temporais extensas por meio de um estado de célula (cell state) regulado por três mecanismos de portas (gates): porta de esquecimento (forget gate), porta de entrada (input gate) e porta de saída (output gate).",
+    "gabarito": "C",
+    "comentario": "CERTO. Arquitetura proposta por Hochreiter e Schmidhuber: o cell state funciona como uma 'esteira rolante' que transporta gradientes com alterações estritamente lineares. A forget gate decide o que descartar da memória passada; a input gate decide quais novas informações armazenar; e a output gate decide o estado oculto a ser emitido.",
+    "regra_ouro": "LSTMs contornam o desaparecimento do gradiente via cell state controlado por forget gate, input gate e output gate.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Redes Neurais, NLP e Modelos de Linguagem",
+    "topico_edital": "Tokenização em LLMs: Byte Pair Encoding (BPE)",
+    "enunciado": "O algoritmo Byte Pair Encoding (BPE), amplamente utilizado na tokenização de modelos de linguagem da família GPT, é uma técnica baseada em subpalavras (subwords) que mescla iterativamente os pares de bytes ou caracteres mais frequentes do corpus, permitindo representar palavras raras ou fora do vocabulário sem estourar o tamanho do dicionário.",
+    "gabarito": "C",
+    "comentario": "CERTO. O BPE soluciona o dilema entre tokenização por caracteres (sequências longas demais) e por palavras inteiras (vocabulário infinito e problema de Out-Of-Vocabulary / OOV). Ele quebra palavras desconhecidas em subpalavras conhecidas frequentes, garantindo compressão e robustez.",
+    "regra_ouro": "Byte Pair Encoding (BPE) decompõe textos em subpalavras frequentes, eliminando o problema de palavras fora do vocabulário (OOV).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Redes Neurais, NLP e Modelos de Linguagem",
+    "topico_edital": "Amostragem em LLMs: Temperatura e Top-p (Nucleus Sampling)",
+    "enunciado": "Ao ajustar os parâmetros de inferência de um Grande Modelo de Linguagem (LLM) para auxílio na redação de relatórios técnicos de auditoria, configurar a temperatura em um valor próximo a zero (ex: $T = 0,1$) estimula a criatividade e a diversidade léxica das respostas geradas pelo modelo.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Temperatura próxima a zero torna o modelo quase determinístico: a função softmax torna-se extremamente pontiaguda, fazendo o LLM escolher sempre os tokens de maior probabilidade matemática (respostas precisas, repetitivas e conservadoras). Altas temperaturas (ex: $T = 0,9$) achatam a distribuição e geram criatividade, variabilidade e maior risco de alucinações.",
+    "regra_ouro": "Temperatura baixa (0 a 0,2) gera respostas determinísticas e conservadoras; temperatura alta estimula criatividade e variação.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Redes Neurais, NLP e Modelos de Linguagem",
+    "topico_edital": "Similaridade de Cosseno entre Vetores de Texto",
+    "enunciado": "A similaridade de cosseno entre dois vetores de embeddings $A$ e $B$ afere o cosseno do ângulo formado entre eles no espaço multidimensional, sendo calculada dividindo-se o produto escalar de $A$ e $B$ pelo produto de suas normas euclidianas.",
+    "gabarito": "C",
+    "comentario": "CERTO. Fórmula matemática canônica: $\\cos(\\theta) = \\frac{A \\cdot B}{\\|A\\| \\|B\\|}$. Essa métrica varia de -1 a 1 (ou de 0 a 1 para vetores não negativos), medindo a orientação semântica dos textos independentemente do comprimento do documento (magnitude do vetor).",
+    "regra_ouro": "Similaridade de cosseno afere a proximidade de direção entre vetores, ignorando diferenças de comprimento do texto.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Redes Neurais, NLP e Modelos de Linguagem",
+    "topico_edital": "Bancos de Dados Vetoriais e Índice HNSW",
+    "enunciado": "Em bancos de dados vetoriais utilizados em arquiteturas RAG, o algoritmo HNSW (Hierarchical Navigable Small World) constrói um grafo multicamadas para realizar buscas aproximadas de vizinhos mais próximos (ANN), alcançando complexidade de tempo de busca logarítmica com alta precisão.",
+    "gabarito": "C",
+    "comentario": "CERTO. Fazer busca exata (K-NN com força bruta / brute-force) em milhões de vetores de 1536 dimensões é computacionalmente inviável. O HNSW organiza os vetores em grafos hierárquicos navegáveis (estilo *skip-list*): as camadas superiores dão saltos longos e as camadas inferiores refinam a busca localmente, permitindo consultas em milissegundos.",
+    "regra_ouro": "HNSW estrutura buscas vetoriais aproximadas em grafos multicamadas navegáveis com velocidade logarítmica O(log N).",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Redes Neurais, NLP e Modelos de Linguagem",
+    "topico_edital": "Alinhamento de LLMs: RLHF e DPO",
+    "enunciado": "O método DPO (Direct Preference Optimization) simplifica o alinhamento de preferências humanas em modelos de linguagem ao dispensar o treinamento e a manutenção de um modelo de recompensa (reward model) explícito separado, otimizando a política do LLM diretamente sobre pares de respostas preferidas e rejeitadas.",
+    "gabarito": "C",
+    "comentario": "CERTO. O RLHF tradicional requer três passos complexos: fine-tuning supervisionado, treinamento de um modelo de recompensa independente e otimização por reforço via PPO. O DPO deriva matematicamente que o modelo de recompensa pode ser substituído analiticamente na função de perda, ajustando o LLM diretamente em preferências humanas com muito mais estabilidade.",
+    "regra_ouro": "DPO otimiza preferências humanas diretamente no LLM, dispensando o modelo de recompensa separado do RLHF clássico.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Redes Neurais, NLP e Modelos de Linguagem",
+    "topico_edital": "Modelo Word2Vec: Skip-Gram vs CBOW",
+    "enunciado": "Na arquitetura Word2Vec, o modelo Continuous Bag-of-Words (CBOW) visa prever a palavra-alvo central a partir das palavras de contexto vizinhas, ao passo que a arquitetura Skip-Gram utiliza a palavra central para prever as palavras do contexto ao redor.",
+    "gabarito": "C",
+    "comentario": "CERTO. Definição clássica de Tomas Mikolov (2013): CBOW prevê a palavra central com base na média dos vetores das palavras do contexto (mais rápido para grandes volumes). Skip-Gram faz o inverso: dado o termo central, prevê os termos ao redor (melhor para palavras raras).",
+    "regra_ouro": "CBOW prevê o centro a partir do contexto; Skip-Gram prevê o contexto a partir da palavra central.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Redes Neurais, NLP e Modelos de Linguagem",
+    "topico_edital": "Modelagem de Tópicos com LDA (Latent Dirichlet Allocation)",
+    "enunciado": "A Alocação Latente de Dirichlet (LDA) é um modelo probabilístico generativo não supervisionado que assume que cada documento de um corpus é uma mistura sobre um conjunto de tópicos latentes, e cada tópico é caracterizado por uma distribuição sobre palavras.",
+    "gabarito": "C",
+    "comentario": "CERTO. Formulação de Blei et al. (2003): LDA trata documentos como misturas de tópicos não observados (latentes), onde cada tópico emite palavras de acordo com distribuições de probabilidade de Dirichlet. Muito usado em auditoria para descobrir automaticamente os assuntos predominantes em milhares de processos de ouvidoria ou denúncias.",
+    "regra_ouro": "LDA é modelo não supervisionado que decompõe documentos em misturas de tópicos latentes e tópicos em palavras.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Redes Neurais, NLP e Modelos de Linguagem",
+    "topico_edital": "Métrica BLEU e ROUGE em Avaliação de NLP",
+    "enunciado": "A métrica ROUGE-N mede primordialmente a precisão de n-gramas na tradução automática, ao passo que a métrica BLEU é orientada à revocação (recall), sendo a métrica padrão ouro para avaliar a cobertura informativa de sistemas de sumarização automática de textos.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Os focos estão invertidos. O BLEU (Bilingual Evaluation Understudy) baseia-se na PRECISÃO de n-gramas gerados em relação a textos de referência (padrão em tradução automática). O ROUGE (Recall-Oriented Understudy for Gisting Evaluation) baseia-se no RECALL de n-gramas sobrepostos (padrão em avaliação de resumos e sumarizações de textos).",
+    "regra_ouro": "BLEU avalia precisão de n-gramas (tradução); ROUGE avalia revocação/recall de n-gramas (sumarização de textos).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "MLOps, Governança e Gestão de Soluções de Dados",
+    "topico_edital": "Feature Stores e Prevenção de Skew de Treino/Inferência",
+    "enunciado": "O principal propósito de uma Feature Store (como Feast ou Hopsworks) em arquiteturas de MLOps é garantir a consistência das definições e transformações de variáveis preditoras entre a fase de treinamento offline em lote e a fase de inferência online em tempo real, evitando a assimetria de treino-serviço (training-serving skew).",
+    "gabarito": "C",
+    "comentario": "CERTO. Sem Feature Store, a engenharia de atributos é frequentemente reescrita em linguagens distintas (ex: SQL em batch no Spark e depois recriada em Java/C++ na API de inferência), gerando distorções sutis nos cálculos. A Feature Store centraliza a lógica e o catálogo de features para os dois ambientes.",
+    "regra_ouro": "Feature Store garante que as variáveis usadas no treinamento offline sejam calculadas com idêntica lógica na inferência online.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "MLOps, Governança e Gestão de Soluções de Dados",
+    "topico_edital": "Índice de Estabilidade Populacional (PSI)",
+    "enunciado": "O Índice de Estabilidade Populacional (PSI - Population Stability Index) é uma métrica estatística utilizada em MLOps para quantificar a magnitude do desvio na distribuição de uma variável ou escore entre a base de desenvolvimento (baseline) e os dados recebidos em produção ao longo do tempo.",
+    "gabarito": "C",
+    "comentario": "CERTO. O PSI mede o data drift comparando as proporções de dados em faixas (bins): $PSI = \\sum (Acur_{prod} - Acur_{base}) \\times \\ln(Acur_{prod} / Acur_{base})$. Convenção: $PSI < 0,1$ (estável, sem mudança significativa); $0,1 \\le PSI < 0,2$ (mudança moderada); $PSI \\ge 0,2$ (desvio significativo, exige retreinamento urgente do modelo).",
+    "regra_ouro": "PSI afere o drift populacional de escores em produção; PSI >= 0,2 sinaliza desvio crítico e necessidade de retreino.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "MLOps, Governança e Gestão de Soluções de Dados",
+    "topico_edital": "Explicabilidade Local com LIME",
+    "enunciado": "O método LIME (Local Interpretable Model-agnostic Explanations) explica predições individuais de modelos caixa-preta gerando perturbações aleatórias ao redor da instância sob análise, ponderando os pontos pela distância e ajustando um modelo linear simples localmente interpretável sobre essa vizinhança.",
+    "gabarito": "C",
+    "comentario": "CERTO. O LIME parte do princípio de que qualquer função complexa e não-linear, quando observada em uma vizinhança suficientemente próxima de um único ponto específico, pode ser aproximada com fidelidade por um modelo linear simples, gerando pesos intuitivos que explicam a decisão daquele caso.",
+    "regra_ouro": "LIME perturba a vizinhança local de um exemplo para ajustar um modelo linear explicativo sobre aquela predição pontual.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "MLOps, Governança e Gestão de Soluções de Dados",
+    "topico_edital": "Estratégias de Deploy: Canary Deployment vs Blue-Green",
+    "enunciado": "No padrão de implantação Canary Deployment em soluções de machine learning, a totalidade do tráfego de produção é transferida instantaneamente para a nova versão do modelo, revertendo-se a carga apenas se forem detectados erros críticos.",
+    "gabarito": "E",
+    "comentario": "ERRADO. O Canary Deployment roteia uma pequena fração do tráfego real (ex: 5%) para o novo modelo (o 'canário'), enquanto 95% continua na versão estável. O desempenho é monitorado e a proporção é aumentada gradualmente (10%, 25%, 50%, 100%) à medida que o modelo se mostra confiável. A virada de tráfego instantânea de 100% é a característica do Blue-Green Deployment.",
+    "regra_ouro": "Canary Deployment direciona uma fatia pequena e gradual do tráfego real (ex: 5%) para testar a estabilidade do novo modelo.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "MLOps, Governança e Gestão de Soluções de Dados",
+    "topico_edital": "Treinamento Contínuo (Continuous Training - CT)",
+    "enunciado": "O nível mais maduro de MLOps (MLOps Nível 2) caracteriza-se pela automação completa do pipeline de Treinamento Contínuo (CT), no qual o retreinamento, validação e implantação de novos modelos ocorrem de forma automatizada em resposta a gatilhos de drift de dados ou degradação de métricas de desempenho.",
+    "gabarito": "C",
+    "comentario": "CERTO. Definição do Google Cloud / MLOps Maturity Model: Nível 0 = processos manuais; Nível 1 = pipeline de treinamento automatizado (Continuous Training acionado por dados novos); Nível 2 = automação integral de CI/CD para pipelines de dados, código de modelagem e infraestrutura de deploy contínuo.",
+    "regra_ouro": "Continuous Training (CT) retreina e valida modelos automaticamente quando são detectados desvios de dados ou queda de performance.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Paradoxo de Simpson em Dados Agregados",
+    "enunciado": "O Paradoxo de Simpson descreve o fenômeno estatístico no qual uma tendência ou correlação observada em diferentes subgrupos de dados desaparece ou se inverte quando todos os subgrupos são combinados de forma agregada, em decorrência da presença de uma variável de confusão não controlada.",
+    "gabarito": "C",
+    "comentario": "CERTO. O Paradoxo de Simpson é lição crucial para cientistas de dados da CGU: analisar dados apenas de forma agregada pode levar a conclusões totalmente errôneas (ex: aparente discriminação de gênero em admissões que desaparece ou se inverte quando se controla pelo departamento acadêmico escolhido).",
+    "regra_ouro": "Paradoxo de Simpson: a correlação observada em subgrupos se inverte ou desaparece quando os dados são agregados.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Compressão em Parquet: Snappy vs Gzip",
+    "enunciado": "Na escrita de arquivos Parquet em Data Lakes, o algoritmo de compressão Snappy é frequentemente adotado como padrão por priorizar a velocidade de compressão e descompressão com baixo consumo de CPU, ao passo que o Gzip proporciona taxas de compressão mais elevadas ao custo de maior uso de processamento.",
+    "gabarito": "C",
+    "comentario": "CERTO. Trade-off clássico de compressão: Snappy busca throughput máximo (velocidade equilibrada ideal para queries interativas no Spark/Presto/Trino). Gzip comprime mais os dados no disco, mas exige mais ciclos de CPU para descompactar durante leituras analíticas pesadas.",
+    "regra_ouro": "Snappy prioriza velocidade de leitura/escrita rápida (padrão em Parquet); Gzip prioriza taxa de compressão máxima.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "Algoritmo de Otimização: Adam (Adaptive Moment Estimation)",
+    "enunciado": "O otimizador Adam combina as vantagens do método do Momento (Momentum), mantendo uma média móvel exponencial dos gradientes passados (primeiro momento), com as vantagens do RMSProp, ajustando taxas de aprendizado individuais para cada parâmetro com base na raiz da média dos gradientes ao quadrado (segundo momento).",
+    "gabarito": "C",
+    "comentario": "CERTO. Adam (Kingma e Ba, 2014) computa estimativas de primeiro momento $m_t$ (média dos gradientes) e segundo momento $v_t$ (variância não centralizada dos gradientes), aplicando correções de viés para as iterações iniciais. É o otimizador adaptativo mais utilizado no treinamento de redes profundas e Transformers.",
+    "regra_ouro": "Otimizador Adam combina Momentum (primeiro momento dos gradientes) e RMSProp (segundo momento dos gradientes).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Redes Neurais, NLP e Modelos de Linguagem",
+    "topico_edital": "Mecanismo de Atenção Multi-Head (Multi-Head Attention)",
+    "enunciado": "A atenção com múltiplas cabeças (Multi-Head Attention) divide os vetores de Query, Key e Value em múltiplos subespaços lineares paralelos, permitindo que o modelo atenda simultaneamente a informações originárias de diferentes posições e aspectos semânticos da sentença.",
+    "gabarito": "C",
+    "comentario": "CERTO. No Transformer, em vez de aplicar uma única autoatenção em dimensão $d_{model}$, projetam-se as Queries, Keys e Values em $h$ subespaços menores (ex: $h=8$ cabeças de dimensão $d_k = 64$). Cada cabeça especializa-se em capturar diferentes relações gramaticais, dependências sintáticas e contextos temáticos.",
+    "regra_ouro": "Multi-Head Attention divide o espaço em múltiplos subespaços paralelos para capturar relações contextuais multifacetadas.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "MLOps, Governança e Gestão de Soluções de Dados",
+    "topico_edital": "Segurança em Modelos de IA: Exposição de Dados Sensíveis",
+    "enunciado": "A técnica de privacidade diferencial (Differential Privacy) adiciona ruído matemático calibrado aos dados ou aos gradientes durante o treinamento de modelos de aprendizado de máquina, assegurando garantias matemáticas rigorosas de que a presença ou ausência de qualquer indivíduo específico na base de dados não poderá ser inferida a partir dos pesos finais do modelo.",
+    "gabarito": "C",
+    "comentario": "CERTO. Privacidade Diferencial ($\\epsilon$-differential privacy, proposta por Cynthia Dwork): injeta ruído estatístico controlado (distribuição de Laplace ou Gaussiana) para permitir extrair padrões coletivos da população garantindo formalmente que dados pessoais de nenhum indivíduo em particular possam ser reconstruídos por ataques de inversão de modelo.",
+    "regra_ouro": "Privacidade Diferencial adiciona ruído matemático para garantir que dados individuais não possam ser reconstruídos a partir do modelo.",
+    "nivel": "Difícil"
+  }
+]
