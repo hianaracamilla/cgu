@@ -41,14 +41,31 @@ async function injetarLote(arquivoJson) {
 
   console.log(`\nInjetando lote de ${questoes.length} questões no Supabase (${url})...`);
 
-  const { data, error } = await supabase.from('questoes').insert(questoes).select();
-
-  if (error) {
-    console.error('Erro na inserção do lote:', error);
-    process.exit(1);
+  const CHUNK_SIZE = 10;
+  let totalInseridas = 0;
+  for (let i = 0; i < questoes.length; i += CHUNK_SIZE) {
+    const chunk = questoes.slice(i, i + CHUNK_SIZE);
+    let tentativas = 3;
+    let inseriu = false;
+    while (tentativas > 0 && !inseriu) {
+      try {
+        const { error } = await supabase.from('questoes').insert(chunk);
+        if (error) throw error;
+        totalInseridas += chunk.length;
+        inseriu = true;
+        process.stdout.write(`  ... ${totalInseridas}/${questoes.length} inseridas\r`);
+      } catch (err) {
+        tentativas--;
+        if (tentativas === 0) {
+          console.error('\nErro na inserção do chunk:', err);
+          process.exit(1);
+        }
+        await new Promise((r) => setTimeout(r, 1000));
+      }
+    }
   }
 
-  console.log(`✅ Sucesso! ${data?.length || questoes.length} questões inseridas no banco.`);
+  console.log(`\n✅ Sucesso! ${totalInseridas} questões inseridas no banco.`);
 
   // Estatísticas atualizadas do banco
   const { data: todas, error: errTotal } = await supabase.from('questoes').select('bloco');

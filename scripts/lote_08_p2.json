@@ -1,0 +1,502 @@
+[
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "COSO ICIF: Os Cinco Componentes do Controle Interno",
+    "enunciado": "No modelo COSO ICIF (Internal Control - Integrated Framework), os cinco componentes interdependentes de controle interno são: Ambiente de Controle, Avaliação de Riscos, Atividades de Controle, Informação e Comunicação e Atividades de Monitoramento.",
+    "gabarito": "C",
+    "comentario": "CERTO. O framework COSO ICIF estrutura o sistema de controle interno em 5 componentes integrados: 1) Ambiente de Controle (postura da alta administração, ética); 2) Avaliação de Riscos (identificação e mensuração); 3) Atividades de Controle (políticas e travas); 4) Informação e Comunicação; e 5) Monitoramento (avaliações contínuas).",
+    "regra_ouro": "5 Componentes do COSO: Ambiente de Controle, Avaliação de Riscos, Atividades de Controle, Informação/Comunicação e Monitoramento.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "COSO ERM 2017: Integração com Estratégia e Desempenho",
+    "enunciado": "A atualização do COSO ERM (2017) alterou a ênfase tradicional do gerenciamento de riscos corporativos, passando a tratá-lo não como uma função de conformidade isolada, mas como elemento indissociável da formulação da estratégia e da tomada de decisões da organização.",
+    "gabarito": "C",
+    "comentario": "CERTO. O COSO ERM 2017 ('Integrating with Strategy and Performance') foca na criação, preservação e realização de valor, alinhando a gestão de riscos à estratégia institucional e à governança corporativa, indo além do mero controle operacional.",
+    "regra_ouro": "COSO ERM 2017 integra a gestão de riscos diretamente à formulação da estratégia e ao desempenho organizacional.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Lei das Estatais (Lei 13.303/2016): Comitê de Auditoria Estatutário",
+    "enunciado": "De acordo com a Lei 13.303/2016 (Lei das Estatais), o Comitê de Auditoria Estatutário é órgão auxiliar vinculado diretamente à Diretoria Executiva da empresa pública ou sociedade de economia mista, a quem compete aprovar o plano anual de auditoria interna.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Conforme o art. 24 da Lei 13.303/2016, o Comitê de Auditoria Estatutário é órgão auxiliar vinculado ao CONSELHO DE ADMINISTRAÇÃO (e não à Diretoria Executiva), visando resguardar sua independência em relação aos gestores operacionais.",
+    "regra_ouro": "Comitê de Auditoria da Lei das Estatais vincula-se ao CONSELHO DE ADMINISTRAÇÃO, nunca à Diretoria Executiva.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "ISO 37001 e Gestão Antissuborno",
+    "enunciado": "A certificação na norma internacional ABNT NBR ISO 37001 (Sistemas de Gestão Antissuborno) confere à empresa contratada imunidade penal e administrativa automática perante os órgãos de controle, inviabilizando a abertura de Processo Administrativo de Responsabilização na CGU.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Nenhuma certificação ISO confere imunidade jurídica. A ISO 37001 atesta que a empresa implementou uma estrutura formal de prevenção ao suborno, servindo como elemento relevante na avaliação de efetividade do programa de compliance (atenuante de multa na Lei Anticorrupção), mas não impede a apuração de desvios concretos.",
+    "regra_ouro": "Certificação ISO 37001 não confere imunidade contra processos sancionadores; atua como elemento comprobatório de compliance.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Pilares do Programa de Integridade Pública (Guia da CGU)",
+    "enunciado": "Segundo as orientações da CGU, o compromisso e o apoio visível e inequívoco da alta administração constituem o pilar estruturante e indispensável para a legitimidade e a eficácia de qualquer programa de integridade pública.",
+    "gabarito": "C",
+    "comentario": "CERTO. O 'tom que vem do topo' (tone from the top) é a base de sustentação da integridade. Sem a liderança exemplar, alocação de recursos e respaldo ético dos dirigentes máximos, o programa de integridade perde credibilidade e converte-se em mera retórica formal.",
+    "regra_ouro": "Compromisso inequívoco da alta administração ('Tone from the Top') é a premissa basilar de qualquer programa de integridade.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Conflito de Interesses: Consulta Prévia (Lei 12.813/2013)",
+    "enunciado": "O servidor público federal que tenha dúvidas sobre a existência de potencial conflito de interesses no exercício de atividade privada paralela tem o direito e o dever de realizar consulta formal eletrônica à CGU ou à Comissão de Ética Pública antes de iniciar a atividade.",
+    "gabarito": "C",
+    "comentario": "CERTO. Arts. 4º e 8º da Lei 12.813/2013 e Portaria Interministerial MP/CGU 333/2013: a consulta sobre conflito de interesses pode ser realizada pelo sistema SeCI da CGU (para servidores em geral) ou pela Comissão de Ética Pública (para autoridades do art. 2º), gerando resposta formal que resguarda a boa-fé do agente.",
+    "regra_ouro": "Dúvida sobre atividade privada paralela deve ser dirimida via consulta formal de conflito de interesses à CGU/CEP.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Proteção do Denunciante contra Retaliação (Dec. 10.153/2019)",
+    "enunciado": "Constitui ato de retaliação vedado pelo Decreto 10.153/2019 a transferência involuntária de setor, a alteração injustificada de funções, a exoneração de cargo em comissão ou a instauração abusiva de processo disciplinar contra servidor em decorrência de denúncia de irregularidades por ele formulada.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 5º do Decreto 10.153/2019: as medidas protetivas incluem a vedação estrita a qualquer forma de retaliação direta ou indireta (transferências punitivas, perda de confiança funcional sem motivo, perseguição administrativa), sujeitando o assediador a sanções graves.",
+    "regra_ouro": "Retaliação contra denunciante (transferência forçada, demissão ou PAD abusivo) é estritamente proibida e punível.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Lei das Estatais: Vedações para Cargos de Diretoria (Art. 17)",
+    "enunciado": "A Lei 13.303/2016 proíbe a indicação para o Conselho de Administração e para a Diretoria de empresa estatal de pessoa que tenha atuado, nos últimos 36 meses, como participante de estrutura decisória de partido político ou em trabalho vinculado a organização de campanha eleitoral.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 17, § 2º, II, da Lei 13.303/2016: estabelece a quarentena política de 36 meses para blindar as empresas estatais da captura político-partidária imediata e garantir a profissionalização técnica da governança corporativa.",
+    "regra_ouro": "Quarentena da Lei das Estatais: 36 meses de afastamento de direção partidária ou campanha para assumir diretoria de estatal.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Publicação Extraordinária da Decisão Condenatória no PAR",
+    "enunciado": "A publicação extraordinária da decisão administrativa condenatória na Lei Anticorrupção é facultativa, cabendo à empresa condenada escolher se prefere veicular o extrato da punição em jornal de grande circulação ou apenas afixá-lo em seu mural interno.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A publicação extraordinária da decisão condenatória é sanção administrativa cumulativa e OBRIGATÓRIA (art. 6º, II, da Lei 12.846/2013). Será feita às expensas da pessoa jurídica, em meio de comunicação de grande circulação e em destaque na página inicial de seu sítio na internet, não havendo discricionariedade da infratora.",
+    "regra_ouro": "Publicação extraordinária da decisão no PAR é sanção CUMULATIVA OBRIGATÓRIA às custas da empresa condenada.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Cultura Organizacional e o Triângulo da Fraude de Cressey",
+    "enunciado": "De acordo com o modelo do Triângulo da Fraude formulado por Donald Cressey, os três fatores que concorrem simultaneamente para a ocorrência de fraudes corporativas são: Pressão/Motivação, Oportunidade e Racionalização.",
+    "gabarito": "C",
+    "comentario": "CERTO. Teoria clássica de fraudes: 1) Pressão (incentivo financeiro ou metas inatingíveis); 2) Oportunidade (falha nos controles internos ou ausência de supervisão); e 3) Racionalização (justificativa moral interna do infrator, ex: 'todos fazem', 'o Estado me paga mal'). Os controles internos atacam primordialmente a Oportunidade.",
+    "regra_ouro": "Triângulo da Fraude (Cressey): Pressão, Oportunidade e Racionalização. Controles internos eliminam a Oportunidade.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Prazos de Resposta na Lei de Acesso à Informação (Art. 11 LAI)",
+    "enunciado": "Caso a informação solicitada pelo cidadão não esteja disponível de imediato, o órgão público tem o prazo ordinário de até vinte dias para conceder o acesso ou justificar a negativa, prazo este que poderá ser prorrogado por mais dez dias mediante justificativa expressa.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 11, § 1º e § 2º, da Lei 12.527/2011: prazo ordinário de 20 dias corridos, prorrogável por mais 10 dias, cientificado o requerente das razões da dilação.",
+    "regra_ouro": "Prazo de atendimento na LAI: 20 dias corridos, prorrogáveis por mais 10 dias mediante justificativa.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Infrações Disciplinares na LAI: Recusa Injustificada (Art. 32)",
+    "enunciado": "Constitui conduta ilícita punível funcionalmente na Lei de Acesso à Informação recusar-se a fornecer informação requerida nos termos da lei, retardar deliberadamente o seu fornecimento ou fornecê-la intencionalmente de forma incorreta, incompleta ou imprecisa.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 32, I e II, da Lei 12.527/2011: prevê a responsabilidade administrativa do agente público por recusa injustificada, retardamento ou sonegação de informação, punida no mínimo com suspensão funcional.",
+    "regra_ouro": "Recusar ou retardar injustificadamente o acesso à informação configura infração funcional sancionável na LAI.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Dados Pessoais Sensíveis na LGPD (Art. 5º, II)",
+    "enunciado": "Conforme a Lei Geral de Proteção de Dados (Lei 13.709/2018), o número do CPF, a remuneração bruta mensal e a lotação funcional de um servidor público estável são classificados legalmente como dados pessoais sensíveis.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Art. 5º, II da LGPD: Dado pessoal sensível é apenas aquele referente a origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso/filosófico/político, dado referente à saúde ou à vida sexual, dado genético ou biométrico. CPF e remuneração são dados pessoais comuns (a remuneração de servidores é, inclusive, pública pela LAI e tema 483 STF).",
+    "regra_ouro": "Remuneração e lotação funcional são dados públicos comuns; NÃO configuram dados pessoais sensíveis da LGPD.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Princípio da Necessidade e Minimização na LGPD (Art. 6º, III)",
+    "enunciado": "O princípio da necessidade (minimização), previsto na LGPD, limita o tratamento de dados pessoais pela Administração Pública ao mínimo estritamente indispensável para a realização de suas finalidades legítimas, abrangendo apenas dados pertinentes, proporcionais e não excessivos.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 6º, III, da LGPD: 'Necessidade: limitação do tratamento ao mínimo necessário para a realização de suas finalidades, com abrangência dos dados pertinentes, proporcionais e não excessivos em relação às finalidades do tratamento'.",
+    "regra_ouro": "Princípio da Necessidade/Minimização na LGPD: coletar apenas os dados indispensáveis e proporcionais à finalidade pública.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Prazos das Ouvidorias Públicas (Decreto 9.492/2018)",
+    "enunciado": "No âmbito do Sistema de Ouvidorias do Poder Executivo federal (SisOuv), as ouvidorias têm o prazo de trinta dias para responder às manifestações de usuários, prorrogável de forma justificada por igual período.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 16 da Lei 13.460/2017 e art. 20 do Decreto 9.492/2018: a ouvidoria responderá ao cidadão em até 30 dias corridos, prorrogável uma única vez por mais 30 dias mediante justificativa expressa.",
+    "regra_ouro": "Prazo de manifestação em ouvidoria pública federal: 30 dias, prorrogável por mais 30 dias mediante justificativa.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Admissibilidade de Denúncia Anônima em Ouvidoria",
+    "enunciado": "A apresentação de denúncia anônima em ouvidoria pública federal impede qualquer atuação investigativa da Administração, devendo a peça ser sumariamente arquivada sem qualquer conferência preliminar de consistência fática.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A orientação consolidada na CGU e no STF (Súmula 611 STJ): a denúncia anônima não pode, por si só, deflagrar de pronto um processo formal acusatório, mas impõe à Administração o dever de realizar investigação preliminar sumária para apurar se os fatos relatados possuem indícios mínimos de veracidade e materialidade.",
+    "regra_ouro": "Denúncia anônima exige investigação preliminar sumária de consistência fática; não autoriza arquivamento cego imediato.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Parceria para Governo Aberto (Open Government Partnership - OGP)",
+    "enunciado": "A Parceria para Governo Aberto (OGP), iniciativa multilateral internacional da qual o Brasil é país cofundador, visa fomentar a transparência governamental, combater a corrupção, empoderar cidadãos e aproveitar novas tecnologias para fortalecer a governança pública.",
+    "gabarito": "C",
+    "comentario": "CERTO. O Brasil é membro-fundador da OGP (lançada em 2011). No Brasil, a CGU é o ponto focal nacional de coordenação dos Planos de Ação Nacionais de Governo Aberto, articulados conjuntamente com organizações da sociedade civil.",
+    "regra_ouro": "Brasil é cofundador da OGP (Open Government Partnership) e a CGU coordena os Planos de Ação de Governo Aberto.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Audiências Públicas e Participação Social na LRF (Art. 48)",
+    "enunciado": "A Lei de Responsabilidade Fiscal estabelece como instrumento de transparência e controle social a realização de audiências públicas obrigatórias durante os processos de elaboração e discussão dos planos orçamentários, da LDO e da LOA.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 48, § 1º, I, da LRF (LC 101/2000): exige expressamente o incentivo à participação popular e a realização de audiências públicas durante a elaboração e discussão do PPA, LDO e LOA, bem como a liberação de dados em tempo real na internet.",
+    "regra_ouro": "LRF impõe realização de audiências públicas orçamentárias como mecanismo compulsório de controle e participação social.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "Teoria dos Motivos Determinantes no Direito Administrativo",
+    "enunciado": "Consoante a Teoria dos Motivos Determinantes, a validade do ato administrativo fica vinculada aos motivos fáticos e jurídicos invocados pela autoridade para sua prática; se os motivos apresentados forem falsos ou inexistentes, o ato será nulo, ainda que se trate de ato discricionário.",
+    "gabarito": "C",
+    "comentario": "CERTO. Se a administração explicita os motivos de sua decisão (mesmo em atos onde a motivação seria facultativa, como exoneração de cargo em comissão), ela fica vinculada à veracidade desses motivos. Se for comprovado que o motivo alegado não existiu na realidade, o ato é fulminado de nulidade insanável.",
+    "regra_ouro": "Teoria dos Motivos Determinantes: ato administrativo é nulo se a justificativa fática alegada pela autoridade for falsa ou inexistente.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "Autotutela Administrativa: Súmula 473 do STF",
+    "enunciado": "A Administração Pública pode anular seus próprios atos, quando eivados de vícios que os tornam ilegais, porque deles não se originam direitos; ou revogá-los, por motivo de conveniência ou oportunidade, respeitados os direitos adquiridos e ressalvada, em todos os casos, a apreciação judicial.",
+    "gabarito": "C",
+    "comentario": "CERTO. Texto consagrado da Súmula 473 do STF (e art. 53 da Lei 9.784/1999). Anulação refere-se à ilegalidade (atos ilegais, efeitos ex tunc); revogação refere-se ao mérito (oportunidade e conveniência, efeitos ex nunc).",
+    "regra_ouro": "Súmula 473 STF: anula atos ilegais (dever/legalidade) e revoga atos inoportunos (mérito/discricionariedade).",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "Decadência do Direito de Anular Atos Administrativos (Art. 54 Lei 9.784)",
+    "enunciado": "O direito da Administração de anular os atos administrativos de que decorram efeitos favoráveis para os destinatários decai em cinco anos, contados da data em que foram praticados, salvo comprovada má-fé do beneficiário.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 54 da Lei 9.784/1999: fixa o prazo decadencial quinquenal (5 anos) para conferir segurança jurídica e estabilidade às relações sociais, ressalvada a existência de má-fé, hipótese em que o ato pode ser anulado a qualquer tempo.",
+    "regra_ouro": "Decadência de 5 anos para a Administração anular atos favoráveis ao administrado de boa-fé (art. 54 Lei 9.784).",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "Prescrição Intercorrente no Processo Sancionador (Lei 9.873/1999)",
+    "enunciado": "Conforme a Lei 9.873/1999, incide a prescrição intercorrente no procedimento administrativo sancionador paralisado por mais de três anos pendente de julgamento ou despacho da autoridade administrativa, devendo os autos ser arquivados de ofício ou a requerimento da parte.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 1º, § 1º, da Lei 9.873/1999: 'Incide a prescrição no procedimento administrativo paralisado por mais de três anos, pendente de julgamento ou despacho, cujos autos serão arquivados de ofício ou mediante requerimento da parte interessada'.",
+    "regra_ouro": "Prescrição intercorrente no processo sancionador federal (Lei 9.873) ocorre após 3 ANOS de paralisação injustificada dos autos.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "Responsabilidade dos Gestores perante o TCU: Subjetiva",
+    "enunciado": "Na jurisprudência pacificada do Tribunal de Contas da União, a responsabilidade dos gestores públicos sujeitos à sua jurisdição fiscalizatória é de natureza puramente objetiva, prescindindo de comprovação de dolo ou culpa para a condenação em débito e aplicação de multa pecuniária.",
+    "gabarito": "E",
+    "comentario": "ERRADO. No TCU, a responsabilidade sancionatória dos gestores é SUBJETIVA (exige a caracterização de dolo ou culpa/erro grosseiro nos termos do art. 28 da LINDB, além da conduta, nexo de causalidade e resultado lesivo). A responsabilidade civil objetiva da CF (art. 37, § 6º) aplica-se às pessoas jurídicas de direito público perante os cidadãos, não aos servidores perante o TCU.",
+    "regra_ouro": "Responsabilidade do gestor perante o TCU é SUBJETIVA (exige comprovação de dolo ou erro grosseiro/culpa).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "Tomada de Contas Especial (TCE): Pressupostos Materiais",
+    "enunciado": "A Tomada de Contas Especial (TCE) é um processo administrativo formal que deve ser instaurado pela autoridade competente sempre que constatada omissão no dever de prestar contas, não comprovação da aplicação de recursos federais ou ocorrência de desfalque, desvio ou dano ao erário.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 8º da Lei 8.443/1992 (Lei Orgânica do TCU) e Instrução Normativa TCU 71/2012: diante de dano ao erário ou omissão na prestação de contas, a autoridade administrativa competente deve imediatamente adotar medidas administrativas internas e, esgotadas estas sem ressarcimento, instaurar a respectiva TCE.",
+    "regra_ouro": "TCE é instrumento formal instaurado após esgotadas as medidas administrativas diante de dano comprovado ao erário federal.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "Medida Cautelar de Suspensão de Licitação pela CGU e TCU",
+    "enunciado": "Diante de fundado receio de grave lesão ao erário ou de fraude em processo licitatório em andamento, os órgãos de controle podem determinar cautelarmente a suspensão do certame, sendo desnecessária a oitiva prévia da entidade contratante quando a demora puder causar prejuízo irreparável.",
+    "gabarito": "C",
+    "comentario": "CERTO. O poder geral de cautela deferido ao TCU (art. 276 do Regimento Interno do TCU e jurisprudência do STF) e às instâncias correcionais permite a expedição de medida cautelar 'inaudita altera parte' (sem oitiva prévia) caso haja perigo na demora (*periculum in mora*) e fumaça do bom direito (*fumus boni iuris*).",
+    "regra_ouro": "Medida cautelar de suspensão de licitação pode ser concedida sem prévia oitiva do gestor em caso de urgência inadiável.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "Princípio da Insignificância na Esfera Disciplinar",
+    "enunciado": "A jurisprudência do Superior Tribunal de Justiça admite a aplicação do princípio da insignificância ou bagatela na esfera disciplinar da Administração Pública, afastando a demissão em hipóteses de conduta isolada de ínfima lesividade patrimonial, desprovida de habitualidade e sem abalo moral ao serviço público.",
+    "gabarito": "C",
+    "comentario": "CERTO. Jurisprudência reiterada do STJ (MS 20.301/DF e RMS 56.402): os postulados da proporcionalidade e razoabilidade autorizam mitigar o rigor formal do estatuto para evitar a pena extrema de demissão diante de fatos irrisórios/bagatelares sem dolo qualificado de lesão ao erário.",
+    "regra_ouro": "STJ admite princípio da insignificância em matéria disciplinar para afastar penalidades desproporcionais a condutas irrelevantes.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Evidências, Dados e Inteligência Artificial",
+    "topico_edital": "Cadeia de Custódia da Prova Digital em Auditoria",
+    "enunciado": "Na apreensão de evidências digitais (como imagens de discos rígidos, arquivos de logs e bases de dados), o cálculo de função hash criptográfica (como SHA-256) imediatamente após a cópia forense é técnica indispensável para demonstrar judicialmente a integridade e a não alteração dos arquivos.",
+    "gabarito": "C",
+    "comentario": "CERTO. A cadeia de custódia da prova pericial digital (arts. 158-A e ss. do CPP e boas práticas da CGU) exige o registro cronológico e a geração de assinaturas/hashes criptográficos para atestar que a evidência apresentada em juízo é matematicamente idêntica àquela extraída na origem.",
+    "regra_ouro": "Hash criptográfico (ex: SHA-256) garante a integridade e a não violação da cadeia de custódia de evidências digitais.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Evidências, Dados e Inteligência Artificial",
+    "topico_edital": "Dados Estruturados vs Não Estruturados em Auditoria",
+    "enunciado": "Documentos contratuais digitalizados em formato PDF contendo termos aditivos, relatórios fotográficos de obras públicas e gravações em áudio de audiências de licitação são exemplos de dados estruturados em bases relacionais SQL.",
+    "gabarito": "E",
+    "comentario": "ERRADO. São exemplos típicos de dados NÃO ESTRUTURADOS (ou semiestruturados). Dados estruturados são aqueles organizados com esquema rígido pré-definido em tabelas de linhas e colunas relacionais (ex: tabelas do SIAFI, SIASG, planilhas orçamentárias tabuladas). PDFs, imagens e áudios exigem técnicas de OCR, NLP e visão computacional.",
+    "regra_ouro": "PDFs, fotos e áudios são dados NÃO ESTRUTURADOS; tabelas SQL com colunas e tipos definidos são dados ESTRUTURADOS.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Evidências, Dados e Inteligência Artificial",
+    "topico_edital": "Mineração de Processos (Process Mining) em Contratações Públicas",
+    "enunciado": "A Mineração de Processos (Process Mining) utiliza os registros de eventos ('event logs') gerados pelos sistemas corporativos para reconstruir o fluxo operacional real das contratações públicas, permitindo identificar desvios em relação ao modelo ideal de compras e gargalos de tramitação.",
+    "gabarito": "C",
+    "comentario": "CERTO. Process Mining extrai trilhas de auditoria digitais (ID do caso, atividade realizada, carimbo de tempo/timestamp e usuário executor) para visualizar conformidade e eficiência de processos, identificando desvios na segregação de funções e pagamentos antecipados indevidos.",
+    "regra_ouro": "Process Mining analisa 'event logs' para reconstruir visualmente os fluxos reais e identificar desvios em contratações.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Evidências, Dados e Inteligência Artificial",
+    "topico_edital": "Regressão Linear e Resíduos na Detecção de Superfaturamento",
+    "enunciado": "Na modelagem econométrica de preços de obras públicas, a análise dos resíduos de uma regressão linear permite identificar itens cujos preços observados se distanciam expressivamente dos valores previstos pelo modelo de mercado, atuando como indicativo estatístico de potencial sobrepreço a ser aprofundado pelos auditores.",
+    "gabarito": "C",
+    "comentario": "CERTO. O resíduo é a diferença entre o valor real observado e o valor estimado pelo modelo de regressão ($e_i = y_i - \\hat{y}_i$). Resíduos positivos atípicos (outliers de preços) sinalizam distorções de mercado que orientam a fiscalização direcionada da engenharia de custos.",
+    "regra_ouro": "Análise de resíduos e outliers em modelos de regressão identifica distorções atípicas de preços em auditoria de obras.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Evidências, Dados e Inteligência Artificial",
+    "topico_edital": "Testes de Hipóteses e P-Valor em Amostragens",
+    "enunciado": "Em um teste de hipóteses estatístico com nível de significância alfa fixado em 5% (0,05), se o valor-p (p-value) resultante do teste for de 0,01, o auditor deve aceitar a hipótese nula de que não há diferenças significativas na conformidade do processo auditado.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Regra áurea da decisão em testes estatísticos: quando o p-valor é MENOR que o nível de significância ($p < \\alpha$), rejeita-se a hipótese nula ($H_0$) em favor da hipótese alternativa. Sendo $p = 0,01 < 0,05$, há evidência estatística suficiente para rejeitar a hipótese nula.",
+    "regra_ouro": "Se p-valor < alfa, REJEITA-SE a hipótese nula ($H_0$).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Evidências, Dados e Inteligência Artificial",
+    "topico_edital": "Justiça Algorítmica (Fairness) e Vieses em Políticas Públicas",
+    "enunciado": "O treinamento de algoritmos de concessão de crédito ou benefícios assistenciais com base em dados históricos sem filtragem de variáveis enviesadas pode perpetuar e amplificar discriminações históricas contra grupos sociais vulneráveis, resultando no fenômeno do viés algorítmico.",
+    "gabarito": "C",
+    "comentario": "CERTO. Os modelos preditivos aprendem os padrões presentes nos dados históricos de treinamento. Se o passado continha assimetrias ou exclusões históricas, o algoritmo reproduzirá essa injustiça de forma automatizada e em larga escala sob a falsa aparência de neutralidade técnica.",
+    "regra_ouro": "Viés algorítmico decorre de dados de treino historicamente desiguais, perpetuando discriminações sem intervenção corretiva.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Plano Anual de Auditoria Interna (PAINT) e RAINT",
+    "enunciado": "O Plano Anual de Auditoria Interna (PAINT) consolida o planejamento anual das ações de auditoria a serem desenvolvidas pelas unidades de controle interno, devendo seu resultado final de execução ser reportado formalmente aos órgãos de governança por meio do Relatório Anual de Atividades da Auditoria Interna (RAINT).",
+    "gabarito": "C",
+    "comentario": "CERTO. Conforme as normas da CGU (IN SFC 05/2021 e IN SFC 03/2017), o ciclo anual das auditorias internas das unidades do Executivo Federal é inaugurado com a aprovação do PAINT e encerrado com a prestação de contas dos trabalhos realizados no RAINT.",
+    "regra_ouro": "PAINT planeja as ações anuais da auditoria interna; RAINT presta contas das auditorias efetivamente executadas.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Técnicas de Auditoria: Circularização (Confirmação Externa)",
+    "enunciado": "A circularização consiste na obtenção de declaração formal escrita e independente de terceiros não vinculados à entidade auditada (como bancos, fornecedores e órgãos judiciais) para atestar a veracidade de saldos contábeis, estoques ou compromissos jurídicos.",
+    "gabarito": "C",
+    "comentario": "CERTO. A circularização ou confirmação externa é técnica de alto grau de confiabilidade probatória em auditoria: a confirmação direta recebida de fonte externa independente ao ente auditado mitiga os riscos de fraude ou ocultação documental interna.",
+    "regra_ouro": "Circularização é a confirmação direta e externa obtida de terceiros independentes (bancos, credores) para atestar a veracidade dos dados.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Amostragem Estatística vs Amostragem Não Estatística",
+    "enunciado": "Na amostragem estatística (probabilística), cada item da população possui uma probabilidade conhecida e diferente de zero de ser selecionado, permitindo ao auditor quantificar matematicamente o risco de amostragem e extrapolar as conclusões com nível de confiança definido.",
+    "gabarito": "C",
+    "comentario": "CERTO. Na amostragem probabilística/estatística, a seleção aleatória e o cálculo de probabilidades garantem inferência estatística rigorosa sobre o universo. Na amostragem não estatística (por julgamento ou intencional), a seleção baseia-se no critério e experiência do auditor, não admitindo extrapolação probabilística do erro.",
+    "regra_ouro": "Amostragem Estatística exige probabilidade conhecida e calculável de seleção para projetar conclusões matematicamente sobre a população.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Matriz de Responsabilização: Elementos Constitutivos",
+    "enunciado": "A Matriz de Responsabilização elaborada em auditorias da CGU e do TCU destina-se a individualizar a conduta dos agentes envolvidos em irregularidades, exigindo a identificação da conduta praticada, do critério legal infringido, do nexo causal com o dano e da culpabilidade do agente.",
+    "gabarito": "C",
+    "comentario": "CERTO. Manual de Auditoria da CGU e Padrões do TCU: a matriz de responsabilização não admite responsabilização genérica ou presumida; exige individualização detalhada: 1) Quem agiu ou se omitiu; 2) Qual o dever descumprido; 3) O nexo causal entre o ato e o dano; e 4) O elemento de culpa/dolo.",
+    "regra_ouro": "Matriz de responsabilização exige individualização da conduta, nexo causal, critério violado e culpabilidade do agente.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Procedimentos Analíticos em Auditoria Governamental",
+    "enunciado": "Os procedimentos analíticos de auditoria consistem na avaliação de informações financeiras e não financeiras por meio do estudo de relações plausíveis entre dados, abrangendo comparações temporais, índices de liquidez e flutuações atípicas que fujam aos padrões históricos.",
+    "gabarito": "C",
+    "comentario": "CERTO. Conforme as normas de auditoria (NBC TA 520 e ISSAI 2520), os procedimentos analíticos (revisão analítica) examinam relações e tendências para identificar comportamentos anômalos que demandem aprofundamento por testes de detalhes.",
+    "regra_ouro": "Procedimentos analíticos avaliam flutuações e correlações entre dados para mapear tendências anômalas.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Papel da Primeira Linha no Modelo das Três Linhas do IIA",
+    "enunciado": "No modelo atualizado das Três Linhas do IIA, os papéis de primeira linha concentram-se no fornecimento de serviços de consultoria e avaliação independente aos órgãos de governança, cabendo à terceira linha a responsabilidade direta pela liderança e entrega dos produtos institucionais.",
+    "gabarito": "E",
+    "comentario": "ERRADO. No modelo do IIA: a 1ª Linha é a gestão operacional (entrega produtos e gerencia riscos no dia a dia); a 2ª Linha presta suporte, monitoramento e supervisão especializada de conformidade/riscos; e a 3ª Linha (Auditoria Interna) é quem fornece a avaliação e consultoria independente e objetiva à alta governança.",
+    "regra_ouro": "1ª Linha = operação e execução cotidiana; 3ª Linha = auditoria interna com avaliação independente.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Whistleblowing: Canais Internos de Denúncia",
+    "enunciado": "A existência de canal de denúncias independente e com garantia inequívoca de anonimato constitui o mecanismo isolado mais eficiente para a detecção precoce de fraudes e desvios éticos em organizações públicas e privadas segundo pesquisas globais.",
+    "gabarito": "C",
+    "comentario": "CERTO. Relatórios da ACFE (Association of Certified Fraud Examiners) e da CGU demonstram reiteradamente que denúncias via canais éticos (*whistleblowing*) respondem por mais de 40% das fraudes detectadas, superando auditorias externas e controles formais de conciliação.",
+    "regra_ouro": "Canais de relato e denúncia (Whistleblowing) são o mecanismo estatisticamente mais eficaz na detecção precoce de fraudes.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Gestão de Riscos: Matriz de Probabilidade e Impacto",
+    "enunciado": "Em uma matriz de avaliação qualitativa de riscos 5x5, um evento com probabilidade 'quase certa' (nível 5) e impacto 'insignificante' (nível 1) recebe a mesma pontuação global de risco de um evento com probabilidade 'rara' (nível 1) e impacto 'catastrófico' (nível 5), devendo receber idêntica resposta e prioridade de controle.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Embora o produto multiplicativo seja idêntico ($5 \\times 1 = 5$), o gerenciamento moderno de riscos e o princípio da proporcionalidade diferenciam riscos de alto impacto e baixa probabilidade (riscos catastróficos ou caudas pesadas / 'cisnes negros'), que exigem planos de contingência e continuidade de negócios específicos, ao passo que desvios frequentes de baixo impacto são tratados por rotinas operacionais simples.",
+    "regra_ouro": "Riscos de impacto catastrófico exigem planos de contingência específicos, não podendo ser equiparados mecanicamente a desvios triviais frequentes.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Transparência Passiva: Pedidos Desproporcionais ou Desarrazoados",
+    "enunciado": "O Decreto 7.724/2012 autoriza o indeferimento de pedidos de acesso à informação que sejam desproporcionais ou desarrazoados, ou que exijam trabalhos adicionais de análise, interpretação ou consolidação de dados e informações que não estejam prontos sob a custódia do órgão público.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 13 do Decreto 7.724/2012: não serão atendidos pedidos de acesso genéricos, desproporcionais/desarrazoados ou que exijam consolidação e produção inovadora de informações inexistentes, devendo a recusa ser devidamente motivada.",
+    "regra_ouro": "Pedidos desarrazoados ou que demandem produção nova de dados podem ser licitamente indeferidos na LAI com base no art. 13.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Anonimização de Dados Pessoais na LGPD (Art. 12)",
+    "enunciado": "Os dados anonimizados não são considerados dados pessoais para os fins da LGPD, salvo quando o processo de anonimização ao qual foram submetidos for passível de reversão, utilizando exclusivamente meios próprios do controlador ou esforços razoáveis.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 12 da Lei 13.709/2018: dados verdadeiramente anonimizados deixam de ser dados pessoais (escapam do regime da LGPD). Contudo, se a anonimização puder ser revertida por meios razoáveis (risco de reidentificação), o dado recupera sua natureza de dado pessoal protegido.",
+    "regra_ouro": "Dado anonimizado não é dado pessoal sob a LGPD, salvo se o processo de anonimização for reversível com esforço razoável.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Carta de Serviços ao Usuário (Lei 13.460/2017)",
+    "enunciado": "A Carta de Serviços ao Usuário tem por objetivo informar o cidadão sobre os serviços prestados pelo órgão público, as formas de acesso a esses serviços e seus respectivos compromissos e padrões de qualidade de atendimento.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 7º da Lei 13.460/2017: todos os órgãos públicos devem manter atualizada sua Carta de Serviços, detalhando prazos máximos, documentos necessários, canais de atendimento e padrões de qualidade.",
+    "regra_ouro": "Carta de Serviços ao Usuário detalha serviços prestados, prazos, exigências e padrões de qualidade para o cidadão.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "Motivação nos Atos Administrativos da Lei 9.784/1999 (Art. 50)",
+    "enunciado": "Conforme o art. 50 da Lei 9.784/1999, os atos administrativos que imponham sanções, decidam recursos administrativos ou dispensem processos licitatórios exigem motivação expressa, com indicação dos fatos e dos fundamentos jurídicos.",
+    "gabarito": "C",
+    "comentario": "CERTO. O art. 50 da Lei 9.784/1999 elenca as hipóteses de motivação compulsória: atos que neguem direitos, apliquem sanções, decidam recursos, dispensem/invalideem licitação e afetem direitos.",
+    "regra_ouro": "Atos que aplicam sanções ou decidem recursos exigem motivação formal expressa obrigatória com fatos e fundamentos.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "Segurança Jurídica e Orientação Vinculante na LINDB (Art. 30)",
+    "enunciado": "As autoridades públicas devem atuar para aumentar a segurança jurídica na aplicação das normas, inclusive por meio de regulamentos, súmulas administrativas e respostas a consultas, as quais terão efeito vinculante em relação ao órgão ou entidade a que se destinam até ulterior revisão.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 30 da LINDB (Lei 13.655/2018): impõe às autoridades o dever de padronizar entendimentos jurídicos por meio de instrumentos vinculantes, conferindo previsibilidade e estabilidade às decisões da administração pública.",
+    "regra_ouro": "Art. 30 da LINDB impõe dever de emitir orientações e súmulas vinculantes para estabilizar a segurança jurídica na Administração.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Evidências, Dados e Inteligência Artificial",
+    "topico_edital": "Indicadores de Corrupção: Taxa de Condenação vs Ocorrência",
+    "enunciado": "O aumento no número anual de servidores públicos demitidos por envolvimento em corrupção demonstra de forma irrefutável que a corrupção dentro daquela instituição aumentou exatamente na mesma proporção durante o período apurado.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Confundir taxa de detecção/sanção com taxa de ocorrência é um erro clássico de inferência. O aumento de demissões geralmente indica aprimoramento na capacidade investigativa e repressiva dos órgãos de corregedoria e da CGU, e não necessariamente o crescimento da corrupção real.",
+    "regra_ouro": "Aumento de punições e demissões reflete maior efetividade de detecção e controle, não aumento automático da corrupção real.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Evidências, Dados e Inteligência Artificial",
+    "topico_edital": "Explicabilidade em Modelos de Inteligência Artificial no Controle",
+    "enunciado": "A utilização de algoritmos de inteligência artificial opacos do tipo 'caixa-preta' (black-box) em decisões que resultem em rescisão unilateral de contratos públicos é plenamente admitida pela legislação brasileira, dispensando qualquer dever de explicabilidade técnica das razões da escolha algorítmica.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A LINDB (arts. 20 e 21), a CF/88 (devido processo e ampla defesa) e a Lei 14.129/2021 (Governo Digital) consagram o princípio da transparência e da explicabilidade algorítmica. Decisões do poder público que interfiram em direitos exigem motivação e fundamentação técnica auditável, vedando-se caixas-pretas herméticas.",
+    "regra_ouro": "Decisões públicas orientadas por IA exigem EXPLICABILIDADE e MOTIVAÇÃO técnica compreensível; veda-se a opacidade de caixas-pretas.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Testes Substantivos vs Testes de Controle",
+    "enunciado": "Em uma auditoria financeira, os 'testes de controle' destinam-se a avaliar a eficácia do desenho e da operação dos controles internos estabelecidos pela entidade, ao passo que os 'testes substantivos' visam diretamente à detecção de distorções relevantes nos saldos contábeis e transações financeiras.",
+    "gabarito": "C",
+    "comentario": "CERTO. Classificação fundamental de procedimentos de auditoria: 1) Testes de Controle (aderência aos procedimentos internos desenhados); 2) Testes Substantivos (inspeção de valores, conferência de extratos e cálculo de saldos para atestar se há erro material monetário).",
+    "regra_ouro": "Testes de controle avaliam a eficácia das travas internas; Testes substantivos apuram distorções diretas nos valores contábeis.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Reexecução como Técnica de Auditoria",
+    "enunciado": "A reexecução consiste na execução independente pelo auditor governamental de procedimentos ou controles que foram originalmente realizados como parte do controle interno da entidade auditada.",
+    "gabarito": "C",
+    "comentario": "CERTO. Normas Internacionais de Auditoria (NBC TA 500 / ISSAI 2500): a reexecução (reperformance) envolve o auditor refazer independentemente o cálculo da folha, a classificação orçamentária ou a conciliação bancária para testar se os controles automáticos ou manuais funcionaram com precisão.",
+    "regra_ouro": "Reexecução é a repetição independente pelo auditor de um controle ou procedimento originalmente feito pelo gestor auditado.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Papel das Unidades de Auditoria Interna Governamental (UAIG)",
+    "enunciado": "As Unidades de Auditoria Interna Governamental (UAIG) dos ministérios subordinam-se administrativamente à CGU, cabendo à CGU aprovar previamente a escala de férias e a alocação diária de tarefas de seus servidores.",
+    "gabarito": "E",
+    "comentario": "ERRADO. As UAIGs integram administrativamente a estrutura do próprio órgão ou ministério a que pertencem, vinculando-se hierarquicamente à sua alta administração. A CGU atua como Órgão Central do Sistema de Controle Interno do Poder Executivo federal, prestando supervisão técnica, normatização metodológica e orientação funcional, sem subordinação administrativa direta.",
+    "regra_ouro": "CGU exerce supervisão técnica e metodológica sobre as unidades de auditoria interna, sem subordinação administrativa cotidiana.",
+    "nivel": "Média"
+  }
+]
