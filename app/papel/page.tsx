@@ -88,23 +88,21 @@ export default function ModoPapelPage() {
     setBoletim(resultado);
 
     // Salva em batch assíncrono no Supabase / Local
-    startTransition(async () => {
-      for (let i = 0; i < questoes.length; i++) {
-        const q = questoes[i];
-        const num = i + 1;
-        const marcacao = respostas.get(num) || { resposta: 'B', confianca: 'Certeza' };
-        const { acertou, pontos } = calcularPontosCebraspe(q.bloco, q.gabarito, marcacao.resposta);
+    for (let i = 0; i < questoes.length; i++) {
+      const q = questoes[i];
+      const num = i + 1;
+      const marcacao = respostas.get(num) || { resposta: 'B', confianca: 'Certeza' };
+      const { acertou, pontos } = calcularPontosCebraspe(q.bloco, q.gabarito, marcacao.resposta);
 
-        await salvarResposta({
-          bateria_id: bateria?.id,
-          questao_id: q.id,
-          resposta_usuario: marcacao.resposta,
-          confianca: marcacao.confianca,
-          acertou,
-          pontos_liquidos: pontos,
-        });
-      }
-    });
+      await salvarResposta({
+        bateria_id: bateria?.id,
+        questao_id: q.id,
+        resposta_usuario: marcacao.resposta,
+        confianca: marcacao.confianca,
+        acertou,
+        pontos_liquidos: pontos,
+      });
+    }
 
     if (resultado.pontosLiquidosTotal > 0) {
       try {
@@ -120,23 +118,21 @@ export default function ModoPapelPage() {
     const resultado = gerarBoletim(questoes, gradeRespostas);
     setBoletim(resultado);
 
-    startTransition(async () => {
-      for (let i = 0; i < questoes.length; i++) {
-        const q = questoes[i];
-        const num = i + 1;
-        const marcacao = gradeRespostas.get(num) || { resposta: 'B', confianca: 'Certeza' };
-        const { acertou, pontos } = calcularPontosCebraspe(q.bloco, q.gabarito, marcacao.resposta);
+    for (let i = 0; i < questoes.length; i++) {
+      const q = questoes[i];
+      const num = i + 1;
+      const marcacao = gradeRespostas.get(num) || { resposta: 'B', confianca: 'Certeza' };
+      const { acertou, pontos } = calcularPontosCebraspe(q.bloco, q.gabarito, marcacao.resposta);
 
-        await salvarResposta({
-          bateria_id: bateria?.id,
-          questao_id: q.id,
-          resposta_usuario: marcacao.resposta,
-          confianca: marcacao.confianca,
-          acertou,
-          pontos_liquidos: pontos,
-        });
-      }
-    });
+      await salvarResposta({
+        bateria_id: bateria?.id,
+        questao_id: q.id,
+        resposta_usuario: marcacao.resposta,
+        confianca: marcacao.confianca,
+        acertou,
+        pontos_liquidos: pontos,
+      });
+    }
 
     if (resultado.pontosLiquidosTotal > 0) {
       try {

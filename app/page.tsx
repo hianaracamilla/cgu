@@ -136,16 +136,14 @@ export default function TreinoPage() {
     setRespostasSessao(novoMapa);
 
     // 2. Persistência Assíncrona no Supabase / Local
-    startTransition(() => {
-      salvarResposta({
-        bateria_id: bateria?.id,
-        questao_id: questaoAtual.id,
-        resposta_usuario: resposta,
-        confianca,
-        acertou,
-        pontos_liquidos: pontos,
-      });
-    });
+    salvarResposta({
+      bateria_id: bateria?.id,
+      questao_id: questaoAtual.id,
+      resposta_usuario: resposta,
+      confianca,
+      acertou,
+      pontos_liquidos: pontos,
+    }).catch((err) => console.error('Erro ao salvar resposta:', err));
   };
 
   // Gerar nova bateria diária padrão (50 itens: 10 P1, 10 P2, 30 P3)

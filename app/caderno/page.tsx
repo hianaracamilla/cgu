@@ -145,16 +145,14 @@ export default function CadernoErrosPage() {
     }
 
     // Salva nova resposta no histórico
-    startTransition(() => {
-      salvarResposta({
-        questao_id: questao.id,
-        resposta_usuario: resposta,
-        confianca: 'Certeza',
-        acertou,
-        pontos_liquidos: pontos,
-        dominada_no_caderno: acertou, // se acertou ao refazer, já pode arquivar automaticamente ou manter
-      });
-    });
+    salvarResposta({
+      questao_id: questao.id,
+      resposta_usuario: resposta,
+      confianca: 'Certeza',
+      acertou,
+      pontos_liquidos: pontos,
+      dominada_no_caderno: acertou, // se acertou ao refazer, já pode arquivar automaticamente ou manter
+    }).catch(console.error);
   };
 
   if (loading) {

@@ -224,8 +224,13 @@ export async function salvarResposta(item: {
   pontos_liquidos: number;
   dominada_no_caderno?: boolean;
 }): Promise<void> {
+  const isUuid = (str?: string | null) =>
+    typeof str === 'string' &&
+    /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(str);
+
   const payload: HistoricoResposta = {
     ...item,
+    bateria_id: isUuid(item.bateria_id) ? item.bateria_id : null,
     dominada_no_caderno: item.dominada_no_caderno ?? false,
     data_resposta: new Date().toISOString(),
   };
@@ -233,9 +238,9 @@ export async function salvarResposta(item: {
   // Salva no Supabase
   if (isSupabaseConfigured() && supabase) {
     try {
-      await supabase.from('historico_respostas').insert([
+      const { error } = await supabase.from('historico_respostas').insert([
         {
-          bateria_id: payload.bateria_id || null,
+          bateria_id: payload.bateria_id,
           questao_id: payload.questao_id,
           resposta_usuario: payload.resposta_usuario,
           confianca: payload.confianca,
@@ -244,8 +249,11 @@ export async function salvarResposta(item: {
           dominada_no_caderno: payload.dominada_no_caderno,
         },
       ]);
+      if (error) {
+        console.error('Erro retornado pelo Supabase ao salvar resposta:', error);
+      }
     } catch (e) {
-      console.warn('Erro ao salvar resposta no Supabase:', e);
+      console.warn('Erro na requisição ao Supabase:', e);
     }
   }
 
