@@ -1,0 +1,452 @@
+[
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Armadilha das Variáveis Dummy (Dummy Variable Trap)",
+    "enunciado": "Ao codificar uma variável categórica com $k$ categorias distintas para uso em um modelo de regressão linear clássico com intercepto, deve-se criar exatamente $k - 1$ variáveis dummy binárias, pois a inclusão de todas as $k$ colunas provoca multicolinearidade perfeita (Dummy Variable Trap).",
+    "gabarito": "C",
+    "comentario": "CERTO. Se uma variável tem 3 categorias (ex: Norte, Sul, Leste) e incluímos as 3 variáveis binárias juntamente com a constante/intercepto da regressão, a soma das 3 colunas será sempre igual a 1, violando a premissa de que a matriz $X^T X$ deve ser invertível (posto pleno). No Pandas, usa-se `pd.get_dummies(df, drop_first=True)`.",
+    "regra_ouro": "Para evitar a armadilha das dummies na regressão com intercepto, usa-se k - 1 colunas para k categorias (drop_first=True).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Outliers Multivariados: Distância de Mahalanobis",
+    "enunciado": "A Distância de Mahalanobis mede a distância entre um ponto e o centro de distribuição dos dados levando em consideração a matriz de covariância entre as variáveis, sendo superior à distância euclidiana para a detecção de outliers multivariados quando as variáveis apresentam forte correlação entre si.",
+    "gabarito": "C",
+    "comentario": "CERTO. A distância euclidiana trata todas as variáveis como ortogonais e não correlacionadas com dispersões esféricas. A distância de Mahalanobis ($D_M = \\sqrt{(x - \\mu)^T \\Sigma^{-1} (x - \\mu)}$) deforma o espaço de acordo com a elipse de covariância, identificando pontos que são atípicos na relação multivariada mesmo que estejam dentro das faixas normais de cada variável isolada.",
+    "regra_ouro": "Distância de Mahalanobis detecta outliers multivariados considerando a matriz de covariância e a correlação entre atributos.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Teste de Normalidade de Shapiro-Wilk",
+    "enunciado": "No teste de normalidade de Shapiro-Wilk aplicado aos resíduos de um modelo de regressão, um p-valor inferior ao nível de significância de 5% ($p < 0,05$) indica que os dados seguem perfeitamente uma distribuição normal.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A hipótese nula ($H_0$) do teste de Shapiro-Wilk é que os dados PROVÊM de uma distribuição normal. Se $p < 0,05$, REJEITA-SE a hipótese nula, concluindo-se com 95% de confiança que os dados NÃO seguem distribuição normal.",
+    "regra_ouro": "No teste de Shapiro-Wilk: p-valor < 0,05 REJEITA a hipótese de normalidade dos resíduos.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Amostragem Bootstrap para Inferência Não Paramétrica",
+    "enunciado": "A técnica de Bootstrap consiste em reamostrar repetidamente o conjunto de dados original com reposição, permitindo estimar intervalos de confiança e erros-padrão para parâmetros estatísticos complexos (como a mediana ou o coeficiente de Gini) sem exigir suposições sobre a distribuição teórica da população.",
+    "gabarito": "C",
+    "comentario": "CERTO. Proposto por Bradley Efron (1979): ao gerar milhares de pseudo-amostras de mesmo tamanho $n$ com reposição direta a partir dos dados observados, constrói-se empiricamente a distribuição amostral do estimador, viabilizando inferência não paramétrica robusta.",
+    "regra_ouro": "Bootstrap utiliza reamostragem com reposição para construir intervalos de confiança sem assumir distribuição teórica prévia.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Teste Qui-Quadrado de Independência",
+    "enunciado": "O teste Qui-Quadrado de Independência avalia se existe associação estatisticamente significante entre duas variáveis categóricas organizadas em uma tabela de contingência, comparando as frequências observadas com as frequências esperadas sob a hipótese de independência.",
+    "gabarito": "C",
+    "comentario": "CERTO. Estatística do teste: $\\chi^2 = \\sum \\frac{(O - E)^2}{E}$, com graus de liberdade $(r - 1)(c - 1)$. Se os valores observados $O$ coincidirem com os esperados $E$ sob independência, o $\\chi^2$ será próximo de zero; discrepâncias grandes indicam associação estatística entre as categorias.",
+    "regra_ouro": "Teste Qui-Quadrado de Independência compara frequências observadas e esperadas em tabelas de contingência para testar associação entre variáveis nominais.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Séries Temporais: Teste de Dickey-Fuller Aumentado (ADF)",
+    "enunciado": "O teste de Dickey-Fuller Aumentado (ADF) testa a hipótese nula de que uma série temporal possui uma raiz unitária (é não estacionária); portanto, a obtenção de um p-valor menor que 0,05 permite rejeitar a raiz unitária e concluir que a série é estacionária.",
+    "gabarito": "C",
+    "comentario": "CERTO. Em séries temporais: $H_0$ = a série possui raiz unitária (não estacionária / média e variância mudam no tempo). Rejeitar $H_0$ ($p < 0,05$) atesta que a série é estacionária, pré-requisito indispensável para a modelagem via Box-Jenkins (ARIMA).",
+    "regra_ouro": "Teste ADF: p-valor < 0,05 rejeita a raiz unitária e indica que a série temporal é ESTACIONÁRIA.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Séries Temporais: Função de Autocorrelação Parcial (PACF)",
+    "enunciado": "Na identificação da ordem de modelos autorregressivos puros AR(p), a Função de Autocorrelação Parcial (PACF) apresenta um corte abrupto (queda para zero) após o lag $p$, enquanto a Função de Autocorrelação (ACF) decai exponencialmente ou de forma senoidal amortecida.",
+    "gabarito": "C",
+    "comentario": "CERTO. Regra canônica de Box-Jenkins: em processos autorregressivos AR(p), a PACF corta bruscamente após o lag $p$ (indicando a ordem do modelo), enquanto a ACF decai suavemente. O inverso ocorre em processos de médias móveis MA(q), onde a ACF corta após o lag $q$.",
+    "regra_ouro": "Modelo AR(p): a PACF corta abruptamente após o lag p, enquanto a ACF decai suavemente.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Análise de Sobrevivência: Modelo de Cox",
+    "enunciado": "O Modelo de Riscos Proporcionais de Cox é um modelo semiparamétrico que permite avaliar o efeito de covariáveis sobre a taxa de falha (hazard rate) ao longo do tempo, sem exigir a especificação da forma funcional exata da função de risco de base.",
+    "gabarito": "C",
+    "comentario": "CERTO. Na análise de sobrevivência (tempo até um evento, ex: tempo até um contrato sofrer aditivo ou ser rescindido), o modelo de Cox define $h(t|X) = h_0(t) \\exp(\\beta^T X)$. Ele é semiparamétrico porque o risco de base $h_0(t)$ é completamente não paramétrico, enquanto o efeito das covariáveis é estimado parametricamente por verossimilhança parcial.",
+    "regra_ouro": "Modelo de Riscos Proporcionais de Cox é semiparamétrico: estima o impacto de variáveis no tempo de falha sem assumir a curva de risco de base.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Decomposição de Séries Temporais: Aditiva vs Multiplicativa",
+    "enunciado": "A decomposição multiplicativa de uma série temporal ($Y_t = T_t \\times S_t \\times I_t$) é indicada quando a amplitude das flutuações sazonais permanece estritamente constante ao longo dos anos, independentemente do crescimento do nível de tendência da série.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Quando a amplitude sazonal é constante, usa-se a decomposição ADITIVA ($Y_t = T_t + S_t + I_t$). A decomposição MULTIPLICATIVA é indicada quando a variação sazonal cresce ou diminui proporcionalmente ao nível da tendência (ex: gastos de fim de ano que dobram à medida que o orçamento global triplica).",
+    "regra_ouro": "Decomposição Aditiva: sazonalidade com amplitude constante. Decomposição Multiplicativa: sazonalidade cresce junto com a tendência.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "SQL: Cláusula de Enquadramento de Janela (Window Frame)",
+    "enunciado": "Na execução de uma função de janela em SQL, a cláusula `ROWS BETWEEN 2 PRECEDING AND CURRENT ROW` restringe a janela de cálculo às duas linhas anteriores e à linha atual, sendo ideal para o cálculo de médias móveis de três períodos ordenadas cronologicamente.",
+    "gabarito": "C",
+    "comentario": "CERTO. Sintaxe precisa de Window Frame ANSI SQL: define o subconjunto de linhas físicas dentro da partição que entra no cálculo da agregação (`SUM`, `AVG`). `2 PRECEDING AND CURRENT ROW` soma exatamente 3 registros (os dois anteriores mais o corrente).",
+    "regra_ouro": "ROWS BETWEEN 2 PRECEDING AND CURRENT ROW delimita uma janela móvel de 3 linhas para agregações temporais em SQL.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "SQL: WHERE vs HAVING",
+    "enunciado": "Em uma consulta SQL com agregação, a cláusula `WHERE` filtra as linhas individuais antes da realização do agrupamento (`GROUP BY`), ao passo que a cláusula `HAVING` filtra os grupos de resultados após a computação das funções agregadas (como `SUM` ou `COUNT`).",
+    "gabarito": "C",
+    "comentario": "CERTO. Ordem lógica de execução SQL: 1) `FROM/JOIN`; 2) `WHERE` (filtra linhas individuais); 3) `GROUP BY` (agrupa); 4) `HAVING` (filtra os grupos consolidados com base em agregações, ex: `HAVING COUNT(*) > 5`); 5) `SELECT`; 6) `ORDER BY`.",
+    "regra_ouro": "WHERE filtra registros individuais antes do GROUP BY; HAVING filtra os grupos consolidados após a agregação.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "SQL: Subconsultas com NOT IN vs NOT EXISTS diante de NULLs",
+    "enunciado": "Em consultas SQL, se a subconsulta executada em uma cláusula `WHERE coluna NOT IN (SELECT ...)` retornar pelo menos um valor nulo (`NULL`), a expressão inteira avaliará para desconhecido/falso, fazendo com que a consulta principal retorne zero linhas.",
+    "gabarito": "C",
+    "comentario": "CERTO. Comportamento clássico da lógica trivalente do SQL (True, False, Unknown): `NOT IN (1, 2, NULL)` expande para `x <> 1 AND x <> 2 AND x <> NULL`. Como qualquer comparação com `NULL` resulta em `UNKNOWN`, a conjunção de `AND` resulta em `UNKNOWN`, não retornando nenhuma linha. Por isso, recomenda-se usar `NOT EXISTS` em subconsultas para evitar essa armadilha.",
+    "regra_ouro": "NOT IN com retorno contendo NULL falha e retorna zero linhas (lógica trivalente); prefira usar NOT EXISTS.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Índices Hash em Bancos Relacionais",
+    "enunciado": "Os índices do tipo Hash em sistemas de banco de dados relacionais são altamente recomendados para otimizar consultas que utilizam operadores de comparação de faixa, tais como `BETWEEN`, `<` e `>`, por calcularem faixas contíguas na tabela hash.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A função de espalhamento (hash) mapeia valores em baldes (buckets) de forma pseudo-aleatória e não ordenada. Portanto, índices Hash suportam EXCLUSIVAMENTE comparações de igualdade estrita (`=`). Para consultas com faixas (`<`, `>`, `BETWEEN`), os índices obrigatórios são árvores balanceadas B-Tree.",
+    "regra_ouro": "Índice Hash só serve para igualdade estrita (=); consultas de faixa (<, >, BETWEEN) exigem índice B-Tree.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Apache Spark: repartition() vs coalesce()",
+    "enunciado": "No Apache Spark, o método `coalesce()` é preferível ao `repartition()` quando se deseja diminuir o número de partições de um DataFrame, pois o `coalesce()` evita um shuffle completo através da rede, mesclando partições locais existentes.",
+    "gabarito": "C",
+    "comentario": "CERTO. Otimização canônica no Spark: `repartition(n)` sempre dispara um shuffle completo para redistribuir dados uniformemente (custoso, mas necessário para aumentar partições). O `coalesce(n)` apenas reduz partições colapsando partições no mesmo executor sem transferir tudo pela rede, poupando I/O.",
+    "regra_ouro": "Para DIMINUIR partições no Spark sem shuffle completo pela rede, use coalesce() em vez de repartition().",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Apache Spark: Níveis de Armazenamento em Cache (StorageLevel)",
+    "enunciado": "Ao invocar `df.persist(StorageLevel.MEMORY_AND_DISK_SER)` no Apache Spark, os dados que não couberem na memória RAM são descartados imediatamente, forçando o recálculo do DataFrame a partir de sua linhagem de transformações original caso sejam solicitados.",
+    "gabarito": "E",
+    "comentario": "ERRADO. No nível `MEMORY_AND_DISK_SER`, os dados são armazenados serializados como bytes em memória e, as partições que excederem a capacidade da RAM são gravadas em DISCO rígido (não descartadas). O nível que descarta e recalcula pela linhagem é o `MEMORY_ONLY`.",
+    "regra_ouro": "MEMORY_AND_DISK grava o excedente em disco para evitar recálculo; MEMORY_ONLY descarta o excedente.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Formatos Colunares: Apache ORC vs Parquet",
+    "enunciado": "O formato Apache ORC (Optimized Row Columnar) organiza os dados em grandes grupos de linhas chamados 'stripes', contendo dados de índices internos com valores mínimos e máximos por coluna, permitindo pular faixas inteiras de dados desnecessárias durante a execução de consultas no ecossistema Hadoop/Hive.",
+    "gabarito": "C",
+    "comentario": "CERTO. O ORC divide arquivos em 'stripes' (equivalentes aos Row Groups do Parquet). Cada stripe possui metadados e estatísticas de índices com valores mínimo/máximo de cada coluna, permitindo que os motores de consulta saltem blocos inteiros que não satisfaçam os predicados da cláusula WHERE.",
+    "regra_ouro": "Apache ORC organiza dados em stripes com índices min/max que permitem saltar leituras desnecessárias de dados.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Change Data Capture (CDC) com Debezium",
+    "enunciado": "O Change Data Capture (CDC) baseado em logs de transação captura inserções, atualizações e exclusões lendo diretamente os logs binários (como o WAL do PostgreSQL ou binlog do MySQL) de forma assíncrona, capturando todas as mutações de dados com impacto quase nulo no desempenho transacional do banco de produção.",
+    "gabarito": "C",
+    "comentario": "CERTO. Tecnologias de CDC como o Debezium (integrado ao Kafka Connect) conectam-se ao log de transação gravado pelo banco antes do commit. Elas eliminam a necessidade de 'polling' periódico com queries pesadas (`SELECT * WHERE updated_at > ...`), transmitindo alterações em tempo real para o Data Lake.",
+    "regra_ouro": "CDC baseado em log (Debezium) captura alterações diretamente do WAL sem sobrecarregar o banco com consultas periódicas.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Particionamento de Tabelas em Bancos Relacionais",
+    "enunciado": "O particionamento de tabelas em bancos relacionais divide fisicamente uma tabela lógica muito grande em tabelas filhas menores, permitindo que o planejador de consultas aplique a técnica de 'poda de partições' (partition pruning) para escanear apenas os arquivos relevantes ao filtro de data da consulta.",
+    "gabarito": "C",
+    "comentario": "CERTO. Com o particionamento declarativo (por range, list ou hash), uma query com `WHERE data_emissao BETWEEN '2026-01-01' AND '2026-01-31'` lê apenas a partição correspondente a janeiro de 2026, ignorando fisicamente as partições de todos os outros anos e meses (partition pruning).",
+    "regra_ouro": "Poda de partições (Partition Pruning) faz o banco ler apenas as tabelas filhas que atendem aos predicados da consulta.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "K-Nearest Neighbors (KNN) e a Maldição da Dimensionalidade",
+    "enunciado": "À medida que a quantidade de dimensões (features) cresce exponencialmente em uma base de dados, a distância média entre quaisquer dois pontos tende a convergir para um mesmo valor no espaço euclidiano, degradando substancialmente a eficácia do classificador K-Nearest Neighbors (KNN).",
+    "gabarito": "C",
+    "comentario": "CERTO. Manifestação matemática clássica da 'Maldição da Dimensionalidade' (Curse of Dimensionality): em espaços hiperdimensionais, o volume cresce tão rapidamente que os dados ficam extremamente esparsos, e a distância entre o vizinho mais próximo e o vizinho mais distante torna-se quase indistinguível, tornando a métrica de distância euclidiana ineficaz.",
+    "regra_ouro": "A maldição da dimensionalidade faz com que as distâncias fiquem quase uniformes em altas dimensões, prejudicando o KNN.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "Regressão Logística e Odds Ratio",
+    "enunciado": "Na formulação matemática da Regressão Logística, a função de ligação logit modela o logaritmo da razão de chances (log-odds) como uma combinação linear das variáveis preditoras: $\\ln\\left(\\frac{p}{1-p}\\right) = \\beta_0 + \\beta_1 X_1 + ... + \\beta_n X_n$.",
+    "gabarito": "C",
+    "comentario": "CERTO. A regressão logística pertence à família dos Modelos Lineares Generalizados (GLM): utiliza a função logit para mapear a probabilidade $p \\in [0, 1]$ no intervalo real aberto $(-\\infty, +\\infty)$, permitindo que o expoente $e^{\\beta_i}$ seja interpretado diretamente como a Razão de Chances (Odds Ratio).",
+    "regra_ouro": "Regressão Logística modela o log-odds ln(p / (1 - p)) como uma função linear dos coeficientes.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "Detecção de Anomalias com Isolation Forest",
+    "enunciado": "O algoritmo Isolation Forest detecta anomalias explorando o princípio de que pontos anômalos são raros e possuem atributos discrepantes, o que faz com que sejam isolados em nós significativamente mais profundos (com maior quantidade de divisões) nas árvores de isolamento em comparação com pontos normais.",
+    "gabarito": "E",
+    "comentario": "ERRADO. É exatamente o oposto: como as anomalias são poucas e encontram-se isoladas na periferia do espaço de atributos, elas são separadas com MUITO POUCAS divisões aleatórias (ficam em nós RASOS, com menor comprimento de caminho médio até a raiz). Pontos normais e agrupados demandam muitas divisões (caminhos profundos) para serem isolados.",
+    "regra_ouro": "Isolation Forest isola anomalias em nós RASOS (poucas divisões); pontos normais exigem caminhos profundos.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "Detecção de Novidades com One-Class SVM",
+    "enunciado": "O One-Class SVM é um algoritmo não supervisionado de detecção de novidades que aprende uma fronteira de decisão hiperdimensional envolvendo a densidade dos dados normais de treinamento, classificando como anomalias os novos pontos que caem fora dessa região delimitada.",
+    "gabarito": "C",
+    "comentario": "CERTO. Proposto por Schölkopf: o One-Class SVM mapeia os dados em um espaço de características de alta dimensão via kernel RBF e encontra o hiperplano que separa a massa de dados da origem com margem máxima. É excelente para treinar em bases onde só se dispõe de dados de compras regulares aprovadas.",
+    "regra_ouro": "One-Class SVM aprende a fronteira de suporte ao redor de dados normais e rejeita pontos externos como anomalias.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "Métricas de Avaliação: Entropia Cruzada Binária (Log-Loss)",
+    "enunciado": "A perda logarítmica (Log-Loss ou Binary Cross-Entropy) avalia a calibração de probabilidades de um classificador, punindo com severidade logarítmica divergente as previsões em que o modelo manifesta alta confiança e certeza matemática em uma predição incorreta.",
+    "gabarito": "C",
+    "comentario": "CERTO. Fórmula: $\\text{Log-Loss} = -\\frac{1}{N}\\sum [y \\ln(p) + (1-y)\\ln(1-p)]$. Se o rótulo real for $y=1$ e o modelo atribuir probabilidade $p=0,99$, a perda é quase zero. Mas se o modelo atribuir $p=0,01$ (alta confiança no erro), $-\\ln(0,01) \\approx 4,6$, penalizando brutalmente a má calibração da incerteza.",
+    "regra_ouro": "Log-Loss penaliza severamente previsões incorretas que foram emitidas com alta confiança de probabilidade pelo modelo.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "Calibração de Probabilidades: Platt Scaling vs Regressão Isotônica",
+    "enunciado": "A calibração de probabilidades por Platt Scaling ajusta um modelo de regressão logística unidimensional sobre os escores brutos de saída do classificador, sendo mais indicada quando a distorção das probabilidades tem formato sigmoidal e o volume de dados de validação é reduzido.",
+    "gabarito": "C",
+    "comentario": "CERTO. Modelos como SVM e Naive Bayes geram saídas numéricas que não representam probabilidades bem calibradas. O Platt Scaling treina uma regressão logística simples sobre esses escores. Já a Regressão Isotônica é não-paramétrica (função monótona por partes), excelente para grandes volumes de dados mas sujeita a overfitting em amostras pequenas.",
+    "regra_ouro": "Platt Scaling calibra probabilidades usando regressão logística sigmoidal; ideal para amostras de validação moderadas.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "Ensembles Heterogêneos com Stacking (Stacked Generalization)",
+    "enunciado": "A técnica de Stacking consiste em treinar múltiplos modelos de aprendizado de máquina heterogêneos (como Random Forest, XGBoost e SVM) na base de treino e utilizar as predições geradas por eles como variáveis de entrada para treinar um metamodelo de nível superior.",
+    "gabarito": "C",
+    "comentario": "CERTO. Stacking (David Wolpert): diferentemente de Bagging e Boosting (que usam o mesmo algoritmo base), o Stacking combina modelos com indutores e hipóteses completamente distintas. Para evitar overfitting no meta-modelo, as previsões dos modelos base devem ser obtidas via *out-of-fold predictions* em cross-validation.",
+    "regra_ouro": "Stacking combina previsões de algoritmos heterogêneos de base para treinar um metamodelo de nível superior.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Redes Neurais, NLP e Modelos de Linguagem",
+    "topico_edital": "Função Softmax em Classificação Multiclasse",
+    "enunciado": "A função de ativação Softmax transforma um vetor de $K$ números reais arbitrários (logits) em uma distribuição de probabilidade válida, assegurando que todas as saídas estejam no intervalo $(0, 1)$ e que a sua soma total seja estritamente igual a um.",
+    "gabarito": "C",
+    "comentario": "CERTO. Fórmula matemática da Softmax: $\\sigma(z)_i = \\frac{e^{z_i}}{\\sum_{j=1}^K e^{z_j}}$. Como o exponencial de qualquer número real é estritamente positivo e o denominador é a soma de todos os termos, o vetor resultante normaliza-se em uma distribuição de probabilidades categórica.",
+    "regra_ouro": "Softmax converte logits reais em uma distribuição de probabilidades cujos valores somam exatamente 1.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Redes Neurais, NLP e Modelos de Linguagem",
+    "topico_edital": "Normalização em Lote (Batch Normalization)",
+    "enunciado": "A técnica de Batch Normalization normaliza as ativações das camadas intermediárias de uma rede neural profunda para média zero e variância unitária durante cada mini-lote de treinamento, reduzindo a dependência da inicialização de pesos e permitindo o uso de taxas de aprendizado mais elevadas.",
+    "gabarito": "C",
+    "comentario": "CERTO. Proposto por Ioffe e Szegedy (2015): ao atenuar o desvio de covariável interno (internal covariate shift) entre as camadas, o Batch Normalization estabiliza a dinâmica do treinamento, acelera a convergência e atua como uma forma suave de regularização contra overfitting.",
+    "regra_ouro": "Batch Normalization estabiliza o treinamento e permite taxas de aprendizado mais altas ao normalizar as ativações de cada mini-batch.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Redes Neurais, NLP e Modelos de Linguagem",
+    "topico_edital": "Word Embeddings: FastText vs Word2Vec",
+    "enunciado": "Diferente do Word2Vec, que trata cada palavra como uma entidade atômica indivisível, o modelo FastText representa palavras como uma soma de vetores de n-gramas de caracteres, permitindo inferir embeddings semânticos fidedignos para palavras raras, grafadas com erros ou fora do vocabulário (OOV).",
+    "gabarito": "C",
+    "comentario": "CERTO. Desenvolvido pelo Facebook AI Research (Bojanowski et al.): o FastText quebra a palavra 'licitação' em n-gramas de caracteres (ex: `<li`, `lic`, `ici`, `cit`, `ão>`). O vetor final da palavra é a soma dos vetores desses fragmentos, capturando prefixos e sufixos de línguas morfologicamente ricas como o português.",
+    "regra_ouro": "FastText representa palavras por n-gramas de caracteres, gerando embeddings de palavras fora do vocabulário e com erros de grafia.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Redes Neurais, NLP e Modelos de Linguagem",
+    "topico_edital": "Re-ranqueamento em RAG com Cross-Encoders",
+    "enunciado": "Em arquiteturas avançadas de RAG, a inclusão de uma etapa de re-ranqueamento (Re-ranking) com modelos Cross-Encoder processa a pergunta e cada documento candidato conjuntamente na camada de atenção, calculando uma pontuação de relevância mais precisa do que a similaridade de cosseno rápida obtida por Bi-Encoders na fase de recuperação inicial.",
+    "gabarito": "C",
+    "comentario": "CERTO. Recuperação em duas etapas de ponta: 1) Bi-Encoder (busca vetorial com HNSW rápida que recupera os top 50 trechos); 2) Cross-Encoder (avalia o par pergunta-trecho simultaneamente com atenção cruzada total nos top 50, reordenando com altíssima precisão os top 3 trechos enviados ao LLM).",
+    "regra_ouro": "Re-ranking com Cross-Encoder examina a atenção cruzada entre pergunta e trecho, refinando a relevância em RAG.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Redes Neurais, NLP e Modelos de Linguagem",
+    "topico_edital": "Quantização de Modelos de Linguagem (INT8 e INT4)",
+    "enunciado": "A quantização de pesos de Grandes Modelos de Linguagem de ponto flutuante de 16 bits (FP16) para inteiros de 4 ou 8 bits (INT4/INT8) reduz expressivamente o consumo de memória VRAM da GPU e acelera a inferência, sem causar degradação catastrófica na qualidade textual das respostas geradas.",
+    "gabarito": "C",
+    "comentario": "CERTO. Técnicas modernas de quantização pós-treinamento (como AWQ, GPTQ e QLoRA) mapeiam os pesos contínuos em uma grade discreta de 4 ou 8 bits. Isso permite rodar um modelo de 70 bilhões de parâmetros em placas gráficas comerciais convencionais com perda mínima de perplexidade.",
+    "regra_ouro": "Quantização para INT8/INT4 reduz drasticamente a VRAM necessária para rodar LLMs com impacto desprezível na acurácia.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Redes Neurais, NLP e Modelos de Linguagem",
+    "topico_edital": "Alucinação em LLMs e Mitigações",
+    "enunciado": "O fenômeno da alucinação em Grandes Modelos de Linguagem ocorre exclusivamente em decorrência de ataques deliberados de injeção de prompt executados por invasores externos, sendo impossível de ocorrer espontaneamente em prompts legítimos de usuários.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A alucinação é um comportamento intrínseco aos LLMs decorrente de sua natureza probabilística (predição autorregressiva do próximo token estatisticamente mais provável). Ela ocorre espontaneamente quando o modelo extrapola dados de treinamento incompletos, sofre de viés de confirmação ou recebe instruções sem fontes de contexto factuais.",
+    "regra_ouro": "Alucinação é fenômeno estatístico espontâneo de LLMs em dados ausentes; não exige ataque de terceiros.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "MLOps, Governança e Gestão de Soluções de Dados",
+    "topico_edital": "Componentes da Plataforma MLflow",
+    "enunciado": "A plataforma de código aberto MLflow organiza a gestão do ciclo de vida de aprendizado de máquina em quatro módulos principais: MLflow Tracking (registro de parâmetros e métricas), MLflow Projects (empacotamento de código reproduzível), MLflow Models (formato padrão de deploy) e MLflow Model Registry (gerenciamento centralizado de versões e estágios do modelo).",
+    "gabarito": "C",
+    "comentario": "CERTO. Estrutura fundamental do framework MLflow (Databricks/Linux Foundation): Tracking (logs de experimentos), Projects (dependências com conda/docker), Models (deploy agnóstico a bibliotecas) e Model Registry (ciclo de aprovação: Staging, Production, Archived).",
+    "regra_ouro": "Os 4 componentes do MLflow: Tracking (experimentos), Projects (código), Models (formato) e Model Registry (versões e estágios).",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "MLOps, Governança e Gestão de Soluções de Dados",
+    "topico_edital": "Implantação em Sombra (Shadow Deployment)",
+    "enunciado": "Na estratégia de Shadow Deployment (ou Dark Launching), o modelo candidato em teste recebe uma cópia das requisições reais de produção em tempo real e processa as inferências em segundo plano para avaliação de latência e precisão, sem que suas previsões interfiram na resposta final entregue ao usuário.",
+    "gabarito": "C",
+    "comentario": "CERTO. O Shadow Deployment é o método de validação mais seguro em ambientes governamentais críticos: a aplicação envia os dados simultaneamente para o modelo antigo (ativo) e para o modelo novo (em sombra). Comparam-se as métricas sob carga real sem nenhum risco operacional para o usuário final.",
+    "regra_ouro": "Shadow Deployment processa cópias do tráfego real em segundo plano para validar o novo modelo sem afetar o usuário.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "MLOps, Governança e Gestão de Soluções de Dados",
+    "topico_edital": "Justiça Algorítmica: Paridade Demográfica vs Igualdade de Oportunidades",
+    "enunciado": "O critério de justiça algorítmica de 'Paridade Demográfica' exige que a proporção de indivíduos classificados com a decisão positiva seja idêntica entre os diferentes grupos protegidos, independentemente das diferenças reais na taxa de elegibilidade ou mérito observada entre os grupos.",
+    "gabarito": "C",
+    "comentario": "CERTO. Paridade Demográfica (Demographic Parity): $P(\\hat{Y}=1 | A=0) = P(\\hat{Y}=1 | A=1)$. A decisão do modelo independe do grupo protegido. Já o critério de 'Igualdade de Oportunidades' (Equal Opportunity, Hardt et al.) foca na Taxa de Verdadeiros Positivos (Sensibilidade igual entre os grupos para quem de fato é elegível $Y=1$).",
+    "regra_ouro": "Paridade Demográfica exige taxa igual de aprovação positiva entre grupos protegidos, ignorando taxas de elegibilidade reais.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "MLOps, Governança e Gestão de Soluções de Dados",
+    "topico_edital": "Segregação de Ambientes e Mínimo Privilégio em Pipelines",
+    "enunciado": "As boas práticas de governança e segurança em MLOps preconizam que os pipelines automatizados de Continuous Deployment executem em ambiente de produção utilizando contas de serviço com privilégios de superadministrador irrestrito (`root`/`sysadmin`), de modo a prevenir interrupções por falhas de autorização de rede.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A prática viola frontalmente o Princípio do Menor Privilégio (Principle of Least Privilege - PoLP) e as diretrizes de governança da CGU. Pipelines de produção devem operar com contas de serviço com permissões estritamente delimitadas e auditadas (apenas escrita nas tabelas necessárias e deploy no cluster de inferência), evitando brechas catastróficas de segurança.",
+    "regra_ouro": "Pipelines de CI/CD de dados devem observar o Princípio do Menor Privilégio, com permissões estritas e ambiente segregado.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Medidas de Dispersão: Desvio Padrão vs Variância",
+    "enunciado": "A variância populacional expressa a dispersão dos dados na mesma unidade de medida da variável original, ao passo que o desvio-padrão expressa a dispersão na unidade de medida ao quadrado.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Os conceitos estão trocados. A variância é calculada pela soma dos quadrados dos desvios, resultando na unidade de medida ao quadrado (ex: R$ ao quadrado). O desvio-padrão é a raiz quadrada da variância, trazendo a medida de volta para a mesma unidade da variável original (ex: Reais).",
+    "regra_ouro": "Variância expressa dispersão na unidade ao quadrado; Desvio Padrão expressa dispersão na MESMA unidade original dos dados.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Estatística Robusta: Winsorização",
+    "enunciado": "A técnica de Winsorização consiste em truncar os valores extremos de uma variável contínua substituindo-os pelo valor correspondente a um determinado percentil especificado (como o 1º e o 99º percentis), atenuando a influência desproporcional de outliers sem descartar as linhas da base de dados.",
+    "gabarito": "C",
+    "comentario": "CERTO. Na Winsorização (diferente do corte/trimming que joga fora linhas inteiras), todos os dados acima do percentil 99 são fixados no valor do percentil 99, e os abaixo do percentil 1 no valor do percentil 1. Mantém-se o tamanho amostral $N$ intacto, conferindo robustez às estimativas.",
+    "regra_ouro": "Winsorização substitui outliers extremos pelos valores dos percentis de corte sem deletar linhas da base de dados.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Normalização de Dados: Forma Normal de Boyce-Codd (BCNF)",
+    "enunciado": "A Forma Normal de Boyce-Codd (BCNF) é uma versão mais rigorosa da Terceira Forma Normal (3FN), exigindo que, para toda dependência funcional não trivial $X \\rightarrow Y$, o determinante $X$ seja necessariamente uma superchave da relação.",
+    "gabarito": "C",
+    "comentario": "CERTO. Definição matemática de BCNF: elimina anomalias que a 3FN tolera quando existem múltiplas chaves candidatas sobrepostas. Na BCNF, qualquer atributo determinante de uma dependência funcional válida precisa ser obrigatoriamente uma superchave da tabela.",
+    "regra_ouro": "BCNF exige que todo determinante X de dependência funcional não trivial seja uma superchave da relação.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Arquitetura ELT vs ETL em Nuvem Moderna",
+    "enunciado": "Nos Data Warehouses em nuvem modernos de alta performance (como BigQuery, Snowflake e Redshift), o paradigma ELT (Extract, Load, Transform) substituiu progressivamente o ETL tradicional, carregando os dados brutos diretamente no repositório de destino para que as transformações e modelagens sejam executadas utilizando o poder de processamento massivamente paralelo (MPP) do próprio armazém de dados.",
+    "gabarito": "C",
+    "comentario": "CERTO. No ETL legado, servidores dedicados realizavam transformações pesadas antes de carregar no banco. No ELT com nuvem, extrai-se e carrega-se diretamente no Data Warehouse/Lakehouse (`Load`), utilizando engines SQL distribuídos (ex: via ferramenta dbt) para executar transformações complexas com alta escalabilidade.",
+    "regra_ouro": "ELT carrega dados brutos primeiro e aproveita o processamento massivamente paralelo da nuvem para transformá-los.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "Árvores de Decisão: Poda de Complexidade de Custo (Cost-Complexity Pruning)",
+    "enunciado": "A poda por complexidade de custo (Cost-Complexity Pruning) em árvores de decisão introduz um parâmetro $\\alpha$ que equilibra a impureza das folhas com o número total de folhas da árvore, permitindo encontrar a subárvore ótima que minimize o erro de generalização em dados não vistos.",
+    "gabarito": "C",
+    "comentario": "CERTO. Conhecido como poda pós-árvore (post-pruning) no Scikit-Learn (`ccp_alpha`): minimiza a função de custo $R_\\alpha(T) = R(T) + \\alpha |T|$, onde $|T|$ é o número de folhas. $\\alpha = 0$ resulta na árvore completa superajustada; aumentar $\\alpha$ penaliza árvores grandes e poda ramos redundantes.",
+    "regra_ouro": "Cost-Complexity Pruning (ccp_alpha) poda ramos de árvores de decisão penalizando o número excessivo de folhas.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Redes Neurais, NLP e Modelos de Linguagem",
+    "topico_edital": "Similaridade Semântica e Bi-Encoders em RAG",
+    "enunciado": "Modelos Bi-Encoder (como Sentence-BERT) convertem a pergunta e os documentos separadamente em vetores de embedding estáticos de tamanho fixo, permitindo pré-computar e indexar todos os documentos do acervo documental em bancos vetoriais para buscas semânticas ultravelozes.",
+    "gabarito": "C",
+    "comentario": "CERTO. No Bi-Encoder, a representação vetorial de cada artigo de lei ou contrato é gerada uma única vez e armazenada no índice vetorial. Durante a consulta, gera-se apenas o embedding da pergunta e calcula-se a similaridade de cosseno com os vetores pré-armazenados em milissegundos.",
+    "regra_ouro": "Bi-Encoders geram vetores densos independentes, permitindo pré-indexar milhões de documentos para busca rápida em RAG.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "MLOps, Governança e Gestão de Soluções de Dados",
+    "topico_edital": "Testes A/B em Soluções Analíticas Governamentais",
+    "enunciado": "No planejamento de um Teste A/B para avaliar o impacto de um novo modelo de inteligência artificial na taxa de detecção de fraudes, a determinação prévia do tamanho da amostra requerida deve levar em conta o nível de significância (alfa), o poder estatístico desejado ($1 - \\beta$) e o efeito mínimo detectável (MDE).",
+    "gabarito": "C",
+    "comentario": "CERTO. O dimensionamento amostral prévio (power analysis) em Testes A/B evita testes inconclusivos ou prematuramente interrompidos por amostragem inadequada, assegurando que diferenças reais no comportamento das fraudes sejam detectadas com rigor estatístico.",
+    "regra_ouro": "Cálculo amostral em Testes A/B exige fixação prévia de significância (alfa), poder (1 - beta) e efeito mínimo detectável (MDE).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Deduplicação de Registros e Algoritmo de Jaro-Winkler",
+    "enunciado": "A métrica de distância de Jaro-Winkler é particularmente eficiente para tarefas de deduplicação e vinculação de registros nominais (como nomes de fornecedores ou cidadãos), pois atribui maior peso e favorece correspondências em cadeias de texto que compartilham prefixos comuns idênticos.",
+    "gabarito": "C",
+    "comentario": "CERTO. Modificação de Winkler sobre a distância de Jaro: aumenta a pontuação de similaridade se os primeiros caracteres das palavras forem coincidentes (prefix scale), sendo amplamente utilizada para deduplicação em cadastros públicos onde erros de digitação ocorrem com mais frequência no meio ou final dos nomes.",
+    "regra_ouro": "Distância de Jaro-Winkler favorece correspondências que compartilham prefixos idênticos, ideal para deduplicação de nomes.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "Regressão Ridge e Penalização Quadrática",
+    "enunciado": "Na regressão Ridge, os coeficientes estimados pelos mínimos quadrados ordinários sofrem uma contração (shrinkage) em direção a zero, tornando-se mais estáveis e reduzindo a variância do modelo, sendo impossível que qualquer coeficiente seja exatamente zerado pela regularização pura de Ridge.",
+    "gabarito": "C",
+    "comentario": "CERTO. Como a penalidade da norma $L_2$ é suave e estritamente convexa (curva circular sem vértices nos eixos cartesianos), a solução de Ridge contrai os coeficientes de forma assintótica, mas matematicamente nunca os anula a zero exato (diferentemente do Lasso $L_1$).",
+    "regra_ouro": "Regressão Ridge (L2) encolhe coeficientes reduzindo variância, mas nunca zera os coeficientes por completo.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Análise de Dados com Python: Desempenho e Vetorização",
+    "enunciado": "A utilização de estruturas de controle matriciais vetorizadas e tipos de dados estritamente tipados com bibliotecas como NumPy e Polars constitui boa prática de engenharia de software para soluções de ciência de dados na CGU, assegurando reprodutibilidade, baixo consumo de memória e alta escalabilidade analítica.",
+    "gabarito": "C",
+    "comentario": "CERTO. A ciência de dados governamental moderna exige rigor técnico: algoritmos vetorizados e tipagem consistente eliminam gargalos de memória e CPU, garantindo que malhas de auditoria contínua executem com rapidez sobre os bilhões de registros fiscais e contábeis do governo federal.",
+    "regra_ouro": "Vetorização e tipagem precisa são indispensáveis para escalabilidade, baixo consumo de RAM e auditoria contínua em Big Data.",
+    "nivel": "Fácil"
+  }
+]
