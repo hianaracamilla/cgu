@@ -1,0 +1,202 @@
+[
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Presidencialismo de Coalizão no Brasil",
+    "enunciado": "O conceito de presidencialismo de coalizão, cunhado pelo cientista político Sérgio Abranches, descreve o arranjo institucional brasileiro em que o Presidente da República, diante da fragmentação partidária no Congresso Nacional, necessita negociar a composição de ministérios e a distribuição de cargos para formar maiorias parlamentares estáveis de sustentação do governo.",
+    "gabarito": "C",
+    "comentario": "Correto. Sérgio Abranches (1988): O presidencialismo de coalizão resulta da combinação de presidencialismo forte com representação proporcional de lista aberta e multipartidarismo fragmentado. O Executivo depende estruturalmente da formação e manutenção de coalizões heterogêneas para aprovar a agenda legislativa.",
+    "regra_ouro": "Presidencialismo de Coalizão (Sérgio Abranches): combinação de presidencialismo, sistema proporcional e multipartidarismo que exige alianças partidárias.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Controle de Constitucionalidade: Efeitos da Decisão no STF",
+    "enunciado": "A declaração incidental de inconstitucionalidade de uma lei federal pelo plenário do Supremo Tribunal Federal, no âmbito de um Recurso Extraordinário com repercussão geral, produz eficácia erga omnes e efeito vinculante para toda a administração pública direta e indireta das três esferas da Federação.",
+    "gabarito": "C",
+    "comentario": "Correto. O STF consolidou a transcendência dos motivos determinantes e a tese de que decisões em sede de controle difuso com Repercussão Geral fixam teses com eficácia vinculante e contra todos (erga omnes) nos termos do art. 927 do CPC e art. 102, § 3º da CF/88.",
+    "regra_ouro": "Decisão do Plenário do STF em Recurso Extraordinário com Repercussão Geral tem eficácia vinculante para a Administração Pública.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Cláusulas Pétreas na Constituição de 1988 (Art. 60, § 4º)",
+    "enunciado": "Por expressa disposição do texto constitucional de 1988, o princípio da supremacia do interesse público sobre o privado e o regime de competência originária dos tribunais de contas consubstanciam cláusulas pétreas explícitas, não podendo ser objeto de proposta de emenda tendente a aboli-los.",
+    "gabarito": "E",
+    "comentario": "As cláusulas pétreas explícitas estão taxativamente enumeradas no art. 60, § 4º da CF/88: 1) a forma federativa de Estado; 2) o voto direto, secreto, universal e periódico; 3) a separação dos Poderes; e 4) os direitos e garantias individuais. Competência de tribunais de contas ou supremacia do interesse público não constam no rol explícito.",
+    "regra_ouro": "Cláusulas Pétreas Explícitas (Art. 60, § 4º da CF): Federação, Voto (direto/secreto/universal/periódico), Separação de Poderes e Direitos Individuais.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Dimensões dos Direitos Fundamentais (Gerações de Direitos)",
+    "enunciado": "Os direitos fundamentais de segunda dimensão exigem primordialmente uma abstenção do Estado (obrigações de não fazer), impondo limites à interferência estatal na esfera da liberdade e da propriedade individual do cidadão.",
+    "gabarito": "E",
+    "comentario": "Inversão histórica! A abstenção estatal (liberdades negativas / direitos civis e políticos) caracteriza os direitos de PRIMEIRA DIMENSÃO (século XVIII). Os direitos de SEGUNDA DIMENSÃO (direitos sociais, econômicos e culturais - século XX) exigem prestações positivas ativas do Estado (obrigações de fazer: saúde, educação, previdência).",
+    "regra_ouro": "1ª Dimensão = Liberdades negativas (não fazer estatal). 2ª Dimensão = Direitos sociais (prestações positivas / obrigações de fazer).",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Métricas de Desigualdade: Coeficiente de Gini vs Índice de Palma",
+    "enunciado": "O Índice de Palma mensura a desigualdade de renda dividindo a participação na renda total dos 10% mais ricos pela participação na renda dos 40% mais pobres da população, sob a premissa empírica de que os 50% intermediários mantêm sua participação na renda relativamente estável entre diferentes países.",
+    "gabarito": "C",
+    "comentario": "Correto. Gabriel Palma demonstrou que as classes médias (civis entre os percentis 40 e 90) capturam cerca de metade da renda nacional em quase todas as economias mundiais; assim, a variação da desigualdade ocorre nos extremos (topo dos 10% versus base dos 40%).",
+    "regra_ouro": "Índice de Palma: razão entre a renda dos 10% mais ricos e a renda dos 40% mais pobres (foco na polarização dos extremos).",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Ações Afirmativas e Cotas no Serviço Público Federal",
+    "enunciado": "O Supremo Tribunal Federal, no julgamento da ADC 41, declarou a constitucionalidade da reserva de 20% das vagas em concursos públicos federais para pessoas negras, assentando que a política de ações afirmativas cumpre o mandamento constitucional de promoção da igualdade material e de reparação histórica.",
+    "gabarito": "C",
+    "comentario": "Correto. O STF julgou integralmente constitucional a Lei 12.990/2014 na ADC 41 (Relator Min. Luís Roberto Barroso), reconhecendo que a igualdade substancial exige medidas de discriminação positiva (ações afirmativas) para desmantelar barreiras estruturais de acesso aos cargos públicos de comando.",
+    "regra_ouro": "ADC 41 do STF: constitucionalidade plena das cotas raciais no serviço público para promoção da igualdade material substantiva.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Estatuto da Pessoa com Deficiência (Lei 13.146/2015) - Barreiras Tecnológicas",
+    "enunciado": "A Lei Brasileira de Inclusão da Pessoa com Deficiência (Lei 13.146/2015) conceitua barreiras tecnológicas como aquelas que dificultam ou impedem o acesso da pessoa com deficiência às tecnologias da informação e comunicação nos sítios da internet mantidos pela administração pública.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 3º, IV, 'f' da Lei 13.146/2015: Barreiras tecnológicas são as que dificultam ou impedem o acesso da pessoa com deficiência às tecnologias. Todos os portais públicos devem obrigatoriamente seguir padrões de acessibilidade (como o e-MAG / WCAG).",
+    "regra_ouro": "Lei 13.146/2015: Barreiras tecnológicas englobam impedimentos de acesso a plataformas digitais e TIC por pessoas com deficiência.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Estrutura Agrária e Concentração de Terra no Brasil",
+    "enunciado": "O Índice de Gini da posse da terra no Brasil, historicamente superior a 0,80, reflete um dos mais elevados graus de concentração fundiária do mundo, sendo a expansão do agronegócio intensivo em tecnologia e capital acompanhada da redução proporcional da absorção de mão de obra rural no campo.",
+    "gabarito": "C",
+    "comentario": "Correto. Censos Agropecuários do IBGE demonstram Gini fundiário superior a 0,85 no Brasil. A modernização agrícola baseada em mecanização pesada, biotecnologia e grandes propriedades (commodities) gera alta produtividade econômica, mas baixa geração de emprego direto por hectare.",
+    "regra_ouro": "Gini fundiário no Brasil > 0,80: altíssima concentração de terras, com agronegócio altamente capital-intensivo e baixa absorção de mão de obra.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética Pública e Responsabilidade Profissional",
+    "topico_edital": "Lei de Improbidade Administrativa (Lei 8.429/1992 pós-Lei 14.230/2021)",
+    "enunciado": "Com as alterações promovidas pela Lei nº 14.230/2021, os atos de improbidade administrativa previstos na Lei nº 8.429/1992 passaram a admitir a modalidade estritamente culposa nos casos de dano efetivo ao erário decorrente de imperícia de agentes públicos.",
+    "gabarito": "E",
+    "comentario": "Alteração paradigmática da Lei 14.230/2021! A MODALIDADE CULPOSA DA IMPROBIDADE ADMINISTRATIVA FOI COMPLETAMENTE EXTINTA DO ORDENAMENTO JURÍDICO BRASILEIRO. O art. 1º, § 1º exige dolo específico em TODOS os atos de improbidade (arts. 9º, 10 e 11). A mera culpa ou imprudência pode ensejar ressarcimento civil ou infração funcional, mas JAMAIS improbidade administrativa.",
+    "regra_ouro": "Lei 14.230/2021 extinguiu a improbidade culposa: TODOS os tipos de improbidade agora exigem dolo específico comprovado.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética Pública e Responsabilidade Profissional",
+    "topico_edital": "Proteção ao Denunciante (Whistleblower Protection no Decreto 10.153/2019)",
+    "enunciado": "O Decreto nº 10.153/2019 estabelece salvaguardas de proteção à identidade do denunciante de ilícitos na administração pública federal, assegurando que os elementos de identificação pessoal tenham restrição de acesso e permaneçam sob sigilo mesmo após o encerramento do processo administrativo de apuração.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 4º e 5º do Decreto 10.153/2019: A identidade do denunciante tem acesso restrito a unidades de ouvidoria e apuração por até cem anos (art. 31 da LAI), não sendo divulgada nem após a conclusão do procedimento para resguardar o denunciante de boa-fé contra perseguições e retaliações.",
+    "regra_ouro": "Decreto 10.153/2019: Proteção permanente da identidade do denunciante; sigilo de dados pessoais preservado mesmo após o encerramento do processo.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética Pública e Responsabilidade Profissional",
+    "topico_edital": "Programa de Prevenção ao Assédio Sexual (Lei 14.540/2023)",
+    "enunciado": "A Lei nº 14.540/2023 instituiu o Programa de Prevenção e Enfrentamento ao Assédio Sexual e demais Crimes contra a Dignidade Sexual, aplicando-se obrigatoriamente a todos os órgãos da administração pública direta e indireta, impondo o dever de capacitação permanente de servidores e acolhimento célere de denúncias.",
+    "gabarito": "C",
+    "comentario": "Correto. A Lei 14.540/2023 obriga a administração pública em todos os níveis federativos a implementar ações preventivas, treinamento periódico de lideranças e equipes, e estruturação de canais seguros de orientação e denúncia de assédio sexual.",
+    "regra_ouro": "Lei 14.540/2023: Obrigatoriedade de programas de prevenção ao assédio sexual e crimes contra a dignidade sexual em todos os órgãos públicos.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética Pública e Responsabilidade Profissional",
+    "topico_edital": "Venda ou Uso de Informação Privilegiada (Lei 12.813/2013)",
+    "enunciado": "A vedação à divulgação ou uso de informação privilegiada obtida em razão do cargo público, prevista na Lei nº 12.813/2013, cessa automaticamente se o agente público comprovar que a informação já era de conhecimento de analistas de mercado financeiro.",
+    "gabarito": "E",
+    "comentario": "Art. 3º, I da Lei 12.813/2013: Informação privilegiada é a que diz respeito a assuntos sigilosos ou relevante ao processo de tomada de decisão que não seja de conhecimento público geral. O conhecimento informal por alguns agentes de mercado não retira o caráter ilícito de seu uso ou vazamento por agente público.",
+    "regra_ouro": "Informação privilegiada: a divulgação ou uso para proveito próprio ou alheio é infração ética e legal gravíssima permanente.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Parcerias Público-Privadas (PPPs - Lei 11.079/2004)",
+    "enunciado": "A Lei nº 11.079/2004 estabelece duas modalidades de Parceria Público-Privada (PPP): a concessão patrocinada, que envolve adicionalmente contraprestação pecuniária do parceiro público ao parceiro privado, e a concessão administrativa, que consiste no contrato de prestação de serviços de que a Administração Pública seja a usuária direta ou indireta.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 2º da Lei 11.079/2004: 1) Concessão patrocinada = tarifa cobrada dos usuários + contraprestação pecuniária pública; 2) Concessão administrativa = Administração é usuária direta/indireta (não há tarifa cobrada do usuário final). É vedada PPP com valor inferior a R$ 10 milhões ou prazo inferior a 5 anos.",
+    "regra_ouro": "PPPs (Lei 11.079): Concessão Patrocinada = tarifa de usuários + aporte público. Concessão Administrativa = Administração é a própria usuária.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Avaliação Quase-Experimental: Propensity Score Matching (PSM)",
+    "enunciado": "Na avaliação de impacto de programas governamentais, o método de Propensity Score Matching (PSM) calcula a probabilidade condicional de uma unidade receber o tratamento com base nas suas características pré-tratamento observadas, emparelhando indivíduos tratados e não tratados com escores similares para balancear as variáveis de confusão (confounders).",
+    "gabarito": "C",
+    "comentario": "Correto. Rosenbaum e Rubin (1983): O PSM reduz o viés de seleção observável condensando múltiplos atributos x em um escalar e(x) = P(T=1|X). O emparelhamento por escore de propensão permite comparar indivíduos estatisticamente equivalentes nos atributos observados.",
+    "regra_ouro": "Propensity Score Matching (PSM): emparelha tratados e controles com a mesma probabilidade estimada de tratamento para isolar o impacto causal.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Coalizões de Defesa (Advocacy Coalition Framework - Sabatier)",
+    "enunciado": "No modelo de Coalizões de Defesa (ACF) desenvolvido por Paul Sabatier, os subsistemas de políticas públicas são compostos por atores que compartilham um sistema de crenças (beliefs) normativas e empíricas, sendo as crenças nucleares profundas (deep core beliefs) de difícil alteração no curto prazo por exigirem choques externos ao subsistema.",
+    "gabarito": "C",
+    "comentario": "Correto. O ACF postula três níveis de crenças: 1) Deep core beliefs (valores ontológicos imutáveis); 2) Policy core beliefs (estratégias gerais da política); 3) Secondary aspects (detalhes operacionais e regulatórios). Mudanças estruturais nas coalizões demandam eventos externos de grande magnitude.",
+    "regra_ouro": "Advocacy Coalition Framework (Sabatier): atores articulam-se em torno de sistemas de crenças; crenças nucleares são altamente resistentes a mudanças rápidas.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "BPM e Gestão por Processos na Administração Pública",
+    "enunciado": "A abordagem de Gestão por Processos (Business Process Management - BPM) no setor público privilegia a fragmentação funcional em departamentos isolados e com autoridade verticalizada, desencorajando a visão ponta a ponta (end-to-end) centrada nas jornadas do cidadão-usuário.",
+    "gabarito": "E",
+    "comentario": "Inversão da lógica do BPM! O BPM combate especificamente a visão tradicional de 'silos funcionais' fragmentados e verticalizados, implementando fluxos de trabalho transversais e integrados de ponta a ponta (end-to-end), com foco absoluto na entrega de valor ao usuário final.",
+    "regra_ouro": "BPM no setor público: substitui silos departamentais verticais por processos integrados de ponta a ponta focados na entrega de valor.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Planejamento e Orçamento: Princípio da Exclusividade Orçamentária",
+    "enunciado": "O princípio constitucional da exclusividade da lei orçamentária veda que a Lei Orçamentária Anual (LOA) contenha dispositivo estranho à previsão da receita e à fixação da despesa, admitindo como exceções explícitas a autorização para abertura de créditos suplementares e a contratação de operações de crédito.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 165, § 8º da CF/88: 'A lei orçamentária anual não conterá dispositivo estranho à previsão da receita e à fixação da despesa, não se incluindo na proibição a autorização para abertura de créditos suplementares e contratação de operações de crédito, ainda que por antecipação de receita, nos termos da lei.'",
+    "regra_ouro": "Princípio da Exclusividade (Art. 165, § 8º CF): veda 'caudas orçamentárias' na LOA, salvo créditos suplementares e operações de crédito.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Discricionariedade Administrativa e Teoria dos Motivos Determinantes",
+    "enunciado": "Pela Teoria dos Motivos Determinantes, a validade de um ato administrativo vinculado ou discricionário subordina-se à veracidade e à conformidade legal dos motivos declarados pela autoridade administrativa, de modo que a constatação de motivo fático inexistente ou falso nulifica irremediavelmente o ato.",
+    "gabarito": "C",
+    "comentario": "Correto. Pela Teoria dos Motivos Determinantes, mesmo que o ato seja discricionário (e que a lei não exigisse a princípio motivação expressa), se a autoridade declarou o motivo da decisão, o ato fica indissociavelmente vinculado àquele motivo. Se o motivo for comprovadamente falso ou inexistente, o ato é nulo de pleno direito.",
+    "regra_ouro": "Teoria dos Motivos Determinantes: se a Administração declara os motivos do ato, sua validade fica vinculada à veracidade desses motivos.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Língua Portuguesa",
+    "topico_edital": "Vozes Verbais e Agente da Passiva Cebraspe",
+    "enunciado": "Na oração 'Os relatórios de auditoria foram homologados pelo ministro de Estado', a expressão 'pelo ministro de Estado' exerce a função sintática de agente da passiva; caso a oração seja transposta para a voz ativa, esse termo assumirá a função de objeto direto.",
+    "gabarito": "E",
+    "comentario": "Na transposição da voz passiva para a ativa, o AGENTE DA PASSIVA ('pelo ministro') torna-se o SUJEITO da oração ativa: 'O ministro de Estado homologou os relatórios de auditoria'. Quem vira objeto direto é o sujeito paciente da passiva ('os relatórios').",
+    "regra_ouro": "Transposição de vozes: Agente da passiva na passiva analítica torna-se o SUJEITO da voz ativa.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Língua Portuguesa",
+    "topico_edital": "Regência Nominal e Emprego de Preposição",
+    "enunciado": "O substantivo 'inerente' rege obrigatoriamente a preposição 'a', de sorte que no segmento 'risco inerente à função pública' a ocorrência de crase é imperativa pela fusão com o artigo definido feminino.",
+    "gabarito": "C",
+    "comentario": "Correto. O termo 'inerente' é adjetivo que exige complemento nominal regido pela preposição 'a' (inerente a algo). Diante do substantivo feminino 'função pública', precedido do artigo definido 'a', a crase é estritamente obrigatória.",
+    "regra_ouro": "Inerente rege preposição 'a'. Diante de palavra feminina determinada, a crase é obrigatória ('inerente à função').",
+    "nivel": "Fácil"
+  }
+]
