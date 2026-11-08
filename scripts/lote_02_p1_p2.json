@@ -1,0 +1,202 @@
+[
+  {
+    "bloco": "P1",
+    "disciplina": "Língua Portuguesa",
+    "topico_edital": "Crase e Regência Cebraspe",
+    "enunciado": "No segmento 'visando à transparência pública e à conformidade orçamentária', o emprego do acento grave indicativo de crase em ambos os casos decorre da regência do verbo visar, empregado com o sentido de objetivar ou ter por meta.",
+    "gabarito": "C",
+    "comentario": "Correto. O verbo 'visar', com a acepção de ter como objetivo/almejar, rege preposição 'a' (transitivo indireto no padrão culto). Como 'transparência' e 'conformidade' são substantivos femininos determinados pelo artigo 'a', ocorre a fusão obrigatória (crase).",
+    "regra_ouro": "Visar (no sentido de almejar/objetivar) é VTI e rege a preposição 'a'. Diante de feminino com artigo, a crase é obrigatória.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Língua Portuguesa",
+    "topico_edital": "Concordância Verbal e Partícula 'Se'",
+    "enunciado": "Em 'Identificaram-se inconsistências graves nas planilhas de liquidação de despesa', a substituição da forma verbal por 'Identificou-se' manteria a correção gramatical do texto caso o termo 'inconsistências graves' fosse interpretado como sujeito indeterminado.",
+    "gabarito": "E",
+    "comentario": "Erradíssimo. A partícula 'se' acoplada a verbo transitivo direto (identificar algo) é partícula apassivadora (pronome apassivador). O termo 'inconsistências graves' é o SUJEITO PACIENTE (que está no plural), exigindo obrigatoriamente a concordância no plural: 'Identificaram-se'.",
+    "regra_ouro": "VTD + SE = voz passiva sintética. O termo seguinte é sujeito paciente; verbo no plural é obrigatório.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública",
+    "topico_edital": "Nova Gestão Pública (NPM) vs Administração Burocrática",
+    "enunciado": "A Administração Pública Gerencial preconiza a substituição do controle a priori (processual e focado na legalidade estrita dos meios) pelo controle a posteriori (focado nos resultados, na eficiência e na qualidade dos serviços públicos entregues à sociedade).",
+    "gabarito": "C",
+    "comentario": "Correto. O modelo gerencial (NPM) desloca a ênfase dos procedimentos e regras rígidas (controle prévio/burocrático) para a avaliação do desempenho e dos impactos finais (controle a posteriori por resultados).",
+    "regra_ouro": "Modelo Burocrático foca em meios e controle a priori. Modelo Gerencial foca em fins, resultados e controle a posteriori.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Políticas Públicas",
+    "topico_edital": "Modelos de Tomada de Decisão: Racional vs Incremental",
+    "enunciado": "O modelo incremental de Charles Lindblom sustenta que as decisões governamentais resultam de ajustes marginais sucessivos a partir de políticas pré-existentes, contrapondo-se à pretensão sinóptica do modelo racional-compreensivo de calcular exaustivamente todos os custos e benefícios.",
+    "gabarito": "C",
+    "comentario": "Correto. Lindblom cunhou o termo 'a arte de ir se virando' (muddling through), demonstrando que na prática governamental os tomadores de decisão operam com racionalidade limitada e realizam apenas comparações limitadas e incrementais.",
+    "regra_ouro": "Modelo Incremental (Lindblom): decisões por pequenas variações e consensos marginais sobre políticas já vigentes.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética e Integridade Pública",
+    "topico_edital": "Lei Anticorrupção (Lei 12.846/2013) e Acordo de Leniência",
+    "enunciado": "A celebração de Acordo de Leniência com pessoas jurídicas no âmbito do Poder Executivo Federal é de competência concorrente entre qualquer órgão lesado e a CGU, podendo a Petrobras firmar o termo independentemente de homologação ou interveniência da CGU.",
+    "gabarito": "E",
+    "comentario": "Art. 16, § 10 da Lei 12.846/2013: A Controladoria-Geral da União (CGU) é o órgão competente para celebrar os acordos de leniência no âmbito do Poder Executivo federal, bem como no caso de atos lesivos praticados contra a administração pública estrangeira (competência privativa da CGU no Executivo Federal).",
+    "regra_ouro": "Acordo de Leniência no Executivo Federal: competência PRIVATIVA da CGU (órgãos e estatais não podem firmar isoladamente).",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado e Democracia",
+    "topico_edital": "Controle Concentrado de Constitucionalidade",
+    "enunciado": "A Controladoria-Geral da União (CGU), por consubstanciar órgão central do Sistema de Controle Interno do Poder Executivo Federal, detém legitimidade ativa originária para propor Ação Direta de Inconstitucionalidade (ADI) perante o Supremo Tribunal Federal.",
+    "gabarito": "E",
+    "comentario": "Os legitimados ativos da ADI estão taxativamente previstos no art. 103 da Constituição Federal (Presidente, Mesa do Senado, Mesa da Câmara, Governadores, PGR, OAB, partidos com representação e confederações/entidades de classe). Órgãos como CGU ou TCU não constam no rol.",
+    "regra_ouro": "Legitimados da ADI (Art. 103 da CF): rol taxativo. Órgãos de controle (CGU, TCU) NÃO têm legitimidade ativa para propor ADI.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Língua Portuguesa",
+    "topico_edital": "Valores Semânticos dos Conectivos",
+    "enunciado": "Em 'Conquanto houvesse mecanismos robustos de auditoria contínua, os desvios perpetuaram-se por anos', a conjunção subordinativa destacada introduz oração com valor conformativo, equivalendo semanticamente a 'Conforme'.",
+    "gabarito": "E",
+    "comentario": "A conjunção 'conquanto' introduz ideia de CONCESSÃO (equivale a 'embora', 'ainda que', 'a despeito de'), e não conformidade ('conforme', 'segundo').",
+    "regra_ouro": "Conquanto = conjunção CONCESSIVA (embora, ainda que). Conforme/Segundo = CONFORMATIVA.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública",
+    "topico_edital": "Gestão por Competências e Desempenho",
+    "enunciado": "No modelo de Gestão por Competências no setor público, a competência é compreendida tradicionalmente pela tríade CHA (Conhecimentos, Habilidades e Atitudes), agregando-se a necessidade de agregação de valor ao interesse público e entrega mensurável no trabalho.",
+    "gabarito": "C",
+    "comentario": "Correto. O conceito moderno de competência no setor público supera o saber teórico isolado (CHA), vinculando a capacidade individual à capacidade de entrega efetiva e geração de valor público na instituição governamental.",
+    "regra_ouro": "Competência no setor público = CHA (Conhecimentos, Habilidades, Atitudes) + Entrega e agregação de valor público.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Políticas Públicas",
+    "topico_edital": "Formação da Agenda (Agenda-Setting): Modelo dos Múltiplos Fluxos",
+    "enunciado": "No Modelo dos Múltiplos Fluxos de John Kingdon, uma janela de oportunidade política (policy window) abre-se quando convergem temporariamente três fluxos independentes: o fluxo dos problemas (problems), o fluxo das soluções/alternativas (policies) e o fluxo da política (politics).",
+    "gabarito": "C",
+    "comentario": "Correto. Kingdon (1984): A convergência fortuita ou articulada dos três fluxos (problemas visíveis + soluções tecnicamente viáveis + clima político receptivo) abre a janela de oportunidade para um tema ingressar na agenda governamental.",
+    "regra_ouro": "Kingdon (Múltiplos Fluxos): Janela de oportunidade abre quando convergem Problemas + Políticas (soluções) + Política (clima político).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética e Integridade Pública",
+    "topico_edital": "Programa de Integridade (Decreto 11.529/2023)",
+    "enunciado": "Conforme o Sistema de Integridade Pública do Poder Executivo Federal (Decreto 11.529/2023), as Unidades Setoriais de Integridade (UGI) possuem subordinação técnica à Controladoria-Geral da União (CGU), a quem cabe monitorar a implementação dos Planos de Integridade.",
+    "gabarito": "C",
+    "comentario": "Correto. O Decreto 11.529/2023 estabelece o Sistema de Integridade Pública do Poder Executivo Federal (SIPEF), tendo a CGU como Órgão Central e as unidades gestoras de integridade (UGI) como unidades setoriais sob supervisão técnica da CGU.",
+    "regra_ouro": "CGU é o Órgão Central do Sistema de Integridade Pública (SIPEF); unidades setoriais possuem subordinação técnica à CGU.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança e Gestão de Riscos",
+    "topico_edital": "Apetite ao Risco vs Tolerância ao Risco (COSO ERM)",
+    "enunciado": "No framework COSO ERM 2017, a tolerância ao risco representa a quantidade ampla e agregada de risco que uma organização pública está disposta a aceitar na busca de seus objetivos estratégicos, enquanto o apetite a risco define os limites estritos de variação aceitável em torno de uma meta tática específica.",
+    "gabarito": "E",
+    "comentario": "Inversão recíproca dos conceitos! O APETITE AO RISCO é o montante amplo/estratégico de risco que a organização aceita correr na criação de valor. A TOLERÂNCIA AO RISCO refere-se aos limites aceitáveis de variação tática e operacional em torno de metas específicas.",
+    "regra_ouro": "Apetite ao Risco = visão ampla e estratégica. Tolerância ao Risco = limites de variação táticos/operacionais em metas específicas.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança e Gestão de Riscos",
+    "topico_edital": "Risco Inerente vs Risco Residual",
+    "enunciado": "O risco residual corresponde ao nível de exposição a que uma entidade pública está sujeita na ausência total de qualquer ação corretiva ou salvaguarda por parte da gestão para alterar a probabilidade ou o impacto do evento adverso.",
+    "gabarito": "E",
+    "comentario": "Inversão! A exposição ao risco na AUSÊNCIA de ações de controle é o RISCO INERENTE. O RISCO RESIDUAL é o risco que permanece após a implementação e o funcionamento dos controles internos e respostas aos riscos.",
+    "regra_ouro": "Risco Inerente = risco bruto (sem controles). Risco Residual = risco líquido (o que sobra após a atuação dos controles internos).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Lei Geral de Proteção de Dados (LGPD)",
+    "topico_edital": "Princípios da LGPD: Finalidade, Adequação e Necessidade",
+    "enunciado": "O princípio da necessidade (minimização de dados), consagrado na LGPD, preconiza que a coleta e o tratamento de dados pessoais devem limitar-se ao mínimo indispensável para a realização de suas finalidades, com abrangência dos dados pertinentes, proporcionais e não excessivos.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 6º, III da Lei 13.709/2018: Princípio da necessidade é a limitação do tratamento ao mínimo necessário para a realização de suas finalidades, com abrangência dos dados pertinentes, proporcionais e não excessivos em relação às finalidades informadas.",
+    "regra_ouro": "Princípio da Necessidade (LGPD) = Minimização: tratar apenas os dados estritamente essenciais e proporcionais à finalidade.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Lei Geral de Proteção de Dados (LGPD)",
+    "topico_edital": "Papel do Encarregado de Dados (DPO)",
+    "enunciado": "De acordo com a regulamentação da ANPD e a LGPD, o Encarregado pelo Tratamento de Dados Pessoais (DPO) na Administração Pública deve ser obrigatoriamente um servidor público efetivo ocupante de cargo de nível superior, sendo vedada a contratação de pessoa jurídica externa para essa função.",
+    "gabarito": "E",
+    "comentario": "Erradíssimo. A LGPD e a regulamentação da ANPD (Resolução CD/ANPD nº 18/2024 e orientações anteriores) permitem expressamente que a função de encarregado seja desempenhada por pessoa natural (servidor ou empregado) ou pessoa jurídica (prestador de serviços terceirizado - DPO as a Service).",
+    "regra_ouro": "Encarregado LGPD (DPO): pode ser pessoa física OU jurídica (DPO terceirizado). Não é restrito a servidor público de carreira.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental",
+    "topico_edital": "Tipos de Auditoria: Operacional vs Conformidade vs Financeira",
+    "enunciado": "A auditoria operacional (auditoria de desempenho), realizada pelos órgãos de controle como a CGU, tem por escopo basilar emitir uma opinião formal sobre a exatidão e confiabilidade das demonstrações financeiras do ente público, atestando a estrita regularidade fiscal do balanço.",
+    "gabarito": "E",
+    "comentario": "Inversão! Emitir opinião sobre demonstrações contábeis e atestar a fidedignidade do balanço é o objetivo da AUDITORIA FINANCEIRA. A AUDITORIA OPERACIONAL examina a economicidade, eficiência, eficácia e efetividade (4 Es) de programas e órgãos governamentais.",
+    "regra_ouro": "Auditoria Financeira = parecer sobre balanços/contas. Auditoria Operacional = avalia os 4 Es (eficiência, eficácia, efetividade, economicidade).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental",
+    "topico_edital": "Amostragem em Auditoria: Risco de Amostragem vs Não Amostragem",
+    "enunciado": "O risco de não amostragem decorre de falhas operacionais humanas ou metodológicas do próprio auditor, tais como a utilização de procedimentos inadequados de auditoria ou a interpretação equivocada de uma evidência colhida, não sendo mitigado pelo simples aumento do tamanho da amostra.",
+    "gabarito": "C",
+    "comentario": "Correto. NBC TA 530 / Normas INTOSAI: O risco de não amostragem decorre de erro humano, fadiga, técnica incorreta ou evidência mal interpretada; logo, aumentar o número de itens na amostra NÃO reduz o risco de não amostragem (reduz apenas o risco de amostragem estatístico).",
+    "regra_ouro": "Risco de amostragem reduz com amostras maiores. Risco de NÃO amostragem (erro humano/técnico) independe do tamanho da amostra.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Administrativo e Licitações",
+    "topico_edital": "Nova Lei de Licitações (Lei 14.133/2021) - Matriz de Riscos",
+    "enunciado": "Na Lei 14.133/2021, a inclusão da Matriz de Alocação de Riscos no edital e contrato é facultativa para contratações comuns, mas torna-se obrigatória nas contratações de obras e serviços de engenharia de grande vulto e nas contratações integradas e semi-integradas.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 22, § 3º da Lei 14.133/2021: A matriz de alocação de riscos é obrigatória nas contratações de grande vulto (valor superior a R$ 200 milhões) e nos regimes de contratação integrada e semi-integrada, distribuindo riscos financeiros e operacionais entre poder público e contratado.",
+    "regra_ouro": "Matriz de Riscos (Lei 14.133): OBRIGATÓRIA em obras de grande vulto e em contratações integradas e semi-integradas.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Administrativo e Licitações",
+    "topico_edital": "Critérios de Desempate na Lei 14.133/2021",
+    "enunciado": "Em caso de empate entre duas ou mais propostas sob a vigência da Lei 14.133/2021, o sorteio público constitui o primeiro critério mandatório a ser aplicado pela comissão de contratação, precedendo a avaliação de programas de integridade das licitantes.",
+    "gabarito": "E",
+    "comentario": "O sorteio é o ÚLTIMO critério de desempate (art. 60 da Lei 14.133/2021)! Antes do sorteio aplicam-se: 1) disputa final (lances fechados); 2) avaliação do desempenho contratual prévio; 3) ações de equidade entre homens e mulheres; 4) desenvolvimento de programa de integridade (compliance).",
+    "regra_ouro": "Desempate na Lei 14.133: Programa de Integridade precede o sorteio. Sorteio é o ÚLTIMO recurso absoluto.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Lei de Acesso à Informação (LAI)",
+    "topico_edital": "Transparência Ativa vs Passiva (Lei 12.527/2011)",
+    "enunciado": "A disponibilização obrigatória e proativa em sítios oficiais da internet de informações de interesse coletivo ou geral produzidas ou custodiadas pelos órgãos públicos, independentemente de requerimento, configura hipótese de transparência ativa.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 8º da LAI: Transparência Ativa = dever dos órgãos de divulgar informações públicas por iniciativa própria na internet, sem necessidade de pedido de cidadão. Transparência Passiva = resposta às demandas formuladas pelo cidadão (via SIC / Fala.BR).",
+    "regra_ouro": "Transparência Ativa = divulgação espontânea na web (sem pedido prévio). Transparência Passiva = atendimento a requerimentos de cidadãos.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Lei de Acesso à Informação (LAI)",
+    "topico_edital": "Graus de Sigilo e Prazos Máximos (LAI)",
+    "enunciado": "Os prazos máximos de restrição de acesso a informações classificadas em razão de sua imprescindibilidade à segurança da sociedade ou do Estado são de vinte e cinco anos para o grau ultrassecreto, quinze anos para o grau secreto e cinco anos para o grau reservado.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 24, § 1º da Lei 12.527/2011: Ultrassecreto = até 25 anos; Secreto = até 15 anos; Reservado = até 5 anos. Mnemônico clássico: 25 / 15 / 5.",
+    "regra_ouro": "Prazos máximos de sigilo na LAI: Ultrassecreto = 25 anos | Secreto = 15 anos | Reservado = 5 anos.",
+    "nivel": "Fácil"
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "bloco": "P3",
+    "disciplina": "Machine Learning e Modelagem Preditiva",
+    "topico_edital": "Trade-off Viés-Variância e Overfitting",
+    "enunciado": "Em algoritmos de aprendizado supervisionado, o aumento deliberado da complexidade de um modelo tende a reduzir o erro decorrente de viés (bias) às custas do aumento do erro por variância, o que eleva a suscetibilidade ao fenômeno de sobreajuste (overfitting) nos dados de validação.",
+    "gabarito": "C",
+    "comentario": "Correto. O dilema viés-variância estabelece que modelos mais simples possuem alto viés (underfitting) e baixa variância. À medida que a flexibilidade/complexidade do modelo cresce, o viés diminui e a variância aumenta, capturando ruídos do conjunto de treino (overfitting).",
+    "regra_ouro": "Mais complexidade = Menos viés e Mais variância (risco de overfitting). Menos complexidade = Alto viés (underfitting).",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Machine Learning e Modelagem Preditiva",
+    "topico_edital": "Ensemble Learning: Bagging vs Boosting",
+    "enunciado": "Diferentemente do método Random Forest, que baseia-se na técnica de Bagging para diminuir primordialmente a variância de árvores de decisão profundas não podadas, o Gradient Boosting treina estimadores sequencialmente para minimizar os resíduos dos modelos predecessores, atuando prioritariamente na redução do viés.",
+    "gabarito": "C",
+    "comentario": "Correto. Bagging (Random Forest) treina árvores profundas e independentes em paralelo com bootstrap para reduzir a variância. Boosting (XGBoost, LightGBM) combina modelos fracos (árvores rasas com alto viés) sequencialmente, focando em reduzir o viés.",
+    "regra_ouro": "Bagging (Random Forest) reduz VARIÂNCIA com modelos paralelos. Boosting (Gradient Boosting) reduz VIÉS com modelos sequenciais.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Machine Learning e Modelagem Preditiva",
+    "topico_edital": "Elastic Net e Regularização Combinada",
+    "enunciado": "O regularizador Elastic Net combina as penalidades L1 e L2; no caso de variáveis fortemente correlacionadas, o Elastic Net tende a selecionar apenas uma variável arbitrariamente dentre o grupo e zerar as demais, comportando-se exatamente como o estimador Lasso em alta dimensionalidade.",
+    "gabarito": "E",
+    "comentario": "Erradíssimo. Selecionar uma variável arbitrariamente e descartar as demais correlacionadas é a deficiência clássica do LASSO (L1 puro). O Elastic Net foi formulado por Zou e Hastie (2005) precisamente para superar esse problema por meio do efeito de agrupamento (grouping effect) da penalidade L2, incluindo ou excluindo juntas as variáveis correlacionadas.",
+    "regra_ouro": "Lasso escolhe 1 variável arbitrária no grupo correlacionado; Elastic Net inclui o grupo correlacionado em conjunto (Grouping Effect).",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Machine Learning e Modelagem Preditiva",
+    "topico_edital": "Métricas de Avaliação: F-Beta Score e Precision-Recall",
+    "enunciado": "No cálculo da métrica F-beta score aplicada à auditoria de fraudes, a atribuição do valor beta = 2 confere maior peso à precisão (precision) do que à revocação (recall), sendo indicada quando o custo de falsos positivos supera severamente o custo de falsos negativos.",
+    "gabarito": "E",
+    "comentario": "Inversão da métrica! Na fórmula do F-beta ( (1 + beta^2) * (P * R) / (beta^2 * P + R) ), se beta > 1 (ex: beta = 2), dá-se maior importância ao RECALL (revocação/sensibilidade). Se beta < 1 (ex: beta = 0.5), prioriza-se a PRECISÃO.",
+    "regra_ouro": "F-beta: beta > 1 (ex: F2) prioriza RECALL (capturar todos os positivos). beta < 1 (ex: F0.5) prioriza PRECISÃO.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Machine Learning e Modelagem Preditiva",
+    "topico_edital": "Support Vector Machines (SVM) e Truque do Kernel",
+    "enunciado": "No algoritmo Support Vector Machines (SVM) com margem suave, o hiperparâmetro C governa a penalidade imposta às violações da margem de separação: um valor excessivamente elevado de C gera margens mais amplas e tolerantes a erros, mitigando o risco de overfitting.",
+    "gabarito": "E",
+    "comentario": "Inversão do parâmetro C no SVM. Um valor ALTO de C penaliza severamente qualquer ponto que viole a margem, forçando uma margem estreita e rígida (maior risco de overfitting). Um valor BAIXO de C permite mais violações, gerando margens largas e tolerantes (maior viés).",
+    "regra_ouro": "SVM: C alto = penalidade pesada, margem estreita, risco de overfitting. C baixo = margem ampla, tolerante a erros.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Machine Learning e Modelagem Preditiva",
+    "topico_edital": "Agrupamento Não Supervisionado: K-Means e Métrica Silhueta",
+    "enunciado": "O coeficiente de silhueta (silhouette coefficient) de uma amostra varia no intervalo [-1, +1]; valores próximos a -1 indicam que a amostra está fortemente alocada ao seu agrupamento natural e distante dos agrupamentos vizinhos.",
+    "gabarito": "E",
+    "comentario": "Valores próximos a +1 indicam clusterização excelente (distante dos vizinhos). Valores próximos a 0 indicam amostras na fronteira de decisão. Valores próximos a -1 indicam que a amostra foi alocada no cluster ERRADO.",
+    "regra_ouro": "Silhueta: +1 = agrupamento perfeito; 0 = sobreposição de fronteira; -1 = ponto alocado no cluster incorreto.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Machine Learning e Modelagem Preditiva",
+    "topico_edital": "Análise de Componentes Principais (PCA) e Não Linearidade",
+    "enunciado": "A Análise de Componentes Principais (PCA) projeta dados multidimensionais em eixos ortogonais que maximizam a variância retida; por fundamentar-se estritamente na decomposição em valores singulares (SVD) ou autovalores da matriz de covariância linear, o PCA clássico é incapaz de capturar geometrias de variedades não lineares (manifolds) contidas nos dados.",
+    "gabarito": "C",
+    "comentario": "Correto. O PCA é uma transformação linear ortogonal. Se as relações intrínsecas forem não lineares (ex: Swiss Roll), o PCA falha em desemaranhar a estrutura, demandando métodos não lineares como Kernel PCA, t-SNE ou UMAP.",
+    "regra_ouro": "PCA clássico é estritamente LINEAR (baseado em covariância). Não captura variedades e padrões não lineares.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Processamento de Linguagem Natural e LLMs",
+    "topico_edital": "Mecanismo de Atenção Multi-Head e Transformers",
+    "enunciado": "A atenção multi-head na arquitetura Transformer divide as matrizes de projeção Query, Key e Value em h cabeças lineares paralelas, o que possibilita ao modelo atender conjuntamente a informações de diferentes subespaços de representação em diferentes posições da sequência.",
+    "gabarito": "C",
+    "comentario": "Correto. Vaswani et al. (2017): Multi-Head Attention projeta linearmente queries, keys e values h vezes com diferentes projeções aprendidas, permitindo que a rede atenda a relações semânticas, sintáticas e temporais simultâneas em múltiplos subespaços.",
+    "regra_ouro": "Multi-Head Attention permite ao Transformer focar simultaneamente em múltiplos subespaços semânticos e posições diferentes.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Processamento de Linguagem Natural e LLMs",
+    "topico_edital": "Arquitetura Encoder-Only vs Decoder-Only (BERT vs GPT)",
+    "enunciado": "Modelos fundamentados na família GPT adotam arquitetura puramente decodificadora (decoder-only) que emprega máscaras causais na autoatenção para impedir que uma posição atenda a tokens subsequentes, o que os torna nativamente autoregressivos e vocacionados para geração de texto.",
+    "gabarito": "C",
+    "comentario": "Correto. O GPT utiliza a máscara causal (causal mask) na self-attention, onde o token na posição t só enxerga tokens <= t. Isso viabiliza o treinamento autorregressivo de predição do próximo token (next token prediction). Em contraste, o BERT (encoder-only) é bidirecional.",
+    "regra_ouro": "GPT = Decoder-only + Máscara Causal (autoregressivo, geração). BERT = Encoder-only + Bidirecional (classificação e extração).",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Processamento de Linguagem Natural e LLMs",
+    "topico_edital": "Técnicas de RAG (Retrieval-Augmented Generation)",
+    "enunciado": "Em um pipeline de RAG para auditoria de documentos públicos, o processo de chunking afeta criticamente o desempenho da recuperação: fragmentos excessivamente pequenos tendem a perder contexto semântico global, enquanto fragmentos excessivamente longos diluem a similaridade de cosseno com a consulta (query).",
+    "gabarito": "C",
+    "comentario": "Correto. O tamanho do chunk (chunk size) e a sobreposição (chunk overlap) representam um trade-off central em RAG. Chunks minúsculos perdem a coerência contextual; chunks imensos misturam múltiplos temas e diminuem a densidade semântica no cálculo do embedding de similaridade.",
+    "regra_ouro": "Chunking em RAG: Chunks pequenos perdem contexto; chunks muito longos diluem o embedding de similaridade com a query.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Processamento de Linguagem Natural e LLMs",
+    "topico_edital": "Ajuste Fino Eficiente: LoRA (Low-Rank Adaptation)",
+    "enunciado": "A técnica LoRA (Low-Rank Adaptation) congela os pesos pré-treinados do modelo e injeta matrizes de decomposição de posto reduzido nas camadas de atenção, o que reduz drasticamente a quantidade de parâmetros treináveis sem introduzir latência adicional de inferência quando as matrizes adaptadas são fundidas aos pesos originais.",
+    "gabarito": "C",
+    "comentario": "Correto. Hu et al. (2021): LoRA decompõe a matriz de atualização delta_W em duas matrizes de baixo posto (B x A, onde r << d). Na inferência, W_final = W_0 + (B x A), fundindo os pesos sem qualquer overhead computacional em produção.",
+    "regra_ouro": "LoRA: decompõe atualização em matrizes de baixo posto (r << d). Na inferência, os pesos são fundidos sem gerar latência.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Processamento de Linguagem Natural e LLMs",
+    "topico_edital": "Alinhamento de LLMs: RLHF e DPO",
+    "enunciado": "O método Direct Preference Optimization (DPO) elimina a necessidade de treinar um modelo de recompensa (Reward Model) autônomo e de utilizar amostragem por reforço durante o ajuste fino, otimizando a política da LLM diretamente sobre o dataset de preferências humanas por meio de formulação fechada.",
+    "gabarito": "C",
+    "comentario": "Correto. Rafailov et al. (2023): O DPO deriva matematicamente a função de perda relacionando diretamente a política implícita com a recompensa, dispensando a complexa etapa de treinamento do Reward Model e a amostragem instável do algoritmo PPO.",
+    "regra_ouro": "DPO (Direct Preference Optimization) substitui o PPO e dispensa o modelo de recompensa separado, otimizando preferências diretamente.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia de Dados e Big Data",
+    "topico_edital": "Apache Spark: Particionamento, Coalesce vs Repartition",
+    "enunciado": "No Apache Spark, para reduzir o número de partições de um DataFrame de 1.000 para 100 após uma operação massiva de filtragem, o uso do método repartition(100) é computacionalmente mais eficiente do que coalesce(100), pois o repartition evita o envio de dados pela rede (shuffle).",
+    "gabarito": "E",
+    "comentario": "Inversão total! O método COALESCE reduz partições sem realizar full shuffle, apenas agrupando partições adjacentes na mesma máquina (muito mais rápido e econômico). Já o REPARTITION força um full shuffle via rede para redistribuir uniformemente os dados.",
+    "regra_ouro": "Spark: Para REDUZIR partições sem shuffle use coalesce(). repartition() força full shuffle de rede.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia de Dados e Big Data",
+    "topico_edital": "Apache Spark: Broadcast Hash Join e Otimização",
+    "enunciado": "Em operações de join entre uma tabela fato volumosa (bilhões de registros) e uma tabela dimensão diminuta (alguns megabytes), o Broadcast Hash Join do Apache Spark transmite cópias integrais da tabela menor para a memória de todos os executores, eliminando o custo de shuffle sobre a tabela massiva.",
+    "gabarito": "C",
+    "comentario": "Correto. O Broadcast Join envia a tabela pequena a cada executor. Cada executor constrói uma hash table local em memória, permitindo juntar os dados da tabela grande sem precisar redistribuí-la pela rede (zero shuffle na tabela grande).",
+    "regra_ouro": "Broadcast Join envia a tabela pequena aos executores e ELIMINA o shuffle da tabela grande, acelerando o pipeline.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia de Dados e Big Data",
+    "topico_edital": "Apache Kafka: Partições, Grupos de Consumidores e Ordem",
+    "enunciado": "No Apache Kafka, a ordenação estrita de mensagens com garantia de entrega é assegurada globalmente entre todas as partições de um mesmo tópico, mesmo quando múltiplos consumidores em paralelo integram o Consumer Group.",
+    "gabarito": "E",
+    "comentario": "Pegadinha clássica de mensageria! No Apache Kafka, a ordenação de mensagens é garantida EXCLUSIVAMENTE dentro de uma mesma partição. Entre partições diferentes, NÃO há garantia de ordem cronológica global.",
+    "regra_ouro": "Kafka garante ordem estrita APENAS no nível de partição individual. Não há ordenação global entre partições.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia de Dados e Big Data",
+    "topico_edital": "Lakehouse: Delta Lake, ACID e Time Travel",
+    "enunciado": "O formato de armazenamento Delta Lake adiciona garantias ACID sobre arquivos Parquet em object storage por meio de um log de transações estruturado (Delta Log); esse mecanismo viabiliza consultas no modo Time Travel e operações concorrentes com isolamento de transação.",
+    "gabarito": "C",
+    "comentario": "Correto. O Delta Lake emprega o arquivo de log JSON/Checkpoints (_delta_log) como fonte única da verdade para assegurar atomicidade, consistência, isolamento e durabilidade (ACID) sobre Parquet, permitindo versionamento temporal (Time Travel) e rollbacks.",
+    "regra_ouro": "Delta Lake utiliza o Delta Log para fornecer transações ACID e Time Travel (versões históricas) sobre Parquet.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia de Dados e Big Data",
+    "topico_edital": "Arquitetura Lambda vs Kappa",
+    "enunciado": "A arquitetura Kappa simplifica a arquitetura Lambda ao extinguir a camada de processamento em lote (batch layer), processando tanto os dados em tempo real quanto o histórico por meio de um único mecanismo unificado de processamento de fluxo (stream processing).",
+    "gabarito": "C",
+    "comentario": "Correto. Criada por Jay Kreps, a arquitetura Kappa remove a duplicidade da Lambda (que exigia manter código separado para batch e streaming), utilizando um log imutável de streaming (como Kafka) e um motor como Flink/Spark Streaming para reprocessar dados históricos.",
+    "regra_ouro": "Arquitetura Kappa elimina a camada batch da Lambda, unificando tudo em stream processing.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística e Inferência Causal",
+    "topico_edital": "Inferência Bayesiana: Prior Conjugada e Teorema de Bayes",
+    "enunciado": "Na inferência estatística bayesiana, diz-se que uma distribuição a priori é conjugada com a função de verossimilhança se a distribuição a posteriori resultante pertencer à mesma família de probabilidade da distribuição a priori.",
+    "gabarito": "C",
+    "comentario": "Correto. Definição matemática de prior conjugada: se a priori P(theta) e a posteriori P(theta|X) pertencem à mesma família paramétrica de distribuições (ex: Priori Beta + Verossimilhança Binomial = Posteriori Beta).",
+    "regra_ouro": "Prior conjugada: a distribuição a posteriori pertence à mesma família probabilística da priori.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística e Inferência Causal",
+    "topico_edital": "Testes de Hipóteses: Erro Tipo I vs Erro Tipo II e Poder Estatístico",
+    "enunciado": "Em um teste de hipóteses para detecção de anomalias contábeis pela CGU, cometer um Erro do Tipo I corresponde a rejeitar a hipótese nula quando esta for verdadeira, enquanto o poder do teste estatístico é dado pela probabilidade de não rejeitar a hipótese nula quando ela for falsa.",
+    "gabarito": "E",
+    "comentario": "A primeira parte está correta (Erro Tipo I = falso positivo = rejeitar H0 verdadeira). Porém, o PODER DO TESTE (1 - beta) é a probabilidade de REJEITAR a hipótese nula quando ela é FALSA (decisão correta / acerto).",
+    "regra_ouro": "Erro Tipo I = rejeitar H0 verdadeira (Falso Positivo). Poder do Teste (1 - beta) = REJEITAR H0 falsa (Verdadeiro Positivo).",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística e Inferência Causal",
+    "topico_edital": "Inferência Causal: Diferenças em Diferenças (DiD)",
+    "enunciado": "O pressuposto de tendências paralelas (parallel trends assumption) é o pilar fundamental do método de Diferenças em Diferenças (DiD); caso o grupo de controle e o grupo de tratamento exibam trajetórias divergentes antes da introdução da intervenção governamental, a estimativa do efeito causal será enviesada.",
+    "gabarito": "C",
+    "comentario": "Correto. No modelo DiD, a premissa de identificação requer que, na ausência do tratamento, a variação temporal da variável de resultado teria sido idêntica entre os dois grupos. Sem tendências pré-tratamento paralelas, confunde-se o efeito da política com tendências pré-existentes.",
+    "regra_ouro": "DiD (Diferenças em Diferenças) EXIGE premissa de tendências paralelas pré-intervenção para garantir causalidade.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística e Inferência Causal",
+    "topico_edital": "Regressão com Descontinuidade (RDD)",
+    "enunciado": "No desenho de Regressão com Descontinuidade Sharp (Sharp RDD), a probabilidade de atribuição do tratamento salta descontinuamente de zero para um no ponto de corte (threshold) da variável determinante (running variable).",
+    "gabarito": "C",
+    "comentario": "Correto. No Sharp RDD, o tratamento é estritamente determinístico: todos acima do corte são tratados e todos abaixo não são tratados (salto probabilístico de 0 para 1). No Fuzzy RDD, o salto é menor que 1 (probabilístico).",
+    "regra_ouro": "Sharp RDD = atribuição determinística (salto de 0 para 1 no corte). Fuzzy RDD = salto probabilístico (< 1).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Bancos de Dados e SQL Analítico",
+    "topico_edital": "Window Functions: DENSE_RANK vs RANK vs ROW_NUMBER",
+    "enunciado": "Considere que três órgãos públicos empataram com o mesmo valor de despesas na segunda colocação de um ranking. Ao aplicar a função RANK() ordenada por valor decrescente, o órgão imediatamente subsequente receberá a classificação 3.",
+    "gabarito": "E",
+    "comentario": "Pegadinha clássica de SQL! A função RANK() deixa lacunas (gaps) na numeração após empates: se três órgãos empatam no 2º lugar (2, 2, 2), o próximo receberá o posto 5 (1 + 3 + 1 = 5). Quem atribuiria o posto 3 sem lacunas seria a função DENSE_RANK().",
+    "regra_ouro": "RANK() salta posições após empate (ex: 1, 2, 2, 2, 5). DENSE_RANK() não deixa lacunas (ex: 1, 2, 2, 2, 3).",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Bancos de Dados e SQL Analítico",
+    "topico_edital": "Window Functions de Deslocamento: LAG e LEAD",
+    "enunciado": "A função analítica LAG() permite acessar dados de uma linha anterior sem a necessidade de realizar um self-join na tabela, sendo amplamente empregada no cálculo de taxas de variação intertemporal de empenhos orçamentários.",
+    "gabarito": "C",
+    "comentario": "Correto. LAG(coluna, offset, default) busca o valor da linha que antecede a linha atual pelo deslocamento especificado, permitindo comparar faturamento ou empenhos mês a mês com custo de computação incomparavelmente menor do que joins.",
+    "regra_ouro": "LAG() acessa a linha anterior e LEAD() acessa a linha posterior, sem necessidade de joins recursivos caros.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Bancos de Dados e SQL Analítico",
+    "topico_edital": "Estratégias de Indexação: B-Tree vs GIN (Generalized Inverted Index)",
+    "enunciado": "Para a realização de consultas em colunas de tipo JSONB e campos com vetores de palavras-chave, índices do tipo B-Tree são recomendados e superiores aos índices GIN (Generalized Inverted Index), por apresentarem menor custo de manutenção em operações intensivas de INSERT.",
+    "gabarito": "E",
+    "comentario": "Embora o B-Tree tenha menor custo de manutenção, ele NÃO é superior nem recomendado para consultas que buscam elementos internos de arrays, JSONB ou busca textual completa (full-text search). Para esses cenários em PostgreSQL, o índice padrão-ouro é o GIN (Generalized Inverted Index).",
+    "regra_ouro": "GIN (Generalized Inverted Index) é o índice ideal para JSONB, arrays e busca textual. B-Tree é para comparações escalares (=, <, >).",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Bancos de Dados e SQL Analítico",
+    "topico_edital": "Common Table Expressions (CTEs) e Recursividade",
+    "enunciado": "No padrão ANSI SQL, uma CTE declarada com WITH RECURSIVE deve conter obrigatoriamente um termo âncora (anchor member) e um termo recursivo unidos por UNION ou UNION ALL, cessando a recursão quando a iteração corrente retornar um conjunto vazio de registros.",
+    "gabarito": "C",
+    "comentario": "Correto. A sintaxe de CTE recursiva compreende: 1) Query âncora (caso base); 2) Operador UNION [ALL]; 3) Query recursiva que referencia o próprio nome da CTE. O motor encerra o laço assim que nenhuma nova linha é gerada.",
+    "regra_ouro": "CTE Recursiva exige termo âncora + UNION ALL + termo recursivo. Encerra quando o conjunto retornado for vazio.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Python e Computação Científica",
+    "topico_edital": "Global Interpreter Lock (GIL) e Concorrência",
+    "enunciado": "No CPython padrão, o Global Interpreter Lock (GIL) impede a execução concorrente de múltiplas threads em tarefas que exigem uso intensivo de CPU (CPU-bound); para obter paralelismo real com múltiplos núcleos de processamento nesses cenários, deve-se adotar multiprocessamento (multiprocessing) em vez de multithreading.",
+    "gabarito": "C",
+    "comentario": "Correto. O GIL assegura que apenas uma thread nativa execute bytecode Python por vez. Em tarefas CPU-bound, threads adicionais causam lentidão por disputa do lock. O módulo multiprocessing instancia processos isolados do SO com interpretadores próprios, contornando o GIL.",
+    "regra_ouro": "Python GIL: tarefas CPU-bound exigem multiprocessing (processos reais em núcleos separados). Threads servem para I/O-bound.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Python e Computação Científica",
+    "topico_edital": "NumPy: Broadcasting e Operações Vetorizadas",
+    "enunciado": "A regra de broadcasting no NumPy permite operações aritméticas entre arrays de dimensões distintas: duas dimensões são compatíveis se forem iguais ou se uma delas for estritamente igual a um.",
+    "gabarito": "C",
+    "comentario": "Correto. Regra formal do NumPy: ao comparar dimensões da direita para a esquerda, elas são compatíveis se: 1) forem idênticas; ou 2) uma delas for 1 (sendo estendida para casar com a outra dimensão sem duplicar dados em memória).",
+    "regra_ouro": "Broadcasting NumPy: dimensões são compatíveis se forem iguais ou se uma delas for 1.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Python e Computação Científica",
+    "topico_edital": "Pandas: Tipos Categóricos e Gestão de Memória",
+    "enunciado": "Ao processar DataFrames com colunas de texto de baixa cardinalidade (como Unidade Federativa com 27 valores possíveis), a conversão do dtype de 'object' para 'category' resulta em redução substancial do consumo de memória RAM e aceleração das operações de agrupamento (groupby).",
+    "gabarito": "C",
+    "comentario": "Correto. O tipo 'category' no Pandas codifica strings repetidas em inteiros pequenos (int8 ou int16) associados a um dicionário de categorias, evitando armazenar ponteiros de objetos Python redundantes em memória.",
+    "regra_ouro": "Colunas de texto repetitivo convertidas para category reduzem dramaticamente o uso de memória e aceleram groupbys.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Machine Learning e Modelagem Preditiva",
+    "topico_edital": "Validação Cruzada: K-Fold Estratificado para Séries Temporais",
+    "enunciado": "Na modelagem de séries temporais de transferências financeiras, a validação cruzada do tipo K-Fold Estratificado com embaralhamento aleatório (shuffle=True) é a metodologia mais indicada para preservar a estacionariedade e evitar vazamento de dados (data leakage).",
+    "gabarito": "E",
+    "comentario": "Erro grave de modelagem! Em dados temporais, NUNCA se deve embaralhar (shuffle=True), pois isso vaza informações do futuro para o passado (look-ahead bias / data leakage). O método correto para séries temporais é o TimeSeriesSplit (janelas expansivas ou deslizantes respeitando a cronologia).",
+    "regra_ouro": "Séries temporais: NUNCA embaralhe dados na validação cruzada. Use TimeSeriesSplit sem shuffle.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Processamento de Linguagem Natural e LLMs",
+    "topico_edital": "Tokenização BPE (Byte Pair Encoding)",
+    "enunciado": "O algoritmo Byte Pair Encoding (BPE) constrói o vocabulário de subpalavras de forma iterativa, mesclando repetidamente o par de bytes ou caracteres mais frequente encontrado no corpus de treinamento, mitigando problemas com palavras fora do vocabulário (out-of-vocabulary).",
+    "gabarito": "C",
+    "comentario": "Correto. O BPE inicia no nível de caracteres/bytes e progressivamente funde os pares mais frequentes. Isso permite representar palavras raras ou neologismos como composições de subpalavras conhecidas, eliminando tokens desconhecidos (<UNK>).",
+    "regra_ouro": "Byte Pair Encoding (BPE) funde iterativamente os pares de caracteres mais frequentes, evitando o problema de OOV.",
+    "nivel": "Difícil"
+  }
+]
