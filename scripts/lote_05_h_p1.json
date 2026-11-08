@@ -1,0 +1,302 @@
+[
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Sistemas Eleitorais e Dinâmica Partidária",
+    "enunciado": "No sistema proporcional brasileiro para a Câmara dos Deputados, a distribuição dos lugares é calculada primeiramente pela obtenção dos quocientes eleitoral e partidário; na fase de distribuição das sobras eleitorais, após as recentes reformas eleitorais chanceladas pelo STF, todas as legendas partidárias que disputaram o pleito concorrem às sobras, dispensando-se a exigência de que o partido atinja um percentual mínimo do quociente eleitoral.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A legislação eleitoral (art. 109 do Código Eleitoral, alterado pela Lei 14.211/2021 e consolidado pelo STF nas ADIs 7228, 7263 e 7325) exige regras de desempenho mínimo: para participar da distribuição das sobras na fase inicial, o partido deve alcançar pelo menos 80% do quociente eleitoral e o candidato obter votação nominal igual ou superior a 20% desse quociente (regra 80/20). Apenas se nenhum partido atingir esses percentuais é que as vagas remanescentes são distribuídas entre as legendas com maiores médias.",
+    "regra_ouro": "Sobras eleitorais exigem cláusula de barreira individual e partidária (regra 80/20), não participando indistintamente todas as legendas.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Repartição de Competências Constitucionais: Delegação (Art. 22)",
+    "enunciado": "A competência para legislar sobre direito civil, comercial, penal, processual e eleitoral é privativa da União, sendo vedado aos Estados-membros legislar sobre qualquer aspecto dessas matérias, ainda que sobre questões específicas, em razão da rigidez da cláusula pétrea federativa.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Embora o art. 22, I, da CF/88 estabeleça a competência privativa da União para essas matérias, o parágrafo único do art. 22 prescreve expressamente que lei complementar poderá autorizar os Estados a legislar sobre questões específicas das matérias relacionadas nesse artigo.",
+    "regra_ouro": "Competência privativa da União (art. 22) pode ser delegada aos Estados via Lei Complementar federal para questões específicas.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Legislação Concorrente e Normas Gerais (Art. 24, § 4º)",
+    "enunciado": "No âmbito da legislação concorrente entre União, Estados e DF, a superveniência de lei federal sobre normas gerais suspende a eficácia da lei estadual no que lhe for contrário, não operando a revogação formal da norma estadual preexistente.",
+    "gabarito": "C",
+    "comentario": "CERTO. É a literalidade do art. 24, § 4º, da CF/88: 'A superveniência de lei federal sobre normas gerais suspende a eficácia da lei estadual, no que lhe for contrário'. O fenômeno é a suspensão da eficácia (paralisação da aplicabilidade), e não a revogação ou declaração de nulidade.",
+    "regra_ouro": "Lei federal geral superveniente SUSPENDE a eficácia da lei estadual contrária; não revoga formalmente.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Intervenção Federal por Descumprimento de Ordem Judicial (Art. 36)",
+    "enunciado": "A decretação de intervenção federal na hipótese de desobediência a ordem ou decisão judiciária do Supremo Tribunal Federal prescinde de solicitação ou representação de qualquer outro órgão, cabendo sua decretação pelo Presidente da República somente após requisição formal do próprio STF.",
+    "gabarito": "C",
+    "comentario": "CERTO. Nos termos do art. 36, II, da CF/88, a decretação da intervenção dependerá de requisição do Supremo Tribunal Federal, do Superior Tribunal de Justiça ou do Tribunal Superior Eleitoral, se a coação for exercida contra o Poder Judiciário, ou de requisição do STF no caso de desobediência a ordem ou decisão judiciária emanada deste Tribunal.",
+    "regra_ouro": "Descumprimento de ordem judicial pelo ente federado autoriza intervenção federal mediante REQUISIÇÃO (vinculante) do respectivo Tribunal de cúpula.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Controle de Constitucionalidade: Súmula Vinculante 10",
+    "enunciado": "De acordo com a Súmula Vinculante 10 do STF, viola a cláusula de reserva de plenário (art. 97 da CF) a decisão de órgão fracionário de tribunal que, embora não declare expressamente a inconstitucionalidade de lei ou ato normativo do poder público, afasta sua incidência, no todo ou em parte.",
+    "gabarito": "C",
+    "comentario": "CERTO. A Súmula Vinculante 10 veda a 'declaração velada' ou disfarçada de inconstitucionalidade por órgãos fracionários (câmaras/turmas): afastar a incidência de norma legal com base em preceitos constitucionais exige submissão prévia ao Pleno ou Órgão Especial do Tribunal.",
+    "regra_ouro": "Afastar incidência de lei com base na CF por órgão fracionário sem ouvir o Pleno viola a Súmula Vinculante 10.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Ministério Público: Vedações Constitucionais (Art. 128)",
+    "enunciado": "Aos membros do Ministério Público é vedado receber, a qualquer título e sob qualquer pretexto, honorários, percentagens ou custas processuais, bem como participar de sociedade comercial, ressalvada, quanto a esta última, a condição de cotista ou acionista.",
+    "gabarito": "C",
+    "comentario": "CERTO. Conforme o art. 128, § 5º, II, 'a' e 'c', da CF/88, aos membros do MP é vedado receber honorários/percentagens/custas e participar de sociedade comercial, exceto como cotista ou acionista (não podem exercer atos de gerência ou administração empresarial).",
+    "regra_ouro": "Membro do MP não pode administrar sociedade comercial, mas pode ser cotista ou acionista passivo.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Responsabilidade Civil do Estado: Comissiva vs Omissiva",
+    "enunciado": "Conforme consolidada jurisprudência do STF, a responsabilidade civil do Estado por danos decorrentes de conduta comissiva é objetiva, prescindindo de demonstração de dolo ou culpa, ao passo que, nas condutas omissivas genéricas, vigora em regra a teoria da culpa administrativa ('faute du service'), exigindo-se prova de que o Estado falhou no cumprimento de um dever legal de agir.",
+    "gabarito": "C",
+    "comentario": "CERTO. Em condutas comissivas (ações diretas dos agentes públicos), a responsabilidade é objetiva com base na Teoria do Risco Administrativo (art. 37, § 6º, CF). Em caso de omissão genérica, aplica-se a responsabilidade subjetiva fundada na falha do serviço (o serviço não funcionou, funcionou mal ou funcionou com atraso).",
+    "regra_ouro": "Ação estatal comissiva = risco administrativo objetivo; omissão genérica = responsabilidade subjetiva (faute du service).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Ação de Regresso e Dupla Garantia (Tema 940 STF)",
+    "enunciado": "O cidadão prejudicado por ato ilegal praticado por agente público no exercício de suas atribuições tem a faculdade de ajuizar a ação indenizatória diretamente e exclusivamente contra o agente causador do dano, em litisconsórcio facultativo com o ente estatal, ou apenas contra a Administração Pública.",
+    "gabarito": "E",
+    "comentario": "ERRADO. O STF pacificou o princípio da dupla garantia (Tema 940 de Repercussão Geral, RE 1.027.633): a ação por danos causados por agente público deve ser ajuizada necessariamente em face da pessoa jurídica de direito público (ou de direito privado prestadora de serviço público), sendo vedado o ajuizamento direto ou litisconsórcio passivo inicial contra o agente público. O agente responde apenas em ação de regresso em caso de dolo ou culpa.",
+    "regra_ouro": "Princípio da Dupla Garantia: ação indenizatória inicial deve ser movida contra o Estado, nunca diretamente contra o servidor (Tema 940 STF).",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Estatuto da Pessoa Idosa: Prioridade Especial (Lei 10.741)",
+    "enunciado": "O Estatuto da Pessoa Idosa (Lei 10.741/2003) confere prioridade de atendimento a todas as pessoas com idade igual ou superior a sessenta anos; contudo, dentre os idosos, é assegurada prioridade especial e preferência absoluta aos maiores de oitenta anos em relação a todos os demais, exceto em casos de emergência médica.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 3º, § 2º, da Lei 10.741/2003: 'Dentre os idosos, é assegurada prioridade especial aos maiores de 80 (oitenta) anos, atendendo-se suas necessidades sempre preferencialmente em relação aos demais idosos, ressalvados os casos de emergência médica'.",
+    "regra_ouro": "Maiores de 80 anos possuem 'prioridade da prioridade' sobre os demais idosos, exceto emergências de saúde.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Estatuto da Pessoa com Deficiência: Modelo Biopsicossocial",
+    "enunciado": "Conforme a Lei Brasileira de Inclusão da Pessoa com Deficiência (Lei 13.146/2015), a avaliação da deficiência, quando necessária, será estritamente biomédica, baseada em laudos clínicos que atestem o grau de perda funcional anatômica ou fisiológica, sem considerar fatores ambientais ou sociais.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A Lei 13.146/2015 adotou expressamente o modelo biopsicossocial (art. 2º, § 1º). A avaliação deve ser biopsicossocial, realizada por equipe multiprofissional e interdisciplinar, considerando: I - os impedimentos nas funções e estruturas do corpo; II - os fatores socioambientais, psicológicos e pessoais; III - a limitação no desempenho de atividades; e IV - a restrição de participação.",
+    "regra_ouro": "Avaliação de deficiência na LBI é BIOPSICOSSOCIAL e multidisciplinar, rejeitando o modelo puramente médico/clínico.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Cotas Raciais e Heteroidentificação (ADC 41 STF)",
+    "enunciado": "O Supremo Tribunal Federal, ao julgar a ADC 41, declarou a constitucionalidade da reserva de vagas para pessoas negras em concursos públicos (Lei 12.990/2014) e legitimou a utilização de comissões de heteroidentificação complementares à autodeclaração, desde que baseadas exclusivamente no fenótipo do candidato e com respeito à dignidade humana e ao contraditório.",
+    "gabarito": "C",
+    "comentario": "CERTO. Na ADC 41, o STF chancelou a constitucionalidade das cotas raciais e o uso do critério fenotípico (traços visíveis) em bancas de heteroidentificação para coibir fraudes à autodeclaração, vedando critérios estritamente genéticos ou genealógicos (ascendência remota).",
+    "regra_ouro": "Bancas de heteroidentificação devem analisar exclusivamente o FENÓTIPO atual do candidato, garantindo contraditório e dignidade.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Indicadores Sociais: Índice de Vulnerabilidade Social (IVS)",
+    "enunciado": "O Índice de Vulnerabilidade Social (IVS), desenvolvido pelo IPEA, adota a mesma metodologia unidimensional do PIB per capita para aferir a carência de uma localidade, medindo exclusivamente a insuficiência de renda monetária das famílias.",
+    "gabarito": "E",
+    "comentario": "ERRADO. O IVS é um índice composto e multidimensional, estruturado em três dimensões: Infraestrutura Urbana, Capital Humano e Renda/Trabalho. Ele busca capturar o acesso a bens e serviços essenciais (saneamento, transporte, mortalidade infantil, abandono escolar), indo muito além da renda monetária estrita.",
+    "regra_ouro": "IVS do IPEA é MULTIDIMENSIONAL (infraestrutura urbana, capital humano, renda e trabalho), não apenas renda monetária.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Ações Afirmativas e Estatuto da Igualdade Racial",
+    "enunciado": "A Lei 12.288/2010 (Estatuto da Igualdade Racial) define ações afirmativas como medidas especiais e temporárias adotadas pelo Estado e pelo setor privado com o objetivo de corrigir desigualdades raciais e promover a igualdade de oportunidades.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 4º, parágrafo único, da Lei 12.288/2010: os programas de ação afirmativa constituem-se em políticas públicas temporárias destinadas a acelerar a eliminação das desigualdades de fato sofridas pelos grupos historicamente vulnerabilizados.",
+    "regra_ouro": "Ações afirmativas são medidas ESPECIAIS e TEMPORÁRIAS voltadas à igualdade material e fática de oportunidades.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética Pública e Responsabilidade Profissional",
+    "topico_edital": "PAD Sumário na Lei 8.112/1990 (Art. 133 e 140)",
+    "enunciado": "Nos termos da Lei 8.112/1990, o rito sumário de processo administrativo disciplinar aplica-se às infrações de abandono de cargo, inassiduidade habitual e acumulação ilegal de cargos, empregos ou funções públicas, sendo conduzido por comissão composta por apenas dois servidores estáveis.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 133 e art. 140 da Lei 8.112/1990: o procedimento sumário para apuração e punição de acumulação ilegal, abandono de cargo e inassiduidade habitual desenvolve-se pelas fases de indiciação, defesa e relatório, e será conduzido por comissão composta por dois servidores estáveis (no rito ordinário são três servidores).",
+    "regra_ouro": "PAD de Rito Sumário (abandono, inassiduidade e acumulação ilegal) = comissão de 2 servidores estáveis.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética Pública e Responsabilidade Profissional",
+    "topico_edital": "Prescrição da Ação Disciplinar (Art. 142 da Lei 8.112)",
+    "enunciado": "Na Lei 8.112/1990, a ação disciplinar prescreve em cinco anos para infrações puníveis com demissão, cassação de aposentadoria ou destituição de cargo em comissão; o prazo prescricional começa a correr da data em que o fato ocorreu, e não da data em que se tornou conhecido pela autoridade competente.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Conforme o art. 142, § 1º, da Lei 8.112/1990: 'O prazo de prescrição começa a correr da data em que o fato se tornou conhecido' (conhecimento pela autoridade competente para instaurar o procedimento administrativo disciplinar), e não da data da ocorrência do fato.",
+    "regra_ouro": "Termo inicial da prescrição disciplinar na Lei 8.112 = data do CONHECIMENTO do fato pela autoridade administrativa.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética Pública e Responsabilidade Profissional",
+    "topico_edital": "Código de Ética do Servidor Civil Federal (Decreto 1.171/1994)",
+    "enunciado": "No âmbito do Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal (Decreto 1.171/1994), a pena disciplinar aplicável pela Comissão de Ética é unicamente a de censura, devendo a fundamentação constar do respectivo parecer assinado por todos os seus integrantes.",
+    "gabarito": "C",
+    "comentario": "CERTO. Item XXII do Decreto 1.171/1994: 'A pena aplicável ao servidor público pela Comissão de Ética é a de censura e sua fundamentação constará do respectivo parecer, assinado por todos os seus integrantes, com ciência do faltoso'. A Comissão de Ética não aplica demissão, suspensão ou advertência funcional.",
+    "regra_ouro": "Comissão de Ética aplica exclusivamente a penalidade moral de CENSURA.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética Pública e Responsabilidade Profissional",
+    "topico_edital": "Proteção à Identidade do Denunciante (Decreto 10.153/2019)",
+    "enunciado": "O Decreto 10.153/2019, que dispõe sobre as salvaguardas de proteção à identidade de denunciantes de ilícitos no âmbito da Administração Pública Federal, prevê que os elementos de identificação do denunciante gozam de restrição de acesso até a conclusão final do processo disciplinar, momento em que se tornam automaticamente públicos a qualquer cidadão.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Conforme o Decreto 10.153/2019 (art. 4º-A e ss.), os elementos de identificação do denunciante têm acesso restrito pelo prazo de até 100 anos, conforme as regras de proteção a informações pessoais da LAI (art. 31 da Lei 12.527/2011), não se tornando automaticamente públicos após o fim do processo.",
+    "regra_ouro": "Dados identificadores de denunciante têm sigilo resguardado por até 100 anos (natureza de informação pessoal na LAI).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética Pública e Responsabilidade Profissional",
+    "topico_edital": "Assédio Moral no Serviço Público",
+    "enunciado": "A prática de assédio moral no ambiente de trabalho da Administração Pública, caracterizada por condutas abusivas reiteradas que atentem contra a integridade psíquica ou física do servidor, submete o infrator às sanções disciplinares estatutárias e pode ensejar responsabilização civil e administrativa, prescindindo de contato físico direto ou conotação sexual.",
+    "gabarito": "C",
+    "comentario": "CERTO. O assédio moral configura desrespeito aos deveres éticos funcionais e violação à dignidade da pessoa humana e eficiência administrativa, caracterizando-se pela reiteração de comportamentos humilhantes, perseguições veladas e isolamento, sem necessidade de conotação sexual ou agressão física.",
+    "regra_ouro": "Assédio moral prescinde de toque físico ou conotação sexual; funda-se na degradação deliberada e reiterada do ambiente laboral.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "LGPD no Setor Público: Bases Legais e Finalidade Pública (Art. 7º, III)",
+    "enunciado": "O tratamento de dados pessoais por órgãos e entidades da Administração Pública dispensa a obtenção de consentimento do titular quando realizado para o atendimento de sua finalidade pública, na persecução do interesse público, com o objetivo de executar as competências legais ou cumprir as atribuições legais do serviço público.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 7º, III, e art. 23 da Lei 13.709/2018 (LGPD): o consentimento do titular não é necessário quando o tratamento de dados pela Administração Pública for indispensável à execução de políticas públicas previstas em leis e regulamentos ou respaldadas em contratos, convênios ou instrumentos congêneres.",
+    "regra_ouro": "Tratamento de dados pela Administração para execução de políticas públicas legais dispensa consentimento do titular (art. 7º, III, LGPD).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Marco Legal das Startups: CPSI e Contratação Direta (LC 182/2021)",
+    "enunciado": "O Contrato Público para Solução Inovadora (CPSI), instituído pelo Marco Legal das Startups (LC 182/2021), permite à Administração contratar o desenvolvimento e teste de soluções com risco tecnológico, prevendo que, ao término bem-sucedido do CPSI, a contratação do fornecimento da solução final ocorra sem nova licitação, por meio de dispensa específica.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 14 da LC 182/2021: encerrado o Contrato Público para Solução Inovadora (CPSI), a administração pública poderá celebrar com a mesma empresa, sem nova licitação, o contrato de fornecimento da solução inovadora resultante (por até 24 meses, prorrogável por igual período).",
+    "regra_ouro": "CPSI testou e validou a solução inovadora? O contrato de fornecimento final subsequente independe de nova licitação (LC 182/2021).",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Governo Digital: Princípio do Once-Only (Lei 14.129/2021)",
+    "enunciado": "A Lei do Governo Digital (Lei 14.129/2021) consagrou o princípio do 'uma só vez' (once-only principle), segundo o qual os órgãos públicos não podem exigir do cidadão ou empresa documentos ou certidões que já constem em bases de dados oficiais sob a custódia do próprio Poder Executivo.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 3º, IV e art. 13 da Lei 14.129/2021: é direito do usuário a não exigência de documentos já constantes de bases de dados oficiais da administração pública, cabendo aos órgãos e entidades a integração e interoperabilidade das plataformas tecnológicas de dados.",
+    "regra_ouro": "Princípio 'Once-Only' (Governo Digital): órgão público não pode exigir do cidadão documento já existente em base oficial governamental.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Princípios Orçamentários: Exclusividade Orçamentária (Art. 165, § 8º)",
+    "enunciado": "Em decorrência do princípio da exclusividade orçamentária, a Lei Orçamentária Anual (LOA) não conterá matéria estranha à previsão da receita e à fixação da despesa, não se incluindo na proibição a autorização para a abertura de créditos suplementares e a contratação de operações de crédito, ainda que por antecipação de receita.",
+    "gabarito": "C",
+    "comentario": "CERTO. Literalidade do art. 165, § 8º, da CF/88: 'A lei orçamentária anual não conterá dispositivo estranho à previsão da receita e à fixação da despesa, não se incluindo na proibição a autorização para abertura de créditos suplementares e contratação de operações de crédito, ainda que por antecipação de receita, nos termos da lei'.",
+    "regra_ouro": "Exceções constitucionais ao Princípio da Exclusividade na LOA: créditos suplementares e operações de crédito (ARO).",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Auditoria Governamental Baseada em Riscos (ABR)",
+    "enunciado": "A moderna auditoria governamental orientada a riscos preconiza que o planejamento dos trabalhos de controle deve priorizar os processos organizacionais com maior volume financeiro absoluto, desconsiderando a probabilidade de falhas e o impacto na consecução dos objetivos estratégicos.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A Auditoria Baseada em Riscos (ABR) orienta a alocação de recursos de controle a partir do nível de risco inerente e residual (combinação de probabilidade e impacto nos objetivos do órgão), e não puramente pelo volume financeiro ou materialidade orçamentária estrita.",
+    "regra_ouro": "Auditoria Baseada em Riscos combina impacto e probabilidade nos objetivos estratégicos, não apenas volume financeiro.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Avaliação de Políticas Públicas: Outputs vs Impacts no Modelo Lógico",
+    "enunciado": "Na estruturação do Modelo Lógico de um programa público, os 'produtos' (outputs) referem-se às transformações duradouras observadas na condição de vida do público-alvo a médio e longo prazo, enquanto os 'impactos' (impacts) correspondem aos bens ou serviços entregues diretamente pela intervenção governamental.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Os conceitos estão invertidos. Insumos (inputs) geram Atividades (activities), que resultam em Produtos/Entregas (outputs - bens ou serviços imediatos, ex: km asfaltados, cidadãos capacitados). Os Efeitos ou Resultados (outcomes) e Impactos (impacts) são as transformações socioeconômicas duradouras a médio e longo prazo.",
+    "regra_ouro": "Outputs = produtos e entregas imediatas da política pública; Impacts = mudanças socioeconômicas estruturais a longo prazo.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Disfunções da Burocracia: Transposição de Metas (Merton)",
+    "enunciado": "De acordo com a teoria das disfunções burocráticas postulada por Robert K. Merton, a conformidade extrema com as normas e rotinas procedimentais tende a transformar os meios (regras administrativas) em fins em si mesmos, gerando rigidez comportamental e perda de flexibilidade no atendimento às demandas dos cidadãos.",
+    "gabarito": "C",
+    "comentario": "CERTO. Merton identificou a 'transposição de metas' ou ritualismo como principal disfunção do modelo weberiano: o funcionário passa a se preocupar mais com o cumprimento formal da regra interna do que com a resolução substantiva do problema público.",
+    "regra_ouro": "Merton: disfunção burocrática transforma os meios (regras processuais) no objetivo final da organização (ritualismo).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Novo Serviço Público (NPS) vs Nova Gestão Pública (NPM)",
+    "enunciado": "A abordagem do Novo Serviço Público (New Public Service), desenvolvida por Denhardt & Denhardt, propõe que os administradores públicos devem gerenciar a máquina estatal espelhando os gestores privados, tratando os usuários dos serviços públicos preferencialmente como 'clientes' e focando na produtividade e redução de custos.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A ideia de tratar o usuário como 'cliente' e focar em práticas de gestão privada é a premissa da Nova Gestão Pública (New Public Management - NPM). O Novo Serviço Público (NPS) contra-argumenta que servidores públicos devem 'servir cidadãos, não conduzir clientes', priorizando a democracia, diálogo público e interesse público construído coletivamente.",
+    "regra_ouro": "NPM trata cidadão como 'cliente'; NPS (Denhardt) defende servir cidadãos democráticos, não gerenciar clientes.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Controle Externo: Natureza Jurídica do TCU (Art. 71)",
+    "enunciado": "O Tribunal de Contas da União é órgão subordinado ao Poder Legislativo Federal, dotado de função consultiva, cabendo privativamente ao Congresso Nacional aprovar ou rejeitar todos os seus acórdãos e relatórios de auditoria.",
+    "gabarito": "E",
+    "comentario": "ERRADO. O TCU é órgão constitucional autônomo e independente, não subordinado ao Poder Legislativo nem a nenhum outro poder. Ele auxilia o Congresso no controle externo, mas suas decisões sancionatórias e condenatórias possuem eficácia de título executivo extrajudicial (art. 71, § 3º, CF/88), prescindindo de homologação do Congresso.",
+    "regra_ouro": "TCU auxilia o Congresso Nacional no controle externo, mas é autônomo e não subordinado; suas decisões têm força executiva própria.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Mandado de Injunção: Teoria Concretista (Lei 13.300/2016)",
+    "enunciado": "Em sede de Mandado de Injunção, a atual jurisprudência do STF e a Lei 13.300/2016 consagram a teoria concretista, permitindo ao Poder Judiciário fixar as condições em que o direito será exercido ou aplicar norma regulamentadora análoga diante da mora legislativa inconstitucional.",
+    "gabarito": "C",
+    "comentario": "CERTO. O STF abandonou a teoria não concretista (que apenas declarava a mora). Sob a égide da Lei 13.300/2016 e da jurisprudência consolidada, o Judiciário adota a postura concretista: estabelece prazo razoável para o legislador e, persistindo a omissão, disciplina concretamente o exercício do direito fundamental (ex: aplicação do regime celetista de greve aos servidores públicos - MI 670).",
+    "regra_ouro": "Mandado de Injunção no STF adota a Teoria Concretista (Judiciário fixa as regras temporárias de exercício do direito omisso).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Segurança Alimentar e Nutricional: SISAN (Lei 11.346/2006)",
+    "enunciado": "A Lei 11.346/2006, que institui o Sistema Nacional de Segurança Alimentar e Nutricional (SISAN), estabelece que o direito humano à alimentação adequada é restrito à garantia calórica mínima diária, independendo da sustentabilidade ambiental ou das práticas alimentares tradicionais e culturais da população.",
+    "gabarito": "E",
+    "comentario": "ERRADO. O art. 2º da Lei 11.346/2006 define a alimentação adequada como direito fundamental que compreende o acesso regular e permanente, em quantidade e qualidade suficientes, com base em práticas alimentares saudáveis que respeitem a diversidade cultural e que sejam ambiental, econômica e socialmente sustentáveis.",
+    "regra_ouro": "Direito à alimentação adequada engloba sustentabilidade, qualidade nutricional e valorização da cultura alimentar tradicional.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Governança e as Três Linhas do IIA no Setor Público",
+    "enunciado": "No modelo das três linhas do IIA (Institute of Internal Auditors) recepcionado pela Instrução Normativa Conjunta MP/CGU 01/2016 e pelo Decreto 9.203/2017, a auditoria interna governamental integra a primeira linha, atuando diretamente na execução operacional e gestão cotidiana dos controles primários.",
+    "gabarito": "E",
+    "comentario": "ERRADO. No modelo de linhas de defesa: 1ª linha = gestores operacionais que executam os controles internos primários; 2ª linha = instâncias de conformidade, riscos e integridade que supervisionam os controles; 3ª linha = auditoria interna governamental, que presta avaliação e consultoria independente e objetiva.",
+    "regra_ouro": "Auditoria interna governamental atua na 3ª LINHA de defesa (avaliação independente e consultoria); nunca na 1ª linha (gestão operacional).",
+    "nivel": "Média"
+  }
+]

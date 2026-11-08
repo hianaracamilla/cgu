@@ -1,0 +1,252 @@
+[
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Ação Popular: Legitimidade e Isenção de Custas (Art. 5º, LXXIII)",
+    "enunciado": "Qualquer cidadão é parte legítima para propor ação popular que vise a anular ato lesivo ao patrimônio público ou de entidade de que o Estado participe, à moralidade administrativa, ao meio ambiente e ao patrimônio histórico e cultural, ficando o autor, salvo comprovada má-fé, isento de custas judiciais e do ônus da sucumbência.",
+    "gabarito": "C",
+    "comentario": "CERTO. Literalidade do art. 5º, LXXIII, da CF/88. Note que a legitimidade ativa é exclusiva do cidadão (pessoa física em pleno gozo dos direitos políticos, comprovada pelo título de eleitor), não podendo ser ajuizada por pessoa jurídica.",
+    "regra_ouro": "Ação Popular: exclusiva de CIDADÃO (eleitor); isento de custas e sucumbência, ressalvada má-fé.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Ação Civil Pública: Termo de Ajustamento de Conduta (Lei 7.347/1985)",
+    "enunciado": "Conforme a Lei da Ação Civil Pública (Lei 7.347/1985), os órgãos públicos legitimados podem tomar dos interessados compromisso de ajustamento de sua conduta às exigências da lei (TAC), o qual terá eficácia de título executivo extrajudicial.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 5º, § 6º, da Lei 7.347/1985: os órgãos públicos legitimados (como Ministério Público, Defensoria Pública e a própria União) podem tomar termo de ajustamento de conduta, que possui força de título executivo extrajudicial.",
+    "regra_ouro": "TAC firmado por órgão público na tutela coletiva tem força de TÍTULO EXECUTIVO EXTRAJUDICIAL.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Decreto Autônomo e Competência Presidencial (Art. 84, VI)",
+    "enunciado": "O Presidente da República pode, mediante decreto autônomo, dispor sobre a organização e funcionamento da administração federal, quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos, bem como sobre a extinção de funções ou cargos públicos, quando vagos.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 84, VI, 'a' e 'b', da CF/88 (inserido pela EC 19/1998). O decreto autônomo presidencial não pode criar nem extinguir órgãos públicos (que exigem lei formal), nem aumentar despesas, mas pode extinguir cargos/funções públicos desde que estejam vagos.",
+    "regra_ouro": "Decreto autônomo presidencial pode extinguir cargos VAGOS e organizar a administração SEM criar/extinguir órgãos ou elevar despesas.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Comissões Parlamentares de Inquérito (Art. 58, § 3º)",
+    "enunciado": "As Comissões Parlamentares de Inquérito (CPIs) detêm poderes instrutórios próprios das autoridades judiciais, podendo determinar a interceptação telefônica e a busca e apreensão domiciliar noturna sem necessidade de autorização judicial prévia.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A jurisprudência do STF consolidou que matérias sujeitas à reserva de jurisdição NÃO podem ser determinadas por CPI. Interceptação telefônica (escuta) e busca e apreensão domiciliar exigem ordem judicial (art. 5º, XI e XII, CF). A CPI pode quebrar sigilo bancário, fiscal e telefônico (registro de chamadas), mas não pode determinar escuta telefônica nem violar domicílio.",
+    "regra_ouro": "CPI NÃO pode decretar interceptação telefônica (escuta) nem busca e apreensão domiciliar (reserva de jurisdição).",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Súmula Vinculante: Legitimados (Lei 11.417/2006)",
+    "enunciado": "De acordo com o art. 103-A da Constituição Federal e a Lei 11.417/2006, qualquer cidadão é legitimado ativo para propor diretamente ao STF a edição, revisão ou cancelamento de enunciado de súmula vinculante.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A legitimidade para propor edição, revisão ou cancelamento de súmula vinculante é restrita aos legitimados para a ADI (art. 103 da CF), além do Defensor Público-Geral da União, Tribunais e Municípios (incidentalmente). O cidadão comum NÃO possui legitimidade ativa direta para propor súmula vinculante ao STF.",
+    "regra_ouro": "Cidadão NÃO tem legitimidade para propor edição ou cancelamento de Súmula Vinculante perante o STF.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "População em Situação de Rua: ADPF 976 STF",
+    "enunciado": "No julgamento da ADPF 976, o STF determinou a proibição do recolhimento forçado de bens e pertences de pessoas em situação de rua, bem como o emprego de técnicas de arquitetura hostil que impeçam a permanência ou circulação dessa população em espaços públicos.",
+    "gabarito": "C",
+    "comentario": "CERTO. Na ADPF 976, o STF referendou medida cautelar que veda a remoção compulsória e a apreensão de documentos e pertences de pessoas em situação de rua por agentes de segurança, e proibiu intervenções de 'arquitetura hostil' (reforçando a Lei Padre Júlio Lancellotti - Lei 14.489/2022).",
+    "regra_ouro": "ADPF 976 STF: vedada apreensão arbitrária de pertences de pessoas em situação de rua e proibida arquitetura hostil.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Direitos LGBTQIA+ e Jurisprudência do STF (ADO 26)",
+    "enunciado": "Ao julgar a ADO 26 e o MI 4733, o Supremo Tribunal Federal reconheceu a mora inconstitucional do Congresso Nacional e determinou o enquadramento provisório das condutas homofóbicas e transfóbicas como crimes previstos na Lei de Racismo (Lei 7.716/1989), até que sobrevenha legislação específica.",
+    "gabarito": "C",
+    "comentario": "CERTO. O STF aplicou o conceito social de racismo para enquadrar a homofobia e a transfobia nos tipos penais da Lei 7.716/1989 (crimes inafiançáveis e imprescritíveis), resguardando manifestações religiosas que não configurem discurso de ódio.",
+    "regra_ouro": "Homofobia e transfobia são equiparadas aos crimes de racismo da Lei 7.716/1989 por decisão do STF (ADO 26).",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Cadastro Único (CadÚnico): Função Estruturante",
+    "enunciado": "O Cadastro Único para Programas Sociais do Governo Federal (CadÚnico) é instrumento de uso privativo do Programa Bolsa Família, não podendo ser compartilhado com outras esferas de governo ou utilizado para a focalização de outras políticas públicas setoriais de assistência, saúde ou habitação.",
+    "gabarito": "E",
+    "comentario": "ERRADO. O CadÚnico (Decreto 11.016/2022) é o principal instrumento de identificação e caracterização socioeconômica das famílias de baixa renda no Brasil, de uso obrigatório e compartilhado para a concessão de dezenas de benefícios federais, estaduais e municipais (Tarifa Social de Energia, Minha Casa Minha Vida, BPC, isenção em concursos, etc.).",
+    "regra_ouro": "CadÚnico é articulador e intersetorial de dezenas de políticas sociais, nunca restrito apenas ao Bolsa Família.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Lei Maria da Penha: Formas de Violência Doméstica (Lei 11.340)",
+    "enunciado": "A retenção, subtração, destruição parcial ou total de objetos pessoais, instrumentos de trabalho, documentos pessoais e bens materiais da mulher configura violência patrimonial expressamente tipificada na Lei Maria da Penha.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 7º, IV, da Lei 11.340/2006: a violência patrimonial é entendida como qualquer conduta que configure retenção, subtração, destruição parcial ou total de seus objetos, instrumentos de trabalho, documentos pessoais, bens, valores e direitos ou recursos econômicos.",
+    "regra_ouro": "Destruição ou retenção de documentos e instrumentos de trabalho da mulher é VIOLÊNCIA PATRIMONIAL na Lei Maria da Penha.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Fundos Constitucionais de Financiamento Regional (FNE, FNO, FCO)",
+    "enunciado": "Os Fundos Constitucionais de Financiamento do Norte (FNO), Nordeste (FNE) e Centro-Oeste (FCO), previstos no art. 159, I, 'c', da Constituição Federal, têm por finalidade a redução das desigualdades regionais mediante financiamento prioritário aos setores produtivos e a micro e pequenos empreendedores dessas regiões.",
+    "gabarito": "C",
+    "comentario": "CERTO. A CF destina 3% da arrecadação do IR e do IPI para a aplicação em programas de financiamento ao setor produtivo das regiões Norte, Nordeste e Centro-Oeste, através de suas instituições financeiras de caráter regional (Banco do Nordeste, Banco da Amazônia e Banco do Brasil).",
+    "regra_ouro": "Fundos Constitucionais (FNE, FNO, FCO) recebem 3% do IR+IPI para financiar o desenvolvimento e reduzir desigualdades regionais.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética Pública e Responsabilidade Profissional",
+    "topico_edital": "Quarentena e Conflito de Interesses: Porta Giratória (Lei 12.813)",
+    "enunciado": "Nos termos da Lei 12.813/2013, o ex-agente público que ocupou cargo do Grupo-Direção e Assessoramento Superiores (DAS nível 6 ou equivalente de Direção Estratégica) fica impedido de prestar serviços a pessoa física ou jurídica com a qual tenha estabelecido relacionamento relevante em razão do cargo pelo período de seis meses após sua exoneração, período durante o qual fará jus a remuneração compensatória.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 6º, II e art. 7º da Lei 12.813/2013 (quarentena pós-emprego de 6 meses): visa coibir o uso indevido de informação privilegiada e o fenômeno da 'porta giratória' ('revolving door'), com direito à remuneração compensatória se não exercer outra atividade remunerada compatível.",
+    "regra_ouro": "Quarentena de 6 meses para altas autoridades (Lei 12.813/2013) garante remuneração compensatória para evitar conflito pós-cargo.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética Pública e Responsabilidade Profissional",
+    "topico_edital": "Responsabilidade do Parecerista Jurídico (LINDB Art. 28)",
+    "enunciado": "Conforme o art. 28 da LINDB e a jurisprudência do STF, o parecerista jurídico da Administração Pública que emite parecer meramente opinativo em processo licitatório só poderá ser responsabilizado pessoalmente por suas decisões ou opiniões técnicas se tiver agido com dolo ou erro grosseiro.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 28 da LINDB: 'O agente público responderá pessoalmente por suas decisões ou opiniões técnicas em caso de dolo ou erro grosseiro'. No STF (MS 24.631), pacificou-se que o advogado público não é responsabilizável por tese jurídica plausível defendida de boa-fé.",
+    "regra_ouro": "Parecerista jurídico só responde pessoalmente perante os órgãos de controle em caso de DOLO ou ERRO GROSSEIRO (art. 28 LINDB).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética Pública e Responsabilidade Profissional",
+    "topico_edital": "Prazos de Sigilo na Lei de Acesso à Informação (Lei 12.527)",
+    "enunciado": "De acordo com a Lei de Acesso à Informação (Lei 12.527/2011), os prazos máximos de restrição de acesso à informação classificada sob sigilo são de cinco anos para reservada, quinze anos para secreta e vinte e cinco anos para ultrassecreta.",
+    "gabarito": "C",
+    "comentario": "CERTO. Literalidade do art. 24, § 1º, da Lei 12.527/2011: I - ultrassecreta: 25 anos; II - secreta: 15 anos; III - reservada: 5 anos. Lembrar que informações pessoais (art. 31) têm proteção de até 100 anos.",
+    "regra_ouro": "Prazos máximos de sigilo na LAI: Reservada = 5 anos; Secreta = 15 anos; Ultrassecreta = 25 anos.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética Pública e Responsabilidade Profissional",
+    "topico_edital": "Sucessão e Limite na Improbidade Administrativa (Lei 8.429)",
+    "enunciado": "Na hipótese de falecimento do agente responsável por ato de improbidade administrativa, a obrigação de reparar o dano causado ao erário extingue-se automaticamente com a morte, sendo vedada a transmissão de qualquer sanção econômica aos herdeiros ou sucessores.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Art. 8º da Lei 8.429/1992: 'O sucessor ou o herdeiro daquele que causar dano ao erário ou que se enriquecer ilicitamente estão sujeitos apenas à obrigação de repará-lo até o limite do valor da herança ou do patrimônio a eles transferido'. As sanções pessoais (suspensão de direitos políticos, perda de cargo) se extinguem, mas a reparação patrimonial transmite-se até as forças da herança.",
+    "regra_ouro": "Herdeiros respondem pela reparação do dano ao erário até o limite do patrimônio transferido na herança.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética Pública e Responsabilidade Profissional",
+    "topico_edital": "Termo de Ajustamento de Conduta Disciplinar (TAC na CGU)",
+    "enunciado": "O Termo de Ajustamento de Conduta (TAC) no âmbito correcional federal pode ser celebrado em casos de infrações disciplinares de menor potencial ofensivo puníveis com advertência, extinguindo-se a punibilidade do servidor após o cumprimento integral das obrigações acordadas.",
+    "gabarito": "C",
+    "comentario": "CERTO. Conforme normatização da CGU (IN CGU 04/2020 e Portaria Normativa CGU 27/2022), o TAC disciplinar é cabível para faltas leves puníveis com advertência (e, sob certos critérios, suspensão até 30 dias), visando à celeridade e pedagogia funcional, sem instauração de PAD formal.",
+    "regra_ouro": "TAC Disciplinar da CGU destina-se a infrações leves (evita PAD formal e extingue punibilidade se cumprido).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Análise Custo-Efetividade (ACE) vs Custo-Benefício (ACB)",
+    "enunciado": "A Análise Custo-Benefício (ACB) mensura tanto os custos quanto os resultados e impactos em unidades estritamente monetárias, ao passo que a Análise Custo-Efetividade (ACE) expressa os custos em termos monetários e os resultados em unidades físicas de eficácia (como anos de vida ganhos ou taxa de redução do abandono escolar).",
+    "gabarito": "C",
+    "comentario": "CERTO. Na ACB, numerador e denominador são convertidos em moeda ($/$) para aferir o Valor Presente Líquido ou Taxa Interna de Retorno. Na ACE, os benefícios são mantidos em unidades naturais/físicas de produto ou efeito ($/unidade física), sendo ideal quando a monetização de vidas ou direitos é eticamente questionável ou metodologicamente complexa.",
+    "regra_ouro": "ACB = custos e benefícios em moeda ($/$); ACE = custos em moeda e benefícios em unidades físicas/naturais ($/vida salva).",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Restos a Pagar: Processados vs Não Processados",
+    "enunciado": "Consideram-se Restos a Pagar Processados as despesas empenhadas, mas não liquidadas até o encerramento do exercício financeiro, dependendo da prestação de serviços no ano seguinte para a emissão da respectiva ordem de pagamento.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A definição apresentada corresponde aos Restos a Pagar NÃO Processados (despesas empenhadas que NÃO passaram pela fase da liquidação). Os Restos a Pagar PROCESSADOS são aquelas despesas que já foram empenhadas e regularmente liquidadas (o serviço/bem foi entregue e atestado), restando unicamente o pagamento financeiro.",
+    "regra_ouro": "Restos a Pagar PROCESSADOS = já liquidados (serviço atestado); NÃO PROCESSADOS = apenas empenhados (pendem de liquidação).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Teoria da Escolha Pública (Public Choice Theory)",
+    "enunciado": "A Teoria da Escolha Pública (Public Choice), formulada por autores como James Buchanan e Gordon Tullock, assume que políticos e burocratas atuam como maximizadores altruístas do bem comum e da justiça social, desprovidos de incentivos de maximização de interesse próprio ou sobrevivência política.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A premissa central da Escola da Escolha Pública (Public Choice) é exatamente a oposta: aplica a metodologia econômica à ciência política, partindo do princípio de que burocratas e políticos são agentes racionais autointeressados que buscam maximizar orçamentos, poder, prestígio e chances eleitorais (busca de rendas ou rent-seeking).",
+    "regra_ouro": "Public Choice Theory: políticos e burocratas são agentes autointeressados que maximizam poder, orçamento e votos (não altruístas).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Gestão de Riscos: Modelo COSO ERM e Apetite a Risco",
+    "enunciado": "No framework COSO ERM (Enterprise Risk Management), 'apetite a risco' corresponde ao nível máximo de variação que a organização tolera em relação ao alcance de uma meta específica, enquanto 'tolerância a risco' reflete a quantidade e tipo de risco que a entidade está disposta a aceitar em busca de seus objetivos estratégicos globais.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Os conceitos estão invertidos. Apetite a Risco (Risk Appetite) é a quantidade e tipo de risco em nível amplo/estratégico que a organização está disposta a aceitar na criação de valor. Tolerância ao Risco (Risk Tolerance) é a variação aceitável e mensurável no desempenho em torno de metas específicas e operacionais.",
+    "regra_ouro": "Apetite ao risco = visão global/estratégica aceita; Tolerância ao risco = desvio aceitável em metas operacionais específicas.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Agências Reguladoras: Lei Geral das Agências (Lei 13.848/2019)",
+    "enunciado": "A Lei 13.848/2019 estabelece que a edição ou alteração de atos normativos de interesse geral dos agentes econômicos ou usuários pelas agências reguladoras federais será precedida, obrigatoriamente, da realização de Análise de Impacto Regulatório (AIR), contendo informações e dados sobre os prováveis efeitos da norma.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 6º da Lei 13.848/2019: a adoção e alteração de atos normativos de interesse geral pelas agências reguladoras serão precedidas de Análise de Impacto Regulatório (AIR), mecanismo de governança voltado a demonstrar a razoabilidade econômica e técnica da regulação.",
+    "regra_ouro": "Normas de interesse geral em agências reguladoras exigem ANÁLISE DE IMPACTO REGULATÓRIO (AIR) obrigatória.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Controle Social e Transparência Passiva (Lei 12.527/2011)",
+    "enunciado": "No atendimento a pedidos de acesso à informação (transparência passiva), o órgão público não poderá exigir do solicitante a exposição dos motivos determinantes ou a justificação do interesse público da solicitação.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 10, § 3º, da Lei 12.527/2011: 'São vedadas quaisquer exigências relativas aos motivos determinantes da solicitação de informação de interesse público'. O direito de acesso independe de motivação ou interesse pessoal direto.",
+    "regra_ouro": "Pedido de acesso à informação (LAI) NÃO pode exigir que o cidadão justifique o motivo de sua consulta.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Lei de Responsabilidade Fiscal: Limites de Gastos com Pessoal",
+    "enunciado": "Nos termos da Lei de Responsabilidade Fiscal (LC 101/2000), a despesa total com pessoal no âmbito da União não poderá exceder a 50% da receita corrente líquida apurada em cada período de apuração.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 19, I, da LRF: o limite global para a União é de 50% da Receita Corrente Líquida (distribuído em 40,9% para o Poder Executivo, 6,0% para o Judiciário, 2,5% para o Legislativo/TCU e 0,6% para o MPU). Nos Estados e Municípios, o limite global é de 60%.",
+    "regra_ouro": "Limite global de despesa com pessoal na LRF: 50% da RCL para a União e 60% para Estados e Municípios.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Federalismo Brasileiro: Princípio da Simetria Constitucional",
+    "enunciado": "O princípio da simetria constitucional impõe que os Estados-membros e o Distrito Federal organizem suas respectivas administrações e seus procedimentos legislativos em estrita observância compulsória aos modelos estruturantes estabelecidos pela Constituição Federal para a União.",
+    "gabarito": "C",
+    "comentario": "CERTO. O STF entende que as linhas mestras da organização dos poderes, do processo legislativo, das regras orçamentárias e dos tribunais de contas fixadas na CF/88 são de absorção compulsória pelos Estados e DF pelo princípio da simetria das formas federativas.",
+    "regra_ouro": "Princípio da Simetria: normas estruturantes federais sobre processo legislativo e órgãos de controle vinculam os Estados.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Estatuto da Criança e do Adolescente: Princípio da Prioridade Absoluta",
+    "enunciado": "O princípio da prioridade absoluta dos direitos da criança e do adolescente, consagrado no art. 227 da CF/88 e no ECA, impõe à Administração Pública a primazia de receber socorro em quaisquer circunstâncias e a preferência na formulação e execução de políticas sociais públicas e na destinação privilegiada de recursos orçamentários.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 4º, parágrafo único, da Lei 8.069/1990 (ECA) e art. 227 da CF: a garantia de prioridade compreende primazia em socorro, precedência em serviços públicos, preferência nas políticas e destinação orçamentária privilegiada.",
+    "regra_ouro": "Prioridade Absoluta do ECA/CF impõe destinação orçamentária privilegiada e precedência em serviços públicos a crianças e adolescentes.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Gestão por Competências no Setor Público (Dec. 9.991/2019)",
+    "enunciado": "A Política Nacional de Desenvolvimento de Pessoas (PNDP), regulamentada pelo Decreto 9.991/2019, estabelece que as ações de capacitação no âmbito da Administração Pública Federal devem ser planejadas com base no alinhamento às competências institucionais e individuais necessárias ao alcance dos objetivos estratégicos do órgão.",
+    "gabarito": "C",
+    "comentario": "CERTO. O Decreto 9.991/2019 estrutura o desenvolvimento de pessoas com base na gestão por competências (conhecimentos, habilidades e atitudes), integrando o Plano de Desenvolvimento de Pessoas (PDP) ao planejamento estratégico governamental.",
+    "regra_ouro": "PNDP (Dec. 9.991/2019): capacitações de servidores baseiam-se em gestão por competências alinhadas aos objetivos estratégicos.",
+    "nivel": "Fácil"
+  }
+]
