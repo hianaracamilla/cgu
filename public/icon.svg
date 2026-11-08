@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="128" fill="#0f172a"/>
+  <circle cx="256" cy="256" r="190" stroke="#3b82f6" stroke-width="16" stroke-dasharray="8 8" opacity="0.6"/>
+  <path d="M160 256L224 320L352 192" stroke="#10b981" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="360" cy="160" r="14" fill="#f59e0b"/>
+  <text x="256" y="410" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-weight="800" font-size="44" letter-spacing="4">CGU 2026</text>
+</svg>
