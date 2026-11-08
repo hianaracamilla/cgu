@@ -160,13 +160,48 @@ export async function gerarBateriaDiaria(
 }
 
 export async function getBateriaAtivaOuCriar(): Promise<{ bateria: BateriaDiaria; questoes: Questao[] }> {
+  // 1. Se o Supabase estiver conectado, busca a bateria do dia ativa na nuvem
+  if (isSupabaseConfigured() && supabase) {
+    try {
+      const hoje = new Date().toISOString().split('T')[0];
+      const { data, error } = await supabase
+        .from('baterias_diarias')
+        .select('*')
+        .eq('data_geracao', hoje)
+        .eq('concluida', false)
+        .order('criada_em', { ascending: false })
+        .limit(1);
+
+      if (!error && data && data.length > 0) {
+        const bateriaDb = data[0] as BateriaDiaria;
+        const todas = await getQuestoes();
+        const mapa = new Map(todas.map((q) => [q.id, q]));
+        const questoesOrdenadas = bateriaDb.ids_questoes
+          .map((id) => mapa.get(id))
+          .filter(Boolean) as Questao[];
+
+        if (questoesOrdenadas.length > 0) {
+          if (typeof window !== 'undefined') {
+            localStorage.setItem(
+              STORAGE_BATERIA_KEY,
+              JSON.stringify({ bateria: bateriaDb, questoes: questoesOrdenadas })
+            );
+          }
+          return { bateria: bateriaDb, questoes: questoesOrdenadas };
+        }
+      }
+    } catch (e) {
+      console.warn('Erro ao sincronizar bateria diária com Supabase:', e);
+    }
+  }
+
+  // 2. Fallback de cache local
   if (typeof window !== 'undefined') {
     try {
       const cache = localStorage.getItem(STORAGE_BATERIA_KEY);
       if (cache) {
         const parsed = JSON.parse(cache);
         if (parsed.bateria && parsed.questoes && parsed.questoes.length > 0) {
-          // Se tiver questões repetidas no cache antigo, descarta e regenera sem duplicações
           const idsUnicos = new Set(parsed.questoes.map((q: Questao) => q.id));
           if (idsUnicos.size === parsed.questoes.length) {
             return parsed;
@@ -175,6 +210,8 @@ export async function getBateriaAtivaOuCriar(): Promise<{ bateria: BateriaDiaria
       }
     } catch {}
   }
+
+  // 3. Se não houver bateria hoje, gera uma nova e persiste no Supabase
   return gerarBateriaDiaria(10, 10, 30);
 }
 
