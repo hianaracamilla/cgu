@@ -1,0 +1,202 @@
+[
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Tipologia de Políticas Públicas de Theodore Lowi",
+    "enunciado": "Na consagrada tipologia de Theodore Lowi, as políticas públicas redistributivas caracterizam-se pelo baixo grau de conflito social e facilidade de obtenção de consenso parlamentar, uma vez que transferem benefícios concentrados a determinados grupos sem impor custos perceptíveis a nenhum outro setor social.",
+    "gabarito": "E",
+    "comentario": "Inversão da tipologia de Lowi! Políticas REDISTRIBUTIVAS (como reforma agrária ou tributação progressiva) geram o MAIS ELEVADO NÍVEL DE CONFLITO SOCIAL, pois operam em jogo de soma zero (tiram recursos de uma classe/grupo social definido para transferir a outro). Quem concede benefícios difusos com baixo conflito são as políticas DISTRIBUTIVAS (logrolling / 'fisiologismo orçamentário').",
+    "regra_ouro": "Lowi: Políticas Redistributivas geram alto conflito social (soma zero). Políticas Distributivas geram baixo conflito aparente.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Atributos do Ato Administrativo: Autoexecutoriedade",
+    "enunciado": "A autoexecutoriedade é atributo presente em todos os atos administrativos indistintamente, autorizando a Administração Pública a executar diretamente suas decisões de forma coativa, inclusive no que tange à cobrança forçada de multas administrativas sem necessidade de execução fiscal judicial.",
+    "gabarito": "E",
+    "comentario": "Dois erros capitais: 1) A autoexecutoriedade NÃO está presente em todos os atos administrativos (depende de previsão em lei ou de situação de urgência). 2) A cobrança de MULTAS administrativas pecuniárias NÃO possui autoexecutoriedade: se o administrado não pagar, o Estado é obrigado a ajuizar Execução Fiscal perante o Poder Judiciário.",
+    "regra_ouro": "Cobrança de multa administrativa NÃO tem autoexecutoriedade: exige ajuizamento de Ação de Execução Fiscal no Judiciário.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Anulação vs Revogação de Atos Administrativos (Súmula 473 do STF)",
+    "enunciado": "A revogação de um ato administrativo fundamenta-se em razões de conveniência e oportunidade no juízo discricionário da Administração Pública, produzindo efeitos retroativos (ex tunc) que desconstituem todos os direitos adquiridos consolidados sob sua vigência.",
+    "gabarito": "E",
+    "comentario": "Inversão dos efeitos temporais! A REVOGAÇÃO incide sobre ato lícito/válido por conveniência e oportunidade, operando efeitos para o futuro (EX NUNC, não retroage) e respeitando os direitos adquiridos. Quem retroage (efeito EX TUNC) é a ANULAÇÃO de ato ilegal (Súmula 473 do STF).",
+    "regra_ouro": "Revogação = mérito (conveniência/oportunidade) com efeitos EX NUNC (para frente). Anulação = ilegalidade com efeitos EX TUNC (retroativo).",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Princípio da Proporcionalidade e Sub-regras de Robert Alexy",
+    "enunciado": "O teste de proporcionalidade, na dogmática de Robert Alexy, estrutura-se em três sub-regras sucessivas e cumulativas: adequação (o meio escolhido fomenta o fim pretendido), necessidade (inexiste outro meio igualmente eficaz e menos gravoso aos direitos fundamentais) e proporcionalidade em sentido estrito (as vantagens superam as desvantagens).",
+    "gabarito": "C",
+    "comentario": "Correto. Tríplice teste de proporcionalidade (Alexy): 1) Adequação (aptidão do meio); 2) Necessidade (vedação do excesso / menor lesividade comparativa); 3) Proporcionalidade em sentido estrito (balanceamento/ponderação de custos e benefícios jurídicos).",
+    "regra_ouro": "Proporcionalidade (Robert Alexy): Três exames sucessivos = Adequação + Necessidade (menor gravame) + Proporcionalidade em sentido estrito.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Ministério Público: Princípios Institucionais (Art. 127 da CF)",
+    "enunciado": "São princípios institucionais do Ministério Público a unidade, a indivisibilidade e a independência funcional, cabendo ao Procurador-Geral da República o poder hierárquico irrestrito de avocar processos e ditar o teor das manifestações jurídicas dos promotores de justiça no exercício da atividade finalística.",
+    "gabarito": "E",
+    "comentario": "A primeira parte cita os princípios constitucionais corretos (art. 127, § 1º da CF). Porém, a INDEPENDÊNCIA FUNCIONAL garante que cada membro do MP possui autonomia plena de convicção em sua atuação finalística, inexistindo subordinação hierárquica em relação ao chefe da instituição (o PGR não pode impor votos ou avocar causas por discordância de tese).",
+    "regra_ouro": "Princípio da Independência Funcional do MP: impede subordinação hierárquica na atividade-fim (o chefe do MP não dita manifestações de mérito).",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Terras Quilombolas e Critério de Autoatribuição (ADI 3239 do STF)",
+    "enunciado": "No julgamento da ADI 3239, o Supremo Tribunal Federal assentou a constitucionalidade do Decreto nº 4.887/2003, validando o critério da autoatribuição (autodeclaração) da comunidade remanescente de quilombo como ponto de partida legítimo para o procedimento administrativo de titulação territorial.",
+    "gabarito": "C",
+    "comentario": "Correto. O STF julgou improcedente a ADI 3239, reconhecendo que a autodefinição da identidade étnica quilombola encontra esteio na Convenção 169 da OIT e no art. 68 do ADCT, cabendo ao INCRA e à Fundação Cultural Palmares conduzir os laudos antropológicos e históricos conclusivos.",
+    "regra_ouro": "ADI 3239 do STF: Constitucionalidade do Decreto 4.887/2003 e da autodeclaração na titulação de territórios quilombolas.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Divisão Sexual do Trabalho e Economia do Cuidado",
+    "enunciado": "A economia do cuidado analisa a distribuição assimétrica do trabalho doméstico e reprodutivo não remunerado entre os sexos, demonstrando que a sobrecarga feminina nessa esfera constitui barreira estrutural à inserção equitativa das mulheres no mercado de trabalho formal e a sua progressão a cargos de liderança.",
+    "gabarito": "C",
+    "comentario": "Correto. Dados da PNAD Contínua (IBGE) revelam que mulheres dedicam quase o dobro de horas semanais a afazeres domésticos e cuidados de pessoas em relação aos homens. Essa assimetria histórica compromete o tempo disponível para capacitação e ascensão profissional (teto de vidro).",
+    "regra_ouro": "Economia do Cuidado: sobrecarga de afazeres domésticos não remunerados sobre mulheres reduz sua taxa de participação e liderança no trabalho.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Princípios do Sistema Único de Saúde (SUS): Doutrinários vs Organizativos",
+    "enunciado": "A universalidade, a integralidade e a equidade consubstanciam princípios doutrinários do SUS, enquanto a descentralização, a regionalização e a participação da comunidade configuram princípios organizativos da rede pública de saúde.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 7º da Lei 8.080/1990 e doutrina sanitária: 1) Princípios DOUTRINÁRIOS (filosóficos) = Universalidade (acesso para todos), Integralidade (cuidado preventivo e curativo completo) e Equidade (tratar desigualmente os desiguais); 2) Princípios ORGANIZATIVOS (operacionais) = Descentralização, Regionalização/Hierarquização e Participação Social (Conselhos e Conferências).",
+    "regra_ouro": "SUS: Doutrinários (Universalidade, Integralidade, Equidade) vs Organizativos (Descentralização, Regionalização, Participação da Comunidade).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Desigualdades Educacionais e Composição do IDEB",
+    "enunciado": "O Índice de Desenvolvimento da Educação Básica (IDEB) calcula a qualidade educacional combinando dois componentes fundamentais: o fluxo escolar (taxa de aprovação e permanência) e o desempenho dos alunos nos testes padronizados de proficiência em língua portuguesa e matemática (Saeb).",
+    "gabarito": "C",
+    "comentario": "Correto. Fórmula do IDEB = Taxa de Aprovação (indicador de rendimento/fluxo escolar) x Média de Desempenho no Saeb. Essa formulação foi concebida pelo Inep para evitar distorções (ex: escolas que aprovam sem ensinar ou escolas que retêm muitos alunos para inflar a média na prova).",
+    "regra_ouro": "IDEB combina rendimento escolar (fluxo de aprovação) com proficiência nos testes padronizados do Saeb.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética Pública e Responsabilidade Profissional",
+    "topico_edital": "Acumulação Remunerada de Cargos Públicos (Art. 37, XVI da CF)",
+    "enunciado": "É permitida a acumulação remunerada de dois cargos públicos privativos de profissionais de saúde, com profissões regulamentadas, desde que haja compatibilidade de horários comprovada no caso concreto.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 37, XVI, 'c' da CF/88: É vedada a acumulação remunerada de cargos públicos, exceto, quando houver compatibilidade de horários: a) a de dois cargos de professor; b) a de um cargo de professor com outro técnico ou científico; c) a de dois cargos ou empregos privativos de profissionais de saúde, com profissões regulamentadas.",
+    "regra_ouro": "Acumulação constitucional permitida (com compatibilidade de horários): 2 professores; 1 professor + 1 técnico/científico; 2 cargos de saúde.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética Pública e Responsabilidade Profissional",
+    "topico_edital": "Teto Remuneratório Constitucional e Verbas Indenizatórias (Art. 37, XI)",
+    "enunciado": "Estão sujeitas ao teto remuneratório constitucional correspondente ao subsídio mensal dos Ministros do Supremo Tribunal Federal todas as parcelas percebidas pelo servidor público, incluindo diárias, auxílio-transporte e indenizações de despesas comprovadas.",
+    "gabarito": "E",
+    "comentario": "Art. 37, § 11 da CF/88: Não serão computadas, para efeito dos limites remuneratórios do teto (art. 37, XI), as parcelas de CARÁTER INDENIZATÓRIO previstas em lei (como diárias, ajuda de custo para mudança, indenização de transporte). O teto incide sobre vencimentos, subsídios e gratificações remuneratórias ordinárias.",
+    "regra_ouro": "Teto Constitucional (STF): parcelas de natureza INDENIZATÓRIA (diárias, auxílios) ficam expressamente fora do abate-teto.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética Pública e Responsabilidade Profissional",
+    "topico_edital": "Dever de Informação e Crime de Desobediência no Controle da CGU",
+    "enunciado": "A autoridade administrativa que recusar injustificadamente a exibição de documentos e dados bancários requisitados pela equipe de auditoria da CGU pratica ato ilícito de infração disciplinar grave, mas não incorre em responsabilidade penal por inexistir tipo incriminador específico aplicável ao controle interno.",
+    "gabarito": "E",
+    "comentario": "A recusa injustificada ao fornecimento de dados e documentos requisitados por auditoria da CGU configura crime de desobediência (art. 330 do Código Penal) ou prevaricação (art. 319), além de infração administrativa sujeita a afastamento cautelar e improbidade administrativa.",
+    "regra_ouro": "Recusa indevida de dados a equipes de fiscalização e auditoria da CGU gera responsabilização disciplinar, civil e penal (crime de desobediência).",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Organizações Sociais (OSs) e Contrato de Gestão (ADI 1923 do STF)",
+    "enunciado": "O Supremo Tribunal Federal, no julgamento da ADI 1923, considerou constitucional a qualificação de entidades privadas como Organizações Sociais (OSs) e a celebração de Contrato de Gestão, assentando a obrigatoriedade de realização de processo seletivo público objetivo para contratação de pessoal e compras por essas entidades com recursos públicos.",
+    "gabarito": "C",
+    "comentario": "Correto. Na ADI 1923, o STF validou a Lei 9.637/1998 (marco das OSs), mas fixou diretrizes interpretativas: na gestão de verbas públicas estatais, as OSs devem adotar regulamento próprio de compras e contratação de pessoal pautado em critérios impessoais, objetivos e transparentes, sujeitas à fiscalização do Tribunal de Contas e da CGU.",
+    "regra_ouro": "ADI 1923 do STF: Validade das Organizações Sociais (OSs), impondo processo seletivo objetivo e controle pelos Tribunais de Contas e CGU.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Distinção entre Monitoramento e Avaliação de Políticas Públicas",
+    "enunciado": "O monitoramento de políticas públicas é um processo contínuo de acompanhamento sistemático de insumos, atividades e produtos ao longo da execução da política, enquanto a avaliação é um julgamento valorativo periódico e aprofundado sobre a relevância, eficácia e impacto causal dos resultados alcançados.",
+    "gabarito": "C",
+    "comentario": "Correto. Guia de Avaliação Ex-Post da Casa Civil / IPEA: Monitoramento = rotina contínua, foco em processos, insumos e entregas imediatas (inputs/outputs). Avaliação = estudo analítico estruturado, foco em efeitos, impactos e causalidade (outcomes/impacts).",
+    "regra_ouro": "Monitoramento = acompanhamento contínuo da execução (insumos e produtos). Avaliação = análise de impacto, relevância e causalidade.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Guerra Fiscal do ICMS e Lei Complementar 160/2017",
+    "enunciado": "A concessão unilateral de isenções e benefícios fiscais relativos ao ICMS por unidades federativas sem prévia autorização unânime do Conselho Nacional de Política Fazendária (CONFAZ) viola a Constituição de 1988, caracterizando guerra fiscal entre os Estados.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 155, § 2º, XII, 'g' da CF/88 c/c LC 24/1975: Benefícios fiscais de ICMS dependem de deliberação unânime dos Estados no âmbito do CONFAZ. A concessão avulsa de benefícios fiscais (guerra fiscal) foi objeto de inúmeras súmulas e ADIs do STF, mitigada pela convalidação da LC 160/2017.",
+    "regra_ouro": "Guerra Fiscal do ICMS: concessão unilateral de incentivos sem aval do CONFAZ é inconstitucional (Art. 155, § 2º da CF).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Língua Portuguesa",
+    "topico_edital": "Regência do Verbo 'Implicar' no Padrão Culto",
+    "enunciado": "Na oração 'A conduta omissiva do gestor implicou em dano irreparável ao erário', a regência do verbo 'implicar' com a preposição 'em' atende plenamente ao padrão culto gramatical.",
+    "gabarito": "E",
+    "comentario": "Pegadinha clássica e implacável de regência Cebraspe! O verbo IMPLICAR, com a acepção de 'acarretar', 'ter como consequência' ou 'resultar', é TRANSITIVO DIRETO (VTD), dispensando preposição. O correto segundo a norma culta é: 'implicou dano irreparável ao erário' (e NUNCA 'implicou em dano').",
+    "regra_ouro": "Implicar (no sentido de acarretar/produzir) é VTD: NÃO aceita a preposição 'em' (o correto é 'implicar algo', sem 'em').",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Língua Portuguesa",
+    "topico_edital": "Crase Diante de Pronomes de Tratamento",
+    "enunciado": "No fecho de um relatório de auditoria, a frase 'Encaminhamos o parecer conclusivo à Vossa Excelência' apresenta correção gramatical quanto ao emprego do acento indicativo de crase.",
+    "gabarito": "E",
+    "comentario": "Regra geral de crase: É PROIBIDO o uso de crase diante de pronomes de tratamento em geral (à Vossa Excelência, à Vossa Senhoria, à você), porque tais pronomes repelem o artigo definido feminino. As únicas exceções que admitem crase são 'senhora', 'senhorita' e 'dona'.",
+    "regra_ouro": "Crase antes de Pronome de Tratamento é PROIBIDA ('a Vossa Excelência', sem crase), salvo senhora, senhorita e dona.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Língua Portuguesa",
+    "topico_edital": "Concordância com Sujeito Composto Posposto",
+    "enunciado": "Em 'Chegaram ontem à CGU o relatório final e a documentação probatória', a concordância verbal no plural é obrigatória, sendo vício gramatical a flexão 'Chegou ontem à CGU o relatório final e a documentação probatória'.",
+    "gabarito": "E",
+    "comentario": "Quando o sujeito composto está POSPOSTO ao verbo (verbo vem antes do sujeito), a concordância é FACULTATIVA: o verbo pode concordar no plural com todos os núcleos ('Chegaram o relatório e a documentação') ou concordar no singular com o núcleo mais próximo ('Chegou o relatório e a documentação').",
+    "regra_ouro": "Sujeito composto posposto ao verbo: admite concordância no plural com todos ou atrativa no singular com o primeiro núcleo.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Língua Portuguesa",
+    "topico_edital": "Função Sintática do 'Que': Conjunção Integrante vs Pronome Relativo",
+    "enunciado": "No trecho 'O auditor constatou que os dados foram adulterados no sistema que registrava as despesas', a primeira ocorrência da palavra 'que' introduz oração subordinada substantiva e a segunda ocorrência introduz oração subordinada adjetiva.",
+    "gabarito": "C",
+    "comentario": "Correto. 1ª ocorrência: 'constatou [isso]' -> 'que' é CONJUNÇÃO INTEGRANTE introduzindo oração subordinada substantiva objetiva direta. 2ª ocorrência: 'o sistema [o qual] registrava' -> 'que' é PRONOME RELATIVO retomando o substantivo antecedente 'sistema' e introduzindo oração adjetiva restritiva.",
+    "regra_ouro": "'Constatou QUE' = Conjunção Integrante (troca por 'isso'). 'Sistema QUE' = Pronome Relativo (troca por 'o qual').",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Língua Portuguesa",
+    "topico_edital": "Semântica de Operadores Argumentativos: 'Tampouco' vs 'Tão Pouco'",
+    "enunciado": "Na frase 'O gestor não prestou esclarecimentos e tampouco apresentou a planilha de custos', a palavra 'tampouco' foi empregada com a acepção de 'nem' ou 'também não', atendendo à norma culta da língua.",
+    "gabarito": "C",
+    "comentario": "Correto. 'Tampouco' (junto) é advérbio com sentido de 'também não' ou 'nem'. Já 'tão pouco' (separado) indica intensidade/quantidade diminuta ('Ele ganha tão pouco por mês').",
+    "regra_ouro": "Tampouco (junto) = também não / nem. Tão pouco (separado) = quantidade pequena / muito pouco.",
+    "nivel": "Fácil"
+  }
+]

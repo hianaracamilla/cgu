@@ -1,0 +1,202 @@
+[
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Responsabilidade Civil do Estado: Conduta Comissiva vs Omissiva (Art. 37, § 6º)",
+    "enunciado": "A responsabilidade civil do Estado por danos decorrentes de condutas comissivas de seus agentes públicos é de natureza objetiva, fundamentada na Teoria do Risco Administrativo, admitindo a exclusão ou atenuação do dever de indenizar nos casos de culpa exclusiva ou concorrente da vítima, caso fortuito ou força maior.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 37, § 6º da CF/88: As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes causarem a terceiros independentemente de culpa (responsabilidade objetiva). A Teoria do Risco Administrativo admite causas excludentes/atenuantes (culpa da vítima, força maior).",
+    "regra_ouro": "Responsabilidade Civil por ato comissivo: OBJETIVA (Teoria do Risco Administrativo). Admite excludente de culpa da vítima e força maior.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Responsabilidade Civil do Estado por Omissão: Teoria da Culpa Administrativa",
+    "enunciado": "Em regra, a responsabilidade civil do Estado por danos causados por conduta omissiva genérica (falta do serviço ou 'faute du service') é de natureza subjetiva, exigindo a comprovação de negligência, imprudência ou ineficiência do poder público em evitar o evento danoso.",
+    "gabarito": "C",
+    "comentario": "Correto. Jurisprudência pacífica do STF e STJ: Na omissão estatal genérica (quando o serviço não funcionou, funcionou mal ou funcionou com atraso - falta do serviço), a responsabilidade é SUBJETIVA, exigindo prova do dever legal de agir, do dano, do nexo causal e da culpa administrativa (salvo omissão específica em posição de custódia/garantidor).",
+    "regra_ouro": "Omissão estatal genérica: responsabilidade SUBJETIVA (Teoria da Falta do Serviço - exige culpa da Administração).",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Poder de Polícia: Atributos e Limites",
+    "enunciado": "O poder de polícia administrativa manifesta-se exclusivamente por meio de atos repressivos sancionadores aplicados após a constatação de infrações a normas sanitárias, ambientais ou urbanísticas, sendo-lhe vedada a expedição de normas gerais de ordenamento prévio.",
+    "gabarito": "E",
+    "comentario": "O poder de polícia atua em quatro fases (ciclo de polícia): 1) Ordem de polícia (legislação/normas gerais abstratas preventivas); 2) Consentimento de polícia (licenças e autorizações prévias); 3) Fiscalização de polícia (vistorias e inspeções); e 4) Sanção de polícia (multas, interdições repressivas). Logo, não é exclusivamente repressivo.",
+    "regra_ouro": "Ciclo do Poder de Polícia: Ordem (norma) + Consentimento (licença) + Fiscalização (inspeção) + Sanção (repressão).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Súmula Vinculante 3 do STF e Controle Prévio de Aposentadorias",
+    "enunciado": "Conforme entendimento sumulado do Supremo Tribunal Federal (Súmula Vinculante nº 3), o Tribunal de Contas da União não é obrigado a assegurar o contraditório e a ampla defesa no processo de apreciação da legalidade da concessão inicial de aposentadoria, reforma e pensão, ressalvado o prazo decadencial de cinco anos fixado pela jurisprudência.",
+    "gabarito": "C",
+    "comentario": "Correto. Súmula Vinculante nº 3: 'Nos processos perante o Tribunal de Contas da União asseguram-se o contraditório e a ampla defesa quando da decisão puder resultar anulação ou revogação de ato administrativo que beneficie o interessado, EXCETUADA A APRECIAÇÃO DA LEGALIDADE DO ATO DE CONCESSÃO INICIAL DE APOSENTADORIA, REFORMA E PENSÃO.' O STF consolidou que após 5 anos sem julgamento do ato pelo TCU, o contraditório torna-se obrigatório (Tema 445).",
+    "regra_ouro": "Súmula Vinculante 3: Concessão inicial de aposentadoria no TCU dispensa contraditório inicial (ato complexo), salvo se transcorridos 5 anos.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Marco Temporal de Terras Indígenas (Tema 1031 do STF)",
+    "enunciado": "O Supremo Tribunal Federal, ao julgar o Tema 1031 de Repercussão Geral, fixou a tese de que a demarcação de terras tradicionalmente ocupadas por povos indígenas subordina-se à teoria do marco temporal, segundo a qual os indígenas somente possuem direito às terras que estivessem sob sua posse física em 5 de outubro de 1988.",
+    "gabarito": "E",
+    "comentario": "O STF DERRUBOU A TESE DO MARCO TEMPORAL no julgamento do Recurso Extraordinário 1.017.365 (Tema 1031)! A Corte Suprema declarou que o direito dos povos indígenas sobre suas terras de ocupação tradicional é originário e imprescritível (art. 231 da CF/88), não dependendo da presença física exata na data de promulgação da Constituição de 1988, especialmente considerando o esbulho renitente histórico.",
+    "regra_ouro": "Tema 1031 do STF: A tese do Marco Temporal foi REJEITADA pelo STF; direitos originários territoriais indígenas não dependem de posse física em 1988.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Estatuto da Igualdade Racial (Lei 12.288/2010): Discriminação Institucional",
+    "enunciado": "A Lei nº 12.288/2010 (Estatuto da Igualdade Racial) define desigualdade racial como toda situação injustificada de diferenciação de acesso e fruição de bens, serviços e oportunidades, nas esferas pública e privada, em virtude de raça, cor, etnia ou procedência nacional.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 1º, parágrafo único, II da Lei 12.288/2010: Desigualdade racial é toda situação de diferenciação injustificada de acesso a direitos e bens. O estatuto tutela a superação do racismo estrutural e institucional.",
+    "regra_ouro": "Estatuto da Igualdade Racial (Lei 12.288): define desigualdade racial como assimetria injustificada de acesso a bens e serviços por critério étnico.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Juventude e Inclusão Produtiva: Fenômeno 'Nem-Nem'",
+    "enunciado": "No Brasil, as pesquisas de mercado de trabalho indicam que a condição de jovens que não estudam e não trabalham ('nem-nem') é homogênea entre gêneros, decorrendo exclusivamente de desinteresse individual em relação ao ensino formal.",
+    "gabarito": "E",
+    "comentario": "Erradíssimo. Dados do IBGE e do IPEA revelam forte assimetria de gênero: a esmagadora maioria das jovens em condição 'nem-nem' são mulheres pobres dedicadas a afazeres domésticos e cuidados não remunerados de filhos ou idosos. Não se trata de desinteresse, mas de barreiras estruturais da economia do cuidado e falta de creches públicas.",
+    "regra_ouro": "Jovens 'nem-nem' no Brasil são majoritariamente mulheres dedicadas a cuidados domésticos e familiares não remunerados.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Insegurança Alimentar: Escala Brasileira de Insegurança Alimentar (EBIA)",
+    "enunciado": "A Escala Brasileira de Insegurança Alimentar (EBIA) classifica a insegurança alimentar em leve, moderada e grave, caracterizando-se a insegurança alimentar grave pela redução quantitativa severa de alimentos entre todos os membros do domicílio, inclusive crianças, com a ocorrência efetiva da experiência da fome.",
+    "gabarito": "C",
+    "comentario": "Correto. Metodologia oficial do IBGE/Rede PENSSAN: 1) Leve: preocupação com o acesso futuro e comprometimento da qualidade; 2) Moderada: restrição quantitativa de comida entre os adultos; 3) Grave: restrição de alimentos atinge crianças e membros da casa passam fome (ruptura dos padrões alimentares).",
+    "regra_ouro": "EBIA: Insegurança Leve (qualidade comprometida), Moderada (quantidade reduzida em adultos) e Grave (fome efetiva no domicílio).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética Pública e Responsabilidade Profissional",
+    "topico_edital": "Hipóteses de Demissão na Lei 8.112/1990 (Art. 132)",
+    "enunciado": "A prática de ato de improbidade administrativa, a corrupção passiva e a insubordinação grave em serviço constituem infrações disciplinares cominadas taxativamente com a penalidade de demissão na Lei nº 8.112/1990.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 132 da Lei 8.112/1990: A demissão será aplicada nos seguintes casos: I - crime contra a administração pública; IV - improbidade administrativa; VI - insubordinação grave em serviço; XI - corrupção. A autoridade não possui discricionariedade para abrandar a sanção comprovado o fato.",
+    "regra_ouro": "Art. 132 da Lei 8.112: Improbidade, corrupção e insubordinação grave são cominadas obrigatoriamente com a pena de DEMISSÃO.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética Pública e Responsabilidade Profissional",
+    "topico_edital": "Denúncia Anônima e Notícia de Fato no STF e STJ",
+    "enunciado": "O princípio constitucional que veda o anonimato (art. 5º, IV da CF) impede que a Controladoria-Geral da União realize averiguações preliminares sumárias motivadas por denúncias anônimas fundamentadas que noticiem desvio de verbas públicas.",
+    "gabarito": "E",
+    "comentario": "Jurisprudência pacificada do STF (Inq 1957) e STJ: Embora a denúncia anônima não possa, por si só, deflagrar de imediato um Processo Administrativo Disciplinar (PAD) formal com indiciamento, ela legitima o poder-dever da Administração de realizar averiguação preliminar sumária e sigilosa para verificar a verossimilhança dos fatos narrados.",
+    "regra_ouro": "Denúncia Anônima: autoriza a realização de averiguação preliminar sumária pela CGU para checar a verossimilhança dos indícios.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética Pública e Responsabilidade Profissional",
+    "topico_edital": "Dever de Sigilo Profissional vs Notitia Criminis",
+    "enunciado": "O dever funcional de guardar sigilo sobre os assuntos da repartição pública obriga o auditor a omitir-se perante o Ministério Público quando deparar-se com crimes de ação penal pública incondicionada praticados por seus superiores hierárquicos.",
+    "gabarito": "E",
+    "comentario": "O servidor público tem o DEVER LEGAL de comunicar à autoridade policial ou ao Ministério Público qualquer crime de ação penal pública incondicionada de que tome conhecimento em razão do cargo (art. 66, I da Lei das Contravenções Penais e art. 116, VI da Lei 8.112/90). O sigilo funcional cede diante do dever de comunicação de crimes.",
+    "regra_ouro": "O sigilo da repartição jamais acoberta crimes: o servidor tem o dever de noticiar crimes de ação pública incondicionada ao MP.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Teoria da Imprevisão e Fato do Príncipe nos Contratos Administrativos",
+    "enunciado": "O Fato do Príncipe caracteriza-se por ato da própria Administração Pública na qualidade de contratante que modifica as condições executivas do contrato, ao passo que a álea extraordinária imprevisível decorre de determinação estatal geral e extracontratual que onera substancialmente a execução.",
+    "gabarito": "E",
+    "comentario": "Inversão dos conceitos clássicos do Direito Administrativo! O FATO DO PRÍNCIPE é uma determinação estatal GERAL e EXTRACONTRATUAL emanada do poder público na qualidade de autoridade (ex: criação ou aumento expressivo de um tributo que impacta o custo do contrato). A alteração unilateral das cláusulas do contrato específico é 'Fato da Administração'.",
+    "regra_ouro": "Fato do Príncipe = ato geral e extracontratual do Estado que onera a execução (ex: reforma tributária). Gera reequilíbrio econômico integral.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "OSCIPs (Lei 9.790/1999) e Termo de Parceria",
+    "enunciado": "As Organizações da Sociedade Civil de Interesse Público (OSCIPs), regidas pela Lei nº 9.790/1999, celebram com o Poder Público instrumento jurídico denominado Termo de Parceria, cuja execução é submetida a comissão de avaliação paritária e fiscalização dos órgãos de controle interno e externo.",
+    "gabarito": "C",
+    "comentario": "Correto. Lei 9.790/1999: O vínculo de cooperação entre o Poder Público e as OSCIPs formaliza-se privativamente por TERMO DE PARCERIA (diferente das OSs, que firmam Contrato de Gestão). É obrigatória a previsão de metas e avaliação por comissão paritária.",
+    "regra_ouro": "OSCIP (Lei 9.790) celebra TERMO DE PARCERIA. Organização Social (OS - Lei 9.637) celebra CONTRATO DE GESTÃO.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Teoria dos Jogos e Dilema do Prisioneiro em Programas de Integridade",
+    "enunciado": "No desenho de incentivos para Acordos de Leniência e compliance anticorrupção, a teoria dos jogos modela a cooperação entre empresas infratoras como um Dilema do Prisioneiro, no qual a concessão de imunidade ou atenuação severa de sanções ao primeiro infrator que confessar quebra a estabilidade do cartel ilícito.",
+    "gabarito": "C",
+    "comentario": "Correto. Programas de leniência da CGU e do CADE baseiam-se na dinâmica da 'corrida para confessar' (Dilema do Prisioneiro): se todos silenciarem, podem ser punidos; mas quem cooperar primeiro obtém redução substancial ou isenção de sanções, introduzindo desconfiança mútua que desmantela o conluio corrupto.",
+    "regra_ouro": "Leniência e Teoria dos Jogos: o benefício ao primeiro que delata quebra a confiança mútua e desestabiliza cartéis e conluios ilícitos.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Comunidades Epistêmicas e Difusão de Políticas Públicas (Peter Haas)",
+    "enunciado": "O conceito de comunidades epistêmicas formulado por Peter Haas define redes de profissionais detentores de expertise reconhecida e autoridade científica em determinado domínio, cujas crenças compartilhadas sobre nexos causais auxiliam os governos na definição de problemas sob alta incerteza técnica.",
+    "gabarito": "C",
+    "comentario": "Correto. Peter Haas (1992): Comunidades epistêmicas são redes internacionais ou nacionais de cientistas, peritos e analistas de dados que compartilham convicções de causa e efeito, critérios de validação empírica e uma agenda política comum, influenciando decisivamente a formulação de políticas em temas complexos (clima, saúde, regulação de IA).",
+    "regra_ouro": "Comunidades Epistêmicas (Peter Haas): redes de peritos científicos que traduzem incertezas técnicas em opções concretas de políticas públicas.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Língua Portuguesa",
+    "topico_edital": "Sintaxe de Concordância com o Pronome Relativo 'Quem'",
+    "enunciado": "Em 'Fui eu quem redigiu o relatório conclusivo de auditoria', a concordância verbal na terceira pessoa do singular é a única admitida pela norma-padrão da língua portuguesa.",
+    "gabarito": "E",
+    "comentario": "Quando o sujeito é o pronome relativo QUEM, a concordância é DUPLA / FACULTATIVA: o verbo pode concordar na 3ª pessoa do singular ('Fui eu quem redigiu') OU concordar com o antecedente ('Fui eu quem redigi'). Ambas são perfeitamente corretas na norma culta.",
+    "regra_ouro": "Pronome relativo QUEM: verbo pode concordar com o antecedente ('Fui eu quem fiz') ou ficar na 3ª pessoa do singular ('Fui eu quem fez').",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Língua Portuguesa",
+    "topico_edital": "Semântica de Conectivos: 'Mal' como Conjunção Temporal",
+    "enunciado": "Na frase 'Mal o edital de licitação foi publicado, surgiram impugnações fundamentadas de licitantes', a palavra 'Mal' exerce papel de conjunção subordinativa temporal, equivalendo a 'Assim que'.",
+    "gabarito": "C",
+    "comentario": "Correto. A palavra 'mal' atuando como conjunção subordinativa adverbial temporal indica anterioridade imediata, equivalendo semanticamente a 'logo que', 'assim que', 'no momento em que'.",
+    "regra_ouro": "Mal + verbo no início de oração = Conjunção Temporal ('Assim que o edital foi publicado').",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Língua Portuguesa",
+    "topico_edital": "Crase e Paralelismo Sintático",
+    "enunciado": "Em 'O auditor submeteu o parecer a diretorias e comissões técnicas', a ausência do acento grave no 'a' justifica-se pela ausência de artigo definido no termo seguinte, mantendo-se o paralelismo sintático.",
+    "gabarito": "C",
+    "comentario": "Correto. Regra de ouro da crase: 'A' no singular diante de palavra no plural ('a diretorias') é apenas preposição pura (crase nem a pau!). Como não houve artigo antes de 'diretorias' nem antes de 'comissões', o paralelismo sintático e a correção gramatical foram preservados.",
+    "regra_ouro": "'A' no singular diante de palavra no plural = preposição pura (CRASE PROIBIDA). 'Submeteu a diretorias e comissões'.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Língua Portuguesa",
+    "topico_edital": "Pontuação e Oração Coordenada Adversativa",
+    "enunciado": "Na oração 'A CGU apurou as irregularidades, mas não aplicou penalidades diretamente', a substituição da vírgula por ponto e vírgula antes da conjunção 'mas' comprometeria a correção gramatical do texto.",
+    "gabarito": "E",
+    "comentario": "Segundo as normas da pontuação e o padrão Cebraspe, orações coordenadas adversativas podem perfeitamente ser separadas por ponto e vírgula antes da conjunção adversativa ('...apurou as irregularidades; mas não aplicou...'), especialmente quando se deseja enfatizar a quebra de expectativa ou quando a oração antecedente for extensa.",
+    "regra_ouro": "Vírgula ou ponto e vírgula antes de conjunção adversativa ('mas', 'porém') são construções gramaticalmente válidas.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Língua Portuguesa",
+    "topico_edital": "Vícios de Linguagem: Pleonasmo Vicioso vs Pleonasmo Literário",
+    "enunciado": "A expressão 'elo de ligação' constitui pleonasmo vicioso no padrão culto formal da linguagem técnico-administrativa, devendo ser substituída por 'elo' ou 'ligação' para evitar redundância inútil.",
+    "gabarito": "C",
+    "comentario": "Correto. Todo elo é, por definição léxica intrínseca, uma ligação. A junção 'elo de ligação', assim como 'monopólio exclusivo', 'panorama geral' e 'fato real', constitui tautologia ou pleonasmo vicioso condenado no Manual de Redação da Presidência da República e em provas Cebraspe.",
+    "regra_ouro": "Redação Oficial condena pleonasmos viciosos: use 'elo' ou 'ligação' (nunca 'elo de ligação').",
+    "nivel": "Fácil"
+  }
+]
