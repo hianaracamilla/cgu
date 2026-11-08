@@ -63,3 +63,36 @@ export const BLOCO_PESOS: Record<BlocoType, { acerto: number; erro: number; nome
   P2: { acerto: 1.0, erro: -1.0, nome: 'Conhecimentos Complementares (Peso 1)' },
   P3: { acerto: 2.0, erro: -2.0, nome: 'Específicos - Ciência de Dados (Peso 2)' },
 };
+
+export type TipoDiscursiva = 'conhecimentos_complementares_30' | 'situacao_problema_60';
+
+export interface QuesitoAvaliacao {
+  numero: string;
+  descricao: string;
+  pontos_maximos: number;
+  criterio_esperado: string;
+}
+
+export interface QuestaoDiscursiva {
+  id: string;
+  tipo: TipoDiscursiva;
+  titulo: string;
+  disciplina: string;
+  contexto: string;
+  comando: string;
+  limite_linhas: number; // 30 ou 60
+  valor_pontos: number; // 30.00 ou 70.00
+  quesitos: QuesitoAvaliacao[];
+  padrao_resposta: string;
+  fundamentacao_legal: string;
+}
+
+export interface RespostaDiscursiva {
+  id?: string;
+  questao_id: string;
+  texto_resposta: string;
+  quantidade_linhas: number;
+  autoavaliacao_nota?: number;
+  data_resposta?: string;
+}
+

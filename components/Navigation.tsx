@@ -12,12 +12,14 @@ import {
   ShieldCheck,
   Calendar,
   Sparkles,
+  PenTool,
 } from 'lucide-react';
 import { isSupabaseConfigured } from '@/lib/supabase';
 
 const navItems = [
   { href: '/', label: 'Treino', icon: PlayCircle, badge: '50/dia' },
   { href: '/papel', label: 'Modo Papel', icon: Printer, badge: 'PDF' },
+  { href: '/discursivas', label: 'Discursivas', icon: PenTool, badge: '100 pts' },
   { href: '/caderno', label: 'Caderno', icon: BookmarkCheck, badge: 'Erros' },
   { href: '/dashboard', label: 'Dashboard', icon: BarChart3, badge: 'Métricas' },
   { href: '/importar', label: 'Importar', icon: UploadCloud, badge: 'Lote' },
