@@ -1,0 +1,302 @@
+[
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Governança vs Gestão: Funções e Responsabilidades",
+    "enunciado": "A governança no setor público compreende essencialmente as funções de avaliar, direcionar e monitorar a organização para assegurar o alcance de seus objetivos e o atendimento ao interesse público, cabendo à gestão a função de planejar, executar, controlar e coordenar as atividades e recursos no dia a dia institucional.",
+    "gabarito": "C",
+    "comentario": "CERTO. No referencial básico de governança do TCU e no Decreto 9.203/2017: Governança = Avaliar, Direcionar e Monitorar (liderança, estratégia e controle em nível superior); Gestão = Planejar, Executar, Controlar e Agir operacionalmente para entregar os produtos e serviços determinados pelas diretrizes de governança.",
+    "regra_ouro": "Governança avalia, direciona e monitora; Gestão planeja, executa e operacionaliza as diretrizes.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Riscos e Controles: Risco Inerente vs Risco Residual",
+    "enunciado": "Risco residual é o nível de risco que a organização enfrenta antes da implementação de quaisquer respostas ou controles internos preventivos ou detectivos desenhados pela administração.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A definição apresentada corresponde ao Risco Inerente (o risco intrínseco a uma atividade na ausência de controles). Risco Residual é o risco que remanesce após a aplicação e o funcionamento das respostas e controles internos estabelecidos pela gestão.",
+    "regra_ouro": "Risco Inerente = risco bruto sem controles; Risco Residual = risco remanescente APÓS a implementação dos controles.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Segregação de Funções como Controle Essencial",
+    "enunciado": "O princípio da segregação de funções visa mitigar riscos de fraudes e erros ao assegurar que nenhuma pessoa ou setor detenha o controle exclusivo sobre todas as etapas-chave de uma transação financeira ou administrativa, exigindo que a autorização, a custódia, o registro contábil e a conciliação fiquem a cargo de agentes distintos.",
+    "gabarito": "C",
+    "comentario": "CERTO. A segregação de funções é controle interno preventivo fundamental: separar a execução/autorização da fiscalização, custódia e registro contábil minimiza conflitos de interesse e impossibilita que um único servidor cometa e oculte fraudes ou erros no processo.",
+    "regra_ouro": "Segregação de funções distribui autorização, custódia, execução e conciliação entre agentes distintos.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Programa de Integridade Privada: Efetividade vs Formalismo (Lei 12.846/2013)",
+    "enunciado": "Para fins de atenuação de sanções em sede de Processo Administrativo de Responsabilização (PAR), a existência meramente formal de códigos de ética e manuais de conduta no sítio eletrônico da pessoa jurídica é suficiente para comprovar a higidez de seu programa de integridade ('compliance'), prescindindo-se da comprovação de sua aplicação prática no cotidiano corporativo.",
+    "gabarito": "E",
+    "comentario": "ERRADO. O Decreto 11.129/2022 (que regulamenta a Lei 12.846/2013) estabelece expressamente que os programas de integridade devem ser efetivos e não meros 'paper programs' (programas de fachada). Avalia-se o comprometimento da alta direção, o treinamento contínuo, canais reais e independentes de denúncia, due diligence e a aplicação concreta de sanções a desvios.",
+    "regra_ouro": "Compliance na Lei Anticorrupção exige EFETIVIDADE prática comprovada, rejeitando programas meramente cartorários/documentais.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Due Diligence de Terceiros e Mitigação de Fraudes",
+    "enunciado": "A realização de diligência apropriada ('due diligence') baseada em risco na contratação e supervisão de intermediários, despachantes, consultores e parceiros comerciais constitui parâmetro obrigatório de avaliação da efetividade do programa de integridade de pessoa jurídica que transaciona com a Administração Pública.",
+    "gabarito": "C",
+    "comentario": "CERTO. Conforme o Decreto 11.129/2022 (art. 57, XIII), a diligência apropriada para a contratação e supervisão de terceiros (fornecedores, intermediários, agentes locais) é parâmetro central, pois grande parte dos esquemas de pagamento de propina ocorre por meio de intermediários terceirizados.",
+    "regra_ouro": "Due diligence proporcional sobre terceiros e intermediários é pilar indispensável de integridade na Lei Anticorrupção.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Subnotificação: Ocorrência vs Detecção de Desvios",
+    "enunciado": "Um órgão público que registra zero denúncias em sua ouvidoria durante um exercício anual oferece evidência conclusiva e inequívoca de que suas práticas gerenciais são totalmente imunes a desvios éticos, fraudes e assédio moral.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A ausência de denúncias pode refletir não a inexistência de problemas (baixa ocorrência), mas sim uma grave falha nos mecanismos de detecção (baixa detecção ou subnotificação decorrente do medo de retaliação, falta de confiança nos canais, desconhecimento ou opacidade organizacional).",
+    "regra_ouro": "Zero denúncias NÃO significa ausência de fraudes: frequentemente reflete medo de retaliação ou ineficácia do canal (subnotificação).",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Transparência Ativa: Obrigações Mínimas da LAI (Lei 12.527)",
+    "enunciado": "A transparência ativa impõe aos órgãos e entidades do poder público o dever de divulgar, em seus sítios oficiais na internet, independentemente de requerimentos, informações de interesse coletivo ou geral, tais como repasses de recursos, licitações, contratos e dados gerais para o acompanhamento de programas e projetos.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 8º da Lei 12.527/2011 (LAI): o dever de transparência ativa exige publicação proativa em sítio oficial de estrutura organizacional, endereços, repasses, despesas, licitações, acompanhamento de programas e respostas a perguntas mais frequentes.",
+    "regra_ouro": "Transparência Ativa: publicação PROATIVA e obrigatória de receitas, gastos, licitações e contratos em sítio na internet.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Documentos Preparatórios e Acesso à Informação",
+    "enunciado": "Conforme a Lei de Acesso à Informação, o documento preparatório utilizado como fundamento de tomada de decisão administrativa tem restrição de acesso temporária, que cessa com a edição do ato ou decisão a que se refere.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 7º, § 3º, da Lei 12.527/2011: o direito de acesso aos documentos ou informações neles contidas, utilizados como fundamento da tomada de decisão e do ato administrativo, será assegurado apenas com a edição do ato decisório respectivo (enquanto preparatórios, o acesso é restrito).",
+    "regra_ouro": "Acesso a documento preparatório é restrito temporariamente até a prolação do ato decisório final.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Harmonização LAI vs LGPD: Tarjamento e Acesso Parcial",
+    "enunciado": "Diante de um pedido de acesso a processo administrativo que contenha simultaneamente informações de interesse público e dados pessoais protegidos pela LGPD, a Administração Pública deve indeferir integralmente o pedido de acesso, visando resguardar a intimidade dos titulares.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Aplica-se a regra do Acesso Parcial com Tarjamento (art. 7º, § 2º da LAI e art. 23 da LGPD): a presença de informações pessoais não autoriza a negativa total de acesso. O órgão deve fornecer o documento, ocultando/tarjando ou anonimizando os dados pessoais protegidos e liberando todo o conteúdo de interesse público.",
+    "regra_ouro": "Documento com dados pessoais exige TARJAMENTO e acesso parcial às informações públicas; nunca negativa total cega.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Ouvidoria: Diferenciação entre Relato, Apuração e Sanção",
+    "enunciado": "A unidade de ouvidoria pública de um ministério, ao acolher uma manifestação contendo denúncia de desvio de verbas públicas com elementos mínimos de autoria e materialidade, deve imediatamente lavrar decisão administrativa punitiva com aplicação de sanção disciplinar ao denunciado.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A ouvidoria é porta de entrada e canal de acolhimento e tratamento de manifestações: ela acolhe, protege a identidade do manifestante, faz o juízo preliminar de tipicidade e encaminha os fatos à Corregedoria (órgão apuratório). A aplicação de sanção exige processo administrativo disciplinar conduzido pela comissão processante sob o crivo do contraditório e ampla defesa.",
+    "regra_ouro": "Ouvidoria ACOLHE e faz triagem preliminar; Corregedoria APURA; autoridade julgadora DECIDE e SANCIONA.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Acessibilidade e Linguagem Cidadã nos Serviços Públicos",
+    "enunciado": "O uso de linguagem técnica hermética e jargões jurídicos complexos nas comunicações da ouvidoria e nas respostas a pedidos de acesso à informação é recomendável por garantir maior precisão conceitual perante cidadãos e órgãos de controle.",
+    "gabarito": "E",
+    "comentario": "ERRADO. As diretrizes de modernização do serviço público (Lei 13.460/2017 e Guia de Linguagem Simples da CGU e Enap) preconizam a 'Linguagem Simples' (Plain Language) e linguagem cidadã, priorizando clareza, concisão e acessibilidade para que qualquer cidadão compreenda seus direitos sem intermediários.",
+    "regra_ouro": "Comunicações públicas devem adotar LINGUAGEM SIMPLES e CIDADÃ, repudiando hermetismos e jargões inacessíveis.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Dados Abertos e Qualidade da Informação Pública",
+    "enunciado": "Para que dados públicos governamentais sejam considerados 'dados abertos' nos termos da legislação federal, é indispensável que sejam disponibilizados em formatos proprietários fechados, de modo a impedir sua manipulação ou reutilização por sistemas automatizados.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Conforme a Política de Dados Abertos (Decreto 8.777/2016 e Lei 14.129/2021), dados abertos devem ser disponibilizados em formatos abertos, não proprietários e legíveis por máquina (ex: CSV, JSON, XML), justamente para permitir livre reutilização, processamento computacional e cruzamento de bases.",
+    "regra_ouro": "Dados Abertos exigem formatos NÃO PROPRIETÁRIOS e PROCESSÁVEIS POR MÁQUINA (CSV, JSON), estimulando reuso e auditoria.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "LINDB: Motivação e Consequências Práticas (Art. 20)",
+    "enunciado": "Nos termos do art. 20 da Lei de Introdução às Normas do Direito Brasileiro (LINDB), nas esferas administrativa, controladora e judicial, não se decidirá com base em valores jurídicos abstratos sem que sejam consideradas as consequências práticas da decisão.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 20 da LINDB (inserido pela Lei 13.655/2018): veda o consequencialismo ingênuo e a decisão puramente abstrata. Exige que a autoridade demonstre a necessidade e adequação da medida, considerando os impactos concretos e os obstáculos enfrentados pelo gestor público.",
+    "regra_ouro": "Art. 20 da LINDB veda decisão baseada em valores abstratos sem ponderar suas consequências práticas no mundo real.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "Erro Grosseiro e Responsabilidade do Agente Público (Art. 28 LINDB)",
+    "enunciado": "O Decreto federal 9.830/2019 define erro grosseiro, para fins de responsabilização do agente público nos termos da LINDB, como aquele manifesto, evidente e inescusável, praticado com culpa grave, caracterizado por ação ou omissão com elevado grau de negligência, imprudência ou imperícia.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 12, § 1º, do Decreto 9.830/2019 e jurisprudência do STF e TCU: erro grosseiro não é mera divergência de interpretação legal razoável, mas a culpa grave (falha ostensiva que qualquer agente comum em idênticas circunstâncias não cometeria).",
+    "regra_ouro": "Erro grosseiro na LINDB equivale à CULPA GRAVE: negligência, imperícia ou imprudência inescusável e manifesta.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "Procedimento Investigativo Preliminar vs Processo Sancionador",
+    "enunciado": "A fase de investigação preliminar ou sindicância investigativa prescinde da garantia de contraditório e ampla defesa com relação ao investigado, uma vez que possui natureza inquisitorial voltada à coleta de elementos mínimos de materialidade e autoria para subsidiar eventual instauração de processo sancionador.",
+    "gabarito": "C",
+    "comentario": "CERTO. Procedimentos investigatórios preparatórios (como a Investigação Preliminar Sumária - IPS na CGU ou inquérito policial) são de natureza inquisitiva e informativa, sem partes em litígio. O contraditório e a ampla defesa tornam-se de observância compulsória e indeclinável apenas com a instauração do processo acusatório/sancionador formal (PAD ou PAR).",
+    "regra_ouro": "Investigação preliminar é inquisitiva (coleta indícios sem contraditório prévio); o processo sancionador formal EXIGE ampla defesa plena.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "Processo Administrativo de Responsabilização (PAR na Lei 12.846/2013)",
+    "enunciado": "No âmbito do Poder Executivo federal, a Controladoria-Geral da União (CGU) detém competência concorrente para instaurar e competência privativa para avocar e julgar Processos Administrativos de Responsabilização (PAR) contra pessoas jurídicas pela prática de atos lesivos previstos na Lei Anticorrupção.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 8º, § 2º, da Lei 12.846/2013: a CGU possui competência concorrente para instaurar e exclusiva/privativa para avocar os processos administrativos de responsabilização instaurados pelos órgãos federais para examinar sua regularidade ou corrigir-lhes o andamento.",
+    "regra_ouro": "CGU possui competência concorrente para instaurar e privativa para avocar e julgar PAR no Poder Executivo Federal.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "Acordo de Leniência: Competência Exclusiva na CGU e AGU",
+    "enunciado": "No âmbito do Poder Executivo federal, o acordo de leniência previsto na Lei Anticorrupção é celebrado com a interveniência e celebração privativas da Controladoria-Geral da União (CGU), em atuação conjunta com a Advocacia-Geral da União (AGU).",
+    "gabarito": "C",
+    "comentario": "CERTO. Conforme o art. 16, § 10, da Lei 12.846/2013 e o Acordo de Cooperação Técnica STF/CGU/AGU/MJSP/TCU, a competência para negociar e firmar acordos de leniência no Poder Executivo federal é privativa da CGU e da AGU.",
+    "regra_ouro": "No Executivo Federal, acordo de leniência da Lei Anticorrupção é firmado privativamente pela CGU em conjunto com a AGU.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "Distinção entre Falha de Gestão, Irregularidade e Improbidade",
+    "enunciado": "Qualquer impropriedade formal ou falha procedimental de baixa materialidade identificada em auditoria da CGU constitui automaticamente ato de improbidade administrativa doloso que enseja a imediata aplicação da penalidade de perda do cargo público.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A nova Lei de Improbidade (Lei 14.230/2021) eliminou expressamente a modalidade culposa e as punições por meras irregularidades ou falhas formais. Impropriedades de gestão ensejam recomendações ou determinações corretivas; irregularidades graves podem suscitar PAD; e apenas condutas tipificadas praticadas com dolo específico configuram improbidade.",
+    "regra_ouro": "Mera falha procedimental formal NÃO é improbidade; improbidade exige estritamente DOLO ESPECÍFICO comprovado.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Evidências, Dados e Inteligência Artificial",
+    "topico_edital": "Distinção entre Dado, Evidência e Juízo de Valor",
+    "enunciado": "Em um relatório de auditoria pública, a afirmação 'a taxa de evasão escolar na região pesquisada foi de 18% em 2025' representa um dado estatístico objetivo, ao passo que a afirmação 'a gestão local foi descompromissada e negligente com o futuro das crianças' constitui um juízo de valor subjetivo desprovido de rigor técnico de auditoria.",
+    "gabarito": "C",
+    "comentario": "CERTO. O trabalho de controle e auditoria baseia-se em dados e fatos objetivos, convertidos em evidências através de testes sistemáticos contra critérios legais/normativos. Afirmações emocionais ou adjetivações morais ('descompromissada', 'mal-intencionada') são juízos de valor vedados em relatórios técnicos de auditoria.",
+    "regra_ouro": "Relatórios de controle devem registrar FATOS e EVIDÊNCIAS comprováveis, evitando juízos de valor ou adjetivações subjetivas.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Evidências, Dados e Inteligência Artificial",
+    "topico_edital": "Falácia Ecológica em Análise de Dados Governamentais",
+    "enunciado": "A falácia ecológica ocorre quando o auditor deduz incorretamente conclusões causais sobre indivíduos com base unicamente em dados agregados observados no nível do grupo ou território a que esses indivíduos pertencem.",
+    "gabarito": "C",
+    "comentario": "CERTO. A falácia ecológica (ecological fallacy) é o erro metodológico clássico de inferir características ou comportamentos individuais a partir de estatísticas agregadas de grupos ou municípios (ex: assumir que um indivíduo específico é vulnerável apenas porque reside em um município de baixo IDHM).",
+    "regra_ouro": "Falácia Ecológica: extrapolar indevidamente conclusões individuais a partir de dados médios agregados de grupos.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Evidências, Dados e Inteligência Artificial",
+    "topico_edital": "Correlação vs Causalidade em Políticas Públicas",
+    "enunciado": "A verificação de uma correlação estatística positiva e estatisticamente significante entre o aumento de gastos em publicidade governamental e a redução da criminalidade em determinado período constitui prova suficiente para afirmar uma relação de causalidade direta entre as duas variáveis.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Correlação não implica causalidade. A co-ocorrência de dois eventos pode ser puramente espúria ou explicada por variáveis de confusão (confounding factors), como contratação de novos policiais, dinâmica demográfica ou sazonalidade. Provar causalidade exige métodos de inferência causal robustos (ex: DiD, RDD, RCTs).",
+    "regra_ouro": "Correlação NÃO prova causalidade: co-variação temporal pode ser espúria ou decorrer de variáveis ocultas.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Evidências, Dados e Inteligência Artificial",
+    "topico_edital": "Inteligência Artificial Responsável: Viés e Alucinação",
+    "enunciado": "A utilização de modelos de linguagem de grande porte (LLMs) em análises de auditoria dispensa a conferência humana dos documentos originais, visto que esses modelos são matematicamente incapazes de inventar dados ou produzir alucinações factuais.",
+    "gabarito": "E",
+    "comentario": "ERRADO. LLMs operam com predição probabilística de palavras ('tokens') e sofrem reconhecidamente de 'alucinações' (geração confiante de dados, citações e fatos falsos ou inexistentes), além de herdarem vieses dos dados de treinamento. Na atuação governamental, o princípio do 'humano no circuito' (human-in-the-loop) e a checagem com as fontes primárias são obrigatórios.",
+    "regra_ouro": "LLMs sofrem de alucinações e vieses estatísticos; o princípio 'Human-in-the-Loop' e checagem de fontes são compulsórios.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Evidências, Dados e Inteligência Artificial",
+    "topico_edital": "Automação Decisória e Direitos dos Cidadãos",
+    "enunciado": "Em conformidade com as diretrizes de governança digital e a LGPD, decisões públicas que afetem diretamente os direitos fundamentais ou benefícios assistenciais de cidadãos podem ser executadas por sistemas puramente algorítmicos automatizados, vedando-se ao cidadão o direito de solicitar revisão por pessoa natural.",
+    "gabarito": "E",
+    "comentario": "ERRADO. O art. 20 da LGPD confere expressamente ao titular o direito de solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado de dados pessoais que afetem seus interesses, inclusive decisões destinadas a definir seu perfil pessoal, profissional ou de crédito.",
+    "regra_ouro": "Cidadão tem direito à REVISÃO HUMANA de decisões estatais tomadas unicamente por sistemas automatizados (art. 20 LGPD).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Serviços de Auditoria Interna: Avaliação vs Consultoria",
+    "enunciado": "Segundo as normas da Secretaria Federal de Controle Interno (SFC/CGU), os serviços de auditoria interna governamental dividem-se precipuamente em avaliação e consultoria, sendo vedado à equipe de auditoria assumir responsabilidades de gestão executiva durante a prestação de serviços de consultoria.",
+    "gabarito": "C",
+    "comentario": "CERTO. IN SFC 03/2017 e Guia da CGU: a auditoria interna presta serviços de Avaliação (exame independente de governança, riscos e controles) e Consultoria (assessoramento e facilitação). Na consultoria, o auditor não decide, não implementa e não assume papéis de gestão, sob pena de comprometer sua independência futura.",
+    "regra_ouro": "Serviços de auditoria interna = Avaliação e Consultoria. Auditor NÃO assume responsabilidades de gestão em consultorias.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Ceticismo Profissional e Postura do Auditor",
+    "enunciado": "O ceticismo profissional exige que o auditor governamental atue partindo do pressuposto de que todos os gestores públicos são desonestos e fraudadores em potencial até que provem sua inocência documental.",
+    "gabarito": "E",
+    "comentario": "ERRADO. O ceticismo profissional é uma postura que inclui mente questionadora e alerta a condições que possam indicar possíveis distorções, com avaliação crítica das evidências. Ele não pressupõe má-fé deliberada nem desonestidade sistemática, mas exige que o auditor não confie cegamente nem aceite documentos sem verificação independente.",
+    "regra_ouro": "Ceticismo profissional é postura de mente questionadora e alerta, sem pressupor nem inocência cega nem má-fé sistemática.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Atributos do Achado de Auditoria",
+    "enunciado": "Na elaboração de relatórios de auditoria governamental, um achado de auditoria completo é estruturado a partir da conjugação de quatro elementos essenciais: Condição (a situação encontrada na prática), Critério (o padrão legal ou técnico que deveria ser cumprido), Causa (a razão da desconformidade) e Efeito (a consequência prática ou dano gerado).",
+    "gabarito": "C",
+    "comentario": "CERTO. Estrutura clássica de achado do Manual do TCU e Normas da CGU: Condição (o que é), Critério (o que deveria ser), Causa (por que ocorreu) e Efeito/Impacto (qual a consequência).",
+    "regra_ouro": "Achado de Auditoria = Condição ('o que é') + Critério ('o que deveria ser') + Causa + Efeito.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Evidência de Auditoria: Suficiência e Adequação",
+    "enunciado": "A 'suficiência' da evidência de auditoria refere-se à medida qualitativa de sua relevância e confiabilidade, enquanto a 'adequação' refere-se à medida quantitativa do volume de provas coletadas pela equipe de auditoria.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Os conceitos estão invertidos. Suficiência é a medida QUANTITATIVA da evidência (quantidade de evidências necessárias para sustentar as conclusões). Adequação é a medida QUALITATIVA (relevância, validade e confiabilidade das informações coletadas).",
+    "regra_ouro": "Suficiência = quantidade da evidência de auditoria; Adequação = qualidade, validade e relevância da evidência.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Matriz de Riscos no Planejamento de Auditoria",
+    "enunciado": "Na fase de planejamento de auditoria governamental, a priorização dos objetos a serem auditados deve considerar a conjugação entre materialidade (volume de recursos), criticidade (sensibilidade política ou vulnerabilidade a fraudes) e relevância (impacto social e alcance sobre a população).",
+    "gabarito": "C",
+    "comentario": "CERTO. O critério clássico de seleção e planejamento de auditorias governamentais (MC&R) analisa Materialidade (recursos financeiros envolvidos), Criticidade (risco e vulnerabilidade) e Relevância (importância socioeconômica e objetivos estratégicos do governo).",
+    "regra_ouro": "Critérios de seleção em auditoria governamental: Materialidade, Criticidade e Relevância (M-C-R).",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Monitoramento de Recomendações e Determinações",
+    "enunciado": "A fase de monitoramento em auditoria governamental encerra-se no exato momento da entrega do relatório final aos dirigentes do órgão auditado, cabendo exclusivamente à sociedade acompanhar se as recomendações foram implementadas.",
+    "gabarito": "E",
+    "comentario": "ERRADO. O monitoramento é uma fase formal e contínua do ciclo de auditoria interna: a CGU monitora formalmente o plano de ação elaborado pelo gestor, verificando se as causas-raiz dos problemas foram sanadas e se as recomendações/determinações foram tempestiva e efetivamente implementadas.",
+    "regra_ouro": "Monitoramento é fase do ciclo de auditoria que acompanha ativamente o cumprimento efetivo das recomendações da CGU.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Independência Organizacional da CGU",
+    "enunciado": "Embora a Controladoria-Geral da União esteja organicamente inserida na estrutura do Poder Executivo federal, seus auditores gozam de autonomia técnica e independência profissional para avaliar e emitir pareceres críticos sobre a gestão dos ministérios e entidades vinculadas.",
+    "gabarito": "C",
+    "comentario": "CERTO. A CGU integra a administração direta do Executivo Federal como órgão central de controle interno, correição, ouvidoria e transparência, mas seus membros exercem função de Estado protegida por garantias funcionais, imparcialidade e autonomia técnica em suas conclusões de auditoria.",
+    "regra_ouro": "CGU integra a estrutura do Executivo Federal, mantendo plena autonomia técnica e imparcialidade profissional de controle.",
+    "nivel": "Fácil"
+  }
+]
