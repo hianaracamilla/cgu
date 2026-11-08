@@ -1,0 +1,202 @@
+[
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental",
+    "topico_edital": "Matriz de Responsabilização em Auditoria da CGU",
+    "enunciado": "Na elaboração da Matriz de Responsabilização pela equipe de auditoria da CGU, a caracterização da conduta culposa do agente público exige a demonstração inequívoca de dolo específico de causar prejuízo ao erário, sendo insuscetível de responsabilização a conduta praticada com negligência ou imprudência manifesta.",
+    "gabarito": "E",
+    "comentario": "Erradíssimo. A matriz de responsabilização diferencia expressamente o dolo da culpa. A conduta culposa abrange a negligência (omissão do dever de cuidado), imprudência (ação precipitada) ou imperícia (falta de aptidão técnica). Não se exige dolo específico para a caracterização de culpa na esfera de controle interno.",
+    "regra_ouro": "Matriz de Responsabilização: Conduta culposa NÃO exige dolo específico; decorre de negligência, imprudência ou imperícia.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental",
+    "topico_edital": "Normas Internacionais das EFS (ISSAI 100): Três Partes na Auditoria",
+    "enunciado": "Conforme os Princípios Fundamentais de Auditoria do Setor Público (ISSAI 100), as auditorias do setor público envolvem tipicamente uma relação tripartite constituída pelo auditor, pela parte responsável (gestores públicos) e pelos usuários previstos (como o Poder Legislativo e a sociedade civil).",
+    "gabarito": "C",
+    "comentario": "Correto. ISSAI 100, item 25: A auditoria do setor público envolve três partes distintas (tríade): 1) o Auditor (EFS / CGU / TCU); 2) a Parte Responsável (gestor público encarregado do objeto); e 3) os Usuários Previstos (Legislativo, órgãos de controle, cidadãos e beneficiários das políticas).",
+    "regra_ouro": "Relação Tripartite da ISSAI 100: Auditor + Parte Responsável (gestor) + Usuários Previstos (Legislativo e sociedade).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental",
+    "topico_edital": "Tipologias de Evidência: Física, Testemunhal, Documental e Analítica",
+    "enunciado": "Em uma fiscalização de obras de infraestrutura, a realização de circularização junto a fornecedores para confirmação externa de valores faturados consubstancia uma evidência de natureza física, dotada de maior grau de confiabilidade do que as vistorias in loco.",
+    "gabarito": "E",
+    "comentario": "Dois erros: 1) A circularização (confirmação externa por escrito de terceiros) é evidência DOCUMENTAL / TESTEMUNHAL por escrito, e não física. 2) A inspeção física in loco (inspeção direta pelo auditor da existência e estado do bem) é a evidência física por excelência.",
+    "regra_ouro": "Circularização = evidência documental/confirmação externa. Inspeção in loco de obras/bens = evidência física.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança e Gestão de Riscos",
+    "topico_edital": "Governança no Setor Público: Decreto 9.203/2017",
+    "enunciado": "Nos termos do Decreto nº 9.203/2017, a governança pública compreende os mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a gestão, com vistas à condução de políticas públicas e à prestação de serviços de interesse da sociedade.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 2º, I do Decreto 9.203/2017: Governança pública é o conjunto de mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a atuação da gestão governamental. Mnemônico: Liderança, Estratégia e Controle.",
+    "regra_ouro": "Governança Pública (Decreto 9.203): Tríade de mecanismos = Liderança + Estratégia + Controle para Avaliar, Direcionar e Monitorar.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança e Gestão de Riscos",
+    "topico_edital": "Diferença entre Governança e Gestão (TCU e CGU)",
+    "enunciado": "A governança é exercida pelos níveis operacionais e táticos da organização mediante a execução cotidiana dos processos de trabalho, ao passo que a gestão é atribuição exclusiva do Conselho de Administração ou alta administração colegiada.",
+    "gabarito": "E",
+    "comentario": "Inversão total! A GOVERNANÇA é de responsabilidade da Alta Administração / Instâncias Superiores (define diretrizes, alinha objetivos, monitora resultados: avaliar, direcionar e monitorar). A GESTÃO é exercida pelos gestores táticos e operacionais (planejar, executar, operacionalizar e controlar os processos).",
+    "regra_ouro": "Governança = Alta Administração (Avaliar, Direcionar, Monitorar). Gestão = Corpo Executivo (Planejar, Executar, Controlar).",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Administrativo e Licitações",
+    "topico_edital": "Inexigibilidade vs Dispensa de Licitação (Lei 14.133/2021)",
+    "enunciado": "A contratação direta de serviços técnicos especializados de natureza predominantemente intelectual com profissionais de notória especialização fundamenta-se na hipótese de inexigibilidade de licitação, caracterizada pela inviabilidade fática ou jurídica de competição.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 74, III da Lei 14.133/2021: É inexigível a licitação quando inviável a competição, em especial para contratação de serviços técnicos especializados de natureza predominantemente intelectual com profissionais ou empresas de notória especialização (vedada para serviços de publicidade e divulgação).",
+    "regra_ouro": "Inexigibilidade (Art. 74): Inviabilidade de competição (ex: notória especialização, fornecedor exclusivo). Dispensa (Art. 75): Competição viável, mas a lei autoriza não licitar.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Administrativo e Licitações",
+    "topico_edital": "Regimes de Execução: Contratação Integrada vs Semi-integrada",
+    "enunciado": "No regime de contratação semi-integrada previsto na Lei 14.133/2021, o contratado é responsável pela elaboração do anteprojeto, do projeto básico e do projeto executivo, bem como pela execução integral das obras e serviços de engenharia.",
+    "gabarito": "E",
+    "comentario": "Inversão dos regimes! Na contratação INTEGRADA, o contratado elabora o projeto básico E o projeto executivo (a Administração fornece apenas o anteprojeto). Na contratação SEMI-INTEGRADA, a Administração Pública elabora e fornece o projeto básico, cabendo ao contratado elaborar apenas o projeto executivo.",
+    "regra_ouro": "Contratação Integrada: contratado faz Projeto Básico + Executivo. Semi-Integrada: Administração fornece Projeto Básico; contratado faz só o Executivo.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Administrativo e Licitações",
+    "topico_edital": "Portal Nacional de Contratações Públicas (PNCP)",
+    "enunciado": "A divulgação no Portal Nacional de Contratações Públicas (PNCP) é condição indispensável para a eficácia do contrato administrativo e de seus eventuais aditamentos sob a vigência da Lei 14.133/2021.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 94 da Lei 14.133/2021: A divulgação no PNCP é condição indispensável para a eficácia do contrato e de seus aditamentos e deverá ocorrer no prazo de vinte dias úteis no caso de licitação ou dez dias úteis no caso de contratação direta.",
+    "regra_ouro": "Publicação no PNCP é condição legal MANDATÓRIA de eficácia dos contratos administrativos e aditivos (Lei 14.133).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Administrativo e Licitações",
+    "topico_edital": "Modalidade Leilão na Lei 14.133/2021",
+    "enunciado": "Sob a égide da Lei 14.133/2021, a modalidade Leilão pode ser utilizada tanto para a alienação de bens imóveis quanto para a alienação de bens móveis inservíveis ou legalmente apreendidos, adotando-se como critério exclusivo de julgamento o maior lance.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 31 da Lei 14.133/2021: O leilão é a modalidade de licitação para alienação de bens imóveis ou de bens móveis inservíveis ou legalmente apreendidos a quem oferecer o maior lance (igual ou superior ao da avaliação). Na nova lei, a antiga exigência de concorrência para venda de imóveis foi extinta.",
+    "regra_ouro": "Lei 14.133: Leilão aplica-se para alienação de bens MÓVEIS e IMÓVEIS (critério do maior lance).",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Lei Geral de Proteção de Dados (LGPD)",
+    "topico_edital": "Sanções Administrativas aplicadas pela ANPD (Art. 52)",
+    "enunciado": "A multa simples diária ou por infração aplicável pela ANPD é limitada, no caso de empresas privadas, a 2% do faturamento no Brasil, até o teto de 50 milhões de reais por infração, sendo tal sanção de multa pecuniária inaplicável a órgãos e entidades da administração pública direta.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 52, § 3º da LGPD: As sanções de multa simples e multa diária (incisos II e III) NÃO se aplicam às entidades e órgãos públicos. Aos órgãos públicos aplicam-se advertência, publicização da infração, bloqueio e eliminação de dados.",
+    "regra_ouro": "Multas pecuniárias da LGPD (2% / até R$ 50 milhões) NÃO se aplicam aos órgãos e entidades públicas da Administração Direta.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Lei Geral de Proteção de Dados (LGPD)",
+    "topico_edital": "Relatório de Impacto à Proteção de Dados Pessoais (RIPD)",
+    "enunciado": "O Relatório de Impacto à Proteção de Dados Pessoais (RIPD) deve conter obrigatoriamente a descrição dos tipos de dados coletados, a metodologia utilizada para a coleta e a garantia de sigilo absoluto dos processos de auditoria, dispensando-se a indicação de medidas de mitigação de risco.",
+    "gabarito": "E",
+    "comentario": "Art. 38, parágrafo único da LGPD: O RIPD deve conter, no mínimo, a descrição dos processos de tratamento que podem gerar riscos e as MEDIDAS, SALVAGUARDAS E MECANISMOS DE MITIGAÇÃO DE RISCO adotados. Mitigar o risco é a essência do relatório.",
+    "regra_ouro": "RIPD (LGPD): tem como elemento central obrigatório a descrição das medidas e mecanismos de MITIGAÇÃO DE RISCO.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Lei de Acesso à Informação (LAI)",
+    "topico_edital": "Prazos de Resposta a Pedidos de Informação (Lei 12.527/2011)",
+    "enunciado": "Caso a informação solicitada pelo cidadão com base na LAI não possa ser fornecida de imediato, o órgão público possui o prazo regulamentar de até vinte dias para prestar a resposta, prorrogável justificadamente por mais dez dias mediante comunicação expressa ao requerente.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 11, § 1º e § 2º da LAI: Se não for possível conceder acesso imediato, o órgão tem até 20 dias, prorrogáveis por mais 10 dias mediante justificativa formal comunicada ao solicitante (20 + 10 dias).",
+    "regra_ouro": "Prazo da LAI: Acesso imediato ou até 20 dias (prorrogável por mais 10 dias com justificativa). Regra 20 + 10.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Lei de Acesso à Informação (LAI)",
+    "topico_edital": "Recursos no Acesso à Informação: Papel da CGU",
+    "enunciado": "Negado o acesso à informação por órgão da Administração Pública Federal Direta, cabe recurso no prazo de dez dias à autoridade hierarquicamente superior; mantida a negativa, o cidadão pode recorrer à Controladoria-Geral da União (CGU), que deliberará sobre o cabimento da transparência.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 16 da Lei 12.527/2011 e Decreto 7.724/2012: O sistema recursal da LAI prevê recurso à autoridade superior e, sucessivamente, à CGU, que atua como instância revisora no âmbito do Executivo Federal.",
+    "regra_ouro": "Recurso da LAI no Executivo Federal: 10 dias para autoridade superior e sucessivamente para a CGU.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental",
+    "topico_edital": "Controle Interno na CF/88 (Art. 74)",
+    "enunciado": "Os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade, dela darão ciência ao Tribunal de Contas da União (TCU), sob pena de responsabilidade solidária.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 74, § 1º da CF/88: 'Os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade, dela darão ciência ao Tribunal de Contas da União, sob pena de responsabilidade solidária.' Dispositivo literal e recorrente em provas da CGU.",
+    "regra_ouro": "Art. 74, § 1º da CF: Controle Interno deve dar ciência de irregularidades ao TCU, sob pena de responsabilidade SOLIDÁRIA.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental",
+    "topico_edital": "Competências do TCU: Julgamento de Contas vs Fiscalização",
+    "enunciado": "O Tribunal de Contas da União detém competência constitucional originária para julgar anualmente as contas prestadas pelo Presidente da República, emitindo julgamento com força de título executivo judicial.",
+    "gabarito": "E",
+    "comentario": "Pegadinha clássica de Direito Constitucional e Controle! O TCU NÃO julga as contas do Presidente da República! O TCU emite PARECER PRÉVIO conclusivo no prazo de sessenta dias. Quem JULGA as contas do Presidente da República é o CONGRESSO NACIONAL (art. 71, I c/c art. 49, IX da CF/88).",
+    "regra_ouro": "Contas do Presidente da República: TCU apenas emite Parecer Prévio. Quem JULGA é o Congresso Nacional.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental",
+    "topico_edital": "Testes Substantivos vs Testes de Controle",
+    "enunciado": "Em uma auditoria financeira, os testes substantivos têm por objetivo direto constatar a efetividade operacional dos controles internos implementados pela gestão, avaliando se as salvaguardas funcionam adequadamente ao longo de todo o exercício fiscal.",
+    "gabarito": "E",
+    "comentario": "Inversão clássica! Testar a efetividade operacional dos controles é objetivo dos TESTES DE CONTROLE (testes de aderência). Os TESTES SUBSTANTIVOS destinam-se a obter evidências diretas sobre a exatidão, integridade e validade dos saldos e transações contábeis (testes de detalhes e procedimentos analíticos).",
+    "regra_ouro": "Testes de Controle = avaliam se os controles internos funcionam. Testes Substantivos = avaliam se os valores/dados têm distorção relevante.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança e Gestão de Riscos",
+    "topico_edital": "COSO ERM 2017: Os Cinco Componentes Integrados",
+    "enunciado": "O framework COSO ERM 2017 organiza a gestão de riscos corporativos em cinco componentes inter-relacionados: Governança e Cultura; Estratégia e Definição de Objetivos; Desempenho; Análise e Revisão; e Informação, Comunicação e Divulgação.",
+    "gabarito": "C",
+    "comentario": "Correto. O COSO ERM (2017) atualizou a estrutura dos 8 componentes do COSO II (2004) para 5 componentes integrados ao ciclo de gestão: 1) Governança e Cultura; 2) Estratégia e Objetivos; 3) Desempenho; 4) Análise e Revisão; 5) Informação, Comunicação e Reporte.",
+    "regra_ouro": "COSO ERM 2017 possui 5 componentes integrados (Governança/Cultura, Estratégia, Desempenho, Revisão e Comunicação).",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Administrativo e Licitações",
+    "topico_edital": "Sanções Administrativas na Lei 14.133/2021",
+    "enunciado": "A sanção de impedimento de licitar e contratar com a Administração Pública prevista na Lei 14.133/2021 impede o licitante sancionado de participar de licitações no âmbito da administração pública direta e indireta de todos os entes federativos (União, Estados, DF e Municípios).",
+    "gabarito": "E",
+    "comentario": "Diferença vital das sanções da Lei 14.133: 1) O IMPEDIMENTO de licitar e contratar (art. 156, III) restringe-se ao âmbito do ENTE FEDERATIVO que aplicou a sanção (prazo de até 3 anos). 2) Quem impede de licitar em TODOS os entes federativos do Brasil é a DECLARAÇÃO DE INIDONEIDADE (art. 156, IV - prazo de 3 a 6 anos).",
+    "regra_ouro": "Impedimento de Licitar = restrito ao ente federativo sancionador (até 3 anos). Declaração de Inidoneidade = afeta toda a Federação (3 a 6 anos).",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental",
+    "topico_edital": "Papéis de Trabalho em Auditoria",
+    "enunciado": "Os papéis de trabalho de auditoria devem ser estruturados de forma a permitir que um auditor experiente, sem contato prévio com o trabalho de campo, consiga compreender a natureza, a época, a extensão dos procedimentos executados, os resultados obtidos e as conclusões alcançadas.",
+    "gabarito": "C",
+    "comentario": "Correto. Princípio da auditabilidade e suficiência dos papéis de trabalho (NBC TA 230 / ISSAI 2300). A documentação deve ser autoexplicativa e completa a ponto de permitir revisão independente e verificação dos achados por outro auditor sem auxílio externo.",
+    "regra_ouro": "Papéis de Trabalho: devem permitir que um auditor experiente sem vínculo prévio compreenda integralmente os achados e conclusões.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança e Gestão de Riscos",
+    "topico_edital": "Instrução Normativa Conjunta MP/CGU nº 01/2016",
+    "enunciado": "A IN Conjunta MP/CGU nº 01/2016 determina que os órgãos e entidades do Poder Executivo Federal devem estruturar a gestão de riscos e controles internos em quatro níveis distintos de maturidade, sendo obrigatória a certificação ISO 31000 emitida por entidade acreditada.",
+    "gabarito": "E",
+    "comentario": "Erradíssimo. A IN Conjunta MP/CGU nº 01/2016 estabelece diretrizes para controles internos, gestão de riscos e governança, mas NÃO impõe obrigatoriedade de certificação externa ISO 31000 acreditada a órgãos públicos.",
+    "regra_ouro": "IN Conjunta MP/CGU 01/2016 NÃO exige certificação externa ISO 31000 para órgãos públicos federais.",
+    "nivel": "Média"
+  }
+]
