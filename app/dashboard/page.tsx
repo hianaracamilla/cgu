@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import {
   HistoricoResposta,
   Questao,
@@ -9,6 +10,7 @@ import {
   getHistoricoRespostas,
   getQuestoes,
 } from '@/lib/supabase';
+import HistoricoCalendarioModal from '@/components/HistoricoCalendarioModal';
 import {
   BarChart3,
   Target,
@@ -24,10 +26,12 @@ import {
 } from 'lucide-react';
 
 export default function DashboardPage() {
+  const router = useRouter();
   const [historico, setHistorico] = useState<HistoricoResposta[]>([]);
   const [questoes, setQuestoes] = useState<Questao[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [hojeDiaSemana, setHojeDiaSemana] = useState<number>(1);
+  const [showHistoricoModal, setShowHistoricoModal] = useState<boolean>(false);
 
   useEffect(() => {
     setHojeDiaSemana(new Date().getDay());
@@ -324,14 +328,23 @@ export default function DashboardPage() {
 
       {/* CRONOGRAMA SEMANAL CGU 2026 */}
       <div className="bg-slate-900 border border-slate-800 rounded-2xl p-5 sm:p-6 shadow-xl space-y-4">
-        <div>
-          <h2 className="text-base font-bold text-white flex items-center gap-2">
-            <Calendar className="w-4 h-4 text-emerald-400" />
-            Divisão Estratégica da Semana (Edital CGU 2026)
-          </h2>
-          <p className="text-xs text-slate-400 mt-0.5">
-            Ciclo de estudos reverso distribuído por afinidade temática e peso de prova.
-          </p>
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div>
+            <h2 className="text-base font-bold text-white flex items-center gap-2">
+              <Calendar className="w-4 h-4 text-emerald-400" />
+              Divisão Estratégica da Semana (Edital CGU 2026)
+            </h2>
+            <p className="text-xs text-slate-400 mt-0.5">
+              Ciclo de estudos reverso distribuído por afinidade temática e peso de prova.
+            </p>
+          </div>
+          <button
+            onClick={() => setShowHistoricoModal(true)}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-blue-600/20 hover:bg-blue-600/30 text-blue-300 border border-blue-500/30 text-xs font-semibold transition-all shrink-0 self-start sm:self-auto"
+          >
+            <Calendar className="w-3.5 h-3.5 text-blue-400" />
+            <span>Ver Histórico de Provas</span>
+          </button>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-2">
@@ -363,6 +376,16 @@ export default function DashboardPage() {
           })}
         </div>
       </div>
+
+      {/* MODAL DE HISTÓRICO / CALENDÁRIO */}
+      <HistoricoCalendarioModal
+        isOpen={showHistoricoModal}
+        onClose={() => setShowHistoricoModal(false)}
+        onBateriaCarregada={() => {
+          setShowHistoricoModal(false);
+          router.push('/');
+        }}
+      />
     </div>
   );
 }

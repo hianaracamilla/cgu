@@ -103,28 +103,109 @@ export async function getQuestoes(): Promise<Questao[]> {
   return getLocalQuestoes();
 }
 
+// ==========================================
+// CRONOGRAMA PEDAGÓGICO SEMANAL DO EDITAL
+// ==========================================
+export function getTemaEDisciplinasDoDia(diaSemana: number): {
+  diaNome: string;
+  focoTema: string;
+  disciplinasP1: string[];
+  disciplinasP2: string[];
+  disciplinasP3: string[];
+  temDiscursiva: boolean;
+} {
+  switch (diaSemana) {
+    case 1: // Segunda
+    case 3: // Quarta
+      return {
+        diaNome: diaSemana === 1 ? 'Segunda-feira' : 'Quarta-feira',
+        focoTema: 'Estatística, Governança & Português / Ética',
+        disciplinasP1: ['Estado, Democracia e Ciência Política', 'Ética Pública e Responsabilidade Profissional'],
+        disciplinasP2: ['Governança, Riscos e Integridade Pública e Privada', 'Transparência, Ouvidoria e Participação Social'],
+        disciplinasP3: ['Estatística, Programação e Análise de Dados'],
+        temDiscursiva: false,
+      };
+    case 2: // Terça
+    case 4: // Quinta
+      return {
+        diaNome: diaSemana === 2 ? 'Terça-feira' : 'Quinta-feira',
+        focoTema: 'Engenharia de Dados & Direito / Controle Governamental',
+        disciplinasP1: ['Administração Pública e Fundamentos de Políticas Públicas'],
+        disciplinasP2: ['Direito Público Aplicado, Controle e Responsabilização', 'Auditoria Governamental e Atuação Integrada da CGU'],
+        disciplinasP3: ['Engenharia, Arquitetura e Governança de Dados'],
+        temDiscursiva: false,
+      };
+    case 5: // Sexta
+    case 6: // Sábado
+      return {
+        diaNome: diaSemana === 5 ? 'Sexta-feira' : 'Sábado',
+        focoTema: 'Machine Learning, IA / LLMs & Políticas Públicas',
+        disciplinasP1: ['Sociedade Brasileira, Desigualdades e Diversidade', 'Administração Pública e Fundamentos de Políticas Públicas'],
+        disciplinasP2: ['Evidências, Dados e Inteligência Artificial', 'Governança, Riscos e Integridade Pública e Privada'],
+        disciplinasP3: ['Aprendizado de Máquina e Inteligência Artificial', 'Redes Neurais, NLP e Modelos de Linguagem', 'MLOps, Governança e Gestão de Soluções de Dados'],
+        temDiscursiva: false,
+      };
+    case 0: // Domingo
+    default:
+      return {
+        diaNome: 'Domingo',
+        focoTema: 'Simulado Geral Oficial Cebraspe + Prova Discursiva',
+        disciplinasP1: [], // todas
+        disciplinasP2: [], // todas
+        disciplinasP3: [], // todas
+        temDiscursiva: true,
+      };
+  }
+}
+
 export async function gerarBateriaDiaria(
   qtdP1: number = 10,
   qtdP2: number = 10,
-  qtdP3: number = 30
+  qtdP3: number = 30,
+  diaSemanaForcado?: number
 ): Promise<{ bateria: BateriaDiaria; questoes: Questao[] }> {
   const todasQuestoes = await getQuestoes();
+  const diaSemana = diaSemanaForcado !== undefined ? diaSemanaForcado : new Date().getDay();
+  const cronograma = getTemaEDisciplinasDoDia(diaSemana);
 
-  // Filtragem por bloco
+  // Selecionador com priorização pedagógica por tema do dia
+  const selecionarComPrioridade = (
+    poolBloco: Questao[],
+    disciplinasPrioritarias: string[],
+    quantidade: number
+  ): Questao[] => {
+    if (poolBloco.length === 0) return [];
+
+    let prioritarias: Questao[] = [];
+    if (disciplinasPrioritarias.length > 0) {
+      prioritarias = poolBloco.filter((q) =>
+        disciplinasPrioritarias.some((d) => q.disciplina.toLowerCase().includes(d.toLowerCase()))
+      );
+    }
+
+    const outras = poolBloco.filter((q) => !prioritarias.includes(q));
+
+    const embaralhar = (arr: Questao[]) => [...arr].sort(() => Math.random() - 0.5);
+    const selPrioritarias = embaralhar(prioritarias);
+    const selOutras = embaralhar(outras);
+
+    // Seleciona até 70% das questões das disciplinas do dia, e completa com as demais
+    const qtdPrioritaria = Math.min(selPrioritarias.length, Math.ceil(quantidade * 0.7));
+    const selecionadas = selPrioritarias.slice(0, qtdPrioritaria);
+
+    const restanteQtd = quantidade - selecionadas.length;
+    const complemento = [...selPrioritarias.slice(qtdPrioritaria), ...selOutras].slice(0, restanteQtd);
+
+    return embaralhar([...selecionadas, ...complemento]);
+  };
+
   const poolP1 = todasQuestoes.filter((q) => q.bloco === 'P1');
   const poolP2 = todasQuestoes.filter((q) => q.bloco === 'P2');
   const poolP3 = todasQuestoes.filter((q) => q.bloco === 'P3');
 
-  // Seleciona questões únicas sem duplicar o mesmo item dentro da mesma bateria
-  const selecionar = (pool: Questao[], quantidade: number): Questao[] => {
-    if (pool.length === 0) return [];
-    const embaralhado = [...pool].sort(() => Math.random() - 0.5);
-    return embaralhado.slice(0, quantidade);
-  };
-
-  const selP1 = selecionar(poolP1, qtdP1);
-  const selP2 = selecionar(poolP2, qtdP2);
-  const selP3 = selecionar(poolP3, qtdP3);
+  const selP1 = selecionarComPrioridade(poolP1, cronograma.disciplinasP1, qtdP1);
+  const selP2 = selecionarComPrioridade(poolP2, cronograma.disciplinasP2, qtdP2);
+  const selP3 = selecionarComPrioridade(poolP3, cronograma.disciplinasP3, qtdP3);
 
   const selecionadas = [...selP1, ...selP2, ...selP3];
   const ids = selecionadas.map((q) => q.id);
@@ -211,9 +292,123 @@ export async function getBateriaAtivaOuCriar(): Promise<{ bateria: BateriaDiaria
     } catch {}
   }
 
-  // 3. Se não houver bateria hoje, gera uma nova e persiste no Supabase
+  // 3. Se não houver bateria hoje, gera uma nova respeitando o cronograma
   return gerarBateriaDiaria(10, 10, 30);
 }
+
+// Carrega qualquer bateria histórica específica por ID
+export async function carregarBateriaPorId(
+  bateriaId: string
+): Promise<{ bateria: BateriaDiaria; questoes: Questao[] } | null> {
+  const todas = await getQuestoes();
+  const mapa = new Map(todas.map((q) => [q.id, q]));
+
+  if (isSupabaseConfigured() && supabase) {
+    try {
+      const { data, error } = await supabase
+        .from('baterias_diarias')
+        .select('*')
+        .eq('id', bateriaId)
+        .single();
+
+      if (!error && data) {
+        const bat = data as BateriaDiaria;
+        const questoesOrdenadas = bat.ids_questoes
+          .map((id) => mapa.get(id))
+          .filter(Boolean) as Questao[];
+
+        if (typeof window !== 'undefined') {
+          localStorage.setItem(
+            STORAGE_BATERIA_KEY,
+            JSON.stringify({ bateria: bat, questoes: questoesOrdenadas })
+          );
+        }
+        return { bateria: bat, questoes: questoesOrdenadas };
+      }
+    } catch (e) {
+      console.warn('Erro ao carregar bateria por ID do Supabase:', e);
+    }
+  }
+
+  // Fallback se estiver no localStorage
+  if (typeof window !== 'undefined') {
+    try {
+      const cache = localStorage.getItem(STORAGE_BATERIA_KEY);
+      if (cache) {
+        const parsed = JSON.parse(cache);
+        if (parsed.bateria?.id === bateriaId) return parsed;
+      }
+    } catch {}
+  }
+
+  return null;
+}
+
+// Lista todo o histórico de baterias geradas com estatísticas de progresso
+export async function getHistoricoBaterias(): Promise<
+  import('./types').HistoricoBateriaItem[]
+> {
+  const baterias: BateriaDiaria[] = [];
+  const todasRespostas = await getHistoricoRespostas();
+
+  if (isSupabaseConfigured() && supabase) {
+    try {
+      const { data, error } = await supabase
+        .from('baterias_diarias')
+        .select('*')
+        .order('criada_em', { ascending: false });
+
+      if (!error && data) {
+        baterias.push(...(data as BateriaDiaria[]));
+      }
+    } catch (e) {
+      console.warn('Erro ao listar baterias do Supabase:', e);
+    }
+  }
+
+  // Se não trouxe nada do Supabase, tenta carregar a bateria local ativa
+  if (baterias.length === 0 && typeof window !== 'undefined') {
+    try {
+      const cache = localStorage.getItem(STORAGE_BATERIA_KEY);
+      if (cache) {
+        const parsed = JSON.parse(cache);
+        if (parsed.bateria) baterias.push(parsed.bateria);
+      }
+    } catch {}
+  }
+
+  return baterias.map((bat) => {
+    // Respostas vinculadas a essa bateria
+    const respostasDaBateria = todasRespostas.filter((r) => r.bateria_id === bat.id);
+    const respondidasCount = respostasDaBateria.length;
+    const acertosCount = respostasDaBateria.filter((r) => r.acertou).length;
+    const errosCount = respostasDaBateria.filter((r) => !r.acertou && r.resposta_usuario !== 'B').length;
+    const brancosCount = respostasDaBateria.filter((r) => r.resposta_usuario === 'B').length;
+    const pontosLiquidos = respostasDaBateria.reduce((acc, r) => acc + (r.pontos_liquidos || 0), 0);
+
+    const dataObj = new Date(bat.data_geracao + 'T12:00:00');
+    const diaSemana = dataObj.getDay();
+    const cronograma = getTemaEDisciplinasDoDia(diaSemana);
+
+    const concluida = bat.concluida || (respondidasCount >= bat.ids_questoes.length && bat.ids_questoes.length > 0);
+
+    return {
+      id: bat.id,
+      data_geracao: bat.data_geracao,
+      criada_em: bat.criada_em || bat.data_geracao,
+      total_questoes: bat.ids_questoes.length,
+      respondidas_count: respondidasCount,
+      acertos_count: acertosCount,
+      erros_count: errosCount,
+      brancos_count: brancosCount,
+      pontos_liquidos: +pontosLiquidos.toFixed(1),
+      concluida,
+      dia_semana_nome: cronograma.diaNome,
+      foco_tema: cronograma.focoTema,
+    };
+  });
+}
+
 
 export async function salvarResposta(item: {
   bateria_id?: string | null;

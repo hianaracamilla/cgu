@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useTransition } from 'react';
+import Link from 'next/link';
 import {
   Questao,
   BateriaDiaria,
@@ -13,8 +14,11 @@ import {
   gerarBateriaDiaria,
   salvarResposta,
   getHistoricoRespostas,
+  getTemaEDisciplinasDoDia,
+  carregarBateriaPorId,
 } from '@/lib/supabase';
 import { calcularPontosCebraspe } from '@/lib/simulator';
+import HistoricoCalendarioModal from '@/components/HistoricoCalendarioModal';
 import {
   CheckCircle2,
   XCircle,
@@ -29,6 +33,8 @@ import {
   Award,
   Layers,
   SlidersHorizontal,
+  Calendar,
+  PenTool,
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 
@@ -39,6 +45,7 @@ export default function TreinoPage() {
   const [questoes, setQuestoes] = useState<Questao[]>([]);
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const [loading, setLoading] = useState<boolean>(true);
+  const [showHistoricoModal, setShowHistoricoModal] = useState<boolean>(false);
 
   // Mapa de respostas da sessão atual (por questao_id)
   const [respostasSessao, setRespostasSessao] = useState<
@@ -161,6 +168,36 @@ export default function TreinoPage() {
     }
   };
 
+  // Alterna para uma bateria do histórico selecionada no modal do calendário
+  const handleCarregarBateriaPorId = async (bateriaId: string) => {
+    setLoading(true);
+    try {
+      const res = await carregarBateriaPorId(bateriaId);
+      if (res) {
+        setBateria(res.bateria);
+        setQuestoes(res.questoes);
+        setCurrentIndex(0);
+
+        // Preenche respostas já dadas
+        const historico = await getHistoricoRespostas();
+        const mapa = new Map();
+        historico.forEach((h) => {
+          mapa.set(h.questao_id, {
+            resposta: h.resposta_usuario,
+            confianca: h.confianca,
+            acertou: h.acertou,
+            pontos: h.pontos_liquidos,
+          });
+        });
+        setRespostasSessao(mapa);
+      }
+    } catch (err) {
+      console.error('Erro ao alternar bateria:', err);
+    } finally {
+      setLoading(false);
+    }
+  };
+
   // Estatísticas da sessão atual
   const totalQuestoes = questoes.length;
   const respondidasCount = questoes.filter((q) => respostasSessao.has(q.id)).length;
@@ -195,9 +232,57 @@ export default function TreinoPage() {
   }
 
   const pesoInfo = BLOCO_PESOS[questaoAtual.bloco];
+  const hoje = new Date();
+  const diaSemanaHoje = hoje.getDay();
+  const cronogramaHoje = getTemaEDisciplinasDoDia(diaSemanaHoje);
 
   return (
     <div className="space-y-4 max-w-3xl mx-auto">
+      {/* BANNER DOMINGO: SIMULADO GERAL + DISCURSIVA */}
+      {cronogramaHoje.temDiscursiva ? (
+        <div className="bg-gradient-to-r from-purple-950/60 via-indigo-950/40 to-slate-900 border border-purple-500/30 rounded-2xl p-4 shadow-xl flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div className="flex items-start sm:items-center gap-3">
+            <div className="w-10 h-10 rounded-xl bg-purple-600/20 border border-purple-500/40 flex items-center justify-center shrink-0">
+              <PenTool className="w-5 h-5 text-purple-400" />
+            </div>
+            <div>
+              <div className="flex items-center gap-2">
+                <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-purple-500/20 text-purple-300 border border-purple-500/30">
+                  Planejamento de Domingo
+                </span>
+                <span className="text-xs text-slate-400 font-medium">
+                  {cronogramaHoje.diaNome}
+                </span>
+              </div>
+              <h3 className="text-sm font-semibold text-white mt-0.5">
+                {cronogramaHoje.focoTema}: Simulado Cebraspe + Prova Discursiva
+              </h3>
+              <p className="text-xs text-slate-300 mt-0.5">
+                O teste de hoje foi gerado com a distribuição geral de exame. Não esqueça de treinar também a discursiva!
+              </p>
+            </div>
+          </div>
+          <Link
+            href="/discursivas"
+            className="inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-xl bg-purple-600 hover:bg-purple-500 text-white text-xs font-semibold shadow-lg shadow-purple-600/30 transition-all shrink-0"
+          >
+            <PenTool className="w-3.5 h-3.5" />
+            <span>Treinar Discursiva</span>
+          </Link>
+        </div>
+      ) : (
+        <div className="bg-slate-900/60 border border-slate-800/80 rounded-xl px-4 py-2.5 flex items-center justify-between text-xs text-slate-300">
+          <div className="flex items-center gap-2">
+            <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse" />
+            <span className="text-slate-400 font-medium">{cronogramaHoje.diaNome}:</span>
+            <span className="text-slate-200 font-semibold">{cronogramaHoje.focoTema}</span>
+          </div>
+          <span className="text-slate-400 text-[11px] hidden sm:inline">
+            70% das questões focadas nas matérias do dia
+          </span>
+        </div>
+      )}
+
       {/* BARRA SUPERIOR DE PROGRESSO E CONTROLES */}
       <div className="bg-slate-900/90 border border-slate-800/80 rounded-2xl p-3.5 sm:p-4 shadow-xl backdrop-blur-md">
         <div className="flex items-center justify-between gap-2 mb-2.5">
@@ -211,7 +296,7 @@ export default function TreinoPage() {
             </div>
           </div>
 
-          {/* Saldo Líquido Cebraspe em tempo real */}
+          {/* Saldo Líquido Cebraspe em tempo real e Ações */}
           <div className="flex items-center gap-2">
             <div className="flex items-center gap-1 text-xs bg-slate-950 px-3 py-1 rounded-lg border border-slate-800">
               <span className="text-slate-400">Saldo:</span>
@@ -227,6 +312,16 @@ export default function TreinoPage() {
                 {saldoLiquido > 0 ? `+${saldoLiquido.toFixed(1)}` : saldoLiquido.toFixed(1)} pts
               </span>
             </div>
+
+            {/* Botão de Histórico / Provas Anteriores */}
+            <button
+              onClick={() => setShowHistoricoModal(true)}
+              className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700/80 text-xs font-medium transition-all"
+              title="Calendário e Provas de Dias Anteriores"
+            >
+              <Calendar className="w-3.5 h-3.5 text-blue-400" />
+              <span className="hidden sm:inline">Provas Anteriores</span>
+            </button>
 
             <button
               onClick={() => setShowExtraModal(true)}
@@ -574,6 +669,13 @@ export default function TreinoPage() {
           </div>
         </div>
       )}
+
+      {/* MODAL DE HISTÓRICO / CALENDÁRIO DE PROVAS */}
+      <HistoricoCalendarioModal
+        isOpen={showHistoricoModal}
+        onClose={() => setShowHistoricoModal(false)}
+        onBateriaCarregada={handleCarregarBateriaPorId}
+      />
     </div>
   );
 }

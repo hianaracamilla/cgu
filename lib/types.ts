@@ -96,3 +96,19 @@ export interface RespostaDiscursiva {
   data_resposta?: string;
 }
 
+export interface HistoricoBateriaItem {
+  id: string;
+  data_geracao: string;
+  criada_em: string;
+  total_questoes: number;
+  respondidas_count: number;
+  acertos_count: number;
+  erros_count: number;
+  brancos_count: number;
+  pontos_liquidos: number;
+  concluida: boolean;
+  dia_semana_nome: string;
+  foco_tema: string;
+}
+
+
