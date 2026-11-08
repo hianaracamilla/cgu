@@ -1,0 +1,502 @@
+[
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Python: Mutabilidade e Tipos de Dados Primitivos",
+    "enunciado": "Em Python 3, listas, dicionários e conjuntos (sets) são objetos mutáveis, o que significa que seus elementos podem ser alterados sem modificar a identidade de memória do objeto, ao passo que tuplas, strings e inteiros são objetos estritamente imutáveis.",
+    "gabarito": "C",
+    "comentario": "CERTO. No modelo de dados de Python: listas (`list`), dicionários (`dict`) e conjuntos (`set`) são mutáveis (`id` do objeto permanece constante após alterações in-place). Já strings (`str`), tuplas (`tuple`), inteiros (`int`) e números reais (`float`) são imutáveis; qualquer modificação cria um novo objeto em memória.",
+    "regra_ouro": "Em Python: list, dict e set são MUTÁVEIS; tuple, str, int e float são IMUTÁVEIS.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Python: List Comprehensions vs Geradores (Generators)",
+    "enunciado": "A utilização de expressões geradoras (generator expressions, delimitadas por parênteses) em Python carrega a totalidade dos elementos na memória RAM imediatamente no momento da definição da expressão, sendo recomendada para arquivos massivos em substituição às list comprehensions.",
+    "gabarito": "E",
+    "comentario": "ERRADO. As definições estão invertidas. List comprehensions (`[x for x in data]`) constroem a lista inteira na memória RAM de uma só vez (avaliação gulosa / eager). Já os geradores (`(x for x in data)`) utilizam avaliação preguiçosa (lazy evaluation), produzindo um elemento por vez sob demanda via protocolo iterador (`yield`), economizando imensamente memória RAM.",
+    "regra_ouro": "Generators produzem valores sob demanda (lazy evaluation); economizam RAM em Big Data frente a list comprehensions.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Pandas: Indexação e Fatiamento com loc vs iloc",
+    "enunciado": "Na biblioteca Pandas, o método `.iloc` realiza indexação baseada exclusivamente em rótulos (labels) nominais de índices e colunas, enquanto o método `.loc` realiza indexação estritamente posicional por números inteiros (0-indexed).",
+    "gabarito": "E",
+    "comentario": "ERRADO. Os conceitos estão invertidos. `.loc` baseia-se em RÓTULOS (labels) de linhas e colunas (ex: `df.loc['2025-01-01', 'valor']`). Já `.iloc` (integer-location) baseia-se em POSIÇÕES numéricas inteiras de 0 a N-1 (ex: `df.iloc[0:10, 0:3]`).",
+    "regra_ouro": "Pandas: .loc usa RÓTULOS (nomes); .iloc usa ÍNDICES INTEIROS de posição numérica (integer-location).",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Pandas: Vetorização vs Iteração com iterrows",
+    "enunciado": "Para a criação de uma nova coluna derivada em um DataFrame Pandas com milhões de registros de pagamentos públicos, a aplicação de operações vetorizadas nativas do NumPy/Pandas ou métodos `.map()` e `.apply()` é ordens de grandeza computacionalmente mais rápida do que iterar sobre as linhas utilizando `.iterrows()`.",
+    "gabarito": "C",
+    "comentario": "CERTO. `.iterrows()` é notória pelo péssimo desempenho computacional em Python, pois gera overhead de conversão de cada linha em uma Series do Pandas no interpretador. Operações vetorizadas operam em blocos contíguos de memória em C (código compilado de baixo nível via NumPy), executando em milissegundos o que `.iterrows()` levaria minutos.",
+    "regra_ouro": "Operações vetorizadas em Pandas/NumPy executam em C de baixo nível, sendo centenas de vezes mais rápidas que loops iterrows.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Pandas: Tratamento de Valores Ausentes (NaN e NA)",
+    "enunciado": "No Pandas, ao executar o método `df.dropna(axis=1, how='all')`, serão removidas todas as linhas do DataFrame que apresentarem pelo menos um valor nulo (`NaN`).",
+    "gabarito": "E",
+    "comentario": "ERRADO. O parâmetro `axis=1` refere-se a COLUNAS (e não a linhas, que seria `axis=0`). Ademais, o parâmetro `how='all'` determina a remoção apenas daquelas colunas onde TODOS os valores sejam nulos (`NaN`), e não das colunas/linhas com pelo menos um valor nulo (que seria `how='any'`).",
+    "regra_ouro": "dropna(axis=1, how='all') remove apenas as COLUNAS em que TODOS os registros sejam nulos (NaN).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "NumPy: Broadcasting de Matrizes",
+    "enunciado": "O mecanismo de broadcasting do NumPy permite realizar operações aritméticas entre arrays de dimensões distintas sem criar cópias desnecessárias dos dados na memória, desde que, para cada dimensão analisada da direita para a esquerda, os tamanhos das dimensões sejam iguais ou uma delas seja igual a 1.",
+    "gabarito": "C",
+    "comentario": "CERTO. Essa é a regra canônica de broadcasting do NumPy: compara-se as dimensões de trás para frente (trailing dimensions). Duas dimensões são compatíveis se forem iguais OU se uma delas for 1. A dimensão unitária é 'esticada' virtualmente sem alocação de memória extra.",
+    "regra_ouro": "Regra de Broadcasting no NumPy: dimensões compatíveis da direita para a esquerda devem ser iguais ou uma delas igual a 1.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Engenharia de Recursos: StandardScaler vs MinMaxScaler",
+    "enunciado": "O `StandardScaler` do Scikit-Learn transforma os dados para que fiquem estritamente delimitados no intervalo fechado [0, 1], ao passo que o `MinMaxScaler` padroniza os dados para média igual a zero e variância unitária igual a um.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Os conceitos estão trocados. O `MinMaxScaler` transforma os valores para um intervalo fixo [0, 1] pela fórmula $x' = \\frac{x - x_{min}}{x_{max} - x_{min}}$. O `StandardScaler` calcula a pontuação padrão (Z-score), subtraindo a média e dividindo pelo desvio-padrão ($z = \\frac{x - \\mu}{\\sigma}$), resultando em média $\\mu=0$ e variância $\\sigma^2=1$.",
+    "regra_ouro": "StandardScaler padroniza com média 0 e variância 1 (Z-Score); MinMaxScaler escala no intervalo [0, 1].",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Prevenção de Vazamento de Dados (Data Leakage)",
+    "enunciado": "Para evitar vazamento de informação (data leakage) durante o pré-processamento de dados em aprendizado de máquina, a padronização das variáveis preditoras deve ter seus parâmetros (média e desvio-padrão) ajustados (`fit`) exclusivamente sobre os dados de treino, aplicando-se apenas a transformação (`transform`) no conjunto de teste.",
+    "gabarito": "C",
+    "comentario": "CERTO. Regra de ouro da modelagem preditiva: o conjunto de teste simula dados futuros não vistos. Ajustar (`fit` ou `fit_transform`) scalers ou imputadores em toda a base antes da separação treino/teste vaza informações estatísticas globais para o modelo, inflacionando a acurácia de forma irrealista.",
+    "regra_ouro": "Ajuste (`fit`) de scalers e encoders é feito EXCLUSIVAMENTE nos dados de treino; no teste aplica-se apenas `transform`.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Detecção de Outliers pelo Método do Intervalo Interquartil (IQR)",
+    "enunciado": "Pelo critério de Tukey em diagramas Boxplot, consideram-se outliers moderados os pontos observados que se situam abaixo de $Q_1 - 1,5 \\times IQR$ ou acima de $Q_3 + 1,5 \\times IQR$, onde $IQR = Q_3 - Q_1$ representa o intervalo interquartil.",
+    "gabarito": "C",
+    "comentario": "CERTO. Critério clássico de John Tukey: a amplitude interquartil $IQR = Q_3 - Q_1$ mede os 50% centrais dos dados. Os limites de controle inferior e superior (fences) são calculados subtraindo e somando $1,5 \\times IQR$ dos respectivos quartis.",
+    "regra_ouro": "Critério de Tukey para outliers no Boxplot: pontos além de [Q1 - 1,5*IQR, Q3 + 1,5*IQR].",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Assimetria e Medidas de Tendência Central",
+    "enunciado": "Em uma distribuição de salários de servidores públicos com forte assimetria positiva (à direita), a média aritmética é sistematicamente menor do que a mediana, sendo a média a métrica mais robusta e indicada para representar o salário típico da organização.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Em distribuições com assimetria positiva (cauda longa à direita provocada por supersalários raros), a ordem é: Moda < Mediana < Média. A média é puxada para cima pelos valores extremos, tornando-se inflacionada e não representativa. A mediana é a medida robusta de posição central recomendada para distribuições assimétricas.",
+    "regra_ouro": "Na assimetria positiva (cauda à direita): Moda < Mediana < Média. A MEDIANA é a medida central mais robusta contra outliers.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Teorema Central do Limite (TCL)",
+    "enunciado": "Conforme o Teorema Central do Limite, a distribuição amostral da média de uma variável aleatória tende a uma distribuição normal à medida que o tamanho da amostra cresce ($n \\ge 30$), independentemente da forma da distribuição original da população, desde que esta possua média e variância finitas.",
+    "gabarito": "C",
+    "comentario": "CERTO. O Teorema Central do Limite (TCL) é o pilar da inferência estatística clássica: mesmo que a população original seja uniforme, exponencial ou bimodal, a distribuição das médias de amostras aleatórias de tamanho $n$ aproxima-se de uma normal $N(\\mu, \\sigma^2/n)$.",
+    "regra_ouro": "TCL: a distribuição amostral das médias tende à Normal com o aumento do tamanho da amostra (n >= 30).",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Intervalos de Confiança: Interpretação Frequencista",
+    "enunciado": "Na abordagem estatística frequentista clássica, um intervalo de 95% de confiança para o valor médio desviado significa que há uma probabilidade de exatamente 95% de que o verdadeiro parâmetro populacional desconhecido esteja contido dentro daquele intervalo numérico específico já calculado.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Erro clássico de interpretação. Na inferência frequentista, o parâmetro populacional verdadeiro é uma constante fixa (não uma variável aleatória); logo, ele está ou não está no intervalo (probabilidade é 0 ou 1). O correto é: se repetíssemos o experimento de amostragem infinitas vezes, 95% dos intervalos de confiança construídos conteriam o verdadeiro parâmetro.",
+    "regra_ouro": "Na inferência frequentista, o parâmetro é constante fixa: 95% de confiança refere-se ao procedimento de amostragem, não ao intervalo calculado.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Coeficiente de Correlação de Pearson vs Spearman",
+    "enunciado": "O coeficiente de correlação de Pearson é indicado para quantificar relações estritamente lineares entre variáveis contínuas com distribuição normal, ao passo que a correlação de postos de Spearman afere relações monotônicas (lineares ou não lineares), sendo robusta a outliers e a distribuições não normais.",
+    "gabarito": "C",
+    "comentario": "CERTO. Pearson afere associação linear estrita e é altamente sensível a outliers e desvios de normalidade. Spearman calcula o coeficiente de Pearson sobre os postos/ranks das observações, medindo se uma variável aumenta quando a outra aumenta (monotonicidade), sem exigir linearidade.",
+    "regra_ouro": "Pearson avalia correlação linear paramétrica; Spearman avalia relação monotônica sobre postos (não paramétrica).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Regressão Linear Múltipla: Multicolinearidade e VIF",
+    "enunciado": "A presença de forte multicolinearidade entre variáveis explicativas em um modelo de regressão linear afeta gravemente a estimativa do $R^2$ global, tornando impossível prever novos valores da variável dependente.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A multicolinearidade (alta correlação entre preditores) inflaciona a variância dos coeficientes (erros-padrão altos, p-valores inflacionados e coeficientes instáveis com sinais trocados), dificultando isolar o efeito individual de cada preditor. Porém, ela NÃO compromete o poder preditivo global do modelo nem a estimação do $R^2$.",
+    "regra_ouro": "Multicolinearidade prejudica a interpretação dos coeficientes individuais, mas não destrói a predição global do modelo.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística, Programação e Análise de Dados",
+    "topico_edital": "Testes de Hipóteses: Erros Tipo I e Tipo II",
+    "enunciado": "Em um teste de hipóteses estatístico, o Erro Tipo I consiste em rejeitar a hipótese nula ($H_0$) quando ela é verdadeira na realidade (falso positivo), cuja probabilidade de ocorrência é controlada pelo nível de significância $\\alpha$.",
+    "gabarito": "C",
+    "comentario": "CERTO. Definição canônica: Erro Tipo I = rejeitar $H_0$ verdadeira (probabilidade $\\alpha$). Erro Tipo II = falhar em rejeitar $H_0$ quando ela é falsa (falso negativo, probabilidade $\\beta$). O poder do teste é dado por $1 - \\beta$.",
+    "regra_ouro": "Erro Tipo I: rejeitar a hipótese nula verdadeira (probabilidade alfa). Erro Tipo II: não rejeitar a nula falsa (beta).",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Propriedades ACID em Bancos Relacionais",
+    "enunciado": "Nas propriedades ACID de transações em bancos de dados relacionais, o princípio da 'Durabilidade' assegura que transações concorrentes executem de forma isolada, sem que uma transação em andamento visualize alterações não confirmadas de outra.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A definição apresentada refere-se ao ISOLAMENTO (Isolation). A DURABILIDADE (Durability) garante que, uma vez confirmada a transação (`COMMIT`), seus efeitos persistem permanentemente no banco de dados, gravados em disco/logs (WAL), mesmo em caso de falha de energia ou pane do sistema.",
+    "regra_ouro": "ACID: Atomicidade (tudo ou nada), Consistência (regras válidas), Isolamento (transações concorrentes) e Durabilidade (persistência pós-commit).",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "SQL: Funções de Janela (ROW_NUMBER vs RANK vs DENSE_RANK)",
+    "enunciado": "Em uma consulta SQL analítica que ordene pagamentos públicos por valor, caso dois pagamentos possuam valores idênticos na primeira colocação, a função `DENSE_RANK()` atribuirá a classificação 1 para ambos e a classificação 2 para o registro imediatamente subsequente, ao passo que `RANK()` atribuirá a classificação 3 para o subsequente.",
+    "gabarito": "C",
+    "comentario": "CERTO. Diferenças clássicas das funções de ranqueamento em SQL: `ROW_NUMBER()` atribui inteiros sequenciais únicos sem empates (1, 2, 3); `RANK()` atribui o mesmo ranking para empates mas pula posições subsequentes (1, 1, 3); `DENSE_RANK()` atribui o mesmo ranking para empates sem pular posições (1, 1, 2).",
+    "regra_ouro": "DENSE_RANK não deixa lacunas de numeração em empates (1, 1, 2); RANK pula as posições seguintes (1, 1, 3).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "SQL: Common Table Expressions (CTEs) e Subconsultas",
+    "enunciado": "Uma Common Table Expression (CTE), declarada por meio da cláusula `WITH`, cria uma tabela temporária persistida em disco com índices automáticos, que permanece disponível para todas as sessões de usuários subsequentes no banco de dados.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A CTE (`WITH nome_cte AS (...)`) define um conjunto de resultados temporário com escopo de visibilidade restrito unicamente à execução da consulta imediatamente seguinte (`SELECT`, `INSERT`, `UPDATE` ou `DELETE`). Ela não persiste dados em disco nem fica acessível para outras consultas ou sessões.",
+    "regra_ouro": "CTE (cláusula WITH) existe apenas durante a execução da consulta imediata; não cria tabela física em disco.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "SQL: Índices B-Tree vs Bitmap",
+    "enunciado": "Os índices do tipo Bitmap são especialmente eficientes para colunas de altíssima cardinalidade em sistemas OLTP de intensa gravação e atualização de dados transacionais.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Índices Bitmap são ideais para colunas de BAIXA cardinalidade (poucos valores distintos, ex: sexo, estado civil, status ativo/inativo) em sistemas OLAP (Data Warehouses) de leitura em lote. Em sistemas OLTP com alta taxa de escrita e alta cardinalidade (ex: CPF, ID da transação), o índice Bitmap sofre com travamento em nível de bloco (lock contention) e degrada o desempenho; nesses casos usa-se índice B-Tree.",
+    "regra_ouro": "Índice Bitmap é para BAIXA cardinalidade em Data Warehouses (OLAP); B-Tree é o padrão para ALTA cardinalidade em OLTP.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Planos de Execução SQL: Nested Loops vs Hash Join",
+    "enunciado": "Em bancos de dados relacionais como o PostgreSQL, o algoritmo de junção `Nested Loop` é tipicamente escolhido pelo otimizador de consultas quando uma das tabelas é pequena e a tabela interna possui um índice eficiente na coluna da chave de junção.",
+    "gabarito": "C",
+    "comentario": "CERTO. `Nested Loop Join` itera sobre as linhas da tabela externa e busca correspondências na tabela interna via índice (extremamente rápido para pequenas buscas pontuais). `Hash Join` e `Merge Join` são escolhidos para junções massivas entre grandes volumes de dados sem índices adequados.",
+    "regra_ouro": "Nested Loop é preferido pelo otimizador para tabelas pequenas com busca indexada rápida na tabela interna.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Modelagem Dimensional: Star Schema vs Snowflake Schema",
+    "enunciado": "No modelo dimensional em estrela (Star Schema), as tabelas de dimensões encontram-se totalmente normalizadas até a terceira forma normal, com o objetivo de economizar espaço de armazenamento em disco.",
+    "gabarito": "E",
+    "comentario": "ERRADO. No Star Schema (modelo estrela), as tabelas de dimensões são deliberadamente DESNORMALIZADAS para simplificar consultas analíticas e reduzir a quantidade de `JOINs`. O modelo Snowflake (floco de neve) é que normaliza as dimensões em hierarquias secundárias.",
+    "regra_ouro": "Star Schema adota dimensões DESNORMALIZADAS para consultas mais rápidas; Snowflake NORMALIZA as dimensões.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Arquitetura Lakehouse: Delta Lake e Apache Iceberg",
+    "enunciado": "A arquitetura Lakehouse combina a flexibilidade e o baixo custo de armazenamento de dados brutos de um Data Lake com os recursos de conformidade transacional ACID, versionamento de dados ('time travel') e controle de esquema típicos de um Data Warehouse.",
+    "gabarito": "C",
+    "comentario": "CERTO. Formatos de tabela modernos como Delta Lake, Apache Iceberg e Apache Hudi estruturam o Lakehouse, permitindo transações ACID e consultas SQL com alta performance diretamente sobre arquivos Parquet armazenados em Object Storage (S3, GCS, Blob).",
+    "regra_ouro": "Lakehouse une o baixo custo de armazenamento do Data Lake com transações ACID e governança do Data Warehouse.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Paradigmas de Governança: Data Mesh",
+    "enunciado": "O paradigma de Data Mesh propõe a centralização de todos os dados da organização em uma equipe monolítica de engenharia de dados corporativa, eliminando a autonomia dos domínios de negócio sobre seus próprios pipelines.",
+    "gabarito": "E",
+    "comentario": "ERRADO. O Data Mesh (proposto por Zhamak Dehghani) prega exatamente a DESCENTRALIZAÇÃO e a governança federada. Baseia-se em 4 pilares: 1) Propriedade descentralizada orientada a domínios de negócio; 2) Dados como produto (Data as a Product); 3) Plataforma de dados de autoatendimento; 4) Governança computacional federada.",
+    "regra_ouro": "Data Mesh descentraliza a responsabilidade dos dados para os domínios de negócio ('dados como produto') com governança federada.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Formatos de Armazenamento: Parquet vs CSV em Big Data",
+    "enunciado": "O formato Apache Parquet armazena os dados de forma colunar e binária, suportando compressão eficiente (Snappy/Gzip) e 'pushdown de predicados' (predicate pushdown), o que reduz drasticamente a leitura de I/O em consultas que demandam poucas colunas de uma tabela ampla.",
+    "gabarito": "C",
+    "comentario": "CERTO. O Parquet organiza dados em colunas em vez de linhas. Consultas analíticas (`SELECT AVG(valor) FROM pagamentos`) leem apenas a coluna relevante em disco, ignorando as demais. O predicate pushdown permite filtrar linhas no nível de arquivo antes de carregá-las na memória.",
+    "regra_ouro": "Apache Parquet é colunar e binário: otimiza leitura analítica e reduz drasticamente I/O de disco.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Apache Spark: Particionamento e Shuffle",
+    "enunciado": "Em processamento distribuído com Apache Spark, a operação de 'shuffle' envolve a redistribuição física de dados através da rede entre os nós executores do cluster, sendo uma das etapas computacionalmente mais custosas em operações de `groupBy` e `join`.",
+    "gabarito": "C",
+    "comentario": "CERTO. O shuffle ocorre em transformações de dependência ampla (wide transformations): dados com a mesma chave em partições distintas precisam ser transferidos pela rede para o mesmo nó executor, gerando alto custo de serialização, I/O de disco e tráfego de rede.",
+    "regra_ouro": "Shuffle no Spark redistribui dados pela rede entre os nós; é o maior gargalo de performance em joins e agregações amplas.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Apache Spark: Broadcast Hash Join",
+    "enunciado": "Ao realizar a junção de uma tabela massiva com uma tabela dimensional de dimensões reduzidas no Apache Spark, o uso de `Broadcast Hash Join` otimiza a performance ao enviar uma cópia completa da tabela menor para a memória de cada nó executor, eliminando a necessidade de shuffle da tabela grande.",
+    "gabarito": "C",
+    "comentario": "CERTO. O Broadcast Join replica a tabela pequena (por padrão de até 10MB ou configurável via `broadcast(df)`) para todos os executors. Cada nó faz a junção localmente com sua fatia da tabela grande sem trafegar a tabela grande pela rede, evitando o gargalo do shuffle.",
+    "regra_ouro": "Broadcast Join no Spark envia a tabela pequena a todos os nós e elimina o shuffle da tabela massiva.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Apache Kafka: Grupos de Consumidores e Particionamento",
+    "enunciado": "No Apache Kafka, se um tópico possui quatro partições e um determinado Grupo de Consumidores (Consumer Group) possui seis instâncias ativas de consumidores ouvindo esse tópico, todas as seis instâncias processarão mensagens simultaneamente em paralelo a partir da mesma partição.",
+    "gabarito": "E",
+    "comentario": "ERRADO. No modelo de concorrência do Kafka, cada partição de um tópico é consumida por exatamente UMA única instância de consumidor dentro do mesmo Consumer Group. Se há 4 partições e 6 consumidores no grupo, 4 consumidores lerão uma partição cada e 2 consumidores ficarão ociosos (idle) servindo como reserva de failover.",
+    "regra_ouro": "No Kafka, o número de partições de um tópico define o paralelismo máximo de consumidores em um Consumer Group.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Dimensões de Qualidade de Dados (DAMA-DMBOK)",
+    "enunciado": "De acordo com o referencial DAMA-DMBOK, a dimensão da 'completude' (completeness) afere a proporção de dados armazenados que atendem a regras sintáticas e formatos pré-definidos, ao passo que a 'conformidade' (validity) mede a ausência de valores ausentes ou nulos nos campos obrigatórios.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Os conceitos estão invertidos. Completude (Completeness) afere se todos os dados esperados estão presentes (ausência de campos nulos/vazios obrigatórios). Conformidade ou Validade (Validity) afere se os dados atendem aos formatos, regras de domínio e esquemas sintáticos (ex: formato de data válido, CPF com 11 dígitos numéricos).",
+    "regra_ouro": "Completude = ausência de campos nulos/vazios; Validade = aderência a formatos de domínio e sintaxe (ex: máscara de CPF).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Data Skewness e Particionamento no Spark",
+    "enunciado": "O desbalanceamento ou assimetria de partição (data skewness) ocorre quando um número desproporcionalmente elevado de registros compartilha a mesma chave de partição, fazendo com que um único nó executor demore ordens de grandeza a mais para concluir sua tarefa enquanto os demais nós permanecem ociosos.",
+    "gabarito": "C",
+    "comentario": "CERTO. O data skew é o pesadelo da computação distribuída: um executor recebe uma fatia gigantesca dos dados (ex: chave nula ou valor dominante em licitações) e sofre estouro de memória (OOM / Out of Memory) ou atrasa toda a query (efeito 'straggler').",
+    "regra_ouro": "Data Skewness concentra dados massivos em uma única partição, sobrecarregando um único nó e atrasando o cluster.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+    "topico_edital": "Teorema CAP em Sistemas Distribuídos",
+    "enunciado": "O Teorema CAP postula que é matematicamente impossível para um sistema de armazenamento distribuído garantir simultaneamente Consistência (Consistency), Disponibilidade (Availability) e Tolerância a Partições de Rede (Partition Tolerance), devendo o arquiteto priorizar duas dessas três garantias em cenários de falhas de rede.",
+    "gabarito": "C",
+    "comentario": "CERTO. O Teorema CAP (Eric Brewer): como partições de rede (P) são inevitáveis em sistemas distribuídos reais, a escolha em caso de desconexão é entre consistência estrita (CP - rejeita requisições para evitar leituras defasadas) ou disponibilidade contínua (AP - responde a requisições com dados potencialmente desatualizados).",
+    "regra_ouro": "Teorema CAP: em falhas de partição de rede (P), o sistema distribuído deve escolher entre Consistência (CP) ou Disponibilidade (AP).",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "Trade-off Viés-Variância (Bias-Variance Tradeoff)",
+    "enunciado": "Modelos preditivos que apresentam alto viés (high bias) tendem a memorizar os dados de treino e a ruídos aleatórios, sofrendo de sobreajuste (overfitting) e generalizando de forma insatisfatória para novos dados de teste.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Alto viés (high bias) corresponde a SUB-AJUSTE (underfitting): o modelo é simplista demais (ex: regressão linear aplicada a dados não lineares) e não consegue aprender os padrões básicos nem nos dados de treino. O sobreajuste (overfitting) decorre de ALTA VARIÂNCIA (high variance), quando o modelo é complexo demais e decora ruídos amostrais.",
+    "regra_ouro": "Alto Viés = Subajuste (Underfitting - modelo rígido/simplista); Alta Variância = Sobreajuste (Overfitting - decora ruídos).",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "Regularização L1 (Lasso) vs L2 (Ridge)",
+    "enunciado": "A regularização L1 (Lasso) adiciona à função de perda uma penalidade proporcional à soma dos valores absolutos dos coeficientes ($|\\beta_j|$), tendendo a zerar os coeficientes de atributos irrelevantes e atuando efetivamente como um mecanismo de seleção automática de variáveis.",
+    "gabarito": "C",
+    "comentario": "CERTO. Propriedade fundamental de regularização: L1 (Lasso / norma $L_1$) gera soluções esparsas (leva coeficientes a zero exatamente, realizando feature selection). A regularização L2 (Ridge / norma $L_2$) encolhe os coeficientes em direção a zero proporcionalmente ao quadrado ($\\beta_j^2$), mas raramente os zera por completo.",
+    "regra_ouro": "L1 (Lasso) zera coeficientes e faz seleção automática de features; L2 (Ridge) apenas encolhe coeficientes sem zerá-los.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "Random Forest vs Gradient Boosting",
+    "enunciado": "O algoritmo Random Forest baseia-se no princípio de 'bagging', treinando árvores de decisão profundas e independentes em paralelo sobre amostras bootstrap com seleção aleatória de atributos, ao passo que o Gradient Boosting emprega 'boosting', treinando árvores rasas de forma sequencial onde cada árvore corrige os erros residuais da anterior.",
+    "gabarito": "C",
+    "comentario": "CERTO. Random Forest reduz a variância por agregação paralela de árvores independentes (bagging). Gradient Boosting (XGBoost, LightGBM) reduz o viés construindo árvores sequencialmente para ajustar os gradientes dos resíduos de erro dos passos prévios.",
+    "regra_ouro": "Random Forest usa árvores paralelas independentes (Bagging); Gradient Boosting usa árvores sequenciais que corrigem resíduos (Boosting).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "Algoritmo K-Means e Sensibilidade à Escala",
+    "enunciado": "O algoritmo de agrupamento K-Means calcula a proximidade entre os pontos com base na distância euclidiana, sendo altamente recomendável aplicar padronização ou normalização nas variáveis antes de sua execução para impedir que variáveis com escalas numéricas maiores dominem o agrupamento.",
+    "gabarito": "C",
+    "comentario": "CERTO. Como a distância euclidiana depende da escala ($d = \\sqrt{\\sum (x_i - y_i)^2}$), uma variável de renda (de R$ 1.000 a R$ 50.000) ofuscaria completamente uma variável de idade (de 18 a 80 anos). Padronizar com `StandardScaler` é pré-requisito indispensável.",
+    "regra_ouro": "K-Means depende de distância geométrica e exige PADRONIZAÇÃO prévia das variáveis para não ser distorcido por escalas desiguais.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "DBSCAN e Agrupamento Baseado em Densidade",
+    "enunciado": "Diferentemente do K-Means, o algoritmo DBSCAN não requer a especificação prévia do número de clusters e é capaz de identificar clusters com geometrias arbitrárias não esféricas, além de rotular explicitamente ruídos e anomalias.",
+    "gabarito": "C",
+    "comentario": "CERTO. DBSCAN (Density-Based Spatial Clustering of Applications with Noise) utiliza dois parâmetros principais: `eps` (raio de vizinhança) e `min_samples` (pontos mínimos). Pontos em regiões de baixa densidade que não atendem aos critérios são marcados diretamente como ruído (-1), detectando outliers de forma nativa.",
+    "regra_ouro": "DBSCAN não exige definir o número K de clusters, encontra formas arbitrárias e detecta ruídos/outliers automaticamente.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "Análise de Componentes Principais (PCA)",
+    "enunciado": "A Análise de Componentes Principais (PCA) é uma técnica de aprendizado supervisionado que utiliza a variável-alvo (target) para encontrar combinações lineares de atributos que maximizem a correlação com a classe a ser prevista.",
+    "gabarito": "E",
+    "comentario": "ERRADO. O PCA é uma técnica NÃO SUPERVISIONADA de redução de dimensionalidade: ele não utiliza e desconhece qualquer variável-alvo (target). O PCA calcula os autovetores e autovalores da matriz de covariância para encontrar direções ortogonais de máxima variância nos dados brutos.",
+    "regra_ouro": "PCA é técnica NÃO SUPERVISIONADA que busca eixos de máxima variância; não utiliza variável-alvo.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "Métricas de Classificação: Área sob a Curva ROC (AUC-ROC)",
+    "enunciado": "A curva ROC (Receiver Operating Characteristic) plota a Taxa de Verdadeiros Positivos (Sensibilidade) em função da Taxa de Falsos Positivos ($1 - Especificidade$) para múltiplos limiares de decisão, sendo que um classificador puramente aleatório apresenta uma área sob a curva (AUC) igual a 1,0.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Um classificador puramente aleatório (que joga moeda) possui AUC igual a 0,5 (linha diagonal de 45 graus). Um classificador perfeito atinge AUC igual a 1,0.",
+    "regra_ouro": "Classificador aleatório possui AUC-ROC = 0,5; classificador perfeito possui AUC-ROC = 1,0.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "F1-Score e Média Harmônica",
+    "enunciado": "O F1-Score é calculado pela média aritmética simples entre Precisão e Revocação (Recall), punindo com rigor moderado discrepâncias entre as duas métricas.",
+    "gabarito": "E",
+    "comentario": "ERRADO. O F1-Score é a média HARMÔNICA entre Precisão e Revocação ($F1 = 2 \\times \\frac{Precision \\times Recall}{Precision + Recall}$), e não a média aritmética simples. A média harmônica penaliza severamente valores extremos desbalanceados: se a Precisão for 1,0 e o Recall for 0, o F1-Score resulta em 0 (enquanto a média aritmética daria 0,5).",
+    "regra_ouro": "F1-Score é a média HARMÔNICA entre Precisão e Recall, penalizando fortemente desequilíbrios entre elas.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "Validação Temporal em Séries Temporais (TimeSeriesSplit)",
+    "enunciado": "Em modelos preditivos aplicados a séries temporais (como previsão de gastos públicos futuros), a técnica de validação cruzada tradicional K-Fold aleatória deve ser evitada por violar a causalidade temporal e provocar vazamento de informações do futuro para o passado.",
+    "gabarito": "C",
+    "comentario": "CERTO. No K-Fold aleatório, pontos de dados do ano de 2026 poderiam cair no treino e pontos de 2024 no teste, fazendo o modelo prever o passado com dados do futuro (data leakage temporal). Em séries temporais usa-se divisão cronológica (TimeSeriesSplit ou rolling-window forward testing).",
+    "regra_ouro": "Em séries temporais, usa-se validação temporal progressiva (TimeSeriesSplit) para nunca usar dados do futuro para prever o passado.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+    "topico_edital": "Explicabilidade de Modelos com Valores SHAP",
+    "enunciado": "Os valores SHAP (Shapley Additive Explanations), fundamentados na teoria dos jogos cooperativos, quantificam a contribuição marginal de cada variável preditora para a saída final de modelos complexos de aprendizado de máquina em nível individual (local) e global.",
+    "gabarito": "C",
+    "comentario": "CERTO. O framework SHAP calcula os valores de Shapley atribuindo a cada atributo seu ganho marginal na predição em relação à média populacional. Possui propriedades matemáticas formais (aditividade, eficiência e consistência), permitindo justificar para órgãos de controle por que um determinado cidadão ou contrato foi classificado como alto risco.",
+    "regra_ouro": "Valores SHAP fornecem explicabilidade local e global matematicamente consistente baseada na Teoria dos Jogos.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Redes Neurais, NLP e Modelos de Linguagem",
+    "topico_edital": "Funções de Ativação: ReLU e o Problema do 'Dying ReLU'",
+    "enunciado": "A função de ativação ReLU (Rectified Linear Unit), definida por $f(x) = \\max(0, x)$, é amplamente utilizada em redes neurais profundas para atenuar o problema do desvanecimento do gradiente (vanishing gradient), embora possa sofrer com o fenômeno do 'dying ReLU' quando neurônios ficam presos em ativação zero.",
+    "gabarito": "C",
+    "comentario": "CERTO. Para entradas positivas, a derivada da ReLU é constante e igual a 1, evitando o desvanecimento de gradientes das funções Sigmoid e Tanh. Contudo, se um neurônio recebe ativações negativas expressivas durante o treino, seu gradiente torna-se zero permanentemente ('neurônio morto'), problema contornado por variantes como Leaky ReLU ou GELU.",
+    "regra_ouro": "ReLU atenua o desvanecimento do gradiente, mas pode sofrer de 'Dying ReLU' para valores negativos persistentes.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Redes Neurais, NLP e Modelos de Linguagem",
+    "topico_edital": "Regularização em Redes Neurais: Dropout",
+    "enunciado": "A técnica de regularização por Dropout desativa aleatoriamente uma fração dos neurônios e suas conexões a cada iteração do treinamento, forçando a rede a aprender representações redundantes e robustas e reduzindo o risco de overfitting.",
+    "gabarito": "C",
+    "comentario": "CERTO. Proposto por Geoffrey Hinton: ao 'desligar' estocasticamente uma porcentagem de neurônios (ex: $p = 0,5$) em cada passo de forward/backward durante o treino, impede-se que os neurônios co-adaptem pesos de forma espúria. Na fase de inferência (teste), todos os neurônios ficam ativos e suas saídas são reescaladas.",
+    "regra_ouro": "Dropout desliga aleatoriamente neurônios no treino para combater o sobreajuste (overfitting) em redes profundas.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Redes Neurais, NLP e Modelos de Linguagem",
+    "topico_edital": "Arquitetura Transformer: Mecanismo de Autoatenção (Self-Attention)",
+    "enunciado": "O mecanismo de autoatenção escalonada (Scaled Dot-Product Attention) da arquitetura Transformer calcula a relevância entre tokens utilizando três matrizes de projeção aprendidas: Queries (Q), Keys (K) e Values (V), expressas pela fórmula $Attention(Q, K, V) = \\text{softmax}\\left(\\frac{Q K^T}{\\sqrt{d_k}}\\right) V$.",
+    "gabarito": "C",
+    "comentario": "CERTO. Fórmula canônica do artigo 'Attention Is All You Need' (Vaswani et al., 2017). O produto escalar $Q K^T$ mede a afinidade entre tokens, dividido por $\\sqrt{d_k}$ para evitar que gradientes fiquem minúsculos em altas dimensões, e a função softmax normaliza os pesos aplicados sobre a matriz de valores $V$.",
+    "regra_ouro": "Self-Attention no Transformer: softmax((Q*K^T) / sqrt(d_k)) * V; calcula a afinidade contextual entre tokens.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Redes Neurais, NLP e Modelos de Linguagem",
+    "topico_edital": "Codificação Posicional em Transformers",
+    "enunciado": "Como os Transformers processam todos os tokens de uma sequência em paralelo sem a recorrência sequencial passo a passo das RNNs, é necessário adicionar vetores de codificação posicional (Positional Encoding) aos embeddings de entrada para que o modelo capture a ordem das palavras no texto.",
+    "gabarito": "C",
+    "comentario": "CERTO. Transformers são matematicamente invariantes à ordem dos tokens (autoatenção não enxerga posição temporal por si só). A adição de funções trigonométricas (seno e cosseno) ou embeddings posicionais aprendidos injeta a informação de ordem e distância relativa entre as palavras.",
+    "regra_ouro": "Positional Encoding fornece a noção de ordem sequencial das palavras aos Transformers, que processam tokens em paralelo.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Redes Neurais, NLP e Modelos de Linguagem",
+    "topico_edital": "Arquiteturas de LLMs: BERT vs GPT",
+    "enunciado": "O modelo BERT é baseado na arquitetura decodificadora (decoder-only) autorregressiva, ideal para tarefas de geração de texto livre contínuo, enquanto o modelo GPT baseia-se na arquitetura codificadora (encoder-only) bidirecional, ideal para tarefas de extração e classificação de texto.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Os papéis estão invertidos. BERT (Bidirectional Encoder Representations from Transformers) é ENCODER-ONLY: lê o texto nas duas direções simultaneamente, sendo ideal para classificação, NER e busca semântica. A família GPT (Generative Pre-trained Transformer) é DECODER-ONLY: gera texto token a token de forma autorregressiva da esquerda para a direita.",
+    "regra_ouro": "BERT = Encoder-only (bidirecional, classificação); GPT = Decoder-only (autorregressivo, geração de texto).",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Redes Neurais, NLP e Modelos de Linguagem",
+    "topico_edital": "Geração Aumentada por Recuperação (RAG)",
+    "enunciado": "Em sistemas de Geração Aumentada por Recuperação (RAG), o modelo de linguagem recebe como contexto documentos externos relevantes resgatados de uma base vetorial por meio de busca semântica, o que permite mitigar alucinações e fundamentar as respostas em fontes auditáveis sem necessidade de retreinar o LLM.",
+    "gabarito": "C",
+    "comentario": "CERTO. A arquitetura RAG (Retrieval-Augmented Generation) consulta uma base de conhecimento (ex: legislação da CGU, jurisprudência do TCU) via embeddings vetoriais e insere os trechos mais similares no prompt do LLM. O modelo sintetiza a resposta citando as fontes exatas, reduzindo alucinações e custos de fine-tuning.",
+    "regra_ouro": "RAG combina busca vetorial em documentos externos com síntese via LLM, reduzindo alucinações e provendo rastreabilidade.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Redes Neurais, NLP e Modelos de Linguagem",
+    "topico_edital": "Ajuste Fino Eficiente: LoRA (Low-Rank Adaptation)",
+    "enunciado": "A técnica LoRA (Low-Rank Adaptation) permite o ajuste fino de Grandes Modelos de Linguagem congelando os pesos pré-treinados do modelo original e injetando matrizes de decomposição de baixo posto nos módulos de atenção, reduzindo drasticamente a quantidade de parâmetros treináveis e o consumo de memória de GPU.",
+    "gabarito": "C",
+    "comentario": "CERTO. Em vez de recalcular todos os bilhões de pesos de um LLM, o LoRA congela a matriz original $W$ e treina apenas duas pequenas matrizes de baixo posto $A$ e $B$ tal que $\\Delta W = B \\times A$, reduzindo os parâmetros ajustados em mais de 99% sem perda substancial de acurácia.",
+    "regra_ouro": "LoRA reduz o custo computacional de fine-tuning ao congelar o LLM original e treinar matrizes de baixo posto nos módulos de atenção.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "MLOps, Governança e Gestão de Soluções de Dados",
+    "topico_edital": "Desvio de Dados (Data Drift) vs Desvio de Conceito (Concept Drift)",
+    "enunciado": "O 'Concept Drift' caracteriza-se por alterações na distribuição estatística das variáveis de entrada $P(X)$, mantendo-se inalterada a relação entre as variáveis de entrada e a variável-alvo $P(Y|X)$.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A definição apresentada corresponde ao 'Data Drift' (ou Covariate Shift, mudança em $P(X)$). O 'Concept Drift' ocorre quando a própria relação funcional entre as entradas e a variável-alvo muda no tempo ($P(Y|X)$ se altera), como quando fraudadores mudam a estratégia de corrupção e os mesmos comportamentos de compra passam a ter outro significado ilícito.",
+    "regra_ouro": "Data Drift = mudança na distribuição dos dados de entrada P(X); Concept Drift = mudança na relação causal com o alvo P(Y|X).",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "MLOps, Governança e Gestão de Soluções de Dados",
+    "topico_edital": "Versionamento de Dados e Modelos com DVC",
+    "enunciado": "O Data Version Control (DVC) atua de forma integrada com o Git para versionar grandes bases de dados e arquivos de pesos de modelos de aprendizado de máquina, armazenando ponteiros leves de metadados no repositório Git e mantendo os dados volumosos em armazenamento remoto dedicado.",
+    "gabarito": "C",
+    "comentario": "CERTO. O Git não foi projetado para arquivos binários pesados de gigabytes/terabytes. O DVC resolve isso criando arquivos pequenos de ponteiro `.dvc` rastreados pelo Git, enquanto os arquivos de dados brutos e modelos são sincronizados com buckets de nuvem (S3, GCS) via `dvc push` / `dvc pull`.",
+    "regra_ouro": "DVC versiona grandes bases de dados e modelos pesados criando arquivos ponteiro no Git e armazenando dados em storage externo.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "MLOps, Governança e Gestão de Soluções de Dados",
+    "topico_edital": "Segurança em IA: Ataques de Prompt Injection",
+    "enunciado": "O ataque de 'Prompt Injection' ocorre quando um usuário mal-intencionado insere instruções antagônicas em dados ou documentos externos lidos por um agente de inteligência artificial, levando o modelo a ignorar suas diretrizes éticas e de sistema para executar comandos arbitrários.",
+    "gabarito": "C",
+    "comentario": "CERTO. O Prompt Injection (direto ou indireto) é a vulnerabilidade nº 1 do OWASP Top 10 para LLMs: instruções camufladas em arquivos lidos (como faturas ou contratos PDF analisados pela CGU) enganam o modelo, induzindo vazamento de credenciais ou validação espúria de compras irregulares.",
+    "regra_ouro": "Prompt Injection insere instruções maliciosas em textos externos para fazer o LLM violar suas salvaguardas e diretrizes de sistema.",
+    "nivel": "Fácil"
+  }
+]
