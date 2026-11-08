@@ -115,19 +115,11 @@ export async function gerarBateriaDiaria(
   const poolP2 = todasQuestoes.filter((q) => q.bloco === 'P2');
   const poolP3 = todasQuestoes.filter((q) => q.bloco === 'P3');
 
-  // Função para sortear com repetição segura caso o banco tenha menos questões que a meta
+  // Seleciona questões únicas sem duplicar o mesmo item dentro da mesma bateria
   const selecionar = (pool: Questao[], quantidade: number): Questao[] => {
     if (pool.length === 0) return [];
     const embaralhado = [...pool].sort(() => Math.random() - 0.5);
-    if (embaralhado.length >= quantidade) {
-      return embaralhado.slice(0, quantidade);
-    }
-    // Se tiver menos no banco, repete em ciclo para compor a meta
-    const resultado: Questao[] = [];
-    while (resultado.length < quantidade) {
-      resultado.push(...embaralhado);
-    }
-    return resultado.slice(0, quantidade);
+    return embaralhado.slice(0, quantidade);
   };
 
   const selP1 = selecionar(poolP1, qtdP1);
@@ -174,7 +166,11 @@ export async function getBateriaAtivaOuCriar(): Promise<{ bateria: BateriaDiaria
       if (cache) {
         const parsed = JSON.parse(cache);
         if (parsed.bateria && parsed.questoes && parsed.questoes.length > 0) {
-          return parsed;
+          // Se tiver questões repetidas no cache antigo, descarta e regenera sem duplicações
+          const idsUnicos = new Set(parsed.questoes.map((q: Questao) => q.id));
+          if (idsUnicos.size === parsed.questoes.length) {
+            return parsed;
+          }
         }
       }
     } catch {}
