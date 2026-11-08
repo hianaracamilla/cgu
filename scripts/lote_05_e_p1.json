@@ -1,0 +1,152 @@
+[
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Medidas Provisórias e Separação de Poderes (Art. 62 da CF)",
+    "enunciado": "É vedada a edição de Medida Provisória sobre matéria reservada a Lei Complementar, bem como sobre matéria relativa a direito penal, processual penal e direito eleitoral.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 62, § 1º, I e III da CF/88: É expressamente vedada a edição de MPs sobre: 1) nacionalidade, cidadania, direitos políticos, partidos políticos e direito eleitoral; 2) direito penal, processual penal e processual civil; 3) organização do Poder Judiciário e do MPU; 4) planos plurianuais, diretrizes orçamentárias, orçamento e créditos adicionais/suplementares (salvo extraordinários); 5) matéria reservada a lei complementar.",
+    "regra_ouro": "Vedações constitucionais a Medidas Provisórias (Art. 62, § 1º): não cabe MP sobre matéria penal, eleitoral ou reservada a Lei Complementar.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Lei Ordinária vs Lei Complementar: Critério Material e Quórum",
+    "enunciado": "A distinção formal fundamental entre lei complementar e lei ordinária reside no quórum de aprovação no Congresso Nacional: a lei complementar exige maioria absoluta de votos em ambas as Casas, enquanto a lei ordinária é aprovada por maioria simples, presente a maioria absoluta de seus membros.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 69 da CF/88: 'As leis complementares serão aprovadas por maioria absoluta' (metade mais um do total de membros do parlamento). Art. 47: Leis ordinárias exigem maioria simples/relativa (maioria dos votos dos presentes na sessão).",
+    "regra_ouro": "Quórum: Lei Complementar exige MAIORIA ABSOLUTA. Lei Ordinária exige MAIORIA SIMPLES (relativa).",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Estado, Democracia e Ciência Política",
+    "topico_edital": "Erosão Democrática e Retrocesso Institucional (Levitsky e Ziblatt)",
+    "enunciado": "Na literatura contemporânea sobre declínio democrático (como as análises de Steven Levitsky e Daniel Ziblatt), a ruptura da democracia ocorre predominantemente por meio de golpes militares violentos imediatos, e não pela erosão paulatina das normas não escritas de contenção institucional e tolerância mútua por líderes eleitos pelas urnas.",
+    "gabarito": "E",
+    "comentario": "Tese central da obra 'Como as Democracias Morrem' cobrada no edital da CGU: No século XXI, as democracias morrem por dentro, lenta e gradualmente, pelas mãos de líderes eleitos que utilizam os próprios instrumentos legais e judiciais para enfraquecer freios institucionais, minar a imprensa livre e deslegitimar opositores (quebra da tolerância mútua e da reserva institucional), e não mais por golpes militares clássicos.",
+    "regra_ouro": "Erosão Democrática contemporânea: ocorre por dentro, por líderes eleitos que corroem normas e freios institucionais gradualmente.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "População em Situação de Rua e Decisão do STF na ADPF 976",
+    "enunciado": "O Supremo Tribunal Federal, no julgamento da ADPF 976, vedou expressamente o recolhimento forçado de bens e pertences pessoais de pessoas em situação de rua, bem como a remoção compulsória sem prévio acolhimento digno, assentando o estado de coisas inconstitucional quanto às condições de vida dessa população.",
+    "gabarito": "C",
+    "comentario": "Correto. O STF referendou medida cautelar na ADPF 976 (Rel. Min. Alexandre de Moraes), determinando que governos municipais e estaduais cumpram a Política Nacional para a População em Situação de Rua (Decreto 7.053/2009), proibindo ações higienistas de descarte de pertences e recolhimento involuntário.",
+    "regra_ouro": "ADPF 976 do STF: Proibição de ações violentas de recolhimento forçado e higienismo contra pessoas em situação de rua.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Sociedade Brasileira, Desigualdades e Diversidade",
+    "topico_edital": "Previdência Social: RGPS vs RPPS e Emenda Constitucional 103/2019",
+    "enunciado": "A Emenda Constitucional nº 103/2019 extinguiu a aposentadoria por tempo de contribuição no Regime Geral de Previdência Social (RGPS), fixando a idade mínima geral de 65 anos para homens e 62 anos para mulheres, ressalvadas as regras de transição específicas.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 201, § 7º da CF/88 com redação da EC 103/2019: Aposentadoria no RGPS passa a exigir idade mínima de 65 anos para homens e 62 anos para mulheres, unificando os regimes e extinguindo a antiga modalidade por tempo exclusivo de contribuição desvinculado de idade mínima.",
+    "regra_ouro": "EC 103/2019 (Reforma da Previdência): Idade mínima de 65 anos (homens) e 62 anos (mulheres) no RGPS, acabando com tempo de contribuição puro.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética Pública e Responsabilidade Profissional",
+    "topico_edital": "Sigilo Bancário e Fiscal: Acesso Direto pela Administração Tributária (LC 105/2001)",
+    "enunciado": "Segundo jurisprudência vinculante do Supremo Tribunal Federal (Tema 225 de Repercussão Geral), é constitucional o repasse direto de informações bancárias das instituições financeiras ao Fisco sem prévia autorização judicial, nos moldes do art. 6º da Lei Complementar nº 105/2001.",
+    "gabarito": "C",
+    "comentario": "Correto. O STF firmou que o acesso direto do Fisco aos dados bancários mediante procedimento administrativo instaurado não viola a intimidade, constituindo mera transferência de sigilo (do banco para a administração pública tributária), que permanece sob o dever de sigilo e sob responsabilidade funcional.",
+    "regra_ouro": "Tema 225 do STF: O Fisco pode requisitar diretamente dados bancários sem autorização judicial prévia (transferência de sigilo sob a LC 105/2001).",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Ética Pública e Responsabilidade Profissional",
+    "topico_edital": "Dever de Lealdade e Apuração de Infração Ética",
+    "enunciado": "A atuação do auditor da CGU em conformidade com as normas técnicas de auditoria e a constatação de achados que contrariem interesses de autoridades superiores configuram quebra do dever de lealdade às instituições a que serve, sujeitando o auditor a processo ético.",
+    "gabarito": "E",
+    "comentario": "Erradíssimo. O dever de lealdade do servidor público vincula-se ao INTERESSE PÚBLICO e à legalidade estrita, e NUNCA à pessoa circunstancial da autoridade ou a conveniências político-partidárias de ocasião. A independência técnica do auditor governamental é garantia indispensável do controle interno.",
+    "regra_ouro": "O dever de lealdade é para com o interesse público e a lei, jamais para com a vontade particular ou conveniência da chefia de plantão.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Direito de Greve no Setor Público (MI 670 do STF)",
+    "enunciado": "Diante da ausência de lei específica regulamentando o direito de greve dos servidores públicos civis (art. 37, VII da CF), o STF, no julgamento do Mandado de Injunção nº 670, determinou a aplicação analógica da Lei Geral de Greve do setor privado (Lei 7.783/1989), sendo absolutamente vedado o exercício de greve a policiais e carreiras diretamente vinculadas à segurança pública.",
+    "gabarito": "C",
+    "comentario": "Correto. No MI 670 e Tema 541 (STF), fixou-se a aplicação supletiva da Lei 7.783/1989 até edição de lei específica. Posteriormente, o STF firmou que servidores da segurança pública e carreiras correlatas essenciais (policiais civis, federais, peritos) não possuem direito de greve em razão da incolumidade pública.",
+    "regra_ouro": "Greve no setor público: aplica-se a Lei 7.783/1989 por analogia (MI 670). Carreiras de segurança pública têm greve expressamente proibida.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Anexo de Riscos Fiscais na Lei de Diretrizes Orçamentárias (LDO)",
+    "enunciado": "O Anexo de Riscos Fiscais, que integra obrigatoriamente a Lei de Diretrizes Orçamentárias (LDO) nos termos da Lei de Responsabilidade Fiscal, avalia os passivos contingentes e outros riscos capazes de afetar as contas públicas, informando as providências a serem tomadas caso venham a se concretizar.",
+    "gabarito": "C",
+    "comentario": "Correto. Art. 4º, § 3º da LRF (LC 101/2000): O projeto de LDO conterá Anexo de Riscos Fiscais, onde serão avaliados os passivos contingentes (ações judiciais pendentes, garantias prestadas) e riscos macroeconômicos (frustração de receitas, inflação).",
+    "regra_ouro": "Anexo de Riscos Fiscais (LDO / LRF): avalia passivos contingentes e outros eventos imprevistos que possam desequilibrar as contas públicas.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+    "topico_edital": "Teoria dos Custos de Transação (Oliver Williamson)",
+    "enunciado": "A Teoria dos Custos de Transação preconiza que a terceirização de serviços pelo poder público é sempre a opção mais eficiente economicamente, independentemente da especificidade dos ativos ou da incerteza do ambiente contratual.",
+    "gabarito": "E",
+    "comentario": "Inversão teórica! Oliver Williamson demonstrou que a decisão entre produzir internamente (hierarquia) ou terceirizar no mercado (contratos) depende da frequência, da incerteza e, principalmente, da ESPECIFICIDADE DOS ATIVOS. Ativos altamente específicos associados a incerteza geram custos de transação elevados (risco de oportunismo), recomendando a gestão interna pelo Estado.",
+    "regra_ouro": "Custos de Transação: Ativos altamente específicos e ambientes incertos recomendam execução direta (hierarquia), e não terceirização.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Língua Portuguesa",
+    "topico_edital": "Concordância Verbal com Expressões Partitivas",
+    "enunciado": "Na frase 'A maioria dos servidores públicos federais apoiaram a implantação do novo sistema eletrônico de ponto', a concordância verbal no plural é facultativa segundo a norma culta da língua portuguesa.",
+    "gabarito": "C",
+    "comentario": "Correto. Em sujeitos formados por expressão partitiva ('a maioria de', 'a maior parte de', 'grande parte de') acompanhada de adjunto no plural ('dos servidores'), admite-se a concordância lógica no singular (com o núcleo 'a maioria') ou a concordância atrativa no plural (com o adjunto 'dos servidores'). Ambas estão certas: 'apoiou' ou 'apoiaram'.",
+    "regra_ouro": "Expressão partitiva no singular + termo no plural ('a maioria dos servidores'): verbo pode ficar no singular ou no plural.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Língua Portuguesa",
+    "topico_edital": "Colocação Pronominal: Próclise Obrigatória Cebraspe",
+    "enunciado": "No trecho 'Não se vislumbra ilegalidade na dispensa de licitação fundamentada na urgência', a ênclise é proibida em virtude da presença de palavra de sentido negativo antes do verbo, impondo-se a próclise.",
+    "gabarito": "C",
+    "comentario": "Correto. Palavras de sentido negativo ('não', 'nunca', 'jamais', 'nem', 'nada') são fatores obrigatórios de atração pronominal (próclise). A construção 'Não vislumbra-se' é vício gramatical condenado pelas bancas.",
+    "regra_ouro": "Palavra negativa atrai obrigatoriamente o pronome oblíquo para antes do verbo (Próclise compulsória: 'Não se faz').",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Língua Portuguesa",
+    "topico_edital": "Conjunção 'Como' e seus Valores Sintático-Semânticos",
+    "enunciado": "Em 'Como o processo licitatório não observou as formalidades legais, o contrato foi anulado', a oração introduzida pela conjunção 'Como' expressa uma comparação direta com a anulação contratual.",
+    "gabarito": "E",
+    "comentario": "A conjunção 'como' no início de período e anteposta à oração principal tem valor CAUSAL (equivale a 'já que', 'visto que', 'dado que'), e não comparativo. A falta de observância legal foi a CAUSA da anulação.",
+    "regra_ouro": "'Como' no início de frase articulando duas orações = CONJUNÇÃO CAUSAL (equivale a 'já que'). Não é comparação.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Língua Portuguesa",
+    "topico_edital": "Sintaxe do Período: Oração Subordinada Substantiva Apositiva",
+    "enunciado": "Em 'O auditor tinha apenas uma certeza: de que a prestação de contas fora forjada', a oração iniciada por 'de que' classifica-se como subordinada substantiva apositiva, exercendo a função de explicar e esclarecer o termo antecedente.",
+    "gabarito": "C",
+    "comentario": "Correto. A oração introduzida por dois-pontos detalha e explica o substantivo abstrato antecedente ('uma certeza'), exercendo papel apositivo sintático de aposto oracional.",
+    "regra_ouro": "Oração que explica substantivo antecedente (geralmente após dois-pontos ou travessão) = Subordinada Substantiva Apositiva.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P1",
+    "disciplina": "Língua Portuguesa",
+    "topico_edital": "Acentuação Gráfica: Novo Acordo Ortográfico",
+    "enunciado": "Os vocábulos 'ideia', 'jiboia' e 'coreia' deixaram de receber acento agudo nos seus ditongos abertos tônicos 'ei' e 'oi' por se tratarem de palavras paroxítonas, permanecendo acentuadas as palavras oxítonas terminadas nesses mesmos ditongos, como 'herói' e 'pastéis'.",
+    "gabarito": "C",
+    "comentario": "Correto. Regra do Acordo Ortográfico de 1990 (em vigor obrigatório): Os ditongos abertos 'éi' e 'ói' perdem o acento exclusivamente em palavras PAROXÍTONAS (ideia, heroico, plateia). Nas palavras OXÍTONAS e monossílabos tônicos (herói, constrói, chapéu, anéis), o acento agudo é expressamente mantido.",
+    "regra_ouro": "Ditongo aberto 'ei' e 'oi' em PAROXÍTONAS não tem acento (ideia, heroico). Em OXÍTONAS mantém acento (herói, chapéu).",
+    "nivel": "Média"
+  }
+]
