@@ -1,0 +1,202 @@
+[
+  {
+    "bloco": "P3",
+    "disciplina": "Machine Learning e Modelagem Preditiva",
+    "topico_edital": "Deep Learning: Batch Normalization vs Layer Normalization",
+    "enunciado": "Em modelos baseados na arquitetura Transformer para tarefas de NLP, a técnica de Layer Normalization é preferível à Batch Normalization porque a normalização por camada calcula as estatísticas de média e variância através dos atributos de cada amostra individualmente, operando de forma independente do tamanho do mini-batch e acomodando sequências de comprimento variável.",
+    "gabarito": "C",
+    "comentario": "Correto. Batch Normalization normaliza através das amostras do mini-batch para cada atributo, sofrendo forte degradação em batches pequenos ou sequências textuais com comprimentos dinâmicos (padding). Layer Normalization normaliza através da dimensão de atributos (hidden size) de cada token/sentença individualmente, sendo o padrão absoluto em Transformers.",
+    "regra_ouro": "Layer Normalization normaliza os atributos de cada amostra isolada (ideal para NLP e sequências variáveis). Batch Normalization depende do lote.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Machine Learning e Modelagem Preditiva",
+    "topico_edital": "Regularização em Redes Neurais: Dropout em Treino e Inferência",
+    "enunciado": "A técnica de regularização por Dropout desativa aleatoriamente neurônios com probabilidade p durante o treinamento; na etapa de inferência (avaliação), o Dropout permanece ativo para manter a estocasticidade das predições e evitar sobreajuste nos dados de teste.",
+    "gabarito": "E",
+    "comentario": "Erradíssimo. Na etapa de inferência (teste/produção), o Dropout é COMPLETAMENTE DESATIVADO. Todos os neurônios permanecem ativos para produzir inferências determinísticas. No Inverted Dropout moderno, a escala (1 / (1 - p)) é aplicada no treino para que na inferência não haja qualquer cálculo adicional.",
+    "regra_ouro": "Dropout atua APENAS durante o treinamento (desativa neurônios aleatórios). Na inferência, o Dropout é 100% desligado.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Machine Learning e Modelagem Preditiva",
+    "topico_edital": "Otimizadores: Adam vs AdamW (Decoupled Weight Decay)",
+    "enunciado": "O algoritmo AdamW aprimora o otimizador Adam clássico ao desacoplar a penalidade de decaimento de peso (L2 weight decay) do cálculo dos momentos do gradiente, aplicando a contração dos pesos diretamente sobre os parâmetros atualizados, o que restabelece a eficácia da regularização L2 em redes profundas.",
+    "gabarito": "C",
+    "comentario": "Correto. Loshchilov e Hutter (2019): No Adam padrão com regularização L2, o gradiente da penalidade L2 é adicionado ao gradiente da função de perda e normalizado pela raiz do segundo momento, fazendo com que pesos com gradientes grandes recebam menos regularização. O AdamW corrige isso desacoplando o weight decay da atualização dos momentos.",
+    "regra_ouro": "AdamW desacopla o Weight Decay da média móvel dos gradientes, garantindo regularização L2 verdadeira em redes profundas.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Machine Learning e Modelagem Preditiva",
+    "topico_edital": "Funções de Ativação: ReLU, Leaky ReLU e GeLU",
+    "enunciado": "O problema do Dying ReLU ocorre quando neurônios com ativação ReLU recebem gradientes negativos substanciais, empurrando seus pesos para valores tais que a ativação passa a ser zero para todas as amostras futuras do conjunto de dados, cessando permanentemente o fluxo de gradiente através do neurônio.",
+    "gabarito": "C",
+    "comentario": "Correto. Como a derivada da ReLU (max(0, x)) é exatamente zero para qualquer entrada x <= 0, se um neurônio for deslocado para a região negativa, ele jamais voltará a atualizar seus pesos (neurônio 'morto'). Variações como Leaky ReLU (com pequena inclinação alfa) e GeLU (Gaussian Error Linear Unit) mitigam esse problema.",
+    "regra_ouro": "Dying ReLU: para x <= 0 o gradiente é 0 cravado, podendo 'matar' o neurônio definitivamente durante o backpropagation.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Processamento de Linguagem Natural e LLMs",
+    "topico_edital": "Positional Encoding: Rotary Position Embedding (RoPE)",
+    "enunciado": "O mecanismo Rotary Position Embedding (RoPE), empregado em modelos como LLaMA e Mistral, codifica a posição absoluta multiplicando o vetor de representação por uma matriz de rotação ortogonal no plano complexo, de modo que o produto escalar entre queries e keys passe a depender naturalmente da distância relativa entre as posições.",
+    "gabarito": "C",
+    "comentario": "Correto. Su et al. (2021): O RoPE incorpora a informação posicional rotacionando os vetores no espaço bidimensional de pares de coordenadas. A propriedade algébrica fundamental é que <R_m q, R_n k> = g(q, k, m - n), transformando a posição absoluta em uma interação estritamente relativa entre tokens.",
+    "regra_ouro": "RoPE (Rotary Position Embedding) rotaciona vetores no espaço complexo para codificar posições relativas (usado em LLaMA e Mistral).",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Processamento de Linguagem Natural e LLMs",
+    "topico_edital": "Estratégias de Decodificação: Top-k vs Top-p (Nucleus Sampling)",
+    "enunciado": "Na decodificação por amostragem Top-p (Nucleus Sampling), o modelo seleciona um número fixo de k tokens mais prováveis a cada passo de geração, independentemente da forma ou achatamento da distribuição de probabilidade da camada softmax.",
+    "gabarito": "E",
+    "comentario": "Inversão! Selecionar um número FIXO de tokens a cada passo é a definição de TOP-K sampling. O TOP-P (Nucleus Sampling) seleciona o menor subconjunto dinâmico de tokens cuja soma cumulativa de probabilidades atinge o limiar p (ex: 0.9), adaptando o tamanho do conjunto conforme a certeza da distribuição.",
+    "regra_ouro": "Top-k fixa a quantidade exata de tokens candidatos (número estático). Top-p (Nucleus) acumula probabilidade cumulativa (conjunto dinâmico).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Processamento de Linguagem Natural e LLMs",
+    "topico_edital": "RAG Avançado: Cross-Encoders vs Bi-Encoders e Re-ranking",
+    "enunciado": "Em sistemas de busca semântica para RAG, os Bi-Encoders processam a consulta e os documentos conjuntamente em uma única passagem pela rede neural com atenção cruzada total, sendo computacionalmente mais rápidos para indexação de milhões de textos do que os Cross-Encoders.",
+    "gabarito": "E",
+    "comentario": "Inversão! BI-ENCODERS codificam consulta e documentos SEPARADAMENTE em vetores estáticos, permitindo pré-computar embeddings e realizar busca vetorial rápida (como HNSW/FAISS). Já os CROSS-ENCODERS processam consulta e documento juntos com atenção cruzada total, sendo extremamente precisos, porém lentos demais para busca inicial, sendo reservados para a etapa de RE-RANKING.",
+    "regra_ouro": "Bi-Encoders geram embeddings separados (rápidos para busca inicial). Cross-Encoders usam atenção conjunta total (precisos para Re-ranking).",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Processamento de Linguagem Natural e LLMs",
+    "topico_edital": "Embeddings de Palavras: Skip-Gram vs CBOW (Word2Vec)",
+    "enunciado": "No modelo Word2Vec, a arquitetura Continuous Bag-of-Words (CBOW) prediz uma palavra-alvo com base nas palavras de seu contexto circundante, ao passo que a arquitetura Skip-Gram recebe uma palavra-alvo e tenta prever as palavras do contexto adjacente.",
+    "gabarito": "C",
+    "comentario": "Correto. Mikolov et al. (2013): CBOW = Contexto -> Palavra central (treinamento mais rápido, bom para palavras frequentes). Skip-Gram = Palavra central -> Contexto (com negative sampling, captura com superioridade palavras raras e semântica refinada).",
+    "regra_ouro": "CBOW usa o contexto para prever a palavra central. Skip-Gram usa a palavra central para prever o contexto envolvente.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia de Dados e Big Data",
+    "topico_edital": "Apache Spark: Catalyst Optimizer e Tungsten Engine",
+    "enunciado": "No Apache Spark SQL, o Catalyst Optimizer é responsável pela otimização de planos lógicos e físicos de execução de queries, enquanto o mecanismo Project Tungsten foca na eficiência de hardware no nível de CPU e memória por meio de alocação de memória off-heap (fora do garbage collector da JVM) e geração de código em estágio completo (whole-stage code generation).",
+    "gabarito": "C",
+    "comentario": "Correto. O Catalyst cuida da parte algébrica e de regras de otimização de consultas (pushdown de predicados, projeções, seleção de joins). O Tungsten gerencia memória binária off-heap eliminando a sobrecarga de objetos Java e gera código Java compilado em bytecode em tempo de execução.",
+    "regra_ouro": "Catalyst cuida dos planos de execução lógica/física da query. Tungsten cuida do gerenciamento de memória off-heap e geração de código.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia de Dados e Big Data",
+    "topico_edital": "Formatos de Arquivo: Apache Parquet vs Apache Avro",
+    "enunciado": "O formato Apache Parquet armazena dados de forma orientada a linhas (row-based), sendo especialmente otimizado para operações de gravação transacional frequente (INSERT/UPDATE), enquanto o Apache Avro adota armazenamento colunar voltado a consultas analíticas agregadas (OLAP).",
+    "gabarito": "E",
+    "comentario": "Inversão dos formatos clássicos de Big Data! O Apache PARQUET é COLUNAR (ideal para OLAP, consultas analíticas com agregação e predicate pushdown). O Apache AVRO é ORIENTADO A LINHAS (row-based), ideal para streaming contínuo (Kafka), evolução de esquemas e operações orientadas a registro.",
+    "regra_ouro": "Parquet = Armazenamento COLUNAR (ideal para OLAP/Data Lake/Analytics). Avro = Armazenamento por LINHAS (ideal para Kafka/Streaming).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia de Dados e Big Data",
+    "topico_edital": "Arquitetura Medallion: Camadas Bronze, Silver e Gold",
+    "enunciado": "Na arquitetura Medallion de um Data Lakehouse moderno, a camada Bronze armazena dados brutos preservando o estado e a fidelidade da fonte original; a camada Silver contém dados limpos, deduplicados e enriquecidos; e a camada Gold consolida métricas e agregados de negócios prontos para consumo por BI e modelos de machine learning.",
+    "gabarito": "C",
+    "comentario": "Correto. Padrão arquitetural amplamente cobrado em concursos para auditoria de dados: Bronze (Raw/Landing com histórico completo), Silver (Curated/Enriched com schema enforcement e limpeza) e Gold (Business/Aggregated para analytics de alto nível).",
+    "regra_ouro": "Arquitetura Medallion: Bronze = dados brutos originais; Silver = limpos e conformados; Gold = agregados e métricas de negócio.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Engenharia de Dados e Big Data",
+    "topico_edital": "Apache Kafka: Semântica Exactly-Once e Idempotência",
+    "enunciado": "Para habilitar a semântica de entrega exatamente uma vez (exactly-once semantics) em pipelines orientados a eventos com o Apache Kafka, basta configurar o produtor com enable.idempotence=true, o que garante a eliminação de mensagens duplicadas mesmo na ocorrência de retentativas (retries) motivadas por falhas transitórias de rede.",
+    "gabarito": "C",
+    "comentario": "Correto. O produtor idempotente do Kafka associa a cada lote um ID de Produtor (PID) e números de sequência incrementais. Se o broker receber um lote já gravado devido a retentativas de rede, ele descarta a duplicata sem emitir erro, garantindo gravação idempotente exata na partição.",
+    "regra_ouro": "Kafka enable.idempotence=true vincula PID e sequência às mensagens, eliminando duplicações em retentativas.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística e Inferência Causal",
+    "topico_edital": "Teorema Central do Limite (TCL)",
+    "enunciado": "O Teorema Central do Limite assegura que, conforme o tamanho amostral n cresce, a distribuição de probabilidade das observações individuais da população aproxima-se necessariamente de uma distribuição gaussiana (normal), ainda que a população original seja fortemente bimodal.",
+    "gabarito": "E",
+    "comentario": "Pegadinha clássica e sutil de Estatística Cebraspe! O TCL NÃO afirma que os dados ou indivíduos da população se tornam normais! O TCL afirma que a DISTRIBUIÇÃO DA MÉDIA AMOSTRAL (a média calculada sobre amostras) converge assintoticamente para uma distribuição normal à medida que n aumenta, preservando a população original seu formato qualquer.",
+    "regra_ouro": "TCL: É a distribuição da MÉDIA AMOSTRAL que se aproxima da normal com n grande, NUNCA a distribuição dos dados brutos individuais.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística e Inferência Causal",
+    "topico_edital": "MCMC: Algoritmo de Metropolis-Hastings e Gibbs Sampling",
+    "enunciado": "Os métodos de Monte Carlo via Cadeias de Markov (MCMC) permitem gerar amostras da distribuição a posteriori em inferência bayesiana sem a necessidade de calcular a integral da constante de normalização (evidência marginal), que frequentemente se mostra analiticamente intratável em modelos de alta dimensão.",
+    "gabarito": "C",
+    "comentario": "Correto. No Teorema de Bayes, o denominador P(X) = integral( P(X|theta) * P(theta) dtheta ) é uma integral multidimensional frequentemente impossível de resolver analiticamente. O MCMC (como Metropolis-Hastings e Gibbs) calcula razões de probabilidade onde a constante de normalização se cancela.",
+    "regra_ouro": "MCMC amostra a posteriori sem precisar calcular a integral da evidência marginal (denominador de Bayes intratável).",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística e Inferência Causal",
+    "topico_edital": "Regressão de Contagem: Poisson vs Binomial Negativa e Sobredispersão",
+    "enunciado": "No modelo clássico de regressão de Poisson para contagem de irregularidades em processos licitatórios, a premissa de equidispersão postula que a média da variável de resposta é estritamente igual à sua variância condicional; constatada a sobredispersão (overdispersion, em que a variância supera a média), o modelo de Regressão Binomial Negativa é mais apropriado.",
+    "gabarito": "C",
+    "comentario": "Correto. O modelo de Poisson assume Var(Y|X) = E(Y|X). Se os dados reais apresentarem variância substancialmente superior à média (sobredispersão), os erros padrão de Poisson são subestimados. A Binomial Negativa adiciona um parâmetro de dispersão gama, modelando adequadamente a heterogeneidade não observada.",
+    "regra_ouro": "Dados de contagem: se Variância > Média (Sobredispersão), substitui-se a Regressão de Poisson pela Regressão Binomial Negativa.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Estatística e Inferência Causal",
+    "topico_edital": "Multicolinearidade e Fator de Inflação da Variância (VIF)",
+    "enunciado": "A presença de severa multicolinearidade entre variáveis explicativas em uma regressão linear múltipla torna as estimativas pontuais dos coeficientes de mínimos quadrados ordinários (MQO) enviesadas, embora reduza os intervalos de confiança dos parâmetros.",
+    "gabarito": "E",
+    "comentario": "Dois erros conceituais graves! 1) A multicolinearidade NÃO introduz viés: os estimadores de MQO continuam NÃO ENVIEZADOS (preservam a propriedade BLUE). 2) A multicolinearidade INFLA a variância e alarga os erros padrão (e portanto alarga os intervalos de confiança), tornando os testes t não significativos.",
+    "regra_ouro": "Multicolinearidade NÃO gera viés nos coeficientes; ela infla os erros padrão e alarga os intervalos de confiança.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Bancos de Dados e SQL Analítico",
+    "topico_edital": "Bancos Vetoriais: Índice HNSW vs IVFFlat no pgvector",
+    "enunciado": "Na extensão pgvector do PostgreSQL, a construção de um índice do tipo HNSW (Hierarchical Navigable Small World) consome menos memória RAM e constrói-se de forma mais célere do que o índice IVFFlat, embora o IVFFlat apresente taxa de revocação (recall) significativamente superior em consultas k-NN.",
+    "gabarito": "E",
+    "comentario": "Inversão das características de pgvector! O IVFFlat é mais rápido para construir e consome menos memória, mas requer treinamento prévio e tem recall menor. O HNSW constrói um grafo multicamada hierárquico: consome mais memória e demora mais para construir, mas entrega recall altíssimo e velocidade de consulta k-NN incomparavelmente superior.",
+    "regra_ouro": "pgvector: HNSW tem maior consumo de memória e indexação mais lenta, mas entrega a melhor velocidade de busca e maior recall.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Bancos de Dados e SQL Analítico",
+    "topico_edital": "Cláusula FILTER em Agregações SQL ANSI",
+    "enunciado": "A sintaxe SQL ANSI 'COUNT(*) FILTER (WHERE valor > 100000)' executa a contagem condicional de linhas de forma nativa no PostgreSQL sem a necessidade de recorrer à construção verbosa 'COUNT(CASE WHEN valor > 100000 THEN 1 END)'.",
+    "gabarito": "C",
+    "comentario": "Correto. A cláusula FILTER (WHERE condição) é padrão ANSI SQL e implementada nativamente no PostgreSQL e motores modernos, permitindo agregar diretamente sob predicados específicos com legibilidade e otimização de plano de execução superiores.",
+    "regra_ouro": "Cláusula FILTER (WHERE cond) é a forma nativa do SQL ANSI para agregações condicionais sem depender de CASE WHEN.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Python e Computação Científica",
+    "topico_edital": "Scikit-Learn: Pipelines e Prevenção de Data Leakage",
+    "enunciado": "Ao estruturar experimentos de aprendizado de máquina com Scikit-Learn, a inclusão de etapas de imputação de valores ausentes e padronização (StandardScaler) dentro de um objeto Pipeline assegura que os parâmetros de média e desvio padrão sejam ajustados (fit) exclusivamente sobre os folds de treino, prevenindo o vazamento de dados (data leakage) para os folds de validação.",
+    "gabarito": "C",
+    "comentario": "Correto. Se o StandardScaler for aplicado antes da divisão da validação cruzada, a média e variância do conjunto de validação vazam para o treino. O Pipeline do Scikit-Learn garante que o método fit_transform seja executado apenas nos dados de treino e transform nos dados de teste/validação.",
+    "regra_ouro": "Usar Pipeline no Scikit-Learn impede data leakage: transformadores aprendem parâmetros exclusivamente nos folds de treino.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P3",
+    "disciplina": "Machine Learning e Modelagem Preditiva",
+    "topico_edital": "XGBoost: Regularização L1 e L2 nos Pesos das Folhas",
+    "enunciado": "O algoritmo XGBoost incorpora explicitamente termos de regularização L1 (reg_alpha) e L2 (reg_lambda) na sua função objetivo de segunda ordem (aproximação por expansão de Taylor), penalizando folhas com pesos excessivos para controlar a complexidade das árvores geradas.",
+    "gabarito": "C",
+    "comentario": "Correto. Chen e Guestrin (2016): A função objetivo do XGBoost combina a perda calculada por expansão de Taylor de segunda ordem (gradiente g_i e hessiano h_i) com penalidades explícitas gama * T (número de folhas) e regularização nos pesos das folhas (L1 reg_alpha e L2 reg_lambda).",
+    "regra_ouro": "XGBoost usa expansão de Taylor de 2ª ordem e penalidades L1 (reg_alpha) e L2 (reg_lambda) diretamente na função objetivo.",
+    "nivel": "Difícil"
+  }
+]
