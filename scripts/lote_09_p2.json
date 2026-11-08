@@ -1,0 +1,502 @@
+[
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Acordo de Leniência: Redução de Sanções (Art. 16, § 2º)",
+    "enunciado": "A celebração bem-sucedida de acordo de leniência nos termos da Lei 12.846/2013 isenta a pessoa jurídica de todas as sanções da lei e de qualquer dever de ressarcimento integral do dano causado à administração pública.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Conforme o art. 16, § 2º e § 3º da Lei 12.846/2013, o acordo de leniência pode isentar a empresa da publicação extraordinária da decisão e da proibição de contratar com o poder público, além de reduzir em até 2/3 o valor da multa aplicável. Contudo, o acordo NUNCA exime a pessoa jurídica da obrigação de reparar integralmente o dano causado ao erário.",
+    "regra_ouro": "Acordo de Leniência reduz a multa em até 2/3, mas NUNCA dispensa a reparação integral do dano ao erário.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Súmula Vinculante 13 do STF e Nepotismo Cruzado",
+    "enunciado": "A vedação ao nepotismo constante da Súmula Vinculante 13 do STF alcança a nomeação de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade, até o terceiro grau, inclusive mediante designações recíprocas entre órgãos públicos distintos (nepotismo cruzado).",
+    "gabarito": "C",
+    "comentario": "CERTO. Texto consagrado da Súmula Vinculante 13 do STF: veda a nomeação para cargos de confiança e comissão no Executivo, Legislativo e Judiciário até o 3º grau, inclusive o nepotismo cruzado (troca recíproca de favores e nomeações de parentes entre diferentes autoridades).",
+    "regra_ouro": "Súmula Vinculante 13 veda expressamente o nepotismo direto e o nepotismo cruzado (designações recíprocas) até o 3º grau.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Due Diligence de Integridade: Cadastros CEIS e CNEP da CGU",
+    "enunciado": "A consulta prévia ao Cadastro Nacional de Empresas Inidôneas e Suspensas (CEIS) e ao Cadastro Nacional de Empresas Punidas (CNEP), ambos mantidos pela CGU, é obrigatória para os órgãos federais antes da assinatura de contratos administrativos.",
+    "gabarito": "C",
+    "comentario": "CERTO. A Lei 12.846/2013 e a Lei 14.133/2021 impõem a consulta obrigatória ao CEIS e ao CNEP mantidos pela CGU para verificar se a licitante vencedora está sob sanção de suspensão temporária, declaração de inidoneidade ou impedimento de contratar com a Administração.",
+    "regra_ouro": "Consulta prévia ao CEIS e CNEP (CGU) é procedimento obrigatório de conformidade antes de assinar contratos públicos.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Matriz de Alocação de Riscos na Lei 14.133/2021",
+    "enunciado": "A cláusula contratual de matriz de riscos, obrigatória nas contratações de grande vulto da Lei 14.133/2021, define a repartição objetiva de responsabilidades financeiras entre o contratante e o contratado decorrentes de eventos supervenientes, impedindo o contratado de pleitear reequilíbrio econômico-financeiro sobre riscos que lhe foram expressamente atribuídos na matriz.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 22 e art. 124 da Lei 14.133/2021: a matriz de riscos estabelece previamente a divisão de áleas extraordinárias e ordinárias entre as partes. Se um risco couber ao particular segundo a matriz, sua concretização não autoriza aditivo de reequilíbrio econômico-financeiro.",
+    "regra_ouro": "Matriz de riscos reparte responsabilidades; o contratado não pode pedir reequilíbrio por risco atribuído contratualmente a ele.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Papel do Encarregado de Conformidade (Compliance Officer)",
+    "enunciado": "Para assegurar a efetividade do programa de compliance, o responsável pela conformidade corporativa deve possuir autonomia decisória, acesso direto aos órgãos de governança máxima (como Conselho de Administração) e recursos adequados para desempenhar suas funções sem subordinação direta às áreas comerciais operacionais.",
+    "gabarito": "C",
+    "comentario": "CERTO. Diretrizes do Decreto 11.129/2022 e padrões internacionais (ISO 37301): o Compliance Officer deve ter independência operacional e reporte direto ao topo da governança para evitar pressões de chefias operacionais focadas em vendas ou metas financeiras imediatas.",
+    "regra_ouro": "Compliance Officer deve ter autonomia, reporte direto à alta governança e independência das áreas de vendas/negócios.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Representação de Interesses Privados (Lobby/Advocacy)",
+    "enunciado": "No ordenamento jurídico federal brasileiro, a representação de interesses privados perante agentes públicos (lobby) é proibida por configurar ato ilícito de corrupção ativa.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A representação de interesses e o diálogo de setores econômicos e da sociedade civil com o poder público é legítimo em democracias (advocacy). O que é estritamente proibido e sancionado é a oferta de vantagens indevidas, propina, conflito de interesses e o tráfico de influência. As boas práticas de governança exigem a transparência das agendas públicas dos dirigentes.",
+    "regra_ouro": "Representação de interesses (lobby) em si é legítima; o ilícito reside na oferta de vantagens indevidas e na opacidade.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Gestão de Riscos na Nova Lei de Licitações (Lei 14.133/2021)",
+    "enunciado": "A Lei 14.133/2021 tornou a gestão de riscos e o controle preventivo etapas obrigatórias do processo de planejamento das contratações públicas, devendo a administração elaborar mapa de riscos desde a fase preparatória da licitação.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 18, X e art. 169 da Lei 14.133/2021: a fase preparatória da licitação exige expressamente a elaboração de mapa de riscos contemplando os riscos que possam comprometer o sucesso da contratação e a execução do contrato.",
+    "regra_ouro": "Gestão de riscos é obrigatória desde a fase de planejamento preliminar da licitação na Lei 14.133/2021.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Linhas Éticas e Confidencialidade Corporativa",
+    "enunciado": "Para que um canal de denúncias corporativo seja considerado válido pelo Decreto 11.129/2022, é compulsório que a empresa exija a identificação biométrica facial obrigatória do denunciante para evitar queixas frívolas.",
+    "gabarito": "E",
+    "comentario": "ERRADO. É exatamente o oposto: os regulamentos exigem canais de relato que assegurem o anonimato facultativo e a estrita confidencialidade do denunciante, acompanhados de mecanismos rígidos de não retaliação. Exigir identificação biométrica intimidaria os relatos e inviabilizaria o compliance.",
+    "regra_ouro": "Canais de relato devem facultar o ANONIMATO e assegurar sigilo absoluto para incentivar a denúncia de fraudes.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Lei das Estatais: Comitê de Elegibilidade",
+    "enunciado": "A Lei 13.303/2016 prevê a obrigatoriedade da criação de Comitê de Pessoas, Elegibilidade, Sucessão e Remuneração nas empresas públicas e sociedades de economia mista para verificar a conformidade dos indicados aos cargos de conselheiros e diretores estatutários.",
+    "gabarito": "C",
+    "comentario": "CERTO. O Comitê de Elegibilidade avalia formalmente o cumprimento dos requisitos de qualificação profissional e a ausência de vedações legais (como quarentena política) dos indicados pelo acionista controlador para cargos de cúpula nas estatais.",
+    "regra_ouro": "Comitê de Elegibilidade na Lei das Estatais verifica o cumprimento prévio dos requisitos de qualificação dos indicados à diretoria.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Responsabilidade na Lei 12.846: Consórcios de Empresas",
+    "enunciado": "No caso de atos lesivos praticados por consórcio constituído para participar de licitação pública, as empresas consorciadas responderão solidariamente pelo pagamento da multa e pela reparação integral do dano decorrente do ato ilícito.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 4º, § 2º, da Lei 12.846/2013: as sociedades consorciadas serão solidariamente responsáveis pela aplicação das penalidades de multa e de reparação integral dos danos decorrentes dos atos lesivos previstos nesta Lei, praticados no âmbito do consórcio.",
+    "regra_ouro": "Consórcio de empresas: responsabilidade SOLIDÁRIA pelo pagamento de multa e reparação do dano em fraudes na Lei Anticorrupção.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Portal Nacional de Contratações Públicas (PNCP)",
+    "enunciado": "O Portal Nacional de Contratações Públicas (PNCP), criado pela Lei 14.133/2021, constitui sítio eletrônico oficial obrigatório para a divulgação centralizada de todos os editais de licitação, atas de registro de preços e contratos da administração direta, autárquica e fundacional de todos os entes federativos.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 174 da Lei 14.133/2021: o PNCP centraliza a transparência ativa das compras públicas do Brasil, sendo a publicação nele condição indispensável para a eficácia do contrato administrativo (art. 94).",
+    "regra_ouro": "Publicação no Portal Nacional de Contratações Públicas (PNCP) é condição de EFICÁCIA dos contratos da Lei 14.133/2021.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Recurso à CGU na Lei de Acesso à Informação (Art. 16 LAI)",
+    "enunciado": "Cabe recurso à Controladoria-Geral da União (CGU) contra decisão denegatória de acesso a informação proferida por órgãos do Poder Legislativo e do Poder Judiciário federais.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A CGU é órgão do Poder Executivo federal. Sua competência recursal na LAI (art. 16 da Lei 12.527/2011) restringe-se estritamente aos órgãos e entidades do PODER EXECUTIVO FEDERAL. Legislativo, Judiciário e Ministério Público possuem suas próprias instâncias recursais internas autônomas.",
+    "regra_ouro": "CGU julga recursos da LAI exclusivamente no âmbito do PODER EXECUTIVO FEDERAL.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Biometria e Reconhecimento Facial sob a LGPD",
+    "enunciado": "A utilização de sistemas de reconhecimento facial por órgãos públicos em portarias e eventos é dispensada de cumprir as salvaguardas da LGPD, pois dados biométricos perdem seu caráter sensível quando capturados em ambientes de acesso público.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Dado biométrico é expressamente classificado como DADO PESSOAL SENSÍVEL (art. 5º, II da LGPD). O fato de o titular transitar em local público não desnatura a sensibilidade do dado biométrico, exigindo estrita conformidade aos princípios da necessidade, adequação, segurança e elaboração de Relatório de Impacto à Proteção de Dados Pessoais (RIPD).",
+    "regra_ouro": "Dados biométricos são dados pessoais SENSÍVEIS em qualquer circunstância sob a LGPD, exigindo rígidas salvaguardas.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Plataforma Brasil Participativo e Orçamento Democrático",
+    "enunciado": "A plataforma Brasil Participativo é um canal digital do governo federal voltado à participação social direta da cidadania, permitindo o envio de propostas e a votação prioritária de diretrizes para o Plano Plurianual (PPA).",
+    "gabarito": "C",
+    "comentario": "CERTO. O Brasil Participativo foi lançado como plataforma de democracia participativa e governo digital para engajar a população na co-criação de políticas públicas, com destaque para as audiências e consultas públicas digitais do PPA e conferências nacionais.",
+    "regra_ouro": "Brasil Participativo é a plataforma oficial federal de engajamento e participação social digital na formulação de políticas e PPA.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Sobrecarga Informacional vs Transparência Efetiva",
+    "enunciado": "No campo do controle social, a disponibilização de grandes volumes de documentos públicos em formato de imagens digitalizadas não pesquisáveis sem índices estruturados promove uma transparência fictícia, gerando sobrecarga informacional que dificulta o controle pelos cidadãos.",
+    "gabarito": "C",
+    "comentario": "CERTO. O fenômeno da 'transparência por opacidade' ou sobrecarga (information dump): inundar o cidadão com milhares de páginas digitalizadas em imagem (sem OCR ou metadados) simula transparência formal mas inviabiliza o controle social efetivo.",
+    "regra_ouro": "Transparência exige usabilidade e dados pesquisáveis; despejo massivo de PDFs não pesquisáveis gera opacidade funcional.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Sigilo Bancário e Fiscal vs Fiscalização de Recursos Públicos",
+    "enunciado": "Conforme consolidada jurisprudência do STF (Tema 1032 e RE 1.055.941), o Tribunal de Contas da União e a CGU têm competência para requisitar diretamente de instituições bancárias informações e extratos de contas que movimentem recursos públicos federais, sem que isso configure violação ao sigilo bancário.",
+    "gabarito": "C",
+    "comentario": "CERTO. Recursos públicos não estão protegidos por sigilo bancário em face dos órgãos de controle. O STF pacificou que o envio de informações e extratos de contas correntes de entes e convênios que gerenciam verbas públicas federais para o TCU e CGU não exige autorização judicial prévia.",
+    "regra_ouro": "Contas que movimentam recursos públicos NÃO gozam de sigilo bancário perante os órgãos de controle financeiro (TCU/CGU).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Painéis Interativos da CGU: Painel Raio-X e Resolva Aqui",
+    "enunciado": "A Controladoria-Geral da União desenvolve e publica painéis interativos de Business Intelligence (como o Painel Resolva Aqui e o Painel Raio-X da Administração Pública) para traduzir grandes volumes de dados complexos em indicadores visuais acessíveis para o cidadão e a gestão.",
+    "gabarito": "C",
+    "comentario": "CERTO. Como parte de sua política de dados abertos e transparência ativa, a CGU disponibiliza dezenas de painéis públicos interativos em ferramentas de visualização (ex: Painel de Ouvidorias, Painel do Acesso à Informação, Painel de Sanções, Painel Raio-X), facilitando o controle social.",
+    "regra_ouro": "Painéis interativos da CGU convertem microdados brutos em gráficos e mapas acessíveis ao controle social.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Tratamento de Manifestações Anônimas Qualificadas",
+    "enunciado": "A manifestação anônima qualificada é aquela que, embora não identifique o manifestante, apresenta descrição pormenorizada dos fatos com datas, locais, envolvidos e anexação de documentos comprobatórios, autorizando a instauração de apuração preliminar.",
+    "gabarito": "C",
+    "comentario": "CERTO. Manual de Ouvidoria da CGU: diferencia o desabafo genérico (inapto) da denúncia anônima qualificada (recheada de indícios e elementos de convicção materiais), a qual deve ser imediatamente submetida a juízo de admissibilidade para apuração prévia.",
+    "regra_ouro": "Denúncia anônima com elementos materiais consistentes e verossímeis (qualificada) autoriza abertura de investigação preliminar.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Dever de Sigilo e Informações Pessoais (Art. 31 LAI)",
+    "enunciado": "O tratamento de informações pessoais relativas à intimidade e vida privada de cidadãos sob guarda estatal terá seu acesso restrito pelo prazo máximo de cem anos a contar da data de sua produção, garantido o acesso ao próprio titular e a terceiros legalmente autorizados.",
+    "gabarito": "C",
+    "comentario": "CERTO. Literalidade do art. 31, § 1º, I, da Lei 12.527/2011: as informações pessoais relativas à intimidade, vida privada, honra e imagem terão seu acesso restrito a agentes públicos legalmente autorizados e à própria pessoa a que se referem, pelo prazo máximo de 100 anos.",
+    "regra_ouro": "Prazo de sigilo para proteção de dados de intimidade e vida privada na LAI: até 100 ANOS (art. 31).",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Publicidade como Regra e Sigilo como Exceção (Art. 3º LAI)",
+    "enunciado": "No regime jurídico da Lei de Acesso à Informação, a regra geral é a publicidade dos atos estatais, constituindo o sigilo uma hipótese excepcional que exige motivação formal, estrita fundamentação legal e prazo determinado.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 3º, I, da Lei 12.527/2011: consagra a publicidade como preceito geral e o sigilo como exceção temporária, exigindo decisão administrativa fundamentada para qualquer restrição de acesso.",
+    "regra_ouro": "Na LAI, a publicidade é a REGRA e o sigilo é a EXCEÇÃO temporária e estritamente motivada.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "LINDB: Compromisso Administrativo Consensual (Art. 26)",
+    "enunciado": "Para eliminar irregularidade, incerteza jurídica ou situação contenciosa na aplicação do direito público, a autoridade administrativa poderá celebrar compromisso com os interessados (art. 26 da LINDB), devendo o ajuste prever com clareza as obrigações da parte, o prazo para seu cumprimento e as sanções em caso de descumprimento.",
+    "gabarito": "C",
+    "comentario": "CERTO. O art. 26 da LINDB consagra a consensualidade no direito administrativo, autorizando termos de compromisso e acordos administrativos substitutivos de sanção para regularizar situações ilícitas ou controvertidas de forma mais célere e eficaz.",
+    "regra_ouro": "Art. 26 da LINDB estimula a consensualidade administrativa mediante celebração de compromissos para sanar incertezas jurídicas.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "LINDB: Declaração de Nulidade e Condições de Regularização (Art. 21)",
+    "enunciado": "A decisão que, nas esferas administrativa, controladora ou judicial, decretar a invalidação de ato, contrato ou ajuste deverá indicar de modo expresso suas consequências jurídicas e administrativas e fixar, quando for o caso, condições para a regularização proporcional e equânime da situação.",
+    "gabarito": "C",
+    "comentario": "CERTO. Literalidade do art. 21 da LINDB: proíbe invalidações sumárias cegas. O julgador ou órgão de controle que anular um contrato ou ato deve indicar expressamente os impactos da medida e definir como a situação será transitoriamente regularizada sem colapso do serviço público.",
+    "regra_ouro": "Art. 21 da LINDB exige que a decisão que decreta nulidade aponte as consequências e fixe condições de regularização.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "Parecer Jurídico Vinculante da AGU e Culpabilidade do Gestor",
+    "enunciado": "O gestor público federal que pratica ato administrativo em estrita e fiel observância a parecer normativo e vinculante aprovado pelo Advogado-Geral da União e pelo Presidente da República não pode ser sancionado por erro grosseiro pelo Tribunal de Contas da União.",
+    "gabarito": "C",
+    "comentario": "CERTO. Pareceres vinculantes da AGU (art. 40 da LC 73/1993) obrigam formalmente toda a administração federal. O administrador que age estritamente nos limites de parecer vinculante obrigatório age sob escora da presunção de legalidade, afastando a ocorrência de erro grosseiro pessoal.",
+    "regra_ouro": "Atuação respaldada em parecer vinculante da AGU afasta a caracterização de erro grosseiro ou culpa grave do gestor.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "Comunicabilidade entre Esferas Penal e Administrativa (Art. 126 Lei 8.112)",
+    "enunciado": "A absolvição criminal do servidor público federal por ausência de provas suficientes para a condenação vincula automaticamente a esfera administrativa, impedindo a aplicação de qualquer penalidade em sede de PAD pelos mesmos fatos.",
+    "gabarito": "E",
+    "comentario": "ERRADO. As instâncias são independentes. A absolvição criminal só repercute na esfera administrativa se for fundamentada expressamente na negativa de autoria (provou-se que não foi o servidor) ou na inexistência do fato material (art. 126 da Lei 8.112/1990). A absolvição por insuficiência de provas não vincula a esfera administrativa.",
+    "regra_ouro": "Absolvição penal por insuficiência de provas NÃO vincula o PAD; apenas inexistência do fato ou negativa de autoria vinculam.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "Prescrição da Pretensão Punitiva e de Ressarcimento no TCU (Res. 344/2022)",
+    "enunciado": "Conforme a Resolução 344/2022 do TCU, editada após os julgamentos dos Temas 899 e 1097 do STF, as pretensões punitiva e de ressarcimento ao erário nos processos de controle externo prescrevem em cinco anos, incidindo a prescrição intercorrente caso o processo fique paralisado por mais de três anos pendente de julgamento.",
+    "gabarito": "C",
+    "comentario": "CERTO. O STF fixou a tese de prescritibilidade das ações de ressarcimento perante o TCU (Tema 899). O TCU regulamentou a matéria na Resolução 344/2022, aplicando as regras da Lei 9.873/1999: prescrição quinquenal (5 anos) e prescrição intercorrente de 3 anos.",
+    "regra_ouro": "No TCU, tanto a multa quanto a condenação em débito prescrevem em 5 anos (com prescrição intercorrente de 3 anos).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "Multa Proporcional ao Dano no TCU (Art. 57 Lei 8.443/1992)",
+    "enunciado": "Quando o responsável for julgado em débito perante o Tribunal de Contas da União, o Tribunal poderá ainda aplicar-lhe multa de até 100% do valor atualizado do dano causado ao erário.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 57 da Lei Orgânica do TCU (Lei 8.443/1992): 'Quando o responsável for julgado em débito, poderá ainda o Tribunal aplicar-lhe multa de até cem por cento do valor atualizado do dano causado ao Erário'.",
+    "regra_ouro": "Multa proporcional ao débito no TCU (art. 57 da LOTCU) pode atingir até 100% do valor do dano.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "Recursos no TCU: Pedido de Reexame vs Recurso de Reconsideração",
+    "enunciado": "No âmbito processual do TCU, o 'Recurso de Reconsideração' é o meio recursal cabível contra acórdãos proferidos em processos de prestação ou tomada de contas, ao passo que o 'Pedido de Reexame' é cabível contra decisões de mérito proferidas em processos de fiscalização (auditorias, inspeções e representações).",
+    "gabarito": "C",
+    "comentario": "CERTO. Regimento Interno do TCU (arts. 285 e 286): Recurso de Reconsideração = privativo de processos de contas (TCE, contas ordinárias); Pedido de Reexame = cabível em processos de fiscalização (relatórios de auditoria, acompanhamentos, representações).",
+    "regra_ouro": "TCU: Recurso de Reconsideração é para processos de CONTAS; Pedido de Reexame é para FISCALIZAÇÕES e auditorias.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "Desconsideração da Personalidade Jurídica no TCU (Súmula 282)",
+    "enunciado": "O Tribunal de Contas da União possui competência administrativa própria para desconsiderar a personalidade jurídica de sociedades empresárias fraudulentas que causaram prejuízo ao erário, estendendo a condenação em débito aos bens particulares de seus sócios e administradores.",
+    "gabarito": "C",
+    "comentario": "CERTO. Súmula 282 do TCU: 'O TCU, no julgamento de processos de tomada de contas especial, pode desconsiderar a personalidade jurídica de sociedade empresária para atingir o patrimônio dos sócios, quando caracterizado o desvio de finalidade ou a confusão patrimonial'.",
+    "regra_ouro": "TCU pode aplicar a desconsideração da personalidade jurídica (Súmula 282) em sede de Tomada de Contas Especial.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "Revisão no Processo Administrativo Disciplinar (Art. 174 Lei 8.112)",
+    "enunciado": "O processo disciplinar poderá ser revisto a qualquer tempo, a pedido ou de ofício, quando se aduzirem fatos novos ou circunstâncias suscetíveis de justificar a inocência do punido ou a inadequação da penalidade aplicada, vedando-se que da revisão resulte agravamento da penalidade.",
+    "gabarito": "C",
+    "comentario": "CERTO. Arts. 174 e 182 da Lei 8.112/1990: a revisão de PAD pode ocorrer a qualquer tempo diante de fatos novos ou circunstâncias favoráveis, e vigora a regra da 'non reformatio in pejus' (da revisão nunca poderá resultar agravamento de penalidade já imposta).",
+    "regra_ouro": "Revisão de PAD pode ser pedida a qualquer tempo diante de fatos novos e NUNCA agrava a pena anterior do servidor.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "Suspeição e Impedimento de Autoridade no Processo Administrativo",
+    "enunciado": "Nos termos da Lei 9.784/1999, a existência de inimizade notória ou amizade íntima com algum dos interessados configura causa de suspeição da autoridade administrativa, devendo ser arguida pelo interessado, diferindo do impedimento, que tem caráter objetivo e impõe o dever de abstenção de ofício.",
+    "gabarito": "C",
+    "comentario": "CERTO. Arts. 18 e 20 da Lei 9.784/1999: Impedimento é causa objetiva (parentesco, litígio judicial, interesse direto) e gera nulidade de pleno direito se a autoridade não se afastar; Suspeição é subjetiva (amizade íntima, inimizade notória) e deve ser arguida pelos interessados.",
+    "regra_ouro": "Impedimento é causa objetiva com dever de autodeclaração; Suspeição refere-se a amizade íntima ou inimizade notória.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Evidências, Dados e Inteligência Artificial",
+    "topico_edital": "Clusterização em Processamento de Linguagem Natural (NLP)",
+    "enunciado": "Técnicas de agrupamento não supervisionado (como K-Means ou DBSCAN) aplicadas a representações vetoriais (embeddings) de descrições textuais de editais de compras públicas permitem identificar contratações fragmentadas de objetos idênticos realizadas por diferentes unidades administrativas.",
+    "gabarito": "C",
+    "comentario": "CERTO. O uso de NLP com embeddings semânticos converte os textos das licitações em vetores numéricos. Algoritmos de clustering agrupam automaticamente compras de itens correlatos ou idênticos, detectando fracionamento indevido de despesa e oportunidades de compra centralizada.",
+    "regra_ouro": "Embeddings e clustering em NLP agrupam compras textualmente similares para detectar fracionamento e economias de escala.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Evidências, Dados e Inteligência Artificial",
+    "topico_edital": "Vieses Cognitivos do Auditor: Viés de Ancoragem",
+    "enunciado": "O viés de ancoragem manifesta-se quando o auditor governamental ajusta de forma insuficiente suas estimativas orçamentárias subsequentes porque ficou excessivamente condicionado ao primeiro número ou orçamento de referência que lhe foi apresentado.",
+    "gabarito": "C",
+    "comentario": "CERTO. O viés de ancoragem (anchoring bias) é o erro cognitivo em que o indivíduo se apoia excessivamente no primeiro fragmento de informação recebido (a 'âncora'), limitando sua capacidade de reavaliar criticamente o real valor de mercado com base em dados independentes.",
+    "regra_ouro": "Viés de ancoragem: fixar-se indevidamente na primeira informação ou valor recebido, distorcendo estimativas posteriores.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Evidências, Dados e Inteligência Artificial",
+    "topico_edital": "Problema de Classes Raras em Detecção de Fraudes",
+    "enunciado": "Em uma base de dados governamental onde apenas 0,1% das transações são comprovadamente fraudulentas, um modelo classificador ingênuo que preveja sempre a classe 'não fraude' atingirá uma acurácia de 99,9%, demonstrando que a acurácia global é a métrica mais confiável para validar modelos de auditoria preditiva.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Esse é o clássico 'paradoxo da acurácia' em bases altamente desbalanceadas. O modelo acerta 99,9% dos casos, mas errou 100% das fraudes reais (Recall = 0%). Em controle e auditoria, métricas adequadas são F1-Score, Precisão, Revocação (Recall) e Área sob a Curva ROC (AUC-ROC), nunca a acurácia isolada.",
+    "regra_ouro": "Bases de dados com fraudes raras NÃO devem ser avaliadas por acurácia simples (paradoxo da acurácia); usa-se F1-Score ou AUC-ROC.",
+    "nivel": "Difícil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Evidências, Dados e Inteligência Artificial",
+    "topico_edital": "Governança de Dados: Linhagem de Dados (Data Lineage)",
+    "enunciado": "A linhagem de dados (data lineage) é o componente de governança de dados que mapeia o ciclo de vida completo da informação, registrando sua origem de extração, transformações intermediárias aplicadas e destino final nos relatórios de auditoria.",
+    "gabarito": "C",
+    "comentario": "CERTO. A linhagem de dados assegura a rastreabilidade e auditabilidade dos dados em pipelines analíticos (ETL/ELT). Ela permite que o auditor prove exatamente de onde um número foi extraído e quais cálculos foram aplicados até chegar à conclusão final.",
+    "regra_ouro": "Linhagem de dados mapeia a trajetória completa do dado desde a fonte bruta até o relatório de auditoria.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Evidências, Dados e Inteligência Artificial",
+    "topico_edital": "Validação Cruzada (Cross-Validation) em Modelos de Risco",
+    "enunciado": "A técnica de validação cruzada k-fold visa mitigar o sobreajuste (overfitting) de modelos de aprendizado de máquina ao particionar a base de dados em k subconjuntos, garantindo que o algoritmo seja treinado e avaliado em porções distintas e rotativas dos dados.",
+    "gabarito": "C",
+    "comentario": "CERTO. No k-fold cross-validation, a base é dividida em k blocos: treina-se em k-1 blocos e testa-se no bloco remanescente, repetindo o procedimento k vezes. Isso evita que o modelo decore os dados de treino e assegura que generalize bem para dados novos.",
+    "regra_ouro": "Validação cruzada k-fold avalia a capacidade de generalização do modelo e previne o sobreajuste (overfitting).",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Evidências, Dados e Inteligência Artificial",
+    "topico_edital": "Auditabilidade Algorítmica e Reprodutibilidade",
+    "enunciado": "A auditabilidade algorítmica exige que os sistemas de inteligência artificial empregados no controle público registrem logs completos de versão do código, parâmetros de hiperconfiguração e dados de entrada utilizados, permitindo a reprodução exata dos resultados por peritos independentes.",
+    "gabarito": "C",
+    "comentario": "CERTO. Boas práticas de MLOps e controle algorítmico (padrões da CGU e TCU): a reprodutibilidade é condição indispensável para a validade pericial de evidências obtidas por inteligência artificial em processos correcionais e de contas.",
+    "regra_ouro": "Auditabilidade algorítmica exige reprodutibilidade matemática e versionamento completo de códigos e dados de entrada.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Matriz de Planejamento de Auditoria: Elementos",
+    "enunciado": "A Matriz de Planejamento de Auditoria é o instrumento operacional que orienta a fase de execução, estruturando para cada questão de auditoria as informações necessárias, as fontes de obtenção, os procedimentos de coleta e análise de dados e as eventuais limitações do exame.",
+    "gabarito": "C",
+    "comentario": "CERTO. Padrões de Auditoria do TCU e CGU: a matriz de planejamento conecta os objetivos da fiscalização ao trabalho prático de campo, definindo com clareza o que será verificado, onde buscar a informação e quais métodos analíticos serão utilizados.",
+    "regra_ouro": "Matriz de Planejamento estrutura as questões de auditoria, fontes, métodos de análise e limitações do exame.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Auditoria Contínua no Setor Público",
+    "enunciado": "A auditoria contínua caracteriza-se pela execução automatizada e frequente de rotinas e scripts de validação de dados diretamente nas bases transacionais governamentais, permitindo a detecção de anomalias quase em tempo real, sem necessidade de aguardar o encerramento do exercício anual.",
+    "gabarito": "C",
+    "comentario": "CERTO. Diferente da auditoria pontual tradicional (que fiscaliza fatos ocorridos há meses ou anos), a auditoria contínua roda regras automáticas diárias/semanais nas bases (SIAFI, SIASG), viabilizando intervenções tempestivas que impedem o pagamento indevido antes que ocorra.",
+    "regra_ouro": "Auditoria Contínua roda scripts automatizados e frequentes para detectar anomalias transacionais quase em tempo real.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Recomendações Corretivas vs Preventivas",
+    "enunciado": "Recomendações corretivas focam na reparação de danos e na anulação de atos desconformes já ocorridos, enquanto recomendações preventivas ou de aprimoramento buscam aperfeiçoar os controles internos e os processos organizacionais para evitar a repetição futura da falha.",
+    "gabarito": "C",
+    "comentario": "CERTO. As recomendações da CGU estruturam-se para atuar em duas frentes: remediar o passivo verificado (restituição de verbas, anulação de cláusula) e atuar estruturalmente sobre as causas-raiz (capacitação, redesenho de fluxos, novas travas) para que o desvio não se repita.",
+    "regra_ouro": "Recomendações corretivas sanam a desconformidade passada; preventivas eliminam as causas-raiz para o futuro.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Atuação da Diretoria de Investigações Especiais (DIE/CGU)",
+    "enunciado": "A Diretoria de Investigações Especiais (DIE) da CGU atua primordialmente na apuração de esquemas complexos de corrupção e desvios de recursos públicos federais, frequentemente em operações integradas com a Polícia Federal e o Ministério Público Federal.",
+    "gabarito": "C",
+    "comentario": "CERTO. A DIE/CGU é a unidade de inteligência e investigações especiais da Secretaria Federal de Controle Interno voltada a desarticular organizações criminosas e fraudes sistêmicas contra o patrimônio público em forças-tarefa conjuntas com a PF e o MPF.",
+    "regra_ouro": "DIE/CGU conduz investigações especiais sobre esquemas complexos de corrupção em cooperação com a PF e MPF.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Controle de Qualidade em Auditoria Governamental",
+    "enunciado": "O controle de qualidade em auditoria governamental limita-se à revisão ortográfica e gramatical do relatório antes de sua assinatura pelo auditor encarregado.",
+    "gabarito": "E",
+    "comentario": "ERRADO. O controle de qualidade (ISSAI 140 / ISSAI 2000) abrange a revisão técnica dos papéis de trabalho, a suficiência e adequação das evidências, a conformidade metodológica, a imparcialidade das conclusões e a razoabilidade das recomendações, realizada por supervisores independentes.",
+    "regra_ouro": "Controle de qualidade avalia a solidez das evidências, o rigor metodológico e a proporcionalidade dos achados.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Sumário Executivo e Comunicação Efetiva",
+    "enunciado": "O Sumário Executivo de um relatório de auditoria da CGU deve resumir de forma clara e concisa os objetivos da fiscalização, as principais constatações, os impactos identificados e as recomendações prioritárias, facilitando a rápida compreensão pelos dirigentes máximos e pela sociedade.",
+    "gabarito": "C",
+    "comentario": "CERTO. Diretrizes de comunicação da CGU: o Sumário Executivo sintetiza os achados centrais e recomendações estratégicas para tomadores de decisão e imprensa, evitando que detalhes procedimentais impeçam a visão global dos resultados do trabalho de controle.",
+    "regra_ouro": "Sumário Executivo sintetiza achados, impactos e recomendações prioritárias para subsidiar a alta liderança.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Auditoria de Algoritmos em Contratos Públicos",
+    "enunciado": "Quando o poder público contrata o fornecimento de software que utiliza algoritmos preditivos de pontuação de crédito social ou análise criminal, a recusa do contratado em fornecer acesso ao código-fonte sob alegação de segredo comercial impede os órgãos de controle de exigir qualquer verificação de conformidade ética ou ausência de discriminação.",
+    "gabarito": "E",
+    "comentario": "ERRADO. A jurisprudência dos órgãos de controle e a Lei 14.129/2021 estabelecem que o segredo de negócio não pode ser oposto para blindar soluções públicas contra auditorias de conformidade com direitos fundamentais. A Administração e os órgãos de controle podem e devem exigir auditorias algorítmicas, testes de estresse e validação de vieses discriminatórios.",
+    "regra_ouro": "Segredo comercial de software não pode anular a auditabilidade de algoritmos que executam decisões públicas.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Governança, Riscos e Integridade Pública e Privada",
+    "topico_edital": "Governança Multinível e Federalismo Cooperativo no Controle",
+    "enunciado": "A fiscalização da aplicação de recursos federais repassados a municípios por meio de transferências voluntárias (convênios e contratos de repasse) compete concorrentemente à CGU e ao TCU, sem prejuízo da atuação fiscalizatória dos tribunais de contas estaduais sobre os recursos próprios municipais.",
+    "gabarito": "C",
+    "comentario": "CERTO. Súmula 208 do STJ e art. 71, VI da CF: recursos de origem federal repassados mediante convênio sujeitam-se à jurisdição fiscalizatória do TCU e controle interno da CGU. Recursos próprios dos entes locais submetem-se aos respectivos Tribunais de Contas Estaduais/Municipais.",
+    "regra_ouro": "Verbas federais repassadas por convênio sujeitam-se obrigatoriamente ao controle federal da CGU e do TCU (Súmula 208 STJ).",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Transparência, Ouvidoria e Participação Social",
+    "topico_edital": "Dados Abertos: Formatos e Licenciamento Livre",
+    "enunciado": "Segundo a Política de Dados Abertos do Poder Executivo federal, as bases de dados disponibilizadas em sítios oficiais devem adotar licenças abertas que autorizem sua livre utilização, reutilização, compartilhamento e cruzamento, inclusive para fins comerciais.",
+    "gabarito": "C",
+    "comentario": "CERTO. Decreto 8.777/2016 e Resolução do Comitê Gestor da INDA: dados abertos devem ser livres de restrições de direitos autorais ou patentes para que startups, pesquisadores, jornalistas e cidadãos possam criar aplicativos e serviços de valor agregado sobre eles.",
+    "regra_ouro": "Dados abertos do governo devem permitir livre utilização e reutilização, inclusive para fins econômicos e comerciais.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Direito Público Aplicado, Controle e Responsabilização",
+    "topico_edital": "Responsabilidade Solidária de Terceiros perante o TCU",
+    "enunciado": "Pessoa física ou jurídica de direito privado que participe de conluio com agentes públicos ou se beneficie diretamente de dano ao patrimônio público federal responde solidariamente com os gestores públicos pelo ressarcimento do débito apurado pelo TCU.",
+    "gabarito": "C",
+    "comentario": "CERTO. Art. 16, § 2º, 'b', da Lei 8.443/1992: nas hipóteses de dano ao erário decorrente de ato ilegítimo ou desfalque, o TCU fixará a responsabilidade solidária do terceiro que, como contratante ou parte interessada, tenha concorrido para o cometimento do dano.",
+    "regra_ouro": "Particulares e empresas contratadas respondem SOLIDARIAMENTE com os gestores pelo dano ao erário perante o TCU.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Evidências, Dados e Inteligência Artificial",
+    "topico_edital": "Matriz de Confusão em Modelos de Classificação",
+    "enunciado": "Na matriz de confusão de um modelo preditivo, a taxa de verdadeiros positivos (sensibilidade) representa a proporção de casos positivos reais que foram corretamente identificados pelo algoritmo como positivos.",
+    "gabarito": "C",
+    "comentario": "CERTO. Sensibilidade ou Revocação ($Recall = \\frac{VP}{VP + FN}$): mede a capacidade do modelo de capturar todos os casos positivos que existem no mundo real.",
+    "regra_ouro": "Sensibilidade (True Positive Rate) mede o percentual de fraudes reais que o modelo conseguiu capturar.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Indagação como Procedimento de Coleta de Evidência",
+    "enunciado": "A indagação, procedimento de auditoria que consiste na busca de informações junto a pessoas com conhecimento dentro ou fora da entidade, oferece isoladamente evidência suficiente e conclusiva para fundamentar a imputação de débito ao gestor auditado.",
+    "gabarito": "E",
+    "comentario": "ERRADO. Normas de Auditoria (NBC TA 500 / ISSAI 2500): a indagação isoladamente fornece evidência verbal de fraca confiabilidade, sendo insuficiente para sustentar conclusões ou débitos. Suas respostas devem ser necessariamente corroboradas por evidências documentais, inspeção física ou procedimentos analíticos.",
+    "regra_ouro": "Indagação verbal isolada NÃO constitui evidência suficiente de auditoria; exige corroboração documental independente.",
+    "nivel": "Média"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Auditoria de TI: Governança e Segurança da Informação",
+    "enunciado": "A auditoria de Tecnologia da Informação na CGU avalia se os sistemas de informação e os controles gerais de TI (como gestão de acessos, planos de recuperação de desastres e segurança de bancos de dados) protegem adequadamente os ativos governamentais e garantem a integridade dos dados públicos.",
+    "gabarito": "C",
+    "comentario": "CERTO. A auditoria de TI foca na governança digital, conformidade com políticas de segurança da informação (frameworks Cobit e ISO 27001), resiliência cibernética e mitigação de vulnerabilidades em sistemas federais críticos.",
+    "regra_ouro": "Auditoria de TI examina controles gerais, segurança de bases de dados e resiliência cibernética governamental.",
+    "nivel": "Fácil"
+  },
+  {
+    "bloco": "P2",
+    "disciplina": "Auditoria Governamental e Atuação Integrada da CGU",
+    "topico_edital": "Papel Preventivo e Orientador do Controle Interno",
+    "enunciado": "A moderna atuação da Controladoria-Geral da União superou o modelo puramente punitivo e policialesco do passado, orientando-se para o fortalecimento da governança, a gestão proativa de riscos e a entrega efetiva de resultados públicos para o cidadão.",
+    "gabarito": "C",
+    "comentario": "CERTO. A missão institucional da CGU alinha-se ao apoio ao aprimoramento contínuo da gestão pública: prevenir desvios, fomentar a transparência, qualificar os controles preventivos e apoiar os gestores na entrega das políticas públicas essenciais à sociedade.",
+    "regra_ouro": "O controle interno moderno atua como parceiro estratégico da governança, priorizando a prevenção e a eficácia das entregas públicas.",
+    "nivel": "Fácil"
+  }
+]
