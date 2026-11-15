@@ -10,6 +10,7 @@ import {
 } from '@/lib/types';
 import {
   getBateriaAtivaOuCriar,
+  expandirBateriaDiariaPara50,
   salvarResposta,
 } from '@/lib/supabase';
 import {
@@ -30,6 +31,7 @@ import {
   Send,
   Grid3X3,
   ListOrdered,
+  Zap,
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 
@@ -215,13 +217,46 @@ export default function ModoPapelPage() {
               </p>
             </div>
 
-            <button
-              onClick={handlePrint}
-              className="w-full sm:w-auto flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm shadow-xl shadow-emerald-600/20 transition-all active:scale-95"
-            >
-              <Printer className="w-4 h-4" />
-              <span>Imprimir / Gerar PDF</span>
-            </button>
+            <div className="flex flex-col sm:flex-row items-center gap-2.5 w-full sm:w-auto">
+              {questoes.length < 50 && (
+                <button
+                  onClick={async () => {
+                    if (!bateria) return;
+                    setSubmitting(true);
+                    try {
+                      const res = await expandirBateriaDiariaPara50(bateria.id);
+                      setBateria(res.bateria);
+                      setQuestoes(res.questoes);
+                      const novoMapa = new Map(gradeRespostas);
+                      res.questoes.forEach((_, idx) => {
+                        if (!novoMapa.has(idx + 1)) {
+                          novoMapa.set(idx + 1, { resposta: 'B', confianca: 'Certeza' });
+                        }
+                      });
+                      setGradeRespostas(novoMapa);
+                    } catch (e) {
+                      console.error('Erro ao expandir folha para 50:', e);
+                    } finally {
+                      setSubmitting(false);
+                    }
+                  }}
+                  disabled={submitting}
+                  className="w-full sm:w-auto flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-blue-600/20 hover:bg-blue-600/30 text-blue-300 border border-blue-500/40 text-xs font-bold transition-all disabled:opacity-50"
+                  title="Completar folha de prova para 50 itens"
+                >
+                  <Zap className="w-4 h-4 text-amber-400" />
+                  <span>{submitting ? 'Expandindo...' : '+ Expandir Folha para 50 Itens'}</span>
+                </button>
+              )}
+
+              <button
+                onClick={handlePrint}
+                className="w-full sm:w-auto flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm shadow-xl shadow-emerald-600/20 transition-all active:scale-95"
+              >
+                <Printer className="w-4 h-4" />
+                <span>Imprimir / Salvar PDF ({questoes.length} Itens)</span>
+              </button>
+            </div>
           </div>
 
           {/* ÁREA DA FOLHA DE PROVA (Renderizada na tela e na impressão) */}

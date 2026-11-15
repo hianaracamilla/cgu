@@ -75,7 +75,7 @@ export default function HistoricoCalendarioModal({
   const handleGerarNovaBateria = async (diaSemana?: number) => {
     setCarregandoId('nova');
     try {
-      const res = await gerarBateriaDiaria(10, 10, 30, diaSemana);
+      const res = await gerarBateriaDiaria(5, 5, 15, diaSemana);
       if (res) {
         onBateriaCarregada(res.bateria.id);
         onClose();

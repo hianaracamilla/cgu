@@ -159,9 +159,9 @@ export function getTemaEDisciplinasDoDia(diaSemana: number): {
 }
 
 export async function gerarBateriaDiaria(
-  qtdP1: number = 10,
-  qtdP2: number = 10,
-  qtdP3: number = 30,
+  qtdP1: number = 5,
+  qtdP2: number = 5,
+  qtdP3: number = 15,
   diaSemanaForcado?: number
 ): Promise<{ bateria: BateriaDiaria; questoes: Questao[] }> {
   const todasQuestoes = await getQuestoes();
@@ -292,8 +292,97 @@ export async function getBateriaAtivaOuCriar(): Promise<{ bateria: BateriaDiaria
     } catch {}
   }
 
-  // 3. Se não houver bateria hoje, gera uma nova respeitando o cronograma
-  return gerarBateriaDiaria(10, 10, 30);
+  // 3. Se não houver bateria hoje, gera uma nova padrão de 25 questões (5 P1, 5 P2, 15 P3)
+  return gerarBateriaDiaria(5, 5, 15);
+}
+
+/**
+ * Expande uma bateria existente (ex: de 25 itens) para a meta total de 50 itens
+ * adicionando o complemento exato (5 P1, 5 P2, 15 P3) sem duplicatas.
+ */
+export async function expandirBateriaDiariaPara50(
+  bateriaId: string
+): Promise<{ bateria: BateriaDiaria; questoes: Questao[]; novasAdicionadas: Questao[] }> {
+  const todas = await getQuestoes();
+  const mapa = new Map(todas.map((q) => [q.id, q]));
+
+  const res = await carregarBateriaPorId(bateriaId);
+  if (!res) {
+    throw new Error('Bateria não encontrada para expansão.');
+  }
+
+  const { bateria: bateriaAtual, questoes: questoesAtuais } = res;
+
+  // Conta quantas questões de cada bloco já existem
+  const atuaisP1 = questoesAtuais.filter((q) => q.bloco === 'P1');
+  const atuaisP2 = questoesAtuais.filter((q) => q.bloco === 'P2');
+  const atuaisP3 = questoesAtuais.filter((q) => q.bloco === 'P3');
+
+  // Alvo: 10 de P1, 10 de P2, 30 de P3 (total 50)
+  const faltamP1 = Math.max(0, 10 - atuaisP1.length);
+  const faltamP2 = Math.max(0, 10 - atuaisP2.length);
+  const faltamP3 = Math.max(0, 30 - atuaisP3.length);
+
+  const idsJaUsados = new Set(bateriaAtual.ids_questoes);
+
+  const poolP1 = todas.filter((q) => q.bloco === 'P1' && !idsJaUsados.has(q.id));
+  const poolP2 = todas.filter((q) => q.bloco === 'P2' && !idsJaUsados.has(q.id));
+  const poolP3 = todas.filter((q) => q.bloco === 'P3' && !idsJaUsados.has(q.id));
+
+  const dataObj = new Date(bateriaAtual.data_geracao + 'T12:00:00');
+  const cronograma = getTemaEDisciplinasDoDia(dataObj.getDay());
+
+  const embaralhar = (arr: Questao[]) => [...arr].sort(() => Math.random() - 0.5);
+
+  const sortearComplemento = (pool: Questao[], disciplinas: string[], qtd: number) => {
+    if (qtd <= 0 || pool.length === 0) return [];
+    let prioritarias: Questao[] = [];
+    if (disciplinas.length > 0) {
+      prioritarias = pool.filter((q) =>
+        disciplinas.some((d) => q.disciplina.toLowerCase().includes(d.toLowerCase()))
+      );
+    }
+    const outras = pool.filter((q) => !prioritarias.includes(q));
+    const selP = embaralhar(prioritarias);
+    const selO = embaralhar(outras);
+    const qtdP = Math.min(selP.length, Math.ceil(qtd * 0.7));
+    const s1 = selP.slice(0, qtdP);
+    const s2 = [...selP.slice(qtdP), ...selO].slice(0, qtd - s1.length);
+    return embaralhar([...s1, ...s2]);
+  };
+
+  const novasP1 = sortearComplemento(poolP1, cronograma.disciplinasP1, faltamP1);
+  const novasP2 = sortearComplemento(poolP2, cronograma.disciplinasP2, faltamP2);
+  const novasP3 = sortearComplemento(poolP3, cronograma.disciplinasP3, faltamP3);
+
+  const novasAdicionadas = [...novasP1, ...novasP2, ...novasP3];
+  const novasQuestoes = [...questoesAtuais, ...novasAdicionadas];
+  const novosIds = novasQuestoes.map((q) => q.id);
+
+  const bateriaAtualizada: BateriaDiaria = {
+    ...bateriaAtual,
+    ids_questoes: novosIds,
+  };
+
+  if (isSupabaseConfigured() && supabase) {
+    try {
+      await supabase
+        .from('baterias_diarias')
+        .update({ ids_questoes: novosIds })
+        .eq('id', bateriaAtualizada.id);
+    } catch (e) {
+      console.warn('Falha ao atualizar bateria expandida no Supabase:', e);
+    }
+  }
+
+  if (typeof window !== 'undefined') {
+    localStorage.setItem(
+      STORAGE_BATERIA_KEY,
+      JSON.stringify({ bateria: bateriaAtualizada, questoes: novasQuestoes })
+    );
+  }
+
+  return { bateria: bateriaAtualizada, questoes: novasQuestoes, novasAdicionadas };
 }
 
 // Carrega qualquer bateria histórica específica por ID

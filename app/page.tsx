@@ -12,6 +12,7 @@ import {
 import {
   getBateriaAtivaOuCriar,
   gerarBateriaDiaria,
+  expandirBateriaDiariaPara50,
   salvarResposta,
   getHistoricoRespostas,
   getTemaEDisciplinasDoDia,
@@ -153,8 +154,39 @@ export default function TreinoPage() {
     }).catch((err) => console.error('Erro ao salvar resposta:', err));
   };
 
-  // Gerar nova bateria diária padrão (50 itens: 10 P1, 10 P2, 30 P3)
-  const handleGerarNovaBateria = async (p1 = 10, p2 = 10, p3 = 30) => {
+  // Estado de carregamento da expansão para 50 questões
+  const [expandindo, setExpandindo] = useState<boolean>(false);
+
+  // Expande a bateria ativa atual para 50 questões
+  const handleExpandirPara50 = async () => {
+    if (!bateria) return;
+    setExpandindo(true);
+    setShowExtraModal(false);
+    try {
+      const res = await expandirBateriaDiariaPara50(bateria.id);
+      setBateria(res.bateria);
+      setQuestoes(res.questoes);
+      try {
+        confetti({
+          particleCount: 50,
+          spread: 75,
+          origin: { y: 0.6 },
+          colors: ['#3b82f6', '#10b981', '#f59e0b', '#8b5cf6'],
+        });
+      } catch {}
+      // Se estava no final, posiciona suavemente no primeiro item adicionado
+      if (res.questoes.length > currentIndex + 1) {
+        setCurrentIndex(questoes.length);
+      }
+    } catch (err) {
+      console.error('Erro ao expandir bateria:', err);
+    } finally {
+      setExpandindo(false);
+    }
+  };
+
+  // Gerar nova bateria diária (padrão 25 itens: 5 P1, 5 P2, 15 P3; ou 50 itens: 10 P1, 10 P2, 30 P3)
+  const handleGerarNovaBateria = async (p1 = 5, p2 = 5, p3 = 15) => {
     setLoading(true);
     setShowExtraModal(false);
     try {
@@ -222,10 +254,10 @@ export default function TreinoPage() {
       <div className="text-center py-16 space-y-4">
         <p className="text-lg text-slate-300">Nenhuma questão encontrada para a bateria.</p>
         <button
-          onClick={() => handleGerarNovaBateria(10, 10, 30)}
+          onClick={() => handleGerarNovaBateria(5, 5, 15)}
           className="px-5 py-2.5 bg-blue-600 hover:bg-blue-500 text-white rounded-xl font-medium shadow-lg"
         >
-          Gerar Bateria Padrão de 50
+          Gerar Bateria Padrão (25 Itens)
         </button>
       </div>
     );
@@ -322,6 +354,19 @@ export default function TreinoPage() {
               <Calendar className="w-3.5 h-3.5 text-blue-400" />
               <span className="hidden sm:inline">Provas Anteriores</span>
             </button>
+
+            {totalQuestoes < 50 && (
+              <button
+                onClick={handleExpandirPara50}
+                disabled={expandindo}
+                className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-gradient-to-r from-blue-600/30 to-indigo-600/30 hover:from-blue-600/50 hover:to-indigo-600/50 text-blue-300 border border-blue-500/40 text-xs font-semibold transition-all shadow-sm active:scale-95 disabled:opacity-50"
+                title="Completar perguntas do dia e aumentar para 50"
+              >
+                <Zap className="w-3.5 h-3.5 text-amber-400" />
+                <span className="hidden sm:inline">{expandindo ? 'Expandindo...' : '+ Completar 50'}</span>
+                <span className="sm:hidden">{expandindo ? '...' : '+50'}</span>
+              </button>
+            )}
 
             <button
               onClick={() => setShowExtraModal(true)}
@@ -599,6 +644,61 @@ export default function TreinoPage() {
         </div>
       </div>
 
+      {/* CARD DE CONCLUSÃO DA BATERIA PADRÃO & OPÇÃO DE EXPANDIR PARA 50 */}
+      {(respondidasCount >= totalQuestoes || (currentIndex === totalQuestoes - 1 && jaRespondida)) && totalQuestoes < 50 && (
+        <div className="bg-gradient-to-r from-emerald-950/70 via-indigo-950/50 to-slate-900 border-2 border-emerald-500/40 rounded-2xl p-5 sm:p-6 shadow-2xl space-y-4 animate-in fade-in slide-in-from-bottom-3 duration-300">
+          <div className="flex items-start sm:items-center justify-between gap-3">
+            <div className="flex items-center gap-3">
+              <div className="w-12 h-12 rounded-2xl bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center text-emerald-300 text-2xl shrink-0">
+                🎉
+              </div>
+              <div>
+                <div className="flex items-center gap-2">
+                  <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+                    Etapa Concluída ({respondidasCount}/{totalQuestoes} itens)
+                  </span>
+                  <span className="text-xs text-slate-400 font-mono">
+                    Saldo: <strong className={saldoLiquido >= 0 ? 'text-emerald-400' : 'text-rose-400'}>{saldoLiquido > 0 ? `+${saldoLiquido.toFixed(1)}` : saldoLiquido.toFixed(1)} pts</strong>
+                  </span>
+                </div>
+                <h3 className="text-base sm:text-lg font-bold text-white mt-1">
+                  Parabéns! Você completou a Prova Padrão ({totalQuestoes} questões)!
+                </h3>
+                <p className="text-xs text-slate-300 mt-0.5">
+                  Sua rota base de hoje está garantida. Que tal aproveitar o embalo e completar a meta máxima de <strong>50 perguntas do dia</strong>?
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-3.5 bg-slate-950/70 rounded-xl border border-slate-800 text-xs text-slate-300 flex flex-wrap items-center justify-between gap-2">
+            <div className="flex items-center gap-2">
+              <Zap className="w-4 h-4 text-amber-400 shrink-0" />
+              <span>Ao expandir: +{50 - totalQuestoes} novas questões selecionadas sem duplicatas.</span>
+            </div>
+            <span className="text-blue-400 font-semibold font-mono">5 P1 + 5 P2 + 15 P3 extras</span>
+          </div>
+
+          <div className="flex flex-col sm:flex-row items-center gap-2.5 pt-1">
+            <button
+              onClick={handleExpandirPara50}
+              disabled={expandindo}
+              className="w-full sm:w-auto flex-1 py-3 px-5 rounded-xl bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white font-bold text-sm shadow-xl shadow-blue-600/30 flex items-center justify-center gap-2 transition-all active:scale-95 disabled:opacity-50"
+            >
+              <Sparkles className="w-4 h-4 text-amber-300" />
+              <span>{expandindo ? 'Sorteando e Adicionando Questões...' : '🚀 Completar Perguntas do Dia (Aumentar para 50)'}</span>
+            </button>
+
+            <Link
+              href="/caderno"
+              className="w-full sm:w-auto py-3 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium text-xs text-center border border-slate-700 transition-colors"
+            >
+              Revisar Caderno de Erros
+            </Link>
+          </div>
+        </div>
+      )}
+
       {/* MODAL / BOTTOM SHEET DE BATERIA EXTRA */}
       {showExtraModal && (
         <div className="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-end sm:items-center justify-center p-3 animate-in fade-in duration-150">
@@ -606,7 +706,7 @@ export default function TreinoPage() {
             <div className="flex items-center justify-between">
               <h3 className="font-bold text-base text-white flex items-center gap-2">
                 <Zap className="w-4 h-4 text-amber-400" />
-                Modo Extra & Baterias
+                Modo Extra & Opções de Bateria
               </h3>
               <button
                 onClick={() => setShowExtraModal(false)}
@@ -617,47 +717,81 @@ export default function TreinoPage() {
             </div>
 
             <p className="text-xs text-slate-400 leading-relaxed">
-              Puxe novas questões sob demanda para overdelivery diário ou foque em blocos específicos.
+              Alterne o tamanho da sua prova, puxe mais questões para overdelivery ou expanda o treino ativo.
             </p>
 
             <div className="space-y-2 pt-2">
+              {totalQuestoes < 50 && (
+                <button
+                  onClick={handleExpandirPara50}
+                  disabled={expandindo}
+                  className="w-full text-left p-3.5 rounded-xl bg-gradient-to-r from-blue-900/40 via-indigo-900/30 to-purple-900/40 hover:from-blue-900/60 hover:to-purple-900/60 border border-blue-500/50 flex items-center justify-between transition-all"
+                >
+                  <div>
+                    <div className="text-sm font-bold text-white flex items-center gap-1.5">
+                      <Sparkles className="w-4 h-4 text-amber-400" />
+                      🚀 Expandir Bateria Atual para 50 Itens
+                    </div>
+                    <div className="text-[11px] text-blue-200/80">
+                      Adiciona +{50 - totalQuestoes} novas questões mantendo suas respostas atuais!
+                    </div>
+                  </div>
+                  <Zap className="w-4 h-4 text-amber-400 shrink-0" />
+                </button>
+              )}
+
               <button
-                onClick={() => handleGerarNovaBateria(10, 10, 30)}
+                onClick={() => handleGerarNovaBateria(5, 5, 15)}
                 className="w-full text-left p-3 rounded-xl bg-slate-800/80 hover:bg-slate-800 border border-slate-700 flex items-center justify-between"
               >
                 <div>
                   <div className="text-sm font-semibold text-white">
-                    🎯 Bateria Diária Padrão (50 Itens)
+                    🎯 Prova Padrão (25 Itens)
                   </div>
                   <div className="text-[11px] text-slate-400">
-                    10 de P1 + 10 de P2 + 30 de P3 (Ciência de Dados)
+                    5 P1 + 5 P2 + 15 P3 (Proporção oficial curta, anti-procrastinação)
                   </div>
                 </div>
                 <RotateCcw className="w-4 h-4 text-blue-400" />
               </button>
 
               <button
-                onClick={() => handleGerarNovaBateria(5, 5, 10)}
+                onClick={() => handleGerarNovaBateria(10, 10, 30)}
                 className="w-full text-left p-3 rounded-xl bg-slate-800/80 hover:bg-slate-800 border border-slate-700 flex items-center justify-between"
               >
                 <div>
                   <div className="text-sm font-semibold text-white">
-                    ⚡ Bateria Rápida (+20 Itens)
+                    🔥 Prova Completa do Dia (50 Itens)
                   </div>
                   <div className="text-[11px] text-slate-400">
-                    5 P1 + 5 P2 + 10 P3 (Para tiros curtos)
+                    10 P1 + 10 P2 + 30 P3 (Meta diária máxima)
                   </div>
                 </div>
                 <Zap className="w-4 h-4 text-amber-400" />
               </button>
 
               <button
-                onClick={() => handleGerarNovaBateria(0, 0, 30)}
+                onClick={() => handleGerarNovaBateria(3, 3, 9)}
+                className="w-full text-left p-3 rounded-xl bg-slate-800/80 hover:bg-slate-800 border border-slate-700 flex items-center justify-between"
+              >
+                <div>
+                  <div className="text-sm font-semibold text-white">
+                    ⚡ Tiro Rápido (15 Itens)
+                  </div>
+                  <div className="text-[11px] text-slate-400">
+                    3 P1 + 3 P2 + 9 P3 (15 minutos para dias corridos)
+                  </div>
+                </div>
+                <RotateCcw className="w-4 h-4 text-slate-400" />
+              </button>
+
+              <button
+                onClick={() => handleGerarNovaBateria(0, 0, 25)}
                 className="w-full text-left p-3 rounded-xl bg-slate-800/80 hover:bg-slate-800 border border-slate-700 flex items-center justify-between"
               >
                 <div>
                   <div className="text-sm font-semibold text-emerald-300">
-                    🔬 Foco Total P3: Ciência de Dados (30 Itens)
+                    🔬 Foco Total P3: Ciência de Dados (25 Itens)
                   </div>
                   <div className="text-[11px] text-slate-400">
                     Apenas P3 com peso 2.0 (Machine Learning, Spark, SQL, NLP)
